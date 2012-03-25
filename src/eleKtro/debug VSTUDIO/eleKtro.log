@@ -1,0 +1,129 @@
+﻿Build started 06/12/2010 06:34:30.
+     1>Project "D:\aestesis\code\elektroSDK\src\eleKtro\eleKtro.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug VSTUDIO\eleKtro.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /I..\..\sdk\inc\alib /I..\..\sdk\inc\elektro /I..\alib /ZI /nologo /W3 /WX- /Od /Oy- /D VSTUDIO /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D ELEKTRO_EXPORTS /D WINVER=0x0500 /D _CRT_SECURE_NO_DEPRECATE /D _WIN32_WINNT=0x0500 /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR"debug VSTUDIO\\" /Gd /TP /analyze- /errorReport:prompt acontrol.cpp bpmTracker.cpp capsule.cpp connect.cpp ctrlButton.cpp effect.cpp effect3d.cpp equalizer.cpp main.cpp paddle.cpp pin.cpp sample.cpp selcolor.cpp select.cpp selectView.cpp selpad.cpp sequencer.cpp simple.cpp slider.cpp table.cpp tcpRemote.cpp timeline.cpp transition.cpp trigger.cpp video.cpp zone.cpp
+         acontrol.cpp
+         bpmTracker.cpp
+         capsule.cpp
+         connect.cpp
+         ctrlButton.cpp
+         effect.cpp
+         effect3d.cpp
+         equalizer.cpp
+     1>d:\aestesis\code\elektrosdk\src\elektro\equalizer.cpp(161): warning C4995: 'sprintf': name was marked as #pragma deprecated
+         main.cpp
+         paddle.cpp
+     1>d:\aestesis\code\elektrosdk\src\elektro\paddle.cpp(355): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\aestesis\code\elektrosdk\src\elektro\paddle.cpp(375): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\aestesis\code\elektrosdk\src\elektro\paddle.cpp(390): warning C4995: 'sprintf': name was marked as #pragma deprecated
+         pin.cpp
+         sample.cpp
+         selcolor.cpp
+         select.cpp
+         selectView.cpp
+         selpad.cpp
+         sequencer.cpp
+         simple.cpp
+         slider.cpp
+         table.cpp
+         Generating Code...
+         Compiling...
+         tcpRemote.cpp
+         timeline.cpp
+         transition.cpp
+         trigger.cpp
+         video.cpp
+         zone.cpp
+     1>d:\aestesis\code\elektrosdk\src\elektro\zone.cpp(174): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0409" /nologo /fo"debug VSTUDIO\elektro.res" elektro.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\elektro.dll.embed.manifest.res" "debug VSTUDIO\elektro_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\aestesis\code\elektroSDK\elektronika\elektro.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib alib100.lib odbc32.lib odbccp32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"debug VSTUDIO\elektro.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/eleKtro.pdb" /STACK:"16000000","8000000" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/eleKtro.lib" /MACHINE:X86 /DLL "debug VSTUDIO\elektro.res"
+         "debug VSTUDIO\elektro.dll.embed.manifest.res"
+         .\Debug/acontrol.obj
+         .\Debug/bpmTracker.obj
+         .\Debug/capsule.obj
+         .\Debug/connect.obj
+         .\Debug/ctrlButton.obj
+         .\Debug/effect.obj
+         .\Debug/effect3d.obj
+         .\Debug/equalizer.obj
+         .\Debug/main.obj
+         .\Debug/paddle.obj
+         .\Debug/pin.obj
+         .\Debug/sample.obj
+         .\Debug/selcolor.obj
+         .\Debug/select.obj
+         .\Debug/selectView.obj
+         .\Debug/selpad.obj
+         .\Debug/sequencer.obj
+         .\Debug/simple.obj
+         .\Debug/slider.obj
+         .\Debug/table.obj
+         .\Debug/tcpRemote.obj
+         .\Debug/timeline.obj
+         .\Debug/transition.obj
+         .\Debug/trigger.obj
+         .\Debug/video.obj
+         .\Debug/zone.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+         D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\Debug\SoundTouchD.lib /MACHINE:I386 
+            Creating library .\Debug/eleKtro.lib and object .\Debug/eleKtro.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"debug VSTUDIO\elektro.dll.embed.manifest" /manifest "debug VSTUDIO\elektro.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\elektro.dll.embed.manifest.res" "debug VSTUDIO\elektro_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\aestesis\code\elektroSDK\elektronika\elektro.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib alib100.lib odbc32.lib odbccp32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"debug VSTUDIO\elektro.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/eleKtro.pdb" /STACK:"16000000","8000000" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/eleKtro.lib" /MACHINE:X86 /DLL "debug VSTUDIO\elektro.res"
+         "debug VSTUDIO\elektro.dll.embed.manifest.res"
+         .\Debug/acontrol.obj
+         .\Debug/bpmTracker.obj
+         .\Debug/capsule.obj
+         .\Debug/connect.obj
+         .\Debug/ctrlButton.obj
+         .\Debug/effect.obj
+         .\Debug/effect3d.obj
+         .\Debug/equalizer.obj
+         .\Debug/main.obj
+         .\Debug/paddle.obj
+         .\Debug/pin.obj
+         .\Debug/sample.obj
+         .\Debug/selcolor.obj
+         .\Debug/select.obj
+         .\Debug/selectView.obj
+         .\Debug/selpad.obj
+         .\Debug/sequencer.obj
+         .\Debug/simple.obj
+         .\Debug/slider.obj
+         .\Debug/table.obj
+         .\Debug/tcpRemote.obj
+         .\Debug/timeline.obj
+         .\Debug/transition.obj
+         .\Debug/trigger.obj
+         .\Debug/video.obj
+         .\Debug/zone.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+         D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\Debug\SoundTouchD.lib /MACHINE:I386 
+         eleKtro.vcxproj -> D:\aestesis\code\elektroSDK\elektronika\elektro.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"D:\aestesis\code\elektroSDK\elektronika\elektro.bsc" "debug VSTUDIO\acontrol.sbr" "debug VSTUDIO\bpmTracker.sbr" "debug VSTUDIO\capsule.sbr" "debug VSTUDIO\connect.sbr" "debug VSTUDIO\ctrlButton.sbr" "debug VSTUDIO\effect.sbr" "debug VSTUDIO\effect3d.sbr" "debug VSTUDIO\equalizer.sbr" "debug VSTUDIO\main.sbr" "debug VSTUDIO\paddle.sbr" "debug VSTUDIO\pin.sbr" "debug VSTUDIO\sample.sbr" "debug VSTUDIO\selcolor.sbr" "debug VSTUDIO\select.sbr" "debug VSTUDIO\selectView.sbr" "debug VSTUDIO\selpad.sbr" "debug VSTUDIO\sequencer.sbr" "debug VSTUDIO\simple.sbr" "debug VSTUDIO\slider.sbr" "debug VSTUDIO\table.sbr" "debug VSTUDIO\tcpRemote.sbr" "debug VSTUDIO\timeline.sbr" "debug VSTUDIO\transition.sbr" "debug VSTUDIO\trigger.sbr" "debug VSTUDIO\video.sbr" "debug VSTUDIO\zone.sbr"
+       PostBuildEvent:
+         copy D:\aestesis\code\elektroSDK\src\eleKtro\Debug\elektro.lib D:\aestesis\code\elektroSDK\sdk\lib
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\eleKtro.unsuccessfulbuild".
+         Touching "debug VSTUDIO\eleKtro.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\eleKtro\eleKtro.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.58

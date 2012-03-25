@@ -1,0 +1,568 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>SPlayer Include File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>splayer.h</h1>This is the verbatim text of the splayer.h include file.<hr><div class="fragment"><pre>
+
+#ifndef SPLAYER_INCLUDED
+#define SPLAYER_INCLUDED
+
+// Define dragbuttons for now...
+#define DRAGBUTTONS
+#define ACTIONSCRIPT
+
+#include "splay.h"
+#include "bitbuf.h"
+
+#define MaxExecActions 200000
+
+#include "genericfonts.h"
+
+#ifdef EDITTEXT
+#include "edittext.h"
+#endif
+
+int HexChar(int v);
+int ParseHexChar(char c);
+
+enum {
+	streamProtocolHttp,
+	streamProtocolFtp,
+	streamProtocolLocalFile
+};
+
+
+struct <a class="el" href="class_menustatus.html">MenuStatus</a>
+{
+	BOOL view100percent;
+	BOOL viewAll;
+	BOOL zoomIn;
+	BOOL zoomOut;
+	BOOL play;
+	BOOL rewind;
+	BOOL forward;
+	BOOL back;
+	BOOL loop;
+
+	BOOL view100Check;
+	BOOL viewAllCheck;
+	BOOL highQChecked;
+	BOOL loopCheck;
+	BOOL playCheck;
+};
+
+
+struct <a class="el" href="class_editmenustatus.html">EditMenuStatus</a>
+{
+	BOOL selectAll;
+	BOOL copy;
+	BOOL cut;
+	BOOL paste;
+	BOOL clear;
+	BOOL undo;
+};
+
+struct SButton {
+	SObject*	button;
+	SRECT		buttonBounds;	
+
+	SButton() : button(NULL)
+	{
+		memset(&amp;buttonBounds, 0, sizeof(buttonBounds));	
+	}
+
+	SButton&amp; operator=(const SButton&amp; b)
+	{
+		button		 = b.button;
+		buttonBounds = b.buttonBounds;
+		return(*this);
+	}
+
+	SButton&amp; operator=(const SButton* b)
+	{
+		if ( b ) {
+			button		 = b-&gt;button;
+			buttonBounds = b-&gt;buttonBounds;
+		}
+		return(*this);
+	}
+};
+
+class Keyboard
+{
+public:
+	enum {
+		ID_KEY_LEFT        = 1,
+		ID_KEY_RIGHT       = 2,
+		ID_KEY_HOME        = 3,
+		ID_KEY_END         = 4,
+		ID_KEY_INSERT      = 5,
+		ID_KEY_DELETE      = 6,
+		ID_KEY_CLEAR       = 7,
+		ID_KEY_BACKSPACE   = 8,
+		ID_KEY_CUT		   = 9,
+		ID_KEY_COPY		   = 10,
+		ID_KEY_PASTE	   = 11,
+		ID_KEY_SELECT_ALL  = 12,
+		ID_KEY_ENTER	   = 13,
+		ID_KEY_UP		   = 14,
+		ID_KEY_DOWN		   = 15,
+		ID_KEY_PAGE_UP	   = 16,
+		ID_KEY_PAGE_DOWN   = 17,
+		ID_KEY_TAB		   = 18,
+		ID_KEY_ESCAPE	   = 19
+	};
+	enum {
+		ID_KEY_SHIFT	   = 0x01,
+		ID_KEY_CTRL		   = 0x02,
+		ID_KEY_ALT		   = 0x04
+	};
+};
+
+enum {
+	CURSOR_TYPE_ARROW,		// the arrow
+	CURSOR_TYPE_HAND,		// a picture of a hand
+	CURSOR_TYPE_BUTTON,		// a hand with a button finger extended
+	CURSOR_TYPE_BEAM		// a bar for text editing
+};
+
+
+class <a class="el" href="class_splayer.html">SPlayer</a> {
+public:
+   
+	// Our player Objects
+	ScriptPlayer player;		// note that this is always layer #0 and the root of our layer list
+	DisplayList display;
+	CBitBuffer bits;
+	
+	#ifdef SOUND
+		#ifdef ONE_SOUND_OBJECT
+			static <a class="el" href="class_nativesoundmix.html">NativeSoundMix</a> theSoundMix;		// there will only be one NativeSoundMix
+		#else
+			<a class="el" href="class_nativesoundmix.html">NativeSoundMix</a> theSoundMix;				// one NativeSoundMix per SPlayer
+		#endif
+	#endif
+
+	BOOL highQuality;
+	BOOL autoQuality;
+	int lastQualitySwitch;
+	BOOL bestDither;
+
+	BOOL showMenu;
+
+	// Sound prebuffer property
+	int nSoundBufferTime;
+
+	// Counters for autoquality settings
+	int nTooSlow;
+	int nTooFast;
+	int nTotal;
+ 	//int starved;
+
+	// Streaming (netscape) code
+	BOOL firstStream;	// true if we have not gotten a NewStream callback yet
+
+	int mode;
+	char* url;
+	char* urlBase;
+	char* name;
+
+	// View Control
+	int scaleMode;
+	SRECT zoomRect;
+
+	SPOINT scrollPt;
+	BOOL scrolling;
+
+#ifdef ACTIONSCRIPT
+	// Global execution stack
+	char **stack;
+	int stackPos, stackSize;
+
+	// If this flag is set, the execution limit was
+	// exceeded and no further actions will be processed
+#endif
+
+	BOOL actionOverflow;
+
+#ifdef EDITTEXT
+	// Text editing
+	SObject* focus;
+	SaveFocus saveFocus;
+	BOOL cursorBlink;
+	BOOL IsSelecting();
+#endif
+
+#if defined(EDITTEXT)
+	ScriptPlayer builtInFontsPlayer;
+	enum {
+	  kBuiltInFontsNotLoaded,
+	  kBuiltInFontsLoaded,
+	  kBuiltInFontsError
+	} builtInFontsState;
+	BOOL LoadBuiltInFonts();
+#endif
+
+#ifdef DRAGBUTTONS
+	SObject* dragObject;
+	BOOL	 dragStarted;
+	SPOINT   dragPoint;
+#endif
+
+	// Action control
+	int actionDepth;
+
+	// Background playing control
+	//BOOL syncToClock;	//	set if we should be skipping frames to keep the animation tightly synchronized to the clock
+	S32 nextFrameTime;	// the tick value to display the next frame
+
+	BOOL loaded;		// set when the first frame is loaded
+	BOOL running;		// set if the player is running
+
+	// cached mouse info
+	int mouseState;			// -1 = no inited, 0 = mouse up, 1 = mouse down
+	SPOINT mousePt;
+
+	S32 mTimerOffset;
+
+public:
+	SPlayer();
+	virtual ~SPlayer();
+
+	enum { updateNone, updateNow, updateLazy };
+	void SetCamera(int update);
+	void FreeLayers();
+	void ClearScript();
+	void GotoFrame(int);
+	int CurrentFrame() { return player.GetFrame(); }
+
+	#ifdef EDITTEXT
+	BOOL TabKeyDown(int key, int modifiers);
+	void BlinkCursor();
+	BOOL HandleKeyDown(int key, int modifiers);
+	void HandleKeyUp(int key, int modifiers);
+	#endif
+
+
+	void FreeBuffer();
+	BOOL UpdateBuffer(BOOL render = true);
+	void UnlockBuffer() { bits.UnlockBits(); }
+
+	ScriptPlayer* OpenLayer(int layerDepth, BOOL loadVars=false);
+    ScriptPlayer* OpenSprite(ScriptThread *targetThread);
+	ScriptPlayer* OpenVariableLoader(int layer, const char *dstSprite);
+	void ClearLayer(int layerDepth);
+
+	void DoActions();
+
+	void Run();
+	void Suspend();
+
+	void Play(BOOL rewind=true) { player.Play(rewind); }
+	void StopPlay() { player.StopPlay(); }
+
+	void DoPlay(BOOL wait);	// a routine to call repeatedly in response to timer messages or null events
+	
+	void DoButton(SPOINT* pt, BOOL mouseIsDown, BOOL updateScreen = true);
+
+
+	void MouseMove( int x, int y, BOOL mouseIsDown);
+
+
+	void MouseDown( int x, int y );
+
+
+	void MouseUp( int x, int y );
+
+
+	void CancelCapture(BOOL outsideWindow = true);
+
+	void Home();
+	void Zoom(SPOINT size, SPOINT center);
+	void ZoomF(SFIXED factor, SPOINT* center = 0);
+	//void Zoom(BOOL enlarge, SPOINT* center) { ZoomF(enlarge ? fixed1/2 : fixed1*2, center); }
+	void Zoom(SRECT* r);
+	void Zoom100();
+	void ZoomScale(SFIXED scale);
+
+	// Action Helpers
+	void Rewind() {GotoFrame(0);}
+	void Forward() {GotoFrame(CurrentFrame()+1);}
+	void Back() {GotoFrame(CurrentFrame()-1);}
+
+	// The Scripting API
+	enum { panPixels = 0, panPercent = 1 };
+	void Pan(long x, long y, int mode);
+	void Zoom(int factor);
+	void SetZoomRect(long left, long top, long right, long bottom);
+	int TotalFrames() { return player.numFrames; }
+	int PercentLoaded() { return (int)(player.len*100/player.scriptLen); }
+	BOOL FrameLoaded(int frameNum) { return player.FrameComplete(frameNum); }
+	BOOL IsPlaying() { return player.playing; }
+
+	ScriptThread *ResolveVariable(char *name, ScriptThread *thread, char **varName);
+	ScriptThread *ResolveFrameNum(char *name, ScriptThread *thread, int *frameNum);
+	void SetVariable(ScriptThread *thread, char *name, char *value, BOOL updateFocus);
+	char *GetVariable(ScriptThread *thread, char *name);
+	ScriptThread* FindTarget(SObject* base, char* name);
+	char* GetTargetPath(SObject* base);
+
+#ifdef ACTIONSCRIPT
+	void Push(char *value);
+	char *Pop();
+	void PushNum(double value);
+	double PopNum();
+	BOOL CallFrame(ScriptThread *thread, int frameNum);
+#endif
+
+	double GetProperty(ScriptThread *thread, int propType);
+	char *GetPropertyStr(ScriptThread *thread, int propType);
+
+	void SetProperty(ScriptThread *thread, int propType, double value);
+	void SetPropertyStr(ScriptThread *thread, int propType, char *value);
+
+ 	void UpdateScreen();	// update the screen immediately
+
+
+	void OnDraw();
+
+
+	void Repaint( SRECT* rect );
+
+	void CheckUpdate();		// generate an InvalidateRect if the screen needs redrawn
+
+	virtual BOOL StartTimer( int playTimerInterval, int cursorTimerInterval ) = 0;		
+	virtual void StopTimer() = 0;
+	virtual void InvalidateScreenArea( SRECT* ) = 0;
+	virtual void ClientRect(SRECT*) = 0;
+    virtual void AdjustWindow( int width, int height ) = 0;
+
+	// Internet, loading, and streaming functions
+	char* BuildRelative(char* base, char* url);
+	char* NSResolveURL(char* actionURL);
+	void NSGetURL(char* actionURL, char* window, char* postData);
+	void NetscapeDoURL(char* url, char* window, char* postData, LoadInfo* info );
+	void LoadLayer(	char* url,
+					int layer,
+					char* postData,
+					char *target,
+					int loadMethod);
+
+
+	void GetURL( char* url, char* target = "", char* postData = "", int loadMethod = 0);
+
+
+	virtual void StreamPostURLNotify(	const char* url, 
+										const char* window,
+										U32			len, 
+										const char* buf, 
+										void*		notifyData
+								   ) = 0;
+
+
+	virtual void StreamGetURLNotify(	const char* url,
+										const char* window,
+										void*		notifyData
+								   ) = 0;
+
+
+	void StreamInNew(	<a class="el" href="class_streamdata.html">StreamData</a>* streamData, 
+						char*		  url,
+						void*		  notifyData );
+
+
+	int StreamInWrite(	<a class="el" href="class_streamdata.html">StreamData</a>*	streamData,
+						void* buffer,
+						int	  length );
+						
+
+	void StreamInDestroy( <a class="el" href="class_streamdata.html">StreamData</a>* streamData );	
+
+
+	virtual void CloseStream( <a class="el" href="class_streamdata.html">StreamData</a>* streamData )	= 0;
+
+
+	virtual void ProcessFSCommand( char* command, char* args ) = 0;
+
+	virtual void EnableMenus( const <a class="el" href="class_menustatus.html">MenuStatus</a>&amp; menuStatus ) = 0;
+
+
+	void SetMenuState();						
+
+
+	void GetMenuState( <a class="el" href="class_menustatus.html">MenuStatus</a>* menuStatus );
+
+	#ifdef EDITTEXT
+
+	void GetEditMenuState( <a class="el" href="class_editmenustatus.html">EditMenuStatus</a>* editMenuStatus );
+	#endif
+
+	enum {
+		MENU_EDIT,
+		MENU_NONE,
+		MENU_NO_MOVIE,
+		MENU_NORMAL,
+		MENU_STATIC
+	};	
+
+	int	 GetPopupMenuState();
+
+
+	void ControlOpen( char* url );
+	void ControlClose();
+	void ControlPlay();
+	void ControlRewind();
+	void ControlForward();
+	void ControlBack();
+	void ControlLoop();
+	void ControlViewAll();
+	void Control100();
+	void ControlZoomIn();
+	void ControlZoomContext( int x, int y );
+	void ControlZoomOut();
+	void ControlHighQuality();
+
+	void LoadMovie(char* path);
+
+
+	void CreateIdealPalette( SColorTable* ctab );
+
+	void XSetCapture()			{}		// These should not be needed if the client window always captures
+	void XReleaseCapture()		{}		// the mouse when it is down.
+	virtual BOOL UpdateCursor() = 0;
+
+
+	int GetCursorType();				// Returns the type of cursor that should be displayed. 
+										// UpdateCursor() uses this.
+
+//#endif
+
+    void RemoveSprite(ScriptThread *thread, BOOL createPlaceholder = true);
+
+#ifdef DRAGBUTTONS
+	void UpdateDropTarget();
+	void UpdateDragObject(SPOINT *pt);
+#endif
+
+	// Button interface
+
+	void		ButtonGoDirection(int dir);
+	void		ButtonTabNext();
+	void		ButtonTabPrevious();
+
+	void		ButtonEnter();
+
+	BOOL		ButtonFind(SButton*, SButton*);
+
+	// Button implementation
+
+	class ButtonWeight {
+	public:
+		SObject*	button;
+		SRECT		buttonBounds;
+		S32			weight;
+	
+		ButtonWeight()
+		: button(NULL), weight(0)
+		{
+
+		}
+	};
+
+	class ButtonOrder {
+	public:
+		SObject* button[4];
+		SRECT bounds[4];
+
+		ButtonOrder() { Reset(); }
+		void Reset() { memset(this, 0, sizeof(ButtonOrder)); }
+	};
+
+	enum { UP = 0, DOWN = 1, RIGHT = 2, LEFT = 3 };
+
+	SObject*	ButtonChoose(SObject*, P_SRECT, int, SObject*, P_SRECT, SObject*, P_SRECT);
+
+	void		DoButton(SObject* pt, BOOL mouseIsDown, BOOL updateScreen = true);
+	int			NumButtons(SObject*); 
+	void		ButtonFocusSet(SObject*);
+	void		ButtonFocusRemove(SObject*);
+	
+	void		ButtonOrdering(SButton*, ButtonOrder*);
+	BOOL		IsButtonUp(P_SRECT, P_SRECT);
+	BOOL		IsButtonDown(P_SRECT, P_SRECT);
+	BOOL		IsButtonLeft(P_SRECT, P_SRECT);
+	BOOL		IsButtonRight(P_SRECT, P_SRECT);
+	BOOL		IsButtonAligned(P_SRECT, int, P_SRECT);
+	BOOL		IsButtonOverlapped(P_SRECT, int, P_SRECT);
+
+	P_SRECT		ButtonCloser(P_SRECT, P_SRECT, P_SRECT);
+
+	// Methods used for tabbing implementation
+
+	ButtonWeight* BuildButtonTabMap();
+
+	void		ButtonSort(ButtonWeight* array, int size);
+	S32			CalcButtonWeight(P_SRECT bounds);
+
+	// Methods used to help enumerate all buttons
+
+	void		AddButton(SObject* obj);
+	void		RemoveAllButtons();
+
+	// Data members
+
+	ButtonOrder		 buttonOrder;
+	SButton			 currentButton;
+
+	SObject**		buttonArray;
+	int				buttonIndex;
+	int				arraySize;
+
+	// from ShockwaveFlash.h
+	SButton			m_lastButton;
+	int				m_Focus;
+
+protected:
+// 	void  OnDraw( NativePlayerWnd* );
+// 	void  LoadFile( URLWrapper *url, int layer, char *dstSprite = 0, char *postData = 0, BOOL loadVars = FALSE);
+};
+
+int LayerNum(char* s);
+
+//
+// A Helper Object that combines variables into a form suitable for URLs or a POST operation
+//
+
+class URLBuilder {
+public:
+	char* buf;
+	int len;	// the first empty spot
+	int size;
+
+public:
+	URLBuilder() { buf = 0; len = 0; size = 0; }
+	~URLBuilder() { FreeStr(buf); }
+
+	void AppendChar(char);
+	void AppendInt(int);
+	void AppendString(char*);
+	void EncodeString(char*);
+
+	void EncodeVariables(ScriptVariable* var);
+};
+
+void ExtractVariables(ScriptThread* thread, char* url);
+
+
+#endif
+</pre></div>
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+/nologo /out:"..\..\sdk\lib\zlib.lib" 
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\crc32.obj
+.\Release\deflate.obj
+.\Release\infblock.obj
+.\Release\infcodes.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\infutil.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\zutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\renan\LOCALS~1\Temp\RSP68.tmp"
+<h3>Output Window</h3>
+Creating library...
+
+
+
+<h3>Results</h3>
+zlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

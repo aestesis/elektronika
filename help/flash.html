@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Flash Player</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFaa00" text="#000000" link="#000000" vlink="#000000" alink="#000000">
+<div align="center"> 
+  <p align="right"><font face="Arial, Helvetica, sans-serif"><b><font size="7">eleKtroniKa</font><br>
+    help file</b> </font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="4" color="#FFFFFF"> 
+    flash player module<br>
+    </font></b><font size="4" color="#FFFFFF"><font size="3" color="#000000">play 
+    flash movie (SWF files)</font></font></font></p>
+  <p align="left"><img src="images/flash.jpg" width="511" height="49"></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>inputs/outputs</b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">1 audio in<br>
+    1 video out</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>usage</b></font></p>
+  <p align="left"><b><font face="Arial, Helvetica, sans-serif">select</font></b><font face="Arial, Helvetica, sans-serif"> 
+    <b>(1/8)</b>, select the movie <br>
+    <b>zoom</b>, zoom the movie<br>
+    <b>colors</b> </font><font face="Arial, Helvetica, sans-serif">, send variables 
+    to flash movie [elek_color0, elek_color1]<br>
+    <b>flash controls</b>, send variables to flash movie [elek_pad0..elek_pad5]<br>
+    <b>text</b>, edit text, sent as variable to flash movie [elek_text]</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">to load flash movies 
+    just drag'n drop your SWF files on the flash player rmodule.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">the flash movie receive 
+    also the peak level for the 3 bands (bass, medium, treeble)<br>
+    as variables [elek_bass, elek_medium, elek_treeble] and the time from elektronika<br>
+    [elek_time] add 1000 unit/secondes (sequencer 120 bpm (set as default in elektronika 
+    live version)).</font><br>
+  </p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">you can retreive the 
+    vars in flash at _level0 instance (ex: _level0.elek_bass)</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">you can send also 
+    information from flash to elektronika by using the command &quot;fscommand&quot;<br>
+    in your actionscript. accepted commands: </font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">fscommand(&quot;visible&quot;, 
+    &quot;1111111&quot;); // turn all flash controls in elektronika visible<br>
+    fscommand(&quot;visible&quot; ,&quot;0000000&quot;); // same but not visible<br>
+    </font><font face="Arial, Helvetica, sans-serif">fscommand(&quot;visible&quot; 
+    ,&quot;111000&quot;); // the first three visible</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"></font><font face="Arial, Helvetica, sans-serif">fscommand(&quot;tooltips0&quot;, 
+    &quot;the tooltip&quot;); // set the tooltips(x) of the pad(x) [x=0....5]</font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>copyright aestesis 
+    2003<br>
+    </b><a href="http://www.aestesis.org/" target="_blank">www.aestesis.org</a></font></p>
+</div>
+</body>
+</html>

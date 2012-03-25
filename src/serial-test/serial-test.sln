@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serial-test", "serial-test.vcproj", "{4A0645F2-0CAF-4898-AFAA-E05635D90DF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6} = {49302FF5-A028-43BD-90E8-8A24B3D110C6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Alib", "..\Alib\Alib.vcproj", "{49302FF5-A028-43BD-90E8-8A24B3D110C6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4A0645F2-0CAF-4898-AFAA-E05635D90DF0}.Debug.ActiveCfg = Debug|Win32
+		{4A0645F2-0CAF-4898-AFAA-E05635D90DF0}.Debug.Build.0 = Debug|Win32
+		{4A0645F2-0CAF-4898-AFAA-E05635D90DF0}.Release.ActiveCfg = Release|Win32
+		{4A0645F2-0CAF-4898-AFAA-E05635D90DF0}.Release.Build.0 = Release|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Debug.ActiveCfg = Debug|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Debug.Build.0 = Debug|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release.ActiveCfg = Release|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<openMPP name="vpQ" help="vpQ simple video player">
+	<details>QTplayer simple video player, use it to play and scratch QuickTime(tm) movies</details>
+	<author>
+		<name>YoY</name>
+		<company>aestesis</company>
+		<email>qt-player@aestesis.org</email>
+		<web>http://www.aestesis.org/</web>
+		<address>10, rue du bearn; 56270 ploemeur; FRANCE</address>
+		<copyright>aestesis 2006</copyright>
+		<info>enjoy !!</info>
+	</author>
+	<interface name="normal" host="elektronika" size="512,184">
+		<skin front="QTplayer/front.png" back="QTplayer/back.png" />
+		<knob name="rate" help="play rate" link="rate" location="16,16" size="32,32" image="QTplayer/knob32.png"/>
+		<button name="selection" help="play selection" link="selection" location="80,18" image="QTplayer/button.png"/>
+		<button name="palindrome" help="palindrome mode" link="palindrome" location="112,18" image="QTplayer/button.png"/>
+		<button name="play" help="play" link="play" location="160,18" image="QTplayer/play.png"/>
+		<button name="revers" help="revers mode" link="revers" location="220,18" image="QTplayer/revers.png"/>
+		<knob name="random" help="random seek" link="random" location="270,16" size="32,32" image="QTplayer/knob32.png"/>
+		<timeline name="timeline" current="position" sel-start="loop start" sel-len="loop length" location="8,56" size="496,12"/>
+		<selectmovie name="movies" help="select movie" link="movies" location="8,80" size="496,96" view="56,42" disposition="8,2"/>
+    <choice name="mode" help="play mode" link="mode" location="320,20" size="24,24" disposition="2,1" image="QTplayer/select.png"/>
+  </interface>
+</openMPP>

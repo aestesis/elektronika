@@ -1,0 +1,55 @@
+﻿Build started 01/09/2011 19:09:32.
+     1>Project "D:\aestesis\code\elektroSDK\src\libpng\libpng.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\libpng.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\zlib /Zi /nologo /W3 /WX- /O2 /Ob2 /Ot /Oy- /GT /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy- /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /FR"Release VSTUDIO\\" /Gd /TC /analyze- /errorReport:prompt example.c png.c pngerror.c pngget.c pngmem.c pngpread.c pngread.c pngrio.c pngrtran.c pngrutil.c pngset.c pngtest.c pngtrans.c pngvcrd.c pngwio.c pngwrite.c pngwtran.c pngwutil.c
+         example.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtest.c
+         pngtrans.c
+         pngvcrd.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib" /NOLOGO .\Release/example.obj
+         .\Release/png.obj
+         .\Release/pngerror.obj
+         .\Release/pngget.obj
+         .\Release/pngmem.obj
+         .\Release/pngpread.obj
+         .\Release/pngread.obj
+         .\Release/pngrio.obj
+         .\Release/pngrtran.obj
+         .\Release/pngrutil.obj
+         .\Release/pngset.obj
+         .\Release/pngtest.obj
+         .\Release/pngtrans.obj
+         .\Release/pngvcrd.obj
+         .\Release/pngwio.obj
+         .\Release/pngwrite.obj
+         .\Release/pngwtran.obj
+         .\Release/pngwutil.obj
+         libpng.vcxproj -> D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"D:\aestesis\code\elektroSDK\sdk\lib\libpng.bsc" "Release VSTUDIO\example.sbr" "Release VSTUDIO\png.sbr" "Release VSTUDIO\pngerror.sbr" "Release VSTUDIO\pngget.sbr" "Release VSTUDIO\pngmem.sbr" "Release VSTUDIO\pngpread.sbr" "Release VSTUDIO\pngread.sbr" "Release VSTUDIO\pngrio.sbr" "Release VSTUDIO\pngrtran.sbr" "Release VSTUDIO\pngrutil.sbr" "Release VSTUDIO\pngset.sbr" "Release VSTUDIO\pngtest.sbr" "Release VSTUDIO\pngtrans.sbr" "Release VSTUDIO\pngvcrd.sbr" "Release VSTUDIO\pngwio.sbr" "Release VSTUDIO\pngwrite.sbr" "Release VSTUDIO\pngwtran.sbr" "Release VSTUDIO\pngwutil.sbr"
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\libpng.unsuccessfulbuild".
+         Touching "Release VSTUDIO\libpng.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\libpng\libpng.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.22

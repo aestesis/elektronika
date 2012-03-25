@@ -1,0 +1,347 @@
+﻿Build started 01/09/2011 19:09:34.
+     1>Project "D:\aestesis\code\elektroSDK\src\Alib\Alib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\Alib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.1\Samples\multimedia\directshow\baseclasses\Release" /I..\libpng /I..\zlib /I..\..\sdk\inc\alib /Zi /nologo /W3 /WX- /O2 /Ob2 /Ot /Oy- /GT /D NDEBUG /D GENERATOR /D WIN32 /D _WINDOWS /D _USRDLL /D ALIB_EXPORTS /D USE_JPEG /D FRAMESPERSEC /D EDITTEXT /D FLASHMP3 /D MMX /D WINVER=0x0500 /D _WIN32_WINNT=0x0500 /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy- /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt flashSDK\Source\zlib\adler32.cpp flashSDK\Source\zlib\infblock.cpp flashSDK\Source\zlib\infcodes.cpp flashSDK\Source\zlib\inffast.cpp flashSDK\Source\zlib\inflate.cpp flashSDK\Source\zlib\inftrees.cpp flashSDK\Source\zlib\infutil.cpp flashSDK\Source\zlib\uncompr.cpp flashSDK\Source\zlib\zutil.cpp flashSDK\Source\JPEG\cdjpeg.cpp flashSDK\Source\JPEG\cjpeg.cpp flashSDK\Source\JPEG\jcapimin.cpp flashSDK\Source\JPEG\jcapistd.cpp flashSDK\Source\JPEG\jccoefct.cpp flashSDK\Source\JPEG\jccolor.cpp flashSDK\Source\JPEG\jcdctmgr.cpp flashSDK\Source\JPEG\jchuff.cpp flashSDK\Source\JPEG\jcinit.cpp flashSDK\Source\JPEG\jcmainct.cpp flashSDK\Source\JPEG\jcmarker.cpp flashSDK\Source\JPEG\jcmaster.cpp flashSDK\Source\JPEG\jcomapi.cpp flashSDK\Source\JPEG\jcparam.cpp flashSDK\Source\JPEG\jcphuff.cpp flashSDK\Source\JPEG\jcprepct.cpp flashSDK\Source\JPEG\jcsample.cpp flashSDK\Source\JPEG\jdapimin.cpp flashSDK\Source\JPEG\jdapistd.cpp flashSDK\Source\JPEG\jdatadst.cpp flashSDK\Source\JPEG\jdatasrc.cpp flashSDK\Source\JPEG\jdcoefct.cpp flashSDK\Source\JPEG\jdcolor.cpp flashSDK\Source\JPEG\jddctmgr.cpp flashSDK\Source\JPEG\jdhuff.cpp flashSDK\Source\JPEG\jdinput.cpp flashSDK\Source\JPEG\jdmainct.cpp flashSDK\Source\JPEG\jdmarker.cpp flashSDK\Source\JPEG\jdmaster.cpp flashSDK\Source\JPEG\jdphuff.cpp flashSDK\Source\JPEG\jdpostct.cpp flashSDK\Source\JPEG\jdsample.cpp flashSDK\Source\JPEG\jerror.cpp flashSDK\Source\JPEG\jfdctflt.cpp flashSDK\Source\JPEG\jfdctint.cpp flashSDK\Source\JPEG\jidctflt.cpp flashSDK\Source\JPEG\jidctint.cpp flashSDK\Source\JPEG\jmemmgr.cpp flashSDK\Source\JPEG\jmemnobs.cpp flashSDK\Source\JPEG\jutils.cpp flashSDK\Source\JPEG\rdbmp.cpp flashSDK\Source\JPEG\rdcolmap.cpp flashSDK\Source\JPEG\rdgif.cpp flashSDK\Source\JPEG\rdppm.cpp flashSDK\Source\JPEG\rdrle.cpp flashSDK\Source\JPEG\rdswitch.cpp flashSDK\Source\JPEG\rdtarga.cpp flashSDK\Source\JPEG\wrbmp.cpp flashSDK\Source\JPEG\wrgif.cpp flashSDK\Source\JPEG\wrppm.cpp flashSDK\Source\JPEG\wrrle.cpp flashSDK\Source\JPEG\wrtarga.cpp flashSDK\Source\Win32\_Display.cpp flashSDK\Source\Win32\debug.cpp flashSDK\Source\Win32\palette.cpp flashSDK\Source\Win32\PlayerWnd.cpp flashSDK\Source\Win32\sound.cpp flashSDK\Source\Win32\util.cpp flashSDK\Source\bitbuf.cpp flashSDK\Source\curve.cpp flashSDK\Source\edittext.cpp flashSDK\Source\fixed.cpp flashSDK\Source\geom.cpp flashSDK\Source\global.cpp flashSDK\Source\jpeg.cpp flashSDK\Source\memcop.cpp flashSDK\Source\morphinter.cpp flashSDK\Source\mp3decoder.cpp flashSDK\Source\raster.cpp flashSDK\Source\sbitmap.cpp flashSDK\Source\sdisplay.cpp flashSDK\Source\sndcodec.cpp flashSDK\Source\sndmix.cpp flashSDK\Source\sobject.cpp flashSDK\Source\splay.cpp flashSDK\Source\splayer.cpp flashSDK\Source\sstroker.cpp flashSDK\Source\unixfonts.cpp avi.cpp bitmap.cpp buffer.cpp button.cpp clipboard.cpp d3d.cpp display.cpp edit.cpp file.cpp filedlg.cpp filehd.cpp filemem.cpp flash.cpp font.cpp ftp.cpp interface.cpp item.cpp list.cpp menu.cpp mlist.cpp movie.cpp msgbox.cpp node.cpp object.cpp oglbitmap.cpp pipe.cpp plugz.cpp point.cpp progress.cpp rectangle.cpp registry.cpp resources.cpp scrollbar.cpp section.cpp segment.cpp selButton.cpp selsize.cpp serial.cpp static.cpp surface.cpp thread.cpp titleBar.cpp toolbar.cpp tooltips.cpp treeView.cpp udp.cpp WFLILIB.CPP window.cpp /Zm300  
+         adler32.cpp
+         infblock.cpp
+         infcodes.cpp
+         inffast.cpp
+         inflate.cpp
+         inftrees.cpp
+         infutil.cpp
+         uncompr.cpp
+         zutil.cpp
+         cdjpeg.cpp
+         cjpeg.cpp
+         jcapimin.cpp
+         jcapistd.cpp
+         jccoefct.cpp
+         jccolor.cpp
+         jcdctmgr.cpp
+         jchuff.cpp
+         jcinit.cpp
+         jcmainct.cpp
+         jcmarker.cpp
+         Generating Code...
+         Compiling...
+         jcmaster.cpp
+         jcomapi.cpp
+         jcparam.cpp
+         jcphuff.cpp
+         jcprepct.cpp
+         jcsample.cpp
+         jdapimin.cpp
+         jdapistd.cpp
+         jdatadst.cpp
+         jdatasrc.cpp
+         jdcoefct.cpp
+         jdcolor.cpp
+         jddctmgr.cpp
+         jdhuff.cpp
+         jdinput.cpp
+         jdmainct.cpp
+         jdmarker.cpp
+         jdmaster.cpp
+         jdphuff.cpp
+         jdpostct.cpp
+         Generating Code...
+         Compiling...
+         jdsample.cpp
+         jerror.cpp
+         jfdctflt.cpp
+         jfdctint.cpp
+         jidctflt.cpp
+         jidctint.cpp
+         jmemmgr.cpp
+         jmemnobs.cpp
+         jutils.cpp
+         rdbmp.cpp
+         rdcolmap.cpp
+         rdgif.cpp
+         rdppm.cpp
+         rdrle.cpp
+         rdswitch.cpp
+         rdtarga.cpp
+         wrbmp.cpp
+         wrgif.cpp
+         wrppm.cpp
+         wrrle.cpp
+         Generating Code...
+         Compiling...
+         wrtarga.cpp
+         _Display.cpp
+         debug.cpp
+         palette.cpp
+         PlayerWnd.cpp
+         sound.cpp
+         util.cpp
+         bitbuf.cpp
+         curve.cpp
+         edittext.cpp
+         fixed.cpp
+         geom.cpp
+         global.cpp
+         jpeg.cpp
+         memcop.cpp
+         morphinter.cpp
+         mp3decoder.cpp
+         raster.cpp
+         sbitmap.cpp
+         sdisplay.cpp
+         Generating Code...
+         Compiling...
+         sndcodec.cpp
+         sndmix.cpp
+         sobject.cpp
+         splay.cpp
+         splayer.cpp
+         sstroker.cpp
+         unixfonts.cpp
+         avi.cpp
+     1>avi.cpp(219): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>avi.cpp(292): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>avi.cpp(592): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>avi.cpp(1619): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>avi.cpp(1811): warning C4244: 'argument' : conversion from 'sqword' to 'int', possible loss of data
+         bitmap.cpp
+         buffer.cpp
+         button.cpp
+         clipboard.cpp
+         d3d.cpp
+     1>d3d.cpp(82): warning C4995: 'sprintf': name was marked as #pragma deprecated
+         display.cpp
+         edit.cpp
+     1>edit.cpp(702): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(711): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(734): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(748): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(757): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(771): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(794): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(813): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(836): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(866): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(878): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>edit.cpp(914): warning C4995: 'strcpy': name was marked as #pragma deprecated
+         file.cpp
+         filedlg.cpp
+         filehd.cpp
+         filemem.cpp
+         flash.cpp
+         Generating Code...
+         Compiling...
+         font.cpp
+         ftp.cpp
+         interface.cpp
+     1>interface.cpp(243): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>interface.cpp(263): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>interface.cpp(264): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>interface.cpp(265): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>interface.cpp(266): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>interface.cpp(311): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>interface.cpp(312): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>interface.cpp(313): warning C4995: 'strcat': name was marked as #pragma deprecated
+         item.cpp
+         list.cpp
+     1>list.cpp(82): warning C4995: 'strcpy': name was marked as #pragma deprecated
+         menu.cpp
+     1>menu.cpp(177): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>menu.cpp(514): warning C4995: 'strcpy': name was marked as #pragma deprecated
+         mlist.cpp
+         movie.cpp
+     1>movie.cpp(174): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>movie.cpp(179): warning C4995: 'strcpy': name was marked as #pragma deprecated
+         msgbox.cpp
+         node.cpp
+         object.cpp
+         oglbitmap.cpp
+         pipe.cpp
+         plugz.cpp
+         point.cpp
+         progress.cpp
+         rectangle.cpp
+         registry.cpp
+         resources.cpp
+         scrollbar.cpp
+         Generating Code...
+         Compiling...
+         section.cpp
+         segment.cpp
+         selButton.cpp
+     1>selButton.cpp(161): warning C4995: 'strcpy': name was marked as #pragma deprecated
+         selsize.cpp
+         serial.cpp
+         static.cpp
+         surface.cpp
+         thread.cpp
+         titleBar.cpp
+         toolbar.cpp
+         tooltips.cpp
+         treeView.cpp
+         udp.cpp
+         WFLILIB.CPP
+         window.cpp
+     1>window.cpp(1913): warning C4995: 'lstrcpy': name was marked as #pragma deprecated
+     1>window.cpp(1913): warning C4995: 'lstrcpyA': name was marked as #pragma deprecated
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x040c" /nologo /fo"Release VSTUDIO\alib.res" alib.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\aestesis\code\elektroSDK\elektronika\alib100.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\sdk\lib /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86" ddraw.lib libpng.lib zlib.lib winmm.lib dxguid.lib amstrmid.lib quartz.lib strmbase.lib msimg32.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib d3d9.lib Vfw32.lib msacm32.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release VSTUDIO\alib100.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/alib100.pdb" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release/alib100.lib" /MACHINE:X86 /DLL "Release VSTUDIO\alib.res"
+         .\Release/adler32.obj
+         .\Release/infblock.obj
+         .\Release/infcodes.obj
+         .\Release/inffast.obj
+         .\Release/inflate.obj
+         .\Release/inftrees.obj
+         .\Release/infutil.obj
+         .\Release/uncompr.obj
+         .\Release/zutil.obj
+         .\Release/cdjpeg.obj
+         .\Release/cjpeg.obj
+         .\Release/jcapimin.obj
+         .\Release/jcapistd.obj
+         .\Release/jccoefct.obj
+         .\Release/jccolor.obj
+         .\Release/jcdctmgr.obj
+         .\Release/jchuff.obj
+         .\Release/jcinit.obj
+         .\Release/jcmainct.obj
+         .\Release/jcmarker.obj
+         .\Release/jcmaster.obj
+         .\Release/jcomapi.obj
+         .\Release/jcparam.obj
+         .\Release/jcphuff.obj
+         .\Release/jcprepct.obj
+         .\Release/jcsample.obj
+         .\Release/jdapimin.obj
+         .\Release/jdapistd.obj
+         .\Release/jdatadst.obj
+         .\Release/jdatasrc.obj
+         .\Release/jdcoefct.obj
+         .\Release/jdcolor.obj
+         .\Release/jddctmgr.obj
+         .\Release/jdhuff.obj
+         .\Release/jdinput.obj
+         .\Release/jdmainct.obj
+         .\Release/jdmarker.obj
+         .\Release/jdmaster.obj
+         .\Release/jdphuff.obj
+         .\Release/jdpostct.obj
+         .\Release/jdsample.obj
+         .\Release/jerror.obj
+         .\Release/jfdctflt.obj
+         .\Release/jfdctint.obj
+         .\Release/jidctflt.obj
+         .\Release/jidctint.obj
+         .\Release/jmemmgr.obj
+         .\Release/jmemnobs.obj
+         .\Release/jutils.obj
+         .\Release/rdbmp.obj
+         .\Release/rdcolmap.obj
+         .\Release/rdgif.obj
+         .\Release/rdppm.obj
+         .\Release/rdrle.obj
+         .\Release/rdswitch.obj
+         .\Release/rdtarga.obj
+         .\Release/wrbmp.obj
+         .\Release/wrgif.obj
+         .\Release/wrppm.obj
+         .\Release/wrrle.obj
+         .\Release/wrtarga.obj
+         .\Release/_Display.obj
+         .\Release/debug.obj
+         .\Release/palette.obj
+         .\Release/PlayerWnd.obj
+         .\Release/sound.obj
+         .\Release/util.obj
+         .\Release/bitbuf.obj
+         .\Release/curve.obj
+         .\Release/edittext.obj
+         .\Release/fixed.obj
+         .\Release/geom.obj
+         .\Release/global.obj
+         .\Release/jpeg.obj
+         .\Release/memcop.obj
+         .\Release/morphinter.obj
+         .\Release/mp3decoder.obj
+         .\Release/raster.obj
+         .\Release/sbitmap.obj
+         .\Release/sdisplay.obj
+         .\Release/sndcodec.obj
+         .\Release/sndmix.obj
+         .\Release/sobject.obj
+         .\Release/splay.obj
+         .\Release/splayer.obj
+         .\Release/sstroker.obj
+         .\Release/unixfonts.obj
+         .\Release/avi.obj
+         .\Release/bitmap.obj
+         .\Release/buffer.obj
+         .\Release/button.obj
+         .\Release/clipboard.obj
+         .\Release/d3d.obj
+         .\Release/display.obj
+         .\Release/edit.obj
+         .\Release/file.obj
+         .\Release/filedlg.obj
+         .\Release/filehd.obj
+         .\Release/filemem.obj
+         .\Release/flash.obj
+         .\Release/font.obj
+         .\Release/ftp.obj
+         .\Release/interface.obj
+         .\Release/item.obj
+         .\Release/list.obj
+         .\Release/menu.obj
+         .\Release/mlist.obj
+         .\Release/movie.obj
+         .\Release/msgbox.obj
+         .\Release/node.obj
+         .\Release/object.obj
+         .\Release/oglbitmap.obj
+         .\Release/pipe.obj
+         .\Release/plugz.obj
+         .\Release/point.obj
+         .\Release/progress.obj
+         .\Release/rectangle.obj
+         .\Release/registry.obj
+         .\Release/resources.obj
+         .\Release/scrollbar.obj
+         .\Release/section.obj
+         .\Release/segment.obj
+         .\Release/selButton.obj
+         .\Release/selsize.obj
+         .\Release/serial.obj
+         .\Release/static.obj
+         .\Release/surface.obj
+         .\Release/thread.obj
+         .\Release/titleBar.obj
+         .\Release/toolbar.obj
+         .\Release/tooltips.obj
+         .\Release/treeView.obj
+         .\Release/udp.obj
+         .\Release/WFLILIB.obj
+         .\Release/window.obj
+         flashSDK\Source\mp3decoder.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib /MACHINE:I386 
+            Creating library .\Release/alib100.lib and object .\Release/alib100.exp
+         Alib.vcxproj -> D:\aestesis\code\elektroSDK\elektronika\alib100.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\aestesis\code\elektroSDK\elektronika\alib100.dll;#2" /manifest "Release VSTUDIO\alib100.dll.intermediate.manifest"
+       PostBuildEvent:
+         Description: copy .lib in sdk
+         copy D:\aestesis\code\elektroSDK\src\Alib\Release\alib100.lib D:\aestesis\code\elektroSDK\sdk\lib
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\Alib.unsuccessfulbuild".
+         Touching "Release VSTUDIO\Alib.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\Alib\Alib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.78

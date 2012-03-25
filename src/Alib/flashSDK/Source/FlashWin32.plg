@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FlashWin32 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "USE_JPEG" /D "FRAMESPERSEC" /D "SOUND" /D "EDITTEXT" /D "FLASHMP3" /FR"Debug/" /Fp"Debug/FlashWin32.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /Zm150 /c 
+"G:\code\YoY\flashSDK\Source\SSTROKER.CPP"
+"G:\code\YoY\flashSDK\Source\unixfonts.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP34.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib winmm.lib advapi32.lib imm32.lib mp3decoder.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FlashWin32.pdb" /debug /machine:I386 /nodefaultlib:"libcmt" /out:"Debug/FlashWin32.exe" /pdbtype:sept 
+.\Debug\adler32.obj
+.\Debug\infblock.obj
+.\Debug\infcodes.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\infutil.obj
+.\Debug\uncompr.obj
+.\Debug\zutil.obj
+.\Debug\jcomapi.obj
+.\Debug\jdapimin.obj
+.\Debug\jdapistd.obj
+.\Debug\jdcoefct.obj
+.\Debug\jdcolor.obj
+.\Debug\jddctmgr.obj
+.\Debug\jdhuff.obj
+.\Debug\jdinput.obj
+.\Debug\jdmainct.obj
+.\Debug\jdmarker.obj
+.\Debug\jdmaster.obj
+.\Debug\jdpostct.obj
+.\Debug\jdsample.obj
+.\Debug\jfdctint.obj
+.\Debug\jidctint.obj
+.\Debug\jmemmgr.obj
+.\Debug\jmemnobs.obj
+.\Debug\jutils.obj
+.\Debug\Debug.obj
+.\Debug\Display.obj
+.\Debug\Palette.obj
+.\Debug\PlayerWnd.obj
+.\Debug\sound.obj
+.\Debug\Util.obj
+.\Debug\bitbuf.obj
+.\Debug\curve.obj
+.\Debug\edittext.obj
+.\Debug\fixed.obj
+.\Debug\geom.obj
+.\Debug\global.obj
+.\Debug\JPEG.OBJ
+.\Debug\MEMCOP.OBJ
+.\Debug\MorphInter.obj
+.\Debug\mp3decoder.obj
+.\Debug\RASTER.OBJ
+.\Debug\SBITMAP.OBJ
+.\Debug\sdisplay.obj
+.\Debug\sndcodec.obj
+.\Debug\sndmix.obj
+.\Debug\SOBJECT.OBJ
+.\Debug\SPLAY.OBJ
+.\Debug\splayer.obj
+.\Debug\SSTROKER.OBJ
+.\Debug\unixfonts.obj
+.\Debug\SimpleWin.res
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP34.tmp"
+<h3>Output Window</h3>
+Compiling...
+SSTROKER.CPP
+unixfonts.cpp
+Linking...
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /o"Debug/FlashWin32.bsc" 
+.\Debug\adler32.sbr
+.\Debug\infblock.sbr
+.\Debug\infcodes.sbr
+.\Debug\inffast.sbr
+.\Debug\inflate.sbr
+.\Debug\inftrees.sbr
+.\Debug\infutil.sbr
+.\Debug\uncompr.sbr
+.\Debug\zutil.sbr
+.\Debug\jcomapi.sbr
+.\Debug\jdapimin.sbr
+.\Debug\jdapistd.sbr
+.\Debug\jdcoefct.sbr
+.\Debug\jdcolor.sbr
+.\Debug\jddctmgr.sbr
+.\Debug\jdhuff.sbr
+.\Debug\jdinput.sbr
+.\Debug\jdmainct.sbr
+.\Debug\jdmarker.sbr
+.\Debug\jdmaster.sbr
+.\Debug\jdpostct.sbr
+.\Debug\jdsample.sbr
+.\Debug\jfdctint.sbr
+.\Debug\jidctint.sbr
+.\Debug\jmemmgr.sbr
+.\Debug\jmemnobs.sbr
+.\Debug\jutils.sbr
+.\Debug\Debug.sbr
+.\Debug\Display.sbr
+.\Debug\Palette.sbr
+.\Debug\PlayerWnd.sbr
+.\Debug\sound.sbr
+.\Debug\Util.sbr
+.\Debug\bitbuf.sbr
+.\Debug\curve.sbr
+.\Debug\edittext.sbr
+.\Debug\fixed.sbr
+.\Debug\geom.sbr
+.\Debug\global.sbr
+.\Debug\JPEG.SBR
+.\Debug\MEMCOP.SBR
+.\Debug\MorphInter.sbr
+.\Debug\mp3decoder.sbr
+.\Debug\RASTER.SBR
+.\Debug\SBITMAP.SBR
+.\Debug\sdisplay.sbr
+.\Debug\sndcodec.sbr
+.\Debug\sndmix.sbr
+.\Debug\SOBJECT.SBR
+.\Debug\SPLAY.SBR
+.\Debug\splayer.sbr
+.\Debug\SSTROKER.SBR
+.\Debug\unixfonts.sbr]
+Creating command line "bscmake.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FlashWin32.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

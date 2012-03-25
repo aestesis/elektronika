@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "forms", "forms.vcxproj", "{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug speed|Win32 = debug speed|Win32
+		debug VSTUDIO|Win32 = debug VSTUDIO|Win32
+		Debug|Win32 = Debug|Win32
+		Release AMD64|Win32 = Release AMD64|Win32
+		Release VSTUDIO|Win32 = Release VSTUDIO|Win32
+		Release|Win32 = Release|Win32
+		remote debug|Win32 = remote debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.debug speed|Win32.ActiveCfg = debug speed|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.debug speed|Win32.Build.0 = debug speed|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.debug VSTUDIO|Win32.ActiveCfg = debug VSTUDIO|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.debug VSTUDIO|Win32.Build.0 = debug VSTUDIO|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Debug|Win32.Build.0 = Debug|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Release AMD64|Win32.ActiveCfg = Release AMD64|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Release AMD64|Win32.Build.0 = Release AMD64|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Release VSTUDIO|Win32.ActiveCfg = Release VSTUDIO|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Release VSTUDIO|Win32.Build.0 = Release VSTUDIO|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Release|Win32.ActiveCfg = Release|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.Release|Win32.Build.0 = Release|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.remote debug|Win32.ActiveCfg = remote debug|Win32
+		{28AAC92B-A1E9-4104-8AE6-AC81D45EA32F}.remote debug|Win32.Build.0 = remote debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

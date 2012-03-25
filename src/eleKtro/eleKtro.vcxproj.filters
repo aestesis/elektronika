@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{df9485dc-9112-4e78-8fca-96b48276d0b0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a76b8476-413e-45c4-aa29-d6e9c1666c68}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2cd58519-8c7e-4a91-ad59-1e9a339b6eff}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bank.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="big_switch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="deltrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ins.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lcd-down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lcd-onoff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lcd-up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mute.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="norm-mute-solo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ovr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle010.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle011.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle012.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle013.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pattern.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="record.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="refresh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-crayon-cursor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-crayon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-gomme-cursor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-gomme.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-goutte-cursor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-goutte.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-loupe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-main.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-pipette.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="seq-tampon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="solo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="triger.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="yolie-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="yolie-24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="yolie-32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="yolie-64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="elektro.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bpmTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="capsule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctrlButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effect3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="equalizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selcolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selectView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selpad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sequencer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpRemote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sdk\inc\elektro\acontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\bpmTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\capsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\connect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\ctrlButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\effect3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\elektro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\elektrodef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\elektroexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\equalizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\paddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\pin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\selcolor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\selectView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\selpad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\sequencer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\simple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\tcpRemote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\timeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\transition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\trigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\elektro\zone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

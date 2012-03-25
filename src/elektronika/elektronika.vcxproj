@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug speed|Win32">
+      <Configuration>debug speed</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug VSTUDIO|Win32">
+      <Configuration>debug VSTUDIO</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release AMD64|Win32">
+      <Configuration>Release AMD64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release VSTUDIO|Win32">
+      <Configuration>Release VSTUDIO</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="remote debug|Win32">
+      <Configuration>remote debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}</ProjectGuid>
+    <RootNamespace>elektronika</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\elektronika___Win32_Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\elektronika___Win32_Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\elektronika___Win32_Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\elektronika___Win32_Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">false</GenerateManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">true</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\elektronika___Win32_Debug/elektronika.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\sdk\inc\ompp;dvcap;..\..\sdk\inc\alib;..\..\sdk\inc\elektro;..\BaseClasses;..\dxsend;..\..\sdk\inc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\elektronika___Win32_Debug/elektronika.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\elektronika___Win32_Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\elektronika___Win32_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\elektronika___Win32_Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>amstrmid.lib;winmm.lib;elektro.lib;alib100.lib;dsound.lib;dxguid.lib;ddraw.lib;ws2_32.lib;strmiids.lib;opengl32.lib;glu32.lib;d3d9.lib;d3dx9.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../elektronika/elektronika.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\elektronika___Win32_Debug/elektronika.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>32000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\elektronika___Win32_Release/elektronika.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\sdk\inc\ompp;dvcap;..\..\sdk\inc\alib;..\..\sdk\inc\elektro;..\BaseClasses;..\dxsend;..\..\sdk\inc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;SPLASH;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\elektronika___Win32_Release/elektronika.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\elektronika___Win32_Release/</AssemblerListingLocation>
+      <ObjectFileName>.\elektronika___Win32_Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\elektronika___Win32_Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>strmbase.lib;winmm.lib;elektro.lib;alib100.lib;dsound.lib;dxguid.lib;ddraw.lib;ws2_32.lib;strmiids.lib;opengl32.lib;glu32.lib;d3d9.lib;d3dx9.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../elektronika/elektronika.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\elektronika___Win32_Release/elektronika.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>32000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\elektronika___Win32_Debug/elektronika.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\sdk\inc\ompp;dvcap;..\..\sdk\inc\alib;..\..\sdk\inc\elektro;..\BaseClasses;..\dxsend;..\..\sdk\inc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\elektronika___Win32_Debug/elektronika.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\elektronika___Win32_Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\elektronika___Win32_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\elektronika___Win32_Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>amstrmid.lib;winmm.lib;elektro.lib;alib100.lib;dsound.lib;dxguid.lib;ddraw.lib;ws2_32.lib;strmiids.lib;opengl32.lib;glu32.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../elektronika/elektronika.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\elektronika___Win32_Debug/elektronika.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>32000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\elektronika___Win32_Release/elektronika.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\sdk\inc\ompp;dvcap;..\..\sdk\inc\alib;..\..\sdk\inc\elektro;..\BaseClasses;..\dxsend;..\..\sdk\inc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;SPLASH;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\elektronika___Win32_Release/elektronika.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\elektronika___Win32_Release/</AssemblerListingLocation>
+      <ObjectFileName>.\elektronika___Win32_Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\elektronika___Win32_Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>strmbase.lib;winmm.lib;elektro.lib;alib100.lib;dsound.lib;dxguid.lib;ddraw.lib;ws2_32.lib;strmiids.lib;opengl32.lib;glu32.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../elektronika/elektronika.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\elektronika___Win32_Release/elektronika.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>32000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\elektronika___Win32_Release/elektronika.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Include;..\..\sdk\inc\libxml;..\..\sdk\inc\ompp;dvcap;..\..\sdk\inc\alib;..\..\sdk\inc\elektro;..\BaseClasses;..\dxsend;..\..\sdk\inc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>VSTUDIO;NDEBUG;SPLASH;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\elektronika___Win32_Release/elektronika.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\elektronika___Win32_Release/</AssemblerListingLocation>
+      <ObjectFileName>.\elektronika___Win32_Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\elektronika___Win32_Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>strmbase.lib;winmm.lib;elektro.lib;alib100.lib;dsound.lib;dxguid.lib;ddraw.lib;ws2_32.lib;strmiids.lib;opengl32.lib;glu32.lib;d3d9.lib;d3dx9.lib;psapi.lib;comsuppw.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../elektronika/elektronika.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\elektronika___Win32_Release/elektronika.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>32000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\elektronika___Win32_Debug/elektronika.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Include;..\..\sdk\inc\libxml;..\..\sdk\inc\ompp;dvcap;..\..\sdk\inc\alib;..\..\sdk\inc\elektro;..\BaseClasses;..\dxsend;..\..\sdk\inc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>VSTUDIO;_DEBUG;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\elektronika___Win32_Debug/elektronika.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\elektronika___Win32_Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\elektronika___Win32_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\elektronika___Win32_Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <EnablePREfast>true</EnablePREfast>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>amstrmid.lib;winmm.lib;elektro.lib;alib100.lib;dsound.lib;dxguid.lib;ddraw.lib;ws2_32.lib;strmiids.lib;opengl32.lib;glu32.lib;d3d9.lib;d3dx9.lib;psapi.lib;comsuppw.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../elektronika/elektronika.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\elektronika___Win32_Debug/elektronika.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <HeapReserveSize>0</HeapReserveSize>
+      <StackReserveSize>4000000</StackReserveSize>
+      <StackCommitSize>1000000</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\elektronika___Win32_Release/elektronika.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MACHINE:AMD64 %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>..\..\sdk\inc\ompp;dvcap;..\..\sdk\inc\alib;..\..\sdk\inc\elektro;..\BaseClasses;..\dxsend;..\..\sdk\inc\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>VSTUDIO;NDEBUG;SPLASH;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\elektronika___Win32_Release/elektronika.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\elektronika___Win32_Release/</AssemblerListingLocation>
+      <ObjectFileName>.\elektronika___Win32_Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\elektronika___Win32_Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:AMD64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>strmbase.lib;winmm.lib;elektro.lib;alib100.lib;dsound.lib;dxguid.lib;ddraw.lib;ws2_32.lib;strmiids.lib;opengl32.lib;glu32.lib;d3d9.lib;d3dx9.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../elektronika/elektronika.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\elektronika___Win32_Release/elektronika.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>32000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h" />
+    <ClInclude Include="background.h" />
+    <ClInclude Include="computerInfo.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="explorer.h" />
+    <ClInclude Include="export.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="password.h" />
+    <ClInclude Include="presets.h" />
+    <ClInclude Include="preview.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="status.h" />
+    <ClInclude Include="aestesis.h" />
+    <ClInclude Include="automix.h" />
+    <ClInclude Include="band.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="dispatch.h" />
+    <ClInclude Include="dvcap.h" />
+    <ClInclude Include="dxfilter.h" />
+    <ClInclude Include="fframe.h" />
+    <ClInclude Include="grab.h" />
+    <ClInclude Include="loop.h" />
+    <ClInclude Include="mimix.h" />
+    <ClInclude Include="network.h" />
+    <ClInclude Include="pub.h" />
+    <ClInclude Include="rhytmBox.h" />
+    <ClInclude Include="soundInput.h" />
+    <ClInclude Include="soundOutput.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="trail.h" />
+    <ClInclude Include="v3dout.h" />
+    <ClInclude Include="videoIn.h" />
+    <ClInclude Include="viswrp.h" />
+    <ClInclude Include="vmix.h" />
+    <ClInclude Include="vout.h" />
+    <ClInclude Include="vp10.h" />
+    <ClInclude Include="vpone.h" />
+    <ClInclude Include="webclient.h" />
+    <ClInclude Include="websrv.h" />
+    <ClInclude Include="wmp.h" />
+    <ClInclude Include="..\..\sdk\inc\audiovideo.h" />
+    <ClInclude Include="aasio.h" />
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\common\asio.h" />
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\asiodrivers.h" />
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\pc\asiolist.h" />
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\common\iasiodrv.h" />
+    <ClInclude Include="omppwrap.h" />
+    <ClInclude Include="trans-color.h" />
+    <ClInclude Include="trans-fade.h" />
+    <ClInclude Include="trans-luma.h" />
+    <ClInclude Include="trans-slice.h" />
+    <ClInclude Include="trans-video.h" />
+    <ClInclude Include="ef3d-cube.h" />
+    <ClInclude Include="ef3d-meta.h" />
+    <ClInclude Include="ef3d-morph.h" />
+    <ClInclude Include="ef3d-morph2.h" />
+    <ClInclude Include="ef3d-pixel.h" />
+    <ClInclude Include="ef3d-stream.h" />
+    <ClInclude Include="ef3d-test.h" />
+    <ClInclude Include="ef3d-text.h" />
+    <ClInclude Include="ef3d-tunel.h" />
+    <ClInclude Include="ef3d-video.h" />
+    <ClInclude Include="ef3d-zoom.h" />
+    <ClInclude Include="ef3d-node.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aestesis.cpp" />
+    <ClCompile Include="automix.cpp" />
+    <ClCompile Include="band.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="dispatch.cpp" />
+    <ClCompile Include="dvcap.cpp" />
+    <ClCompile Include="dxfilter.cpp" />
+    <ClCompile Include="export.cpp" />
+    <ClCompile Include="fframe.cpp" />
+    <ClCompile Include="grab.cpp" />
+    <ClCompile Include="loop.cpp" />
+    <ClCompile Include="mimix.cpp" />
+    <ClCompile Include="network.cpp" />
+    <ClCompile Include="pub.cpp" />
+    <ClCompile Include="rhytmBox.cpp" />
+    <ClCompile Include="soundInput.cpp" />
+    <ClCompile Include="soundOutput.cpp" />
+    <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="trail.cpp" />
+    <ClCompile Include="v3dout.cpp" />
+    <ClCompile Include="videoIn.cpp" />
+    <ClCompile Include="viswrp.cpp" />
+    <ClCompile Include="vmix.cpp" />
+    <ClCompile Include="vout.cpp" />
+    <ClCompile Include="vp10.cpp" />
+    <ClCompile Include="vpone.cpp" />
+    <ClCompile Include="webclient.cpp" />
+    <ClCompile Include="websrv.cpp" />
+    <ClCompile Include="wmp.cpp" />
+    <ClCompile Include="aasio.cpp" />
+    <ClCompile Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\common\asio.cpp" />
+    <ClCompile Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\asiodrivers.cpp" />
+    <ClCompile Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\pc\asiolist.cpp" />
+    <ClCompile Include="omppwrap.cpp" />
+    <ClCompile Include="trans-color.cpp" />
+    <ClCompile Include="trans-fade.cpp" />
+    <ClCompile Include="trans-luma.cpp" />
+    <ClCompile Include="trans-slice.cpp" />
+    <ClCompile Include="trans-video.cpp" />
+    <ClCompile Include="about.cpp" />
+    <ClCompile Include="background.cpp" />
+    <ClCompile Include="computerInfo.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="explorer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="presets.cpp" />
+    <ClCompile Include="preview.cpp" />
+    <ClCompile Include="regfile.cpp" />
+    <ClCompile Include="reseller.cpp" />
+    <ClCompile Include="status.cpp" />
+    <ClCompile Include="ef3d-cube.cpp" />
+    <ClCompile Include="ef3d-meta.cpp" />
+    <ClCompile Include="ef3d-morph.cpp" />
+    <ClCompile Include="ef3d-morph2.cpp" />
+    <ClCompile Include="ef3d-pixel.cpp" />
+    <ClCompile Include="ef3d-stream.cpp" />
+    <ClCompile Include="ef3d-test.cpp" />
+    <ClCompile Include="ef3d-text.cpp" />
+    <ClCompile Include="ef3d-tunel.cpp" />
+    <ClCompile Include="ef3d-video.cpp" />
+    <ClCompile Include="ef3d-zoom.cpp" />
+    <ClCompile Include="ef3d-node.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aest.swf" />
+    <None Include="_graphs\aestesis.png" />
+    <None Include="aestesis.png" />
+    <None Include="aestesis2.png" />
+    <None Include="aestesis_but_colors.png" />
+    <None Include="aestesis_but_forms.png" />
+    <None Include="aestesis_but_sources.png" />
+    <None Include="automix_back.png" />
+    <None Include="automix_button.png" />
+    <None Include="automix_button2.png" />
+    <None Include="automix_color.png" />
+    <None Include="automix_front.png" />
+    <None Include="band_back.png" />
+    <None Include="band_front.png" />
+    <None Include="bold.png" />
+    <None Include="bouton.png" />
+    <None Include="button disk.png" />
+    <None Include="button explorer.png" />
+    <None Include="button first.png" />
+    <None Include="button forward.png" />
+    <None Include="button last.png" />
+    <None Include="button play.png" />
+    <None Include="button properties.png" />
+    <None Include="button rec.png" />
+    <None Include="button rewind.png" />
+    <None Include="button stop.png" />
+    <None Include="button-metal-0.png" />
+    <None Include="button-metal-1.png" />
+    <None Include="button-metal-2.png" />
+    <None Include="button-metal-3.png" />
+    <None Include="button-metal-4.png" />
+    <None Include="button-metal-5.png" />
+    <None Include="button-metal-6.png" />
+    <None Include="button-metal-7.png" />
+    <None Include="button-metal-all.png" />
+    <None Include="button-metal.png" />
+    <None Include="color_back.png" />
+    <None Include="color_front.png" />
+    <None Include="color_pal.png" />
+    <None Include="dispatch.png" />
+    <None Include="dispatch2.png" />
+    <None Include="dispatch_sources.png" />
+    <None Include="dvcap.png" />
+    <None Include="dvcap2.png" />
+    <None Include="ef3d-cube-sym.png" />
+    <None Include="ef3d-cube.png" />
+    <None Include="ef3d-morph.png" />
+    <None Include="ef3d-morph2.png" />
+    <None Include="ef3d_blend.png" />
+    <None Include="ef3d_meta.png" />
+    <None Include="ef3d_pixshad.png" />
+    <None Include="ef3d_roto.png" />
+    <None Include="ef3d_sources.png" />
+    <None Include="ef3d_text_type.png" />
+    <None Include="ef3d_video.png" />
+    <None Include="ef3d_zoom.png" />
+    <None Include="eleklive.png" />
+    <None Include="elektronika License registred.txt" />
+    <None Include="elektronika License.txt" />
+    <None Include="elektronika-logo.png" />
+    <None Include="eleKtroniKa.png" />
+    <None Include="elektronika.swf" />
+    <None Include="export-aestesis-2.png" />
+    <None Include="export-aestesis.png" />
+    <None Include="export-back.png" />
+    <None Include="export-camera.png" />
+    <None Include="export-compress.png" />
+    <None Include="export-flip.png" />
+    <None Include="export-front.png" />
+    <None Include="export-load.png" />
+    <None Include="fframe_back.png" />
+    <None Include="fframe_button.png" />
+    <None Include="fframe_front.png" />
+    <None Include="fframe_rst.png" />
+    <None Include="flecheD.png" />
+    <None Include="flecheDA.png" />
+    <None Include="flecheG.png" />
+    <None Include="flecheGA.png" />
+    <None Include="grabBack.png" />
+    <None Include="grabber_cursor.png" />
+    <None Include="grabber_winbut.png" />
+    <None Include="grabFront.png" />
+    <None Include="help.png" />
+    <None Include="icon1.ico" />
+    <None Include="italic.png" />
+    <None Include="loop.png" />
+    <None Include="loop107_select.png" />
+    <None Include="loop2.png" />
+    <None Include="loop_shape.png" />
+    <None Include="mimix.png" />
+    <None Include="mimix2.png" />
+    <None Include="mimix_blend.png" />
+    <None Include="_graphs\mireNB220x166.png" />
+    <None Include="network.png" />
+    <None Include="network2.png" />
+    <None Include="network_browse.png" />
+    <None Include="new.png" />
+    <None Include="omppwrap_back.png" />
+    <None Include="omppwrap_font.png" />
+    <None Include="omppwrap_front.png" />
+    <None Include="open.png" />
+    <None Include="preset-delete.png" />
+    <None Include="preset-recall-all.png" />
+    <None Include="preset-recall-sel.png" />
+    <None Include="preset-store-all.png" />
+    <None Include="preset-store-sel.png" />
+    <None Include="pub-image.png" />
+    <None Include="pub-text-pos.png" />
+    <None Include="pub-text.png" />
+    <None Include="pub_back.png" />
+    <None Include="pub_front.png" />
+    <None Include="refresh.png" />
+    <None Include="rhytmBox.png" />
+    <None Include="rhytmBox2.png" />
+    <None Include="rhytmBox_loop.png" />
+    <None Include="rhytmbox_mute.png" />
+    <None Include="rhytmbox_open.png" />
+    <None Include="rhytmbox_pattern.png" />
+    <None Include="rhytmBox_pattern_switch.png" />
+    <None Include="rhytmBox_select.png" />
+    <None Include="rhytmbox_solo.png" />
+    <None Include="rhytmbox_triger.png" />
+    <None Include="rnbox-seq-mini.png" />
+    <None Include="rnbox-seq1.png" />
+    <None Include="rnbox-seq2.png" />
+    <None Include="rnbox-seq3.png" />
+    <None Include="rnbox-seq4.png" />
+    <None Include="rnbox_blend.png" />
+    <None Include="save.png" />
+    <None Include="saveas.png" />
+    <None Include="select.png" />
+    <None Include="slice01.png" />
+    <None Include="slice02.png" />
+    <None Include="slice03.png" />
+    <None Include="slice04.png" />
+    <None Include="slice05.png" />
+    <None Include="slice06.png" />
+    <None Include="slice07.png" />
+    <None Include="slice08.png" />
+    <None Include="slice09.png" />
+    <None Include="slice10.png" />
+    <None Include="slice11.png" />
+    <None Include="slice12.png" />
+    <None Include="slice13.png" />
+    <None Include="slice14.png" />
+    <None Include="slice15.png" />
+    <None Include="slice16.png" />
+    <None Include="slice_aestesis.png" />
+    <None Include="sound_mixer.png" />
+    <None Include="soundInput.png" />
+    <None Include="soundInput2.png" />
+    <None Include="soundInput_left.png" />
+    <None Include="soundInput_right.png" />
+    <None Include="soundOutput.png" />
+    <None Include="soundOutput2.png" />
+    <None Include="sphere cross.png" />
+    <None Include="sphere crossdiag.png" />
+    <None Include="sphere horizontal.png" />
+    <None Include="sphere vertical.png" />
+    <None Include="sphere.png" />
+    <None Include="sphere2.png" />
+    <None Include="sphere_sources.png" />
+    <None Include="test.png" />
+    <None Include="texture001.png" />
+    <None Include="texture002.png" />
+    <None Include="texture003.png" />
+    <None Include="texture004.png" />
+    <None Include="texture005.png" />
+    <None Include="texture006.png" />
+    <None Include="texture007.png" />
+    <None Include="toolbar.png" />
+    <None Include="trail_back.png" />
+    <None Include="trail_front.png" />
+    <None Include="transcolor_ab.png" />
+    <None Include="transslice_fade.png" />
+    <None Include="transslice_inv.png" />
+    <None Include="v3dout-deform-icon.png" />
+    <None Include="v3dout-deform.png" />
+    <None Include="v3dout-mask.png" />
+    <None Include="v3dout_down.png" />
+    <None Include="v3dout_effects.png" />
+    <None Include="v3dout_up.png" />
+    <None Include="video3dOut.png" />
+    <None Include="video3dOut2.png" />
+    <None Include="videoin_back.png" />
+    <None Include="videoin_deinterlace.png" />
+    <None Include="videoin_front.png" />
+    <None Include="videoOut.png" />
+    <None Include="videoOut2.png" />
+    <None Include="vis_back.png" />
+    <None Include="vis_front.png" />
+    <None Include="vmix-autofade-a.png" />
+    <None Include="vmix-autofade-b.png" />
+    <None Include="vmix.png" />
+    <None Include="vmix2.png" />
+    <None Include="vmix_a.png" />
+    <None Include="vmix_automix.png" />
+    <None Include="vmix_b.png" />
+    <None Include="vmix_cut.png" />
+    <None Include="vmix_flipx.png" />
+    <None Include="vmix_flipy.png" />
+    <None Include="vmix_sources.png" />
+    <None Include="vmix_stick.png" />
+    <None Include="vmix_switch.png" />
+    <None Include="vmix_trans.png" />
+    <None Include="vp1-back.png" />
+    <None Include="vp1-button.png" />
+    <None Include="vp1-front.png" />
+    <None Include="vp1-mire-ok.png" />
+    <None Include="vp1-mire.png" />
+    <None Include="vp1-movie.png" />
+    <None Include="vp1-nosnap.png" />
+    <None Include="vp1-play.png" />
+    <None Include="vp1-rate.png" />
+    <None Include="vp1-state.png" />
+    <None Include="vp1-stop.png" />
+    <None Include="vp10-back.png" />
+    <None Include="vp10-front.png" />
+    <None Include="vp10-play.png" />
+    <None Include="vp10_button.png" />
+    <None Include="vp10_button2.png" />
+    <None Include="vp10_pattern.png" />
+    <None Include="vp10_selstep.png" />
+    <None Include="webclient.png" />
+    <None Include="webclient2.png" />
+    <None Include="websrvBack.png" />
+    <None Include="websrvFront.png" />
+    <None Include="wmp_back.png" />
+    <None Include="wmp_front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="elektronika.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\sdk\lib\libxml2.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\sdk\SoundTouch\source\SoundTouch\SoundTouch.vcxproj">
+      <Project>{e4f7a9fa-ee31-4d97-84ab-811ca502a9d1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Alib\Alib.vcxproj">
+      <Project>{49302ff5-a028-43bd-90e8-8a24b3d110c6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\COMobjects\COMobjects.vcxproj">
+      <Project>{96ac86a2-a9b8-4807-8dc7-ee3e302a0195}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\eleKtro\eleKtro.vcxproj">
+      <Project>{104c4e6e-9821-45e7-a89a-a6abcbd6ff75}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\libpng\libpng.vcxproj">
+      <Project>{f07e6341-9d8c-414d-b455-20372a1bf5bf}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{f48c7421-b834-4729-a10b-1eb2b2053b2f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

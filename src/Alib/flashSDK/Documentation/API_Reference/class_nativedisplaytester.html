@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>NativeDisplayTester Class Reference</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>NativeDisplayTester  Class Reference</h1>
+<p>
+<code>#include &lt;<a class="el" href="class_nativedisplaytester-include.html">display.h</a>&gt;</code>
+<p>
+<a href="class_nativedisplaytester-members.html">List of all members.</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td colspan=4><br><h2>Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top><a name="a0" doxytag="NativeDisplayTester::NativeDisplayTester"></a>
+&nbsp;</td><td valign=top><a class="el" href="class_nativedisplaytester.html#a0">NativeDisplayTester</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top><a name="a1" doxytag="NativeDisplayTester::~NativeDisplayTester"></a>
+&nbsp;</td><td valign=top><a class="el" href="class_nativedisplaytester.html#a1">~NativeDisplayTester</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_nativedisplaytester.html#a2">TestDepth</a> ( int depth )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_nativedisplaytester.html#a3">BestDetectedFormat</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_nativedisplaytester.html#a4">BestDetectedInvert</a> ()</td></tr>
+<tr><td colspan=4><br><h2>Static Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_nativedisplaytester.html#d0">CurrentScreenBitDepth</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>U32&nbsp;</td><td valign=top><a class="el" href="class_nativedisplaytester.html#d1">CurrentScreenColors</a> ()</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+NativeDisplayTester: 1) queries the current screen bit depth, 2) queries the current screen color count, and 3) tests the display for the best format for a given depth. <hr><h2>Member Function Documentation</h2>
+
+<h3><a name="a2" doxytag="NativeDisplayTester::TestDepth"></a>void NativeDisplayTester::TestDepth (int <em>depth</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+Given the depth, computes the best PixelFormat. BestDetectedFormat and BestDetectedInvert should be valid after this call. Example: given a bit depth of 16, this could determine whether to use pix16A or pix16. For format choices, see the PixelFormat structure. </div>
+
+<h3><a name="a3" doxytag="NativeDisplayTester::BestDetectedFormat"></a>int NativeDisplayTester::BestDetectedFormat ()</h3>
+<div class="in">
+
+<p>
+The PixelFormat, valid after a call to TestDepth.
+<p>
+</div>
+
+<h3><a name="a4" doxytag="NativeDisplayTester::BestDetectedInvert"></a>BOOL NativeDisplayTester::BestDetectedInvert ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+"invert" refers to the orientation of display memory relative to the screen. If you display is drawn upside down, change this value. </div>
+
+<h3><a name="d0" doxytag="NativeDisplayTester::CurrentScreenBitDepth"></a>int NativeDisplayTester::CurrentScreenBitDepth ()<code> [static]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+CurrentScreenBitDepth returns the current depth of the display. </div>
+
+<h3><a name="d1" doxytag="NativeDisplayTester::CurrentScreenColors"></a>U32 NativeDisplayTester::CurrentScreenColors ()<code> [static]</code></h3>
+<div class="in">
+
+<p>
+The number of colors the screen can display.
+<p>
+</div>
+<hr>The documentation for this classwas generated from the following file:<ul>
+<li>display.h</ul>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

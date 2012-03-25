@@ -1,0 +1,81 @@
+# Microsoft Developer Studio Generated Dependency File, included by IscMetaBalls1.mak
+
+.\FreeFrame.cpp : \
+	"..\..\..\dx90sdk\include\basetsd.h"\
+	"..\..\..\dx90sdk\include\d3d8.h"\
+	"..\..\..\dx90sdk\include\d3d8caps.h"\
+	"..\..\..\dx90sdk\include\d3d8types.h"\
+	"..\..\..\dx90sdk\include\d3dx8.h"\
+	"..\..\..\dx90sdk\include\d3dx8core.h"\
+	"..\..\..\dx90sdk\include\d3dx8effect.h"\
+	"..\..\..\dx90sdk\include\d3dx8math.h"\
+	"..\..\..\dx90sdk\include\d3dx8math.inl"\
+	"..\..\..\dx90sdk\include\d3dx8mesh.h"\
+	"..\..\..\dx90sdk\include\d3dx8shape.h"\
+	"..\..\..\dx90sdk\include\d3dx8tex.h"\
+	"..\..\..\dx90sdk\include\dxfile.h"\
+	".\FreeFrame.h"\
+	".\graphics.h"\
+	".\IscMetaBalls1.h"\
+	".\MarchingCubes.h"\
+	".\Metaballs.h"\
+	".\timer.h"\
+	
+
+.\graphics.cpp : \
+	"..\..\..\dx90sdk\include\basetsd.h"\
+	"..\..\..\dx90sdk\include\d3d8.h"\
+	"..\..\..\dx90sdk\include\d3d8caps.h"\
+	"..\..\..\dx90sdk\include\d3d8types.h"\
+	".\graphics.h"\
+	
+
+.\IscMetaBalls1.cpp : \
+	"..\..\..\dx90sdk\include\basetsd.h"\
+	"..\..\..\dx90sdk\include\d3d8.h"\
+	"..\..\..\dx90sdk\include\d3d8caps.h"\
+	"..\..\..\dx90sdk\include\d3d8types.h"\
+	"..\..\..\dx90sdk\include\d3dx8.h"\
+	"..\..\..\dx90sdk\include\d3dx8core.h"\
+	"..\..\..\dx90sdk\include\d3dx8effect.h"\
+	"..\..\..\dx90sdk\include\d3dx8math.h"\
+	"..\..\..\dx90sdk\include\d3dx8math.inl"\
+	"..\..\..\dx90sdk\include\d3dx8mesh.h"\
+	"..\..\..\dx90sdk\include\d3dx8shape.h"\
+	"..\..\..\dx90sdk\include\d3dx8tex.h"\
+	"..\..\..\dx90sdk\include\dxfile.h"\
+	".\FreeFrame.h"\
+	".\graphics.h"\
+	".\IscMetaBalls1.h"\
+	".\MarchingCubes.h"\
+	".\Metaballs.h"\
+	".\timer.h"\
+	
+
+.\MarchingCubes.cpp : \
+	".\MarchingCubes.h"\
+	
+
+.\Metaballs.cpp : \
+	"..\..\..\dx90sdk\include\basetsd.h"\
+	"..\..\..\dx90sdk\include\d3d8.h"\
+	"..\..\..\dx90sdk\include\d3d8caps.h"\
+	"..\..\..\dx90sdk\include\d3d8types.h"\
+	"..\..\..\dx90sdk\include\d3dx8.h"\
+	"..\..\..\dx90sdk\include\d3dx8core.h"\
+	"..\..\..\dx90sdk\include\d3dx8effect.h"\
+	"..\..\..\dx90sdk\include\d3dx8math.h"\
+	"..\..\..\dx90sdk\include\d3dx8math.inl"\
+	"..\..\..\dx90sdk\include\d3dx8mesh.h"\
+	"..\..\..\dx90sdk\include\d3dx8shape.h"\
+	"..\..\..\dx90sdk\include\d3dx8tex.h"\
+	"..\..\..\dx90sdk\include\dxfile.h"\
+	".\graphics.h"\
+	".\MarchingCubes.h"\
+	".\Metaballs.h"\
+	
+
+.\timer.cpp : \
+	"..\..\..\dx90sdk\include\basetsd.h"\
+	".\timer.h"\
+	

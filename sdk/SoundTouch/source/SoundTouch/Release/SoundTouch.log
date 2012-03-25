@@ -1,0 +1,42 @@
+﻿Build started 01/09/2011 19:10:14.
+     1>Project "D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\SoundTouch.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\SoundTouch.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /nologo /W3 /WX- /O2 /Ob2 /Ot /Oy- /GT /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy- /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/" /Gd /TP /analyze- /errorReport:prompt 3dnow_win.cpp AAFilter.cpp cpu_detect_x86_win.cpp FIFOSampleBuffer.cpp FIRFilter.cpp mmx_win.cpp RateTransposer.cpp SoundTouch.cpp sse_win.cpp TDStretch.cpp
+         3dnow_win.cpp
+         AAFilter.cpp
+         cpu_detect_x86_win.cpp
+         FIFOSampleBuffer.cpp
+         FIRFilter.cpp
+         mmx_win.cpp
+         RateTransposer.cpp
+         SoundTouch.cpp
+         sse_win.cpp
+         TDStretch.cpp
+         Generating Code...
+     1>d:\aestesis\code\elektrosdk\sdk\soundtouch\source\soundtouch\mmx_win.cpp(185): warning C4799: function 'TDStretchMMX::calculateCrossCorrelation' has no EMMS instruction
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Release\SoundTouch.lib" /NOLOGO .\Release/3dnow_win.obj
+         .\Release/AAFilter.obj
+         .\Release/cpu_detect_x86_win.obj
+         .\Release/FIFOSampleBuffer.obj
+         .\Release/FIRFilter.obj
+         .\Release/mmx_win.obj
+         .\Release/RateTransposer.obj
+         .\Release/SoundTouch.obj
+         .\Release/sse_win.obj
+         .\Release/TDStretch.obj
+         SoundTouch.vcxproj -> D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\.\Release\SoundTouch.lib
+       PostBuildEvent:
+         copy         .\Release\SoundTouch.lib         ..\..\lib\
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file ".\Release\SoundTouch.unsuccessfulbuild".
+         Touching ".\Release\SoundTouch.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\SoundTouch.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.17

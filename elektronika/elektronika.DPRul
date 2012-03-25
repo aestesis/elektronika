@@ -1,0 +1,70 @@
+<Suppress Comment="Version 7.1.0 (Build 1765)">
+	<File Name="ADVAPI32.DPsup" DisplayName="ADVAPI32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="browseui.DPsup" DisplayName="browseui.DPsup" Active=1 User=0>
+	</File>
+	<File Name="CLBCATQ.DPsup" DisplayName="CLBCATQ.DPsup" Active=1 User=0>
+	</File>
+	<File Name="COMCTL32.DPsup" DisplayName="COMCTL32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="comdlg32.DPsup" DisplayName="comdlg32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="compstui.DPsup" DisplayName="compstui.DPsup" Active=1 User=0>
+	</File>
+	<File Name="CRT.DPsup" DisplayName="CRT.DPsup" Active=1 User=0>
+	</File>
+	<File Name="GDI32.DPsup" DisplayName="GDI32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="MFC.DPsup" DisplayName="MFC.DPsup" Active=1 User=0>
+	</File>
+	<File Name="mscms.DPsup" DisplayName="mscms.DPsup" Active=1 User=0>
+	</File>
+	<File Name="NETAPI32.DPsup" DisplayName="NETAPI32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="ntshrui.DPsup" DisplayName="ntshrui.DPsup" Active=1 User=0>
+	</File>
+	<File Name="ole32.DPsup" DisplayName="ole32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="oledlg.DPsup" DisplayName="oledlg.DPsup" Active=1 User=0>
+	</File>
+	<File Name="printui.DPsup" DisplayName="printui.DPsup" Active=1 User=0>
+	</File>
+	<File Name="setupapi.DPsup" DisplayName="setupapi.DPsup" Active=1 User=0>
+	</File>
+	<File Name="SHDOCVW.DPsup" DisplayName="SHDOCVW.DPsup" Active=1 User=0>
+	</File>
+	<File Name="SHELL32.DPsup" DisplayName="SHELL32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="SHLWAPI.DPsup" DisplayName="SHLWAPI.DPsup" Active=1 User=0>
+	</File>
+	<File Name="UNIDRVUI.DPsup" DisplayName="UNIDRVUI.DPsup" Active=1 User=0>
+	</File>
+	<File Name="USER32.DPsup" DisplayName="USER32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="WINSPOOL_DRV.DPsup" DisplayName="WINSPOOL_DRV.DPsup" Active=1 User=0>
+	</File>
+	<File Name="WLDAP32.DPsup" DisplayName="WLDAP32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="WS2_32.DPsup" DisplayName="WS2_32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="WS2HELP.DPsup" DisplayName="WS2HELP.DPsup" Active=1 User=0>
+	</File>
+	<File Name="MPR.DPsup" DisplayName="MPR.DPsup" Active=1 User=0>
+	</File>
+	<File Name="ATL.DPsup" DisplayName="ATL.DPsup" Active=1 User=0>
+	</File>
+	<File Name="STL.DPsup" DisplayName="STL.DPsup" Active=1 User=0>
+	</File>
+	<File Name="OLEAUT32.DPsup" DisplayName="OLEAUT32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="OLEPRO32.DPsup" DisplayName="OLEPRO32.DPsup" Active=1 User=0>
+	</File>
+	<File Name="MSI.DPsup" DisplayName="MSI.DPsup" Active=1 User=0>
+	</File>
+	<File Name="DBGHELP.DPsup" DisplayName="DBGHELP.DPsup" Active=1 User=0>
+	</File>
+	<File Name="d:\aestesis\code\elektroSDK\eleKtronika\elektronika.DPSup" DisplayName="Default Project Suppression File" Active=1 User=1>
+	</File>
+</Suppress>
+<Filter Comment="Version 7.1.0 (Build 1765)">
+</Filter>

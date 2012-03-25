@@ -1,0 +1,17 @@
+!!ARBfp1.0
+
+#Input
+ATTRIB inTexCoord = fragment.texcoord;      # texture coordinates
+ATTRIB inColor = fragment.color.primary; # interpolated diffuse color
+
+#Output
+OUTPUT outColor = result.color;
+
+TEMP texelColor;
+TXP texelColor, inTexCoord, texture, 2D; 
+
+MUL texelColor, texelColor, inColor;  # mulitply with color   
+ADD outColor, texelColor, inColor;  # make it brighter and store result
+
+END
+

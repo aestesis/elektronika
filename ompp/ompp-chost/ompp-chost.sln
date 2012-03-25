@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ompp-chost", "ompp-chost\ompp-chost.vcproj", "{968FE539-A830-4F40-AA9A-B7E5F30BFDB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{968FE539-A830-4F40-AA9A-B7E5F30BFDB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{968FE539-A830-4F40-AA9A-B7E5F30BFDB9}.Debug|Win32.Build.0 = Debug|Win32
+		{968FE539-A830-4F40-AA9A-B7E5F30BFDB9}.Release|Win32.ActiveCfg = Release|Win32
+		{968FE539-A830-4F40-AA9A-B7E5F30BFDB9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Techdemo", "Techdemo.vcproj", "{2F4CF628-42C7-4AA3-9621-C43BB62D83CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Irrlicht", "..\..\..\..\..\Irrlicht\Irrlicht\Irrlicht.vcproj", "{E08E042A-6C45-411B-92BE-3CC31331019F}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2F4CF628-42C7-4AA3-9621-C43BB62D83CB}.Debug.ActiveCfg = Debug|Win32
+		{2F4CF628-42C7-4AA3-9621-C43BB62D83CB}.Debug.Build.0 = Debug|Win32
+		{2F4CF628-42C7-4AA3-9621-C43BB62D83CB}.Release.ActiveCfg = Release|Win32
+		{2F4CF628-42C7-4AA3-9621-C43BB62D83CB}.Release.Build.0 = Release|Win32
+		{E08E042A-6C45-411B-92BE-3CC31331019F}.Debug.ActiveCfg = Debug|Win32
+		{E08E042A-6C45-411B-92BE-3CC31331019F}.Debug.Build.0 = Debug|Win32
+		{E08E042A-6C45-411B-92BE-3CC31331019F}.Release.ActiveCfg = Release|Win32
+		{E08E042A-6C45-411B-92BE-3CC31331019F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

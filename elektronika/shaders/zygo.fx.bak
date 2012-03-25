@@ -1,0 +1,129 @@
+///////////////////////////////////////////////////////////////////////////////
+// (c) aestesis 2005 - code by renan jegouzo [aka YoY] - renan@aestesis.org
+///////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////
+// common input from elektronika
+
+texture texture0;	// texture
+
+float4	color;		// rendering color
+float	beat;		// beat value [0..infinite] - 120bpm - ex: beat=120 after 1 mn elektronika running
+float	rbeat;		// relative beat value 	[0..1]  0..1..0..1..0.. etc..
+float	bass;		// bass audio level 	[0..1]
+float	medium;		// medium audio level 	[0..1]
+float	treble;		// treble audio level	[0..1]
+
+///////////////////////////////////////////////////////////////////////////////
+// effect special input (only float) elektronika assign a knob for each value (8 knobs max)
+
+float	power;
+float	speed;
+float	size;
+
+///////////////////////////////////////////////////////////////////////////////
+// effect global var
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+struct PS_INPUT
+{
+	float2 vTexCoord: TEXCOORD;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+
+sampler SceneColorSampler = sampler_state
+{
+	texture = (texture0);
+    MipFilter = LINEAR;
+    MinFilter = LINEAR;
+    MagFilter = LINEAR;
+	AddressU = Wrap;
+	AddressV = Wrap;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+struct vs_in {
+    float4 position  : POSITION;
+    float2 texcoord  : TEXCOORD0;
+};
+
+struct vs_out {
+    float4 position  : POSITION;
+    float2 texcoord  : TEXCOORD0;
+    float2 zyg : TEXCOORD1;
+    float2 tmp : TEXCOORD2;
+    float4 col : COLOR0;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+vs_out vs_filter(vs_in IN)
+{
+	vs_out OUT;
+
+	OUT.position = IN.position+100.0*size;
+	OUT.texcoord = IN.texcoord;
+	
+	float	b=beat*(speed+0.01)*2.f;
+	float	cc=5.51515+b*0.05963217123;
+	OUT.zyg.x=0.5+cos(cc)*sin((1.151212+b*0.051561558));
+	OUT.zyg.y=0.5+sin(cc)*sin((2.151212+b*0.0514115120));
+	OUT.tmp.x=30.f*size;
+	OUT.tmp.y=0;
+	
+	OUT.col.r=1;
+	OUT.col.g=speed;
+	OUT.col.b=size;
+	OUT.col.a=0;
+	
+	
+    return OUT;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+//float zygzyg(float i, float val)
+//{
+//	float	n=i*beat*1.3212120;
+//	return sin((n+515.51515+beat*0.5963217123)*val)*sin((n+142.151212+beat*0.051561558)*val);
+//}
+
+float4 ps_filter( vs_out v ) : COLOR
+{
+	float r=dot(v.texcoord, v.zyg)*30.f*size;
+	float	val=v.texcoord.x;
+
+	float	l=(sin(r)*0.5f+0.5f)*0.1f*power;
+	float2	p=v.texcoord*(1.f-l)+v.zyg*l;
+
+//	p.x=(p.x+100.f)%1.f;	// not enought instruction in shader 2.0
+//	p.y=(p.y+100.f)%1.f;
+
+	float4	c=v.col;
+	c.r=val;
+
+	//return tex2D(SceneColorSampler, p)*color;
+	return c;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+technique elektronika
+{
+	pass P0
+	{
+		VertexShader = compile vs_2_0 vs_filter();
+		PixelShader = compile ps_2_0 ps_filter();
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////

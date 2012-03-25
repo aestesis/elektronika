@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>NativeSoundMix Include File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>Sound.h</h1>This is the verbatim text of the Sound.h include file.<hr><div class="fragment"><pre>
+
+
+
+#ifndef NATIVE_SOUND_INCLUDED
+#define NATIVE_SOUND_INCLUDED
+
+#ifdef SOUND
+
+#include "../sndmix.h"
+#include "../stdafx.h"
+
+/* The Win32 code does not use polling, so it is inlined to nothing. */
+inline void PollSound()	{}
+
+
+class <a class="el" href="class_nativesoundmix.html">NativeSoundMix</a> : public <a class="el" href="class_csoundmix.html">CSoundMix</a>
+{
+  public:
+
+	virtual void NativeConstruct();
+
+
+	virtual void NativeDestruct();
+
+
+	virtual void EnterCritical();
+
+	virtual void LeaveCritical();
+
+
+	virtual void BuildAndWrite( WaveHeader* hdr, BOOL silence );
+
+
+	virtual void GetNativeSoundCap( S32* format );
+
+
+	virtual BOOL OpenNativeDevice( CSound* format );
+
+ 
+	virtual void BuffersReady();
+
+
+	virtual void BuffersUpdated();
+
+
+	virtual void CloseNativeDevice();
+
+
+	virtual BOOL IsDeviceOpen()			{ return isOpen; }
+
+	//------------ Win32 Code -----------------------//
+	void DoPlay();
+	HANDLE GetPlayEvent()	{ return playEvent; }
+
+  private:
+	// Windows support
+	HWAVEOUT			hWaveOut;
+	WAVEHDR				waveHDR[MAX_SOUND_BUFFERS];
+	CRITICAL_SECTION	playLock;
+	HANDLE				playThread;
+	HANDLE				playEvent;
+	BOOL				isOpen;
+};
+
+// extern NativeSoundMix theSoundMix;
+
+#endif
+#endif</pre></div>
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

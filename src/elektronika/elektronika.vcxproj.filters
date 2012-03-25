@@ -1,0 +1,1131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{734a0239-97de-4ad9-b64f-905855094a50}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Effects Files">
+      <UniqueIdentifier>{a725de5d-e27e-439c-a3cc-980adcd1aa81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects Files\helpers">
+      <UniqueIdentifier>{2a740c3c-efbb-43b5-b8c9-0d11d0c8e3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects Files\asio">
+      <UniqueIdentifier>{762a3447-7b7f-4c34-a2b9-f6b3f360f3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects Files\ompp">
+      <UniqueIdentifier>{0474f8b1-8199-4d51-ba63-6dc0282f10e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1c0399d1-b344-4e6d-b8b1-42f47b998d4a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="transitions">
+      <UniqueIdentifier>{95b6e494-06ff-4620-9541-5c3ed018d4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8056ff05-89cd-496a-b46f-b9ff90a952d5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="effects 3d">
+      <UniqueIdentifier>{d454607e-9269-4f4e-a10d-0dea63ae8937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effects 3d\helpers">
+      <UniqueIdentifier>{afe58722-b4df-4a7a-9d95-bcd22bc50ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{de78619b-599f-4433-a9de-682c98d32bc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="computerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="password.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="presets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="preview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aestesis.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="automix.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="band.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dispatch.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dvcap.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxfilter.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fframe.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="grab.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimix.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pub.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rhytmBox.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="soundInput.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="soundOutput.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trail.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v3dout.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoIn.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viswrp.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vmix.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vout.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp10.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vpone.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="webclient.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="websrv.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmp.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\audiovideo.h">
+      <Filter>Effects Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="aasio.h">
+      <Filter>Effects Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\common\asio.h">
+      <Filter>Effects Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\asiodrivers.h">
+      <Filter>Effects Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\pc\asiolist.h">
+      <Filter>Effects Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\common\iasiodrv.h">
+      <Filter>Effects Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="omppwrap.h">
+      <Filter>Effects Files\ompp</Filter>
+    </ClInclude>
+    <ClInclude Include="trans-color.h">
+      <Filter>transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="trans-fade.h">
+      <Filter>transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="trans-luma.h">
+      <Filter>transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="trans-slice.h">
+      <Filter>transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="trans-video.h">
+      <Filter>transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-cube.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-meta.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-morph.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-morph2.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-pixel.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-stream.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-test.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-text.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-tunel.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-video.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-zoom.h">
+      <Filter>effects 3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ef3d-node.h">
+      <Filter>effects 3d\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="export.h">
+      <Filter>Effects Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aestesis.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="automix.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="band.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dispatch.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dvcap.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dxfilter.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fframe.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grab.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimix.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pub.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rhytmBox.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soundInput.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soundOutput.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trail.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="v3dout.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoIn.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="viswrp.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vmix.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vout.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vp10.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vpone.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webclient.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="websrv.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wmp.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aasio.cpp">
+      <Filter>Effects Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\common\asio.cpp">
+      <Filter>Effects Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\asiodrivers.cpp">
+      <Filter>Effects Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\steinberg\ASIO SDK\asiosdk2\host\pc\asiolist.cpp">
+      <Filter>Effects Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="omppwrap.cpp">
+      <Filter>Effects Files\ompp</Filter>
+    </ClCompile>
+    <ClCompile Include="trans-color.cpp">
+      <Filter>transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="trans-fade.cpp">
+      <Filter>transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="trans-luma.cpp">
+      <Filter>transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="trans-slice.cpp">
+      <Filter>transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="trans-video.cpp">
+      <Filter>transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="computerInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="presets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="preview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reseller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="status.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-cube.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-meta.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-morph.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-morph2.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-pixel.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-stream.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-test.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-text.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-tunel.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-video.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-zoom.cpp">
+      <Filter>effects 3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ef3d-node.cpp">
+      <Filter>effects 3d\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="export.cpp">
+      <Filter>Effects Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aest.swf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="_graphs\aestesis.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aestesis.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aestesis2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aestesis_but_colors.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aestesis_but_forms.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aestesis_but_sources.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="automix_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="automix_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="automix_button2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="automix_color.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="automix_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="band_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="band_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bold.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bouton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button disk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button explorer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button first.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button last.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button properties.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button rec.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button rewind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button-metal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="color_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="color_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="color_pal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dispatch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dispatch2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dispatch_sources.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dvcap.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dvcap2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d-cube-sym.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d-cube.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d-morph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d-morph2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_blend.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_meta.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_pixshad.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_roto.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_sources.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_text_type.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_video.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ef3d_zoom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="eleklive.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="elektronika License registred.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="elektronika License.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="elektronika-logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="eleKtroniKa.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="elektronika.swf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-aestesis-2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-aestesis.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-camera.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-compress.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-flip.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="export-load.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fframe_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fframe_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fframe_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fframe_rst.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flecheD.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flecheDA.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flecheG.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flecheGA.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="grabBack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="grabber_cursor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="grabber_winbut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="grabFront.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="italic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="loop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="loop107_select.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="loop2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="loop_shape.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mimix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mimix2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mimix_blend.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="_graphs\mireNB220x166.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="network.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="network2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="network_browse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="omppwrap_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="omppwrap_font.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="omppwrap_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="preset-delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="preset-recall-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="preset-recall-sel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="preset-store-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="preset-store-sel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pub-image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pub-text-pos.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pub-text.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pub_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pub_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="refresh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmBox2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmBox_loop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmbox_mute.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmbox_open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmbox_pattern.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmBox_pattern_switch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmBox_select.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmbox_solo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rhytmbox_triger.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rnbox-seq-mini.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rnbox-seq1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rnbox-seq2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rnbox-seq3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rnbox-seq4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rnbox_blend.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saveas.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="select.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice02.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice03.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice04.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice05.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice06.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice07.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice08.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice09.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice11.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice15.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="slice_aestesis.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sound_mixer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="soundInput.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="soundInput2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="soundInput_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="soundInput_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="soundOutput.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="soundOutput2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere cross.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere crossdiag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere horizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere vertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere_sources.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="test.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture001.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture002.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture003.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture004.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture005.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture006.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture007.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toolbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="trail_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="trail_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="transcolor_ab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="transslice_fade.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="transslice_inv.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v3dout-deform-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v3dout-deform.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v3dout-mask.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v3dout_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v3dout_effects.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v3dout_up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="video3dOut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="video3dOut2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="videoin_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="videoin_deinterlace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="videoin_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="videoOut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="videoOut2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vis_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vis_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix-autofade-a.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix-autofade-b.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_a.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_automix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_b.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_flipx.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_flipy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_sources.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_stick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_switch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vmix_trans.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-mire-ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-mire.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-movie.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-nosnap.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-rate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-state.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp1-stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp10-back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp10-front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp10-play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp10_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp10_button2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp10_pattern.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vp10_selstep.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="webclient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="webclient2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="websrvBack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="websrvFront.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="wmp_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="wmp_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="elektronika.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\sdk\lib\libxml2.lib">
+      <Filter>libraries</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

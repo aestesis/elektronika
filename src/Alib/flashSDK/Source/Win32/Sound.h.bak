@@ -1,0 +1,40 @@
+#ifndef SOUND_INCLUDED
+#define SOUND_INCLUDED
+
+#include "../sndmix.h"
+#include "../sdl/SDL_audio.h"
+
+// We don't use polling, so it should do nothing.
+inline void PollSound()	{}
+
+class CSoundMix;
+
+enum { maxBuffers = 32 };
+enum { maxChannels = 8 };
+
+class NativeSoundMix
+{
+  public:
+ 	NativeSoundMix();
+ 	~NativeSoundMix();
+
+	void EnterCritical();
+	void LeaveCritical();
+
+	void GetDevCap( U32* format, S32 *nBuffers, S32 *nSamples );
+	void OpenDevice();
+	void CloseDevice();
+
+ 	BOOL IsDeviceOpen()	{ return isOpen; }		//This should be a fast call.
+	void CallBack( void *udata, U8 *stream, int len );
+
+  private:
+	BOOL		isOpen;
+	CSoundMix*	soundMix;
+	SDL_AudioSpec audioData;
+};
+
+void SoundCallback(void *udata, U8 *stream, int len);
+
+
+#endif

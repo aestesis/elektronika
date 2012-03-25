@@ -1,0 +1,132 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BaseClasses - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSPA7D.tmp" with contents
+[
+/nologo /MT /W3 /Gi /GX /O2 /I "." /I "..\..\..\..\include" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_WIN32_DCOM" /D WINVER=0x400 /Fp"Release/baseclasses.pch" /Yu"streams.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\amextra.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\amfilter.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\amvideo.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\combase.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\cprop.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\ctlutil.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\ddmm.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\dllsetup.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\mtype.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\outputq.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\pstream.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\pullpin.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\refclock.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\renbase.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\schedule.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\seekpt.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\source.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\strmctl.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\sysclock.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\transfrm.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\transip.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\videoctl.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\vtrans.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\winctrl.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\winutil.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\wxdebug.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\wxlist.cpp"
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\wxutil.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\renan\LOCALS~1\Temp\RSPA7D.tmp" 
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSPA7E.tmp" with contents
+[
+/nologo /MT /W3 /Gi /GX /O2 /I "." /I "..\..\..\..\include" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_WIN32_DCOM" /D WINVER=0x400 /Fp"Release/baseclasses.pch" /Yc"streams.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\_code\YoY\elektroSDK\dxsend\BaseClasses\dllentry.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\renan\LOCALS~1\Temp\RSPA7E.tmp" 
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSPA7F.tmp" with contents
+[
+strmiids.lib /nologo /out:"Release\STRMBASE.lib" /nodefaultlib 
+.\Release\amextra.obj
+.\Release\amfilter.obj
+.\Release\amvideo.obj
+.\Release\combase.obj
+.\Release\cprop.obj
+.\Release\ctlutil.obj
+.\Release\ddmm.obj
+.\Release\dllentry.obj
+.\Release\dllsetup.obj
+.\Release\mtype.obj
+.\Release\outputq.obj
+.\Release\pstream.obj
+.\Release\pullpin.obj
+.\Release\refclock.obj
+.\Release\renbase.obj
+.\Release\schedule.obj
+.\Release\seekpt.obj
+.\Release\source.obj
+.\Release\strmctl.obj
+.\Release\sysclock.obj
+.\Release\transfrm.obj
+.\Release\transip.obj
+.\Release\videoctl.obj
+.\Release\vtrans.obj
+.\Release\winctrl.obj
+.\Release\winutil.obj
+.\Release\wxdebug.obj
+.\Release\wxlist.obj
+.\Release\wxutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\renan\LOCALS~1\Temp\RSPA7F.tmp"
+<h3>Output Window</h3>
+Compiling...
+dllentry.cpp
+D:\_code\YoY\elektroSDK\dxsend\BaseClasses\streams.h(122) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Compiling...
+amextra.cpp
+amfilter.cpp
+amvideo.cpp
+combase.cpp
+cprop.cpp
+ctlutil.cpp
+ddmm.cpp
+dllsetup.cpp
+mtype.cpp
+outputq.cpp
+pstream.cpp
+pullpin.cpp
+refclock.cpp
+renbase.cpp
+schedule.cpp
+seekpt.cpp
+source.cpp
+strmctl.cpp
+sysclock.cpp
+transfrm.cpp
+Generating Code...
+D:\_code\YoY\elektroSDK\dxsend\BaseClasses\combase.h(245) : warning C4717: '_imp__InterlockedIncrement' : recursive on all control paths, function will cause runtime stack overflow
+D:\_code\YoY\elektroSDK\dxsend\BaseClasses\combase.h(248) : warning C4717: '_imp__InterlockedDecrement' : recursive on all control paths, function will cause runtime stack overflow
+D:\_code\YoY\elektroSDK\dxsend\BaseClasses\combase.h(245) : warning C4717: '_imp__InterlockedIncrement' : recursive on all control paths, function will cause runtime stack overflow
+D:\_code\YoY\elektroSDK\dxsend\BaseClasses\combase.h(248) : warning C4717: '_imp__InterlockedDecrement' : recursive on all control paths, function will cause runtime stack overflow
+D:\_code\YoY\elektroSDK\dxsend\BaseClasses\combase.h(245) : warning C4717: '_imp__InterlockedIncrement' : recursive on all control paths, function will cause runtime stack overflow
+D:\_code\YoY\elektroSDK\dxsend\BaseClasses\combase.h(248) : warning C4717: '_imp__InterlockedDecrement' : recursive on all control paths, function will cause runtime stack overflow
+Compiling...
+transip.cpp
+videoctl.cpp
+vtrans.cpp
+winctrl.cpp
+winutil.cpp
+wxdebug.cpp
+wxlist.cpp
+wxutil.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+STRMBASE.lib - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

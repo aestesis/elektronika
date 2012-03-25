@@ -1,0 +1,31 @@
+﻿Build started 11/09/2011 01:29:14.
+     1>Project "D:\aestesis\code\elektroSDK\src\flash\flash.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\flash.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\flash\Release VSTUDIO\flash.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\plugins\flashp.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(flash) does not match the Linker's OutputFile property value (flashp). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/flashp.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\sdk\lib alib100.lib elektro.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release VSTUDIO\flash.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/flashp.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release/flashp.lib" /MACHINE:X86 /DLL "Release VSTUDIO\flashPlayer.res"
+         .\Release/flashPlayer.obj
+         .\Release/shockwaveflash.obj
+         .\Release/StdAfx.obj
+         .\Release/apihijack.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Release\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Release\eleKtro.lib /MACHINE:I386 
+            Creating library .\Release/flashp.lib and object .\Release/flashp.exp
+         flash.vcxproj -> D:\aestesis\code\elektroSDK\src\flash\Release VSTUDIO\flash.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../elektronika/plugins/flashp.dll;#2" /manifest "Release VSTUDIO\flash.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\flash.unsuccessfulbuild".
+         Touching "Release VSTUDIO\flash.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\flash\flash.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

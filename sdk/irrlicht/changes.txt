@@ -1,0 +1,980 @@
+-------------------------------------------------------------------------------------
+Changes in version 0.7: (fffff)
+
+- The first version of Irrlicht.NET is included in this release. It is a managed C++
+  wrapper .DLL which makes the most important features of the engine available for all
+  .NET languages. The wrapper is incomplete, but it can already be used. 
+  You can find the documentation for this .DLL in the compiled help file doc\IrrlichtNET.chm. 
+  There are also two very basic examples available, which show how to use Irrlicht.NET 
+  from C# and VisualBasic.
+  
+- Low level vertex and pixel shader programming is now possible. There are
+  now some methods with wich you can write GPU programs in vertex/pixel shader assembler
+  using Direct3D 8 and 9 and in ARB vertex and fragment program assembler for OpenGL.
+  You can use the IGPUProgrammingServices interface which can be reached by 
+  IVideoDriver->getGPUProgrammingServices() for this. The new material types you can create
+  with this can be combined with all other already existing material types.
+  For example, it is possible to create a new material which uses a vertex shader to
+  calculate texture coordinates and diffuse colors, and let this be rendered by the built in
+  material video::EMT_TRANSPARENT_ADD_COLOR.
+  Support for high level programming languages like GLSL or HLSL is planned for the
+  following releases. Also note that you won't be able to use all techniques shaders offer with
+  Irrlicht, due to its current high level abstraction of the 3D APIs. For example, the engine 
+  does not expose vertex streams or vertex buffers currently.  
+  
+- There is a new tutorial showing how to use shaders with the engine. In addition, all
+  old tutorials have been rewritten and adapted. For example, the hello world
+  tutorial now also shows how to set up visual studio .NET to use it with
+  the engine.
+  
+- Hardware mip map level generation of textures is now supported when using D3D9. 
+
+- Internal pointers and data of the video drivers can now be exposed for experienced users with
+  VideoDriver::getExposedVideoData(). For example, you can get a pointer to the IDirect3DDevice9
+  interface and the HWND window handle, if the engine is running with D3D9.
+
+- The createDevice() function has a new additional parameter: bool vsync. With this, it is now
+  possible to enable or disable the waiting for the vertical retrace period. This is implemented
+  in D3D9, D3D8 and the OpenGL driver only, the software driver will ignore this flag.
+  
+- The engine now behaves like in the documentation: irr::createDevice() returns 0, if 
+  the wanted driver could not be initialized.
+  
+- There is a new SceneNode available: The ITextSceneNode is able to display 2D text at a 
+  position in 3D space. Use ISceneManager::addTextSceneNode() to create one.
+  
+- Finally now all VideoDrivers have a draw2DLine() implementation, thanks to some additions sent in
+  by Vash TheStampede.
+  
+- Applied some changes to the compilation configuration, so that it should now be 
+  easier to use the engine with XBOX projects. Thanks to MattyBoy for sending 
+  in some clues for this.
+  
+- Some improvements for the linux version of the engine: The NULL device is finally fully operational with Linux
+  too, and also all examples and even the techdemo compiles and runs with this operating system.
+  
+- The default field of view in the cameras of the irrlicht engine was a little bit 
+  extreme, so I changed it now from core::PI / 3.5f to core::PI / 2.5f.
+  
+- Added a new draw2DImage method for partially draw a 2d Texture, as sent in by zola with 
+  implementations for OpenGL, D3D8 and D3D9. Software implementation is missing.
+  
+- The string class is now able to convert integer values into a string or append it as string
+  to itself.
+  
+- Added a getDriverType() method to the IVideoDriver interface.
+
+- Added a getTransform() method to the IVideoDriver interface.
+  
+- The EMT_TRANSPARENT_ALPHA_CHANNEL material in OpenGL is now implemented.
+  
+- The integrated XML Parser now works better with different text file formats. (ASCII, UFT-16,..)
+  
+- IGUIEdit Box now feels more like a windows editbox, thanks to some changes by Jox
+
+- Added a new method to IVideoDriver: createImageFromData as suggested by Oliver Klems. 
+  
+- Fixed a the EMT_TRANSPARENT_ALPHA_CHANNEL problem in D3D8 and D3D9 due to a suggestion by Jox.
+  
+- Added 3 methods created by zola to the quaternion class: fromAngleAxis(), toEuler() and
+  operator*(vector3df&).
+
+- A bug in a matrix multiplication operator was fixed.	
+  
+- Changed visual studio project files to version 7.1, but provided 7.0 project files
+  for people with that version.
+  
+- Added SceneNodeAnimatorRotation rotation fix as posted by warui
+
+- Added normalization fix to vector2d and 3d. Warui suggested a fix like that in the forum.
+  The one I made has the same result, but is a little bit faster.
+  
+- Fixed some problems with the drawStencilShadow() method in the OpenGL implementation of the 
+  IVideoDriver interface after some suggestions by Nicholas Bray.
+  
+- Added IGUIButton::setPressed() and isPressed().
+
+- Fixed checkPrimitiveCount() bug in NullDevice.
+
+- Applied jox's matrix4::getRotationDegrees() fix, many thanks for posting this!
+
+- Changed aabbox3d::getExtend() to getExtent().
+  
+- Changed IXMLReader::isEmtpyElement() to isEmptyElement()
+
+- Fixed a bug in CSceneManager::getSceneNodeFromId() which caused the engine to crash sometimes.
+
+- Fixed a bug in CGUISkin::setSize reported by REAPER. This method never worked before.
+
+- Improved texture mapping and normals of the TestSceneNode, thanks go again to Jox.
+
+- ScrollBar is now posting mousewheel events, thanks go to REAPER to post this bug and a fix for it.
+
+- Added - operator to vector2d and vector3d, thanks to calimero
+
+- Fixed a bug in vector2d::getAngle() and vector2d::rotateBy() thanks to Jox.
+
+- Fixed a bug in quaternion::set(f32 x, f32 y, f32 z) thanks again to Jox.
+
+- Fixed a bug in list::insert_before and list::insert_after, reported by Haddock.
+
+- Fixed a bug in XML Parser which caused a seqfault on linux. Thanks for G.o.D reporting this problem.
+
+- EDriverType enumeration renamed to E_DRIVER_TYPE
+
+- SceneNodeRenderTime enumeration renamed to E_SCENE_NODE_RENDER_TIME
+  
+-------------------------------------------------------------------------------------
+Changes in version 0.6: (09 Mar 2004)
+
+- Irrlicht now includes its own XML parser. It provides forward-only, read-only 
+  access to a stream of non validated XML data. It can read everywhere Irrlicht can,
+  also in compressed .zip-Files for example. Use IFileSystem::createXMLReader() to
+  use it.
+  
+- Like the new XMLReader, there is also a IXMLWriter available for making it easier
+  to write xml files.
+  
+- There is a new tutorial available in the SDK. It is for more advanced users, and
+  shows how to create a 3d model viewer with the engine easily. It shows how to
+  use menus, tabcontrols, edit-, message- and sky boxes.
+  The resulting program  can also be used as tool, to check if the engine
+  loads exported 3d models correctly.
+  
+- Again, there are some new GUI widgets available: A ComboBox, a ToolBar, a PushButton
+  and an ImageButton. The last two are simply the old IGUIButton, but it is now able 
+  to display additional images and behave like a PushButton.
+  
+- It is now possible to make the drawing window resizeable, if it is in windowed mode.
+  Use IVideoDriver::setResizeAble(true) to do this.
+  
+- The .x file reader and animation player now should work with 99% of all text .x files.
+  This is achieved by most of the following bug fixes.
+  
+- Fixed a huge bug in the .x file reader, which caused that negative coordinates were 
+  interpreted as positive ones sometimes. This caused that sometimes .x animations
+  were played wrong.
+
+- Slerp interpolation of the quaternion class fixed. This means that also some bugs 
+  in the animation of .x files are removed now.
+  
+- Added virtual joints to not weighted vertices to improve .x file animations.
+
+- The FileSystem is now 100% implemented. Finally it is now possible to write files 
+  too. There is a new Class IWriteFile and the corresponding 
+  IFileSystem::createAndWriteFile()
+  
+- Added lots of text and sample code to the documentation. In most parts
+  documentation should be clearer now. 
+  
+- The ISceneManager has a clear() method, which clears the whole scene, all scene nodes
+  are removed. 
+  
+- All ISceneNodes now own a new method called removeAll(), which deletes all children
+  of the node.
+  
+- Fixed a bug which prevented the possibility to compile directx8 without 
+  having installed directx9.  
+  
+- Fixed a bug in 3d line dawing in D3D 8 and 9.
+
+- All video drivers now print out the gfx adapter type, vendor and driver version 
+  into the log strings.
+  
+- The D3D9 device is now as fast as the D3D8 device.  
+
+- The string class has an additional new constructor for creating a string from
+  character data with a specific lenght.
+  
+- Bug fixed in string class assignment operator which might cause a crash in very
+  special circumstances.
+  
+- Added a findNext() method to the string class.
+
+- The ISceneNode class now has a isDebugDataVisible() method.
+
+- Some lines were changed to make the source of the engine compatible to VS.NET 2003.
+  
+- Some functionality of the IFileList and IFileSystem were missing in the Linux version
+  of the engine. This caused the FileOpen-Dialog not to work. I fixed this problem.
+  
+- The Middle and Right mouse button were swapped in the Linux version. This is now
+  fixed.
+  
+- Multitexturing should now work with most linux systems too, thanks to a bug
+  report by Martin Piskernig.
+  
+- The logger now has an additional log() method which accepts another compination
+  of strings.
+  
+- Fixed a bug which caused fonts to be displayed very transparent in OpenGL.
+
+- Removed one of the redundant overloaded IGUIEnvironment::updateAbsolutePosition() 
+  methods.
+  
+- Fixed lots of clipping problems in all GUI Widgets.
+
+- core::rect has the new methods getCenter() and isValid().
+
+- Scrollbar buttons are now disabled if it is not possible to scroll.
+
+-------------------------------------------------------------------------------------
+Changes in version 0.5: (17 Feb 2004)
+
+-------------------------------------
+/ Highlights in short:
+/ * DirectX 9 support
+/ * .x file support in all render devices including opengl and software
+/ * new materials like lightmaps with dynamic lighting
+/ * fog
+/ * stencil buffer shadows now also work in OpenGL device
+/ * more gui widgets: tab controls, edit boxes, menus
+/ * spline animation support
+/ * mouse wheel support
+/ * triangle fan drawing
+/ * quaternions
+/ * improved keyboard input control
+/ * lots of bugfixes including improved quake 3 map support
+-------------------------------------
+
+- DirectX 9 is now supported by Irrlicht. This does not mean that it replaces
+  DirectX 8. The engine now supports both. You can now select between OpenGL,
+  DirectX8, DirectX9, Software and the Null device.
+
+- The engine now is able to read and display .x files. Using
+  Microsoft's excellent .x file exporter for Maya or MAX which comes
+  with the DX8 and DX9 SDK, it is now possible to create content for
+  the engine easily. Using .X files with Irrlicht is independent of D3D,
+  they can be used with OpenGL and with Linux for example too.
+  Currently only text file .x files are supported, and some animated .x
+  files may be displayed not 100% correctly, because the animation player 
+  may still have some small bugs. It works perfectly with most .x files which 
+  come with the DX9-SDK. Some skinned mesh .x files which use 
+  quaternions for animating joints have some problems, there might be a
+  bug somewhere. I commented the lines with a possible bug in CXAnimationPlayer.cpp.
+  
+- The GUI Environment now supports edit boxes. They should support unicode input
+  from every keyboard around the world, scrolling, copying and pasting (exchanging
+  data with the clipboard directly), maximum character amount, marking and all 
+  shortcuts like ctrl+X, ctrl+V, ctrg+C, shift+Left, shift+Right, Home, End, 
+  and so on. Wow, I never programmed an edit box, its much more work than it
+  seems to be. 
+  
+- Tabcontrols are now available in the GUI environment. It is also
+  possible to create tabs without tabcontrols, to be able to create
+  invisible gui elements for grouping other elements together.
+
+- Another new supported GUI Element are context menus. They support
+  ordinary text menu items, separators and sub menus. In Addition,
+  a standard menu as seen at the top of most windows can be
+  created easily with them.
+  
+- Rewrote all tutorials to fit the new API.
+  
+- Spline animations are now supported thanks to a spline scene node animator
+  written by Matthias Gall.
+  
+- Taskswitching now works with Direct3D 8 and 9 devices in fullscreen mode. 
+  
+- Added Material types EMT_LIGHTMAP_LIGHTING, EMT_LIGHTMAP_LIGHTING_M2, 
+  EMT_LIGHTMAP_LIGHTING_M4 and EMT_LIGHTMAP_ADD.
+  
+- The engine now supports drawing of trianglefans. To do this, use
+  IVideoDriver::drawIndexedTriangleFan(). Mario Gruber sent in code for this,
+  so lots of thanks go to him!
+  
+- It is now possible to draw 3d objects with fog. Simply switch on the fog flag
+  in the objects material. To change to way fog is drawn (per pixel/vertex, color,
+  linear/expontential) use IVideoDriver::setFog();
+  
+- With IrrlichtDevice::getOSOperator() a pointer to an interface is returned, with
+  wich it is possible to do some operation system specific operations. Currently
+  there are only 3 methods supported, but more will be added in the future.
+  
+- Mouse wheel input is now supported.
+  
+- The Key Event structure of SEvent now contains a Char entry, describing the 
+  corresponding character of the pressed key. Also two bools were added,
+  specifying if shift or ctrl was pressed too.
+
+- The version of the Operating System is now printed out into the log at 
+  startup.
+  
+- There is now a non-const getBoundingBox() method in IMeshBuffer and
+  IMehs available.
+  
+- IGUIElement now has a method getElementFromId(), which searches children
+  (and its children if wanted) for an element with a specific id. If you
+  want to search all items, just do
+  IGUIEnvironment::getRootGUIElement::getElementFromId().
+  
+- ISceneNode::updateAbsolutePosition() is now public
+  
+- Small bug fixed in CMeshManipulator::scaleMesh().
+
+- The engine now supports Quaternions.
+
+- A bug was fixed causing the windows caption not to be displayed in
+  Windows 95/98/ME.
+  
+- IGUIEnvironment::getBuildInFont() was renamed to getBuiltInFont().
+
+- IGUIElement::bringToFront() is able to brint a child to the front.
+  Windows for example are now using this new feature.
+
+- Changed the texture mapping of the test scene node a little bit based on 
+  code sent in by Dr Andros C Bragianos.
+  
+- Added code to fix some bug in some ATI drivers. Thanks to ariaci for posting
+  this code.
+  
+- Stencil buffer shadows now also work with the OpenGL device, they worked only
+  in D3D in earlier versions. Lots of thanks go to Philipp Dortmann, who
+  sent in a modification to the opengl driver!
+  
+- IGUIStaticText::setWordWarp() renamed to setWordWrap(), 
+  IGUIStaticText::enableOverrrideColor() renamed to enableOverrideColor()
+  [thanks to saigumi] 
+  
+- A bug was fixed, causing that the window was not able to be closed with Alt+F4
+  in Win95/98.
+  
+- Optimized the Octree-Scene node a little bit for getting more rendering speed.
+  Culling is now done with the real frustrum, not the bounding box around it.
+  Speed increase is about 5%, it's not much but ok.
+  
+- Bug fixed in the Quake 3 .bsp file loader, which caused holes to appear in
+  some maps.
+  
+- Combination of 3D displaying and drawing GUI elements was improved, and the 
+  priority of input receiving of 3d cameras and gui elements swapped.
+  
+- A bug in the static text was fixed, which caused it to draw itself outside
+  of its clipping rectangle.
+
+- KeyFocus and MouseFocus methods in GUIEnvironment are now merged into one method.
+
+- The Clamptexturecoordinates flag in the material was removed.
+
+- IVideoDriver::draw3DLine in all devices was improved. 
+
+- The devcpp-version of the binary DLL which comes with the SDK is now faster.
+  I'll compile this version from now on always with optimization switched on.
+
+- Other, Minor New/Changed methods in public interfaces:
+	* buildShadowMatrix in matrix4
+	* getRotationDegrees in matrix4 (sent in by Chev)
+	* rotateVect in matrix4
+	* linear_search in array
+	* recalculateBoundingBox in MeshManipulator	
+	* ISceneManager::addStaticText() now has a parameter for word wrapping
+	* getCharacterFromPos() in IGUIFont
+	* drawMeshBuffer() in IVideoDriver;
+	* interpolate() in matrix4
+	* getLast in array
+
+-------------------------------------------------------------------------------------
+Changes in version 0.4.2: (13 Dec 2003)
+
+- The engine does no more use only 16 bit textures internaly. Now all 
+  other texture formats are supported too. This means higher precision
+  and better quality images. In this context, the ISurface interface has
+  been replaced by IImage, and the ISurfaceLoader by IImageLoader.
+  
+- By changing the texture creation mode of the IVideoDriver, it is now
+  possible to influence how textures are created: You can choose between
+  'optimized for speed', 'optimized for quality' or simply set constant
+  bit depth like 'always 32 bit'. Also, you can now enable and disable
+  Mip map generation with these falgs. Take a look at 
+  IVideoDriver::setTextureCreationFlag() for details.
+  
+- There is now some support for outdoor or terrain rendering available.
+  You can create a static mesh from a heightmap and a texture using 
+  ISceneManager::addTerrainMesh(). You can specify a huge texture if you
+  like, even bigger as your hardware allows to render, because the texture
+  will be slitted up if necessary. 
+  Another possibility for doing terrain rendering is the new Terrain Scene
+  node. But it is only in a very early alpha stage, I disabled for example
+  the use of different level of details.
+  
+- It is now possible to load software images into memory from files on
+  disk, without creating a hardware texture. You can do this by calling
+  IVideoDriver::createImageFromFile(). This is very useful for example
+  for loading heighmaps for terrain renderers.
+  
+- The Quake 3 Map Loader now supports curved surfaces, thanks to by Dean P. Macri
+  who sent in his code. (He also sent in lots of other cool stuff, which I will merge 
+  with the code of next releases, lots of thanks to him!)
+
+- It is now possible to control what text is printed out to the console and
+  the debug window of Visual Studio. By getting a pointer to the ILogger
+  interface, is is possible to adjust if Warning, Error or Informational
+  texts should be printed out. In addition, now every text can be catched
+  by the event receiver.
+  
+- The engine is now capable of loading .PCX files. Only a few PCX formats
+  are supported currently, but at least the common used formats 
+  of most textures of the quake 2 models. Thanks go to Dean P. Macri who
+  sent in the code for the new PCXLoader!
+  
+- A new Scene node is available, which simply does nothing. It is useful for doing
+  advanced transformations or for structuring the scene graph.
+  
+- The ISceneManager::addOctTreeSceneNode() now takes AnimatedMeshes as parameter.
+  If this new method is called, the first frame in the animated mesh is taken as
+  mesh to construct the octree. This means that you won't have to write
+  addOctTreeSceneNode(yourMesh->getMesh(0)) anymore, but can use
+  addOctTreeSceneNode(yourMesh), which is a little bit more intuitive.
+  
+- The Driver type enumeration have been adapted to the Irrlicht
+  naming conventions. For example instead of writing DT_OPENGL, now write
+  EDT_OPENGL.
+  
+- The ITexture interface has two new methods for getting the size of the 
+  texture: ITexture::getSize() and ITexture::getOriginalSize(). This replaces
+  the old getDimension()-method and allows to disable bugs which are generated
+  by the automatic scaling to optimal sizes of textures.
+  
+- There are some new keycodes available: KEY_COMMA, KEY_PLUS, KEY_MINUS, KEY_PERIOD.
+  
+- There are now 3 lightmap Material types: EMT_LIGHTMAP, EMT_LIGHTMAP_M2 and
+  EMT_LIGHTMAP_M4, which are making the lightmaps 2 or 4 times brighter. If you used
+  the Material EMT_LIGHTMAP in your code, you should replace it now with
+  EMT_LIGHTMAP_M4.
+  
+- The transformation enumeration names have been adapted to the irrlicht
+  naming conventions. For example instead of writing TS_VIEW, now write
+  ETS_VIEW.
+  
+- Video driver feature enumeration names have been changed from 
+  EK3DVDF_... to EVDF_...
+  
+- The GUIEnvironment now has a new method: getRootGUIElement(). With this it 
+  is possible now to add external created custom GUI Elements to the gui environment,
+  without an existing internal GUI element as parent.
+  
+- The setViewPort()-Method of the OpenGL-device now works, too. Nothing stands now
+  in the way of creating splitscreen applications using the OpenGL device.
+  Oliver Klems sent code for this, I slightly modified it. Thank you!
+  
+- Corrected a bug, which made the EMT_REFLECTION_2_LAYER Material disappear on some
+  hardware.
+  
+- Sirshane sent in a bug fix: It is now possible to make the mouse cursor
+  invisible in the Linux version of the engine. Thanx sirshane!
+  
+- getFrameNr() of IAnimatedMeshSceneNode is now public.
+
+- Again a small bug in the 3ds file loader was fixed.
+
+- A small bug causing light positions being transformed in the OpenGL
+  driver in a different then in D3D. Thanx to Matthias Gall for reporting
+  this!
+  
+- Typing error fixed: ISceneCollisionMananger::getRayFromScreenCoordiantes renamed to 
+  getRayFromScreenCoordinates.
+  
+- Linux support with multitexturing and mipmap generation has been improved.
+  
+- A bug was fixed wich caused the Engine not to run when compiled
+  as dynamic library under linux. Thanks to Shane Parker who pointed out
+  the problem.
+  
+- A bug was fixed in position2d.h in the operator +=, and the list iterator now
+  has per and postfix operators. Thanks to Isometric God for spotting this out.
+  
+- A bug was fixed in the Metatriangleselector, causing it to detect only collisions
+  with the last TriangleSelector in it.
+
+-------------------------------------------------------------------------------------
+Changes in version 0.4.1: (18 Sep 2003)
+
+- Input events are now processed faster than repaint and window events. This
+  means that input commands now effect things directly, in earlier versions
+  there could be a delay when there were low frames per second. Some people
+  noticed this when moving with the fps camera in large levels: The camera
+  sometimes stopped seconds after the button was released. This is now fixed.
+  
+- A Message Box is now available in the GUI Environment. It looks like the 
+  windows message boxes and supports OK, Cancel, Yes and No buttons, which
+  can be combined freely. Also, it shows multiline text and adjusts its size
+  based on the amount of text it shows, so it should be very useful for displaying
+  (debug) messages during runtime.
+  
+- It is now possible to make all windows (message boxes, file open dialogs, 
+  simple windows) modal.  
+  
+- IGUIStaticText now supports multiline text via automatic word warp and manual
+  line breaking with '\n'. You only need to switch it on with 
+  yourText->setWordWrap(true);
+  
+- Non default MD2 animations are now supported. Which means simply that you can
+  enumerate the names of all md2 animations and the AnimatedMeshSceneNode now supports
+  a setMD2Animation() with a character string as parameter instead of a constant.
+  
+- You do not need an event receiver anymore for sending user events to the active
+  camera, this is now done autmaticly. In addition, it is now possible to 
+  set a new event receiver during runtime of the engine using IrrlichtDevice::
+  setEventReceiver().
+  
+- It is now possible to disable and enable the input receiver of a camera. This
+  is useful for example for removing the users control of the camera. To do this,
+  call camera->setInputReceiverEnabled(false);
+  
+- The first person shooter camera now supports a keymap: You can define your own
+  key mapping to control the camera when you create it with ISceneManager::
+  addCameraSceneNodeFPS().
+  
+- Thanks to Jon Pry, the engine now also loads compressed TGA texture files. Now only
+  8 bit palette using TGAs are missing. :)
+
+- There are methods for converting 3d coordinates in 2d coordinates and the other
+  way round. You can find them as two new methods of the  ISceneCollisionManager:
+  getRayFromScreenCoordiantes() and getScreenCoordinatesFrom3DPosition().
+  
+- There are now access methods in IGUIWindow for getting pointers to the
+  maximize, minimize and close buttons, to be able to remove them for 
+  example.
+  
+- Before starting up the engine, a version check now is performed and a warning is 
+  written, if Irrlicht.DLL version and header version of your application do
+  not match.
+  
+- A bug with the skybox has been fixed: In OpenGL, it was possible to see the
+  borders of the skybox. In addition, when a skybox was visible, there were
+  errors in the texture coordinates of other meshes. This is all fixed now. 
+  
+- A bug has been fixed causing the engine to crash when removing gui childs 
+  which where created inside the .dll but are removed from outside. 
+  
+- A bug was fixed causing the engine to crash when drawing debug data of 
+  octtree scene nodes with geometry data with vertices with one texture
+  coordiante.
+  
+- Multitexturing now works with linux, too. Thanx to Jon Pry again, for showing
+  me where the problem was. 
+  
+- The bug (reported by saigumi) preventing scene nodes attached to a camera
+  from moving correctly is now fixed.
+  
+- The "Climb-Walls" bug (reported first by Matthias Gall) is fixed. Gravity
+  acceleration is now quadratic instead of linear.
+  
+- A warning is now printed out, if too many vertices are rendererd with one call
+  than the hardware supports.
+
+- Other, Minor New/Changed methods in public interfaces:
+   * get and setText() in IGUISkin
+   * += operators are now available in the string class.
+   * setRelativePosition() in IGUIElement
+   * enumeration EKEY_CODES renamed to EKEY_CODE
+   * getMaximalPrimitiveCount() in IVideoDriver
+   * getAnimationCount() in IAnimatedMeshMD2
+   * getAnimationName() in IAnimatedMeshMD2
+
+-------------------------------------------------------------------------------------
+Changes in version 0.4: (04 Sep 2003)
+
+- Collision detection and reponse based on ellipsoids in now implemented.
+  There is a new method available in the ISceneCollisionMananger, which returns
+  a collision response point. In addition, a new SceneNodeAnimator is available,
+  which causes a scene node, to which it is attached to, not to move through
+  walls, to climb stairs and to be affected by gravity. This scene node animator
+  can be attached to any scene node. For example adding it to the FPSCamera, it makes
+  the user possible to walk through the 3d world as in first person shooters.
+
+- There is now a full featured Particle System included in the engine for
+  creating fire, explosions, snow, smoke and so on.
+  It is cusomizeable and extensible. There is a ParticleSystemScene node
+  available in the SceneManager and some standard particle emitters and
+  affectors are already implemented.
+  
+- Realistic water: The engine now features a IWaterSurfaceScene node, which
+  animates a static mesh with water waves. In combination with the new
+  EMT_REFLECTION or EMT_TRANSPARENT_REFLECTION material type, you can easily
+  create realistic animated water surfaces.
+  
+- Triangle base picking is now possible using the ISceneCollisionMananager.
+  If a collision happened, the intersecoin point and the triangle causing
+  the intersection is returned.
+  
+- Stencil shadows are now drawn using the ZFail method by default, but it is 
+  possible to choose ZPass, if wished. This means that the camera may now move
+  inside the shadow volumes and no errors will occur. In addition a stencil
+  shadow bug is now fixed: In 0.3 there where no shadows visible in the TechDemo.
+  
+- The interface of ISceneNode has changed: There is no more a RelativeTransformation
+  and AnimatedRelativeTransformation matrix. They have been replaced by 3 vectors:
+  RelativeTranslation, RelativeRotation and RelativeScale, which can be accessed by
+  the corresponing get() and set() methods. This simplifies the interface 
+  a lot. Also, the set/getRelativePosition was renamed to set/getPosition. 
+    
+- The new IAnimatedMeshMD2 interface now returns start, begin time and
+  fps of every MD2 animation type. In this context, IAnimatedMeshSceneNode
+  got a new method called setMD2Animation(), which accepts a single constant
+  like EMAT_ATTACK, which starts and plays the fitting animation (attack
+  animation in this case), simplifying the interface a lot.
+  
+- Some scene nodes can now draw debug data like their bounding boxes.
+  This feature is switched on for a single node by calling 
+  ISceneNode::setDebugDataVisible(true). Looks really interesting for
+  animated scene nodes like particle systems or animated meshes.
+  
+- There is now a IGUIInOutFader avaiable, which is able to fade in or
+  out the whole screen or parts of it.
+  
+- The new IVideoModeList is a list with all available video modes. It can
+  be retrieved with IrrlichtDevice::getVideoModeList(). If you are confused 
+  now, because you think you have to create an Irrlicht Device with a video
+  mode before being able to get the video mode list, let me tell you that
+  there is no need to start up an Irrlicht Device with DT_DIRECTX8, DT_OPENGL or
+  DT_SOFTWARE: For this (and for lots of other reasons) the null device,
+  DT_NULL exists.
+  
+- With the new IMeshManipulator interface accessible with
+  ISceneManager::getMeshManipulator() it is possible to perform some basic 
+  operations on meshes: Flipping all surfaces, recalculating all normals, 
+  scaling the mesh, creating a new texture mapping and so on.
+  
+- A new material for creating water surfaces or glass with reflections on it
+  is available: EMT_REFLECTION_2_LAYER and EMT_TRANSPARENT_REFLECTION_2_LAYER.
+  It has uses a reflection map, and an additional optional texture.
+  The transparency of this material is set by the alpha color value in the vertices. 
+  
+- Another new material is EMT_SOLID_2_LAYER. It is a material with 2 textures,
+  blended together with the alpha value of the vertex color. This material is
+  currently only available in DirectX.
+  
+- Trilinear Filtering is now supported the engine.
+  There is a new option in SMaterial: TrilinearFilter and EMF_TRILINEAR_FILTER.
+  
+- The addChild() method of the IAnimatedMeshSceneNode for adding SceneNodes to
+  joints of skeletal animated meshes was removed.
+  Instead there is now a new method: getMS3DJointNode(). This returns a pointer
+  to a child node, wich has the same transformation as the corrsesponding joint.
+  In this way it is possible to do more advanced operations with joints and 
+  attaching scene nodes to joints. Also, the IAnimatedMeshMS3D interface now gives
+  access to all joints. In this way, you can easily enumerate all names of all
+  joints in the mesh.
+  
+- Font and color of every IGUIStaticText can now be set separately, without
+  modifying the IGUISkin.
+  
+- There is now a ELEMENT_LEFT gui event, which all hovered elements receive when they
+  are left.
+  
+- All features of the FileOpenDialog are now working.
+  
+- Debug informations are now printed out to the console window
+  also on the win32 platform.
+  
+- FPSCamera now supports setTarget(). Its not precise but working.
+
+- Textures of 3ds files are now loaded from the same directory in which the
+  3ds file is. If the texture is not found there, the texture is tried to be 
+  loaded from the current working directory. 
+  
+- A small bug in the 3ds file loader has been fixed. There where 3ds files exported
+  by anim8or, where the reading of the 3ds file never stopped.
+  
+- It is now possible to configurate the minimal amount of polygons contained
+  in every node in an OctTree via addOctTreeSceneNode().
+  
+- There is a new template class in the core namespace: triangle3d. With this,
+  it is easy to find intersections between lines and triangles, find out if 
+  a point is within a triangle and so on.
+  
+- A small bug in ISceneManager::addHillPlaneMesh() was fixed: Now the right tile
+  amount is created.
+  
+- There is a new SceneNode available: IDummyTransformationSceneNode. It exists
+  for making it possible to insert matrix transformations anywhere into the 
+  scene graph.
+  
+- Added a new SceneNode animator for deleting Scene nodes automaticly after some
+  time. Create it with ISceneManager::createDeleteAnimator().
+  
+- The techdemo now is interactive. After a short non-interactive flight over
+  the quake 3 level, you are placed as player inside the level, may move around,
+  shoot fire balls and take a look at some animated characters which are placed
+  on the map.
+  
+- I fixed a bug which caused the screen get black when choosing shadows and fullscreen
+  on some special 3d adapters. 
+
+- I fixed some bugs in the linux port: The timer returned an incorrect time, causing
+  wrong animations everywhere and the releasing of keys and mouse buttons was not 
+  sent as event. In addition, I placed a copy of the zlib.a and jpeglib.a into the
+  /lib/Linux directory and changed the Makefiles of the examples and the source
+  of the engine for doing this automaticly in the future, so I hope there will be no
+  problems with other versions of zlib and jpeglib anymore.
+  
+- There are 2 new tutorials: One showing how to do collision detection and 
+  for special effects.
+
+- Other, Minor New/Changed methods in public interfaces:
+  * getVersion() in IrrlichtDevice
+  * getLengthSQ() in vector3d
+  * getInterpolated() in vector3d
+  * getInterpolated() in SColor
+  * getAngle() in vector2d
+  * getAngleWith() in vector2d
+  * getPrimitiveCountDrawed() in IVideoDriver renamed to getPrimitiveCountDrawn()
+  * getSceneNodeFromSceenCoordinates() renamed to getSceneNodeFromScreenCoordinates()
+  * getMeshType() in IAnimatedMesh
+  * getInterpolated() in aabbox
+  * setMD2Animation() in IAnimatedMeshSceneNode
+  * getFullFileName() in IFileList
+  * addShadowVolumeSceneNode() in IAnimatedMeshSceneNode extended with zfail parameter
+  * drawStencilShadowVolume() in IVideoDriver extended with zfail parameter
+  * getDistanceFromSQ() in vector3d
+  * subString() in string
+  * findFirst() in string
+  * findLast() in string
+  * getTriangleSelector() in ISceneNode
+  * setTriangleSelector() in ISceneNode
+  * draw3DTriangle() in IVideoDriver
+  * setShadowColor() in ISceneManager
+  * getShadowColor() in ISceneManager
+  * addToDeletionQueue() in ISceneManager
+  * getSceneNodeFromId() in ISceneManager
+  
+-------------------------------------------------------------------------------------
+Changes in version 0.3: (18 Jul 2003)
+
+- Linux port: The Irrlicht Engine now compiles and runs on Linux. Currently only
+  the OpenGL driver is available. The Software driver would be there too, if 
+  somebody could tell me a fast way to blit a A1R5G5B5 surface to the screen
+  using X.
+  All examples do compile and run, but there are some things missing:
+   * It is not yet possible to make the mouse cursor invisibe.
+   * The timer seems not to return the currect time.
+   * Multitexturing does not work correctly on all gfx adapters.
+  
+- Ms3D Animations: The engine is now able to play skeletal animations directy
+  from Milkshape 3D (.ms3d) files. It is also possible to attach objects to
+  parts of the animated mesh. For example a weapon to the left hand of 
+  the animated model.
+
+- Because the swprintf function in Windows32 does not match the ISO C standard,
+  and it does in linux and all other platforms, there is now a define in Irrlicht.h,
+  to make the code be the same on all platforms:
+  #define   swprintf   _snwprintf
+  This simply means that you need to add a parameter to your swprintf calls if
+  you used this function in your win32 irrlicht engine projects. For example instead
+  of writing 
+      wchar_t tmp[255]; 
+      swprint(tmp, "FPS: %d", fps);
+  you now write
+      wchar_t tmp[255]; 
+      swprint(tmp, 255, "FPS: %d", fps);
+
+- Automatic culling has changed a little bit: It is now done by the SceneManager.
+  Scene nodes now only need to return a valid, non transformed bounding box to be 
+  culled automaticly. It is explaned in the CustomSceneNode Tutorial how this works.
+  
+- It is now possible to use the engine easily for 2D graphics: There are now to new
+  methods in the IVideoDriver, which create an 1bit alpha channel for textures 
+  using an color key. The methods are both named makeColorKeyTexture. There is a 
+  tutorial '2d graphics' which explains how this works.
+  
+- The rect template class was removed and replaced by the rectEx class. There
+  is now only one rectangle template available, called 'rect' for simplifying
+  the interface.
+  
+- The texture coordinate bug in Milkshape 3d models with lots of shared vertices
+  was fixed.
+  
+- Bugfix with GUI environment hovering invisible elements.
+
+- There are two new tutorials: One for 2d graphics, and one for user interface.
+
+- Tutorial changes:
+   * All backslashes replaced by slashes in file names in 
+     all tutorials for linux compatibility.     
+   * RectEx replaces with rect in 1.HelloWorld
+   * Added second parameter to swprintf in 2.Quake3Map
+   * Added bounding box creation to 3.CustomSceneNode
+   * Added second parameter to swprintf in 4.Movement
+  
+- New/Changed methods in public interfaces:
+   * getClosestPoint in line3d	 
+   * getMatrixOfMeshPart in IAnimatedMesh
+   * removeChild in ISceneNode now returns true or false
+   * addChild in IAnimatedMeshSceneNode
+   * setParent in ISceneNode
+
+-------------------------------------------------------------------------------------
+Changes in version 0.2.5: (22 Jun 2003)
+
+- A new material type is available: EMT_TRANSPARENT_VERTEX_ALPHA, which
+  realizes transparency based on the vertex alpha color. It currently is
+  only implemented in the DirectX device.
+
+- There is now an ISceneCollisionManager available. Get it with 
+  getSceneCollisionManager() from the ISceneManager. It currently only implements
+  picking, but more is coming soon.
+
+- Automatic Culling based on Bounding Boxes is implemented now. It can be switched on
+  or off for every SceneNode seperately using ISceneNode::setAutomaticCulling().
+  It is on by default.
+  
+- It is now possible to remove loaded textures for freeing memory or reloading them.
+  Use IVideoDriver::removeTexture() or removeAllTextures().
+
+- New drawing methods in the IVideoDriver interface:
+   * Draw3dLine(), drawing a 3d line.
+   * Draw3dBox(), which draws an axis aligned bounding box.
+   * Draw2dLine(), currently only supported by the Software device.
+
+- MD2 bugfixes:
+   * There was a small bug with texture coordinates.
+   * Frames are now correctly interpolated when playing animations.
+
+- Bugfix in the 3ds file format loader: Single objects in the 3ds file with multiple
+  materials attached are now loaded correctly.
+  
+- list.h renamed to irrlist.h due to compatibility issues.
+
+- Now works with Dev-C++ 5 Beta 8. (4.9.8.0)
+  
+- New/Changed methods in public interfaces:
+   * 'getInverse' in matrix4.
+   * 'transformBox' in matrix4.
+   * 'repair' in aabbox.
+   * 'intersectsWithLine' in aabbox.
+   * 'getVector' in line3d.
+   * 'getMiddle' in line3d.
+   * 'normalize' method in vector3d and vector2d now returns reference to vector.
+   * 'getTransformedBoundingBox' in ISceneNode.
+   * 'getChildren' in ISceneNode
+   * 'setRotation' in ISceneNode
+   * 'addHillPlaneMesh' in ISceneManager now accepts a texture repeat count parameter.
+   
+
+-------------------------------------------------------------------------------------
+Changes in version 0.2: (19 May 2003)
+
+- The engine is now able to load .3ds files, with their materials and textures.
+
+- There are some new SceneNodeAnimators: A fly straight animator and a texture animator.
+
+- Texture coordinates can now be set to clamp or wrap mode with 
+  a flag in the SMaterial struct.
+  
+- Skyboxes are implemented.
+
+- Billboards now work 100% correctly.
+
+- The IAnimatedMeshSceneNode is now able to draw shadows of itself. To enable this, just call
+  addShadowVolumeSceneNode(). Please note that shadows are currently just experimental,
+  there are some bugs, and they only only in Direct3D mode.
+
+- A small bug in the view frustrum and the octree fixed.
+
+- The default aspect ratio in all camera scene nodes were changed.
+
+- Some changes and extenstions to the core::matrix4, SViewFrustum, plane3d and
+  aabbox were made. The plane3dex was removed, there is now only one plane implementation
+  available. Implemented some ideas and suggestions by Mark Jeacocke. Thanx a lot!
+
+- The interface for adding dynamic lights has been enhanced. There are some new methods
+  for handling dynamic light in the IVideoDriver interface. For example, it is now possible
+  to change the ambient light.
+
+- There is a new parameter in the createDevice() function, which specifies if the 
+  stencil buffer should be activated. Also, now all parameters have default parameters.
+
+- There is now a timer object to get the current timer. It can be received using
+  the getTimer() method from the IrrlichtDevice.
+
+- The first person shooter camera is now able to be moved by external using 
+  setRelativePosition() and the sceneNodeAnimators. In addition, it now supports 
+  multiple FPS cameras.
+  
+- Mesh format loading extenstions are now possible. To extend the engine with a
+  mesh format it currently does not support (e.g. .cob), just implement a 
+  IMeshLoader interface and add it to the engine calling 
+  ISceneManager::addExternalMeshLoader().
+
+- It is now possible to extend the Irrlicht Engine easily with new texture file format
+  loaders. If there is an image file format the engine does not support (for example
+  .gif files) the IImageLoader interface can be implemented to load .gif files 
+  and added to the engine via IVideoDriver::addExternalSurfaceLoader().
+  
+-------------------------------------------------------------------------------------
+Changes in version 0.1.5: (03 Apr 2003)
+
+- The zlib and libjpeg are now included in the SDK.
+
+- It is now possible to let the scene manager generate a hilly plane on the fly.
+
+- The Interface for handling dynamic lights was simplified.
+
+- The OpenGL 2D and 3D device is now full implemented.
+
+- There is now a way to access to root scene node from the scene manager, and so it
+  is possible to add external created custom scene nodes to the scene.
+
+- There is a new Camera control scene node available in the engine: First Person Shooter
+  Camera Control. Look with mouse movement, move and strafe with the cursor keys.
+
+- The engine now compiles with g++ and the Microsoft compilers, which enables it to
+  develop applications for the engine with VisualC++6.0, VisualC++.NET and Dev-C++.
+
+- There is now a ICursorControl available in the engine, which is able to modify the
+  mouse cursor: Get/Set the position of the cursor, make it invisible or visible.
+
+- video::Color was renamed to video::SColor to fit the Irrlicht Engine naming conventions
+  and for g++ compatibility issues in the Vertices.
+
+-------------------------------------------------------------------------------------
+Release notes of version 0.1: (14 Mar 2003)
+
+  This is an alpha version of the SDK. So please note that there are
+  features missing in the engine and maybe also some bugs. The following
+  list is a complete list of parts of this alpha SDK which do not work
+  100% correct. All other parts which can be found in the documentation
+  and accessed with the Irrlicht header files work and can already be 
+  used. 
+  
+- OpenGL Device
+  The OpenGL Device is currently only able to load textures and draw basic 
+  3D primitives. No 2D functions, complex materials and dynamic light are
+  implemented. Please use the DirectX8 or the Software Device instead. 
+  In the next release (0.2) the OpenGL device will be complete.
+  
+- Software Device
+  Dynamic lighting, multitexturing, 3d clipping and bilinear filtering are
+  not implemented because the Software Device was intented to to only 2d 
+  functions, the primitive 3d functions are only an addition. Until the
+  first non beta release (1.0) of the Engine, some more 3d functionality
+  will be added.
+  
+- BspTree
+  The binary space partition scene node does not work correctly and has 
+  some bugs in it, which might lead to crashes. Please use the OctTree
+  scene node instead. There is nearly no difference between the interface
+  of them.
+
+- MeshViewerGUIElement
+  The camera control of this element is currently disabled.
+  
+- FileOpenDialog
+  Not all functions are implemented.
+  
+- Render to Texture support
+  Is not implemented yet.
+  
+- MS3D Skeletal Animation
+  A loaded mesh is currently not animated and only drawn static.
+  
+- Quake 3 maps
+  No support for curved surfaces yet.
+  
+- Linux Support
+  The engine currently only runs with Windows platforms. A linux version
+  will be available somewhere between the versions 0.2 and 0.5, it depends
+  on the need of the users.
+
+-------------------------------------------------------------------------------------

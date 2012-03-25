@@ -1,0 +1,35 @@
+﻿Build started 11/09/2011 01:29:11.
+     1>Project "D:\aestesis\code\elektroSDK\src\COMobjects\COMobjects.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\COMobjects.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Midl:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\COMobjects\Release VSTUDIO\COMobjects.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\COMobjects.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/COMobjects.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"definition.def" /MANIFEST /ManifestFile:"Release VSTUDIO\COMobjects.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\aestesis\code\elektroSDK\src\COMobjects\Release VSTUDIO\COMobjects.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release VSTUDIO\COMobjects.lib" /MACHINE:X86 /DLL "Release VSTUDIO\COMobjects.res"
+         "Release VSTUDIO\COMobjects.obj"
+         "Release VSTUDIO\COMobjects_i.obj"
+         "Release VSTUDIO\Csum.obj"
+         "Release VSTUDIO\registry.obj"
+         "Release VSTUDIO\stdafx.obj"
+         D:\aestesis\code\elektroSDK\src\Alib\Release\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Release\eleKtro.lib
+     1>definition.def(2): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library Release VSTUDIO\COMobjects.lib and object Release VSTUDIO\COMobjects.exp
+         COMobjects.vcxproj -> D:\aestesis\code\elektroSDK\src\COMobjects\Release VSTUDIO\COMobjects.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../elektronika/COMobjects.dll;#2" /manifest "Release VSTUDIO\COMobjects.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\COMobjects.unsuccessfulbuild".
+         Touching "Release VSTUDIO\COMobjects.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\COMobjects\COMobjects.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05

@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="flash SDK">
+      <UniqueIdentifier>{189df009-dc7a-4fc3-82a1-5c607f260f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flash SDK\zlib">
+      <UniqueIdentifier>{bd1b3954-56c7-4764-b536-8b5ea32300d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flash SDK\jpeg">
+      <UniqueIdentifier>{5b5a2aa3-2689-42d3-b5ad-55a763101af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flash SDK\win32">
+      <UniqueIdentifier>{ce06baa5-d775-4146-b4b9-a416875442b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flash SDK\sources">
+      <UniqueIdentifier>{8e2dfd41-2d71-43d8-81e7-6f6e877f1358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8401092c-839f-48f1-a04b-e8078c45d257}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8a154087-7206-440c-8e95-fdeeabf5e772}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{129763c4-c8d5-45ea-a3cb-ed37f8978edf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="flashSDK\Source\zlib\adler32.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\infblock.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\infcodes.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\inffast.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\inflate.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\inftrees.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\infutil.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\uncompr.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\zlib\zutil.cpp">
+      <Filter>flash SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\cdjpeg.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\cjpeg.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcapimin.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcapistd.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jccoefct.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jccolor.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcdctmgr.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jchuff.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcinit.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcmainct.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcmarker.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcmaster.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcomapi.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcparam.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcphuff.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcprepct.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jcsample.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdapimin.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdapistd.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdatadst.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdatasrc.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdcoefct.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdcolor.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jddctmgr.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdhuff.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdinput.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdmainct.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdmarker.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdmaster.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdphuff.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdpostct.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jdsample.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jerror.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jfdctflt.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jfdctint.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jidctflt.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jidctint.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jmemmgr.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jmemnobs.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\jutils.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\rdbmp.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\rdcolmap.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\rdgif.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\rdppm.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\rdrle.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\rdswitch.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\rdtarga.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\wrbmp.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\wrgif.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\wrppm.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\wrrle.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\JPEG\wrtarga.cpp">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\Win32\_Display.cpp">
+      <Filter>flash SDK\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\Win32\debug.cpp">
+      <Filter>flash SDK\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\Win32\palette.cpp">
+      <Filter>flash SDK\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\Win32\PlayerWnd.cpp">
+      <Filter>flash SDK\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\Win32\sound.cpp">
+      <Filter>flash SDK\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\Win32\util.cpp">
+      <Filter>flash SDK\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\bitbuf.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\curve.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\edittext.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\fixed.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\geom.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\global.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\jpeg.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\memcop.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\morphinter.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\mp3decoder.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\raster.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\sbitmap.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\sdisplay.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\sndcodec.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\sndmix.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\sobject.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\splay.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\splayer.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\sstroker.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flashSDK\Source\unixfonts.cpp">
+      <Filter>flash SDK\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="avi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filehd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filemem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="movie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msgbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oglbitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="progress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="section.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="segment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selsize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="titleBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooltips.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="udp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WFLILIB.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="flashSDK\Source\zlib\deflate.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\zlib\infblock.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\zlib\infcodes.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\zlib\inffast.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\zlib\infutil.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\zlib\zconf.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\zlib\zlib.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\zlib\zutil.h">
+      <Filter>flash SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\cderror.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jchuff.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jconfig.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jdct.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jdhuff.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jmemsys.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jmorecfg.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jpegint.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jpeglib.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\JPEG\jversion.h">
+      <Filter>flash SDK\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\_display.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\debug.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\fixed.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\palette.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\playerwnd.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\resource.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\Sound.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\util.h">
+      <Filter>flash SDK\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Bitbuf.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\bitstream.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\curve.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\edittext.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\fixed.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\genericfonts.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\geom.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\global.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\jpeg.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\mcontext.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\memcop.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\morphinter.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\mp3decifc.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\mp3decoder.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\mp3sscdef.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\mp3streaminfo.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\mpegbitstream.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\mpegheader.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\raster.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\sbitmap.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\sdisplay.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\shape.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\sndcodec.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\sndmix.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\sobject.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\splay.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\splayer.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\sstroker.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\stags.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="flashSDK\Source\Win32\version.h">
+      <Filter>flash SDK\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\avi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\d3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\edit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\filedlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\filehd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\filemem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\ftp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\mlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\movie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\msgbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\oglbitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\pipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\plugz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\progress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\scrollbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\section.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\segment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\selButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\selsize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\titleBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\toolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\tooltips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\treeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\udp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\WFLILIB.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\inc\ALib\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flashSDK\Source\Win32\button.cur">
+      <Filter>flash SDK\win32</Filter>
+    </None>
+    <None Include="flashSDK\Source\Win32\hand.cur">
+      <Filter>flash SDK\win32</Filter>
+    </None>
+    <None Include="flashSDK\Source\FlashIcon.pcx">
+      <Filter>flash SDK\sources</Filter>
+    </None>
+    <None Include="flashSDK\Source\FlashIcon.tga">
+      <Filter>flash SDK\sources</Filter>
+    </None>
+    <None Include="cursors\10.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursors\12.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursors\14.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursors\24.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursors\25.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursors\36.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursors\70.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aestesisTV.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button  check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button minimize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="comic font 16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="display001.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="display002.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font arial bold 10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font arial bold 12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font arial bold 20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font arial bold 8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font segment 06.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font segment 10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font segment 20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font terminal 12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font terminal 5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font terminal 6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font terminal 9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_bm_army_10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_bm_leaves_10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_bm_tubes_10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_confidential_14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_confidential_16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_confidential_20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_confidential_24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_confidential_36.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flashSDK\Source\Win32\fsplayer.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle001.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle002.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle003.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle004.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle005.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle006.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle007.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle008.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="progress001.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="treeView.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="flashSDK\Source\Win32\SimpleWin.rc">
+      <Filter>flash SDK\win32</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="alib.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="flashSDK\Source\mp3decoder.lib">
+      <Filter>flash SDK\sources</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

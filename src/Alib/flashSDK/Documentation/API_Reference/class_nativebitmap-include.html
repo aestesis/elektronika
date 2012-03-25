@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>NativeBitmap Include File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>display.h</h1>This is the verbatim text of the display.h include file.<hr><div class="fragment"><pre>
+
+
+
+#ifndef _DISPLAY_H_
+#define _DISPLAY_H_
+
+#include "stdafx.h"
+
+class <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>;
+
+
+class <a class="el" href="class_nativedisplaytester.html">NativeDisplayTester</a>
+{
+  public:
+
+	<a class="el" href="class_nativedisplaytester.html#a0">NativeDisplayTester</a>();
+
+	<a class="el" href="class_nativedisplaytester.html#a1">~NativeDisplayTester</a>();
+
+
+	void TestDepth( int depth );
+
+	int	BestDetectedFormat()	{ return bestFormat; }
+
+
+	BOOL BestDetectedInvert()	{ return true; }		
+
+	/*	Relation of the depth to the number of colors:
+	 *			depth	nColors
+	 *			1		2
+	 *			2		4
+	 *			4		16
+	 *			8		256
+	 *			16		64k		(k=1024)
+	 *			24		16 million
+	 *			32		16 million	-- Note the cheat. We can't return a number that big.
+	 */
+
+	static int CurrentScreenBitDepth();
+	static U32 CurrentScreenColors();
+	
+	// ----- Platform independant - don't change these functions ------
+	// These are conversion functions from format (say pix8) to depth (256)
+	static int PixelFormatToDepth( int format )				{ return mapPixelFormatToDepth[ format ]; }
+	static int DepthToSimplestPixelFormat( int depth );
+
+  private:
+	void	test( int pixFormat, BOOL inverted );
+
+	static const int mapPixelFormatToDepth[9];
+
+	int  bestFormat;
+	BOOL bestInvert;
+};
+
+
+class <a class="el" href="class_nativebitmap.html">NativeBitmap</a>
+{
+  public:
+ 
+	<a class="el" href="class_nativebitmap.html#a0">NativeBitmap</a>(	<a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>* native,
+					const SColorTable* ctab,
+					int width, int height, int depth, int pixelFormat );
+
+
+	<a class="el" href="class_nativebitmap.html#a1">~NativeBitmap</a>();
+
+	int Height()		{ return height; }
+	int Width()			{ return width; }
+	U8* Bits()			{ return bits; }
+	int ScanLine()		{ return bytesPerLine; }
+	int PixelFormat()	{ return format; }
+	int Depth()			{ return depth; }
+
+
+	void Flush()		{ GdiFlush(); }		
+
+
+	void BltNativeToScreen( <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>* native,
+							  int xDest,	int yDest,		// upper left target on screen
+							  int cx,		int cy,			// size to blt
+							  int xSource,	int ySource		// where to start drawing from
+							);
+
+	void ClearScreen( <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>* );
+
+  private:
+	struct BITMAPINFO256 
+	{
+	   BITMAPINFOHEADER bmiHeader; 
+	   RGBQUAD          bmiColors[256]; 
+	};
+
+	int		format;
+	int		depth;
+	int		width;
+	int		height;
+	U8*		bits;
+	int		bytesPerLine;
+
+	HBITMAP hBitmap;
+	BITMAPINFO256 info;
+	HPALETTE palette;
+};
+
+#endif</pre></div>
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

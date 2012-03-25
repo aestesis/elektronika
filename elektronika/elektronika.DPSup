@@ -1,0 +1,24 @@
+<Suppress Comment="Version 7.1.0 (Build 1765)">
+	<ErrType Category=30 >
+		<Module Name="alib100.dll" >
+			<File Name="jcparam.cpp" >
+				<Function Name="add_huff_table" >
+				</Function>
+			</File>
+		</Module>
+	</ErrType>
+	<ErrType Category=46 >
+		<ValidateMod Name="user32.dll" >
+			<ValidateFunc Name="ReleaseDC" >
+				<ValidateParm Value=2 >
+					<Module Name="alib100.dll" >
+						<File Name="window.cpp" >
+							<Function Name="public: virtual unsigned int __thiscall Awindow::NCnotify(unsigned int,unsigned int,unsigned int)" >
+							</Function>
+						</File>
+					</Module>
+				</ValidateParm>
+			</ValidateFunc>
+		</ValidateMod>
+	</ErrType>
+</Suppress>

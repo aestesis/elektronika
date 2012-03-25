@@ -1,0 +1,52 @@
+﻿Build started 06/12/2010 06:35:40.
+     1>Project "D:\aestesis\code\elektroSDK\src\flash\flash.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug VSTUDIO\flash.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /I..\..\sdk\inc\alib /I..\..\sdk\inc\elektro /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLLn /D WINVER=0x0500 /D _WIN32_WINNT=0x0500 /D _CRT_SECURE_NO_DEPRECATE /D _AFXDLL /D CRTDLL /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/flash.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /I..\..\sdk\inc\alib /I..\..\sdk\inc\elektro /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLLn /D WINVER=0x0500 /D _WIN32_WINNT=0x0500 /D _CRT_SECURE_NO_DEPRECATE /D _AFXDLL /D CRTDLL /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt flashPlayer.cpp shockwaveflash.cpp apihijack.cpp
+         flashPlayer.cpp
+         shockwaveflash.cpp
+         apihijack.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _AFXDLL /D _DEBUG /l"0x040c" /nologo /fo"debug VSTUDIO\flashPlayer.res" flashPlayer.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\flash.dll.embed.manifest.res" "debug VSTUDIO\flash_manifest.rc" 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\flash\debug VSTUDIO\flash.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\plugins\flashp.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(flash) does not match the Linker's OutputFile property value (flashp). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/flashp.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib alib100.lib elektro.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\flash.def" /MANIFEST /ManifestFile:"debug VSTUDIO\flash.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/flashp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/flashp.lib" /MACHINE:X86 /DLL "debug VSTUDIO\flashPlayer.res"
+         "debug VSTUDIO\flash.dll.embed.manifest.res"
+         .\Debug/flashPlayer.obj
+         .\Debug/shockwaveflash.obj
+         .\Debug/StdAfx.obj
+         .\Debug/apihijack.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib /MACHINE:I386 
+     1>.\flash.def(4): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\Debug/flashp.lib and object .\Debug/flashp.exp
+     1>flashp.exp : warning LNK4070: /OUT:flash.dll directive in .EXP differs from output filename '../../elektronika/plugins/flashp.dll'; ignoring directive
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"debug VSTUDIO\flash.dll.embed.manifest" /manifest "debug VSTUDIO\flash.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\flash.dll.embed.manifest.res" "debug VSTUDIO\flash_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/flashp.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib alib100.lib elektro.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\flash.def" /MANIFEST /ManifestFile:"debug VSTUDIO\flash.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/flashp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/flashp.lib" /MACHINE:X86 /DLL "debug VSTUDIO\flashPlayer.res"
+         "debug VSTUDIO\flash.dll.embed.manifest.res"
+         .\Debug/flashPlayer.obj
+         .\Debug/shockwaveflash.obj
+         .\Debug/StdAfx.obj
+         .\Debug/apihijack.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib /MACHINE:I386 
+         flash.vcxproj -> D:\aestesis\code\elektroSDK\src\flash\debug VSTUDIO\flash.dll
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\flash.unsuccessfulbuild".
+         Touching "debug VSTUDIO\flash.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\flash\flash.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.70

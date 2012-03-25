@@ -1,0 +1,27 @@
+HKCR
+{
+	flash.Shockwaveflash.1 = s 'Shockwaveflash Class'
+	{
+		CLSID = s '{A328704B-4783-43DC-87DA-85A15B0EA61F}'
+	}
+	flash.Shockwaveflash = s 'Shockwaveflash Class'
+	{
+		CLSID = s '{A328704B-4783-43DC-87DA-85A15B0EA61F}'
+		CurVer = s 'flash.Shockwaveflash.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {A328704B-4783-43DC-87DA-85A15B0EA61F} = s 'Shockwaveflash Class'
+		{
+			ProgID = s 'flash.Shockwaveflash.1'
+			VersionIndependentProgID = s 'flash.Shockwaveflash'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{C45A5B68-3374-4019-9463-05DDF714C0ED}'
+		}
+	}
+}

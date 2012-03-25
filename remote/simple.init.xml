@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<remoteinit>
+	<master>extend</master>
+	<file>set01\set.eka</file>
+	<rs232>
+		<port>com1</port>
+		<baud>115200</baud>
+		<bits>8</bits>
+		<parity>2</parity>
+		<stop>1</stop>
+	</rs232>
+	<type>
+		<name>slow</name>
+		<snap>images/slow.png</snap>
+		<effect>
+			<name>slow 1</name>
+			<snap>images/1.png</snap>
+			<program>0</program>
+		</effect>
+		<effect>
+			<name>slow 2</name>
+			<snap>images/2.png</snap>
+			<program>1</program>
+		</effect>
+	</type>
+	<type>
+		<name>funk</name>
+		<snap>images/funk.png</snap>
+		<effect>
+			<name>funk 1</name>
+			<snap>images/1.png</snap>
+			<program>10</program>
+		</effect>
+		<effect>
+			<name>funk 2</name>
+			<snap>images/2.png</snap>
+			<program>11</program>
+		</effect>
+		<effect>
+			<name>funk 3</name>
+			<snap>images/3.png</snap>
+			<program>12</program>
+		</effect>
+		<effect>
+			<name>funk 4</name>
+			<snap>images/4.png</snap>
+			<program>13</program>
+		</effect>
+		<effect>
+			<name>funk 5</name>
+			<snap>images/5.png</snap>
+			<program>14</program>
+		</effect>
+	</type>
+	<type>
+		<name>tek</name>
+		<snap>images/tek.png</snap>
+		<effect>
+			<name>tek 1</name>
+			<snap>images/1.png</snap>
+			<program>20</program>
+		</effect>
+		<effect>
+			<name>tek 2</name>
+			<snap>images/2.png</snap>
+			<program>21</program>
+		</effect>
+		<effect>
+			<name>tek 3</name>
+			<snap>images/3.png</snap>
+			<program>22</program>
+		</effect>
+	</type>
+</remoteinit>

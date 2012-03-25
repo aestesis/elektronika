@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="project">
+</Property><Property Name="Solution File" Value="D:\aestesis\code\elektroSDK\project\project.sln">
+</Property><Property Name="User Options File" Value="D:\aestesis\code\elektroSDK\project\project.suo">
+</Property><Property Name="Date" Value="mercredi 30 novembre 2005">
+</Property><Property Name="Time" Value="16:31">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="project.sln" Description="File successfully backed up as D:\aestesis\code\elektroSDK\project\project.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="project.suo" Description="File successfully backed up as D:\aestesis\code\elektroSDK\project\project.suo.old">
+</Event><Event ErrorLevel="0" Project="Alib" Source="..\src\Alib\Alib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="Alib" Source="..\src\Alib\Alib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="buildall" Source="buildall\buildall.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="buildall" Source="buildall\buildall.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="eleKtro" Source="..\src\eleKtro\eleKtro.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="eleKtro" Source="..\src\eleKtro\eleKtro.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="98" Source="..\src\98\98.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="98" Source="..\src\98\98.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dancer" Source="..\src\dancer\dancer.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="dancer" Source="..\src\dancer\dancer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="flash" Source="..\src\flash\flash.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="flash" Source="..\src\flash\flash.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="COMobjects" Source="..\src\COMobjects\COMobjects.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="COMobjects" Source="..\src\COMobjects\COMobjects.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="remote" Source="..\src\remote\remote.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="remote" Source="..\src\remote\remote.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="example01" Source="..\modules\example01\example01.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="example01" Source="..\modules\example01\example01.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="example02" Source="..\modules\example02\example02.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="example02" Source="..\modules\example02\example02.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="zool" Source="..\modules\zool\zool.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="zool" Source="..\modules\zool\zool.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="zlib" Source="..\src\zlib\zlib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="zlib" Source="..\src\zlib\zlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libpng" Source="..\src\libpng\libpng.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="libpng" Source="..\src\libpng\libpng.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="elektronika" Source="..\src\elektronika\elektronika.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="elektronika" Source="..\src\elektronika\elektronika.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="forms" Source="..\ompp\forms\forms.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="forms" Source="..\ompp\forms\forms.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SoundTouch" Source="..\sdk\SoundTouch\source\SoundTouch\SoundTouch.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="SoundTouch" Source="..\sdk\SoundTouch\source\SoundTouch\SoundTouch.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Snake" Source="..\src\SourceFilter\Snake.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="Snake" Source="..\src\SourceFilter\Snake.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="baseclasses" Source="C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj" Description="Visual C++ now supports a secure version of the C Runtime Library. Use of this library is turned on by default. You may see some warnings about deprecated functions when you build your project. It is advised that you correct these warnings, in order to make your code more secure.">
+</Event><Event ErrorLevel="0" Project="baseclasses" Source="C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj" Description="The C/C++ compiler default settings have been modified to be more compliant with ISO Standard C++. Included in those changes are enforcing Standard C++ for loop scoping and supporting wchar_t as a native type. These changes may cause existing code to no longer compile without changes to the code or the compiler options with which it is built.">
+</Event><Event ErrorLevel="1" Project="baseclasses" Source="C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj" Description="Due to the requirement that Visual C++ projects produce an embedded (by default) Windows SxS manifest, manifest files in the project are automatically excluded from building with the Manifest Tool.  It is recommended that the dependency information contained in any manifest files be converted to &quot;#pragma comment(linker,&quot;&lt;insert dependency here&gt;&quot;)&quot; in a header file that is included from your source code.  If your project already embeds a manifest in the RT_MANIFEST resource section through a resource (.rc) file, the line will need to be commented out before the project will build correctly.">
+</Event><Event ErrorLevel="1" Project="baseclasses" Source="C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj" Description="Due to a conformance change in the C++ compiler, code change may be required before your project will build without errors.  Previous versions of the C++ compiler allowed specification of member function pointers by member function name (e.g. MemberFunctionName).  The C++ standard requires a fully qualified name with the use of the address-of operator (e.g. &amp;ClassName::MemberFunctionName).  If your project contains forms or controls used in the Windows Forms Designer, you may have to change code in InitializeComponent because the designer generated code used the non-conformant syntax in delegate construction (used in event handlers).">
+</Event><Event ErrorLevel="0" Project="baseclasses" Source="C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj" Description="Project file successfully backed up as 'C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj.7.00.old'.">
+</Event><Event ErrorLevel="0" Project="baseclasses" Source="C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="baseclasses" Source="C:\DXSDK\Samples\C++\DirectShow\BaseClasses\baseclasses.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="project.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="project.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

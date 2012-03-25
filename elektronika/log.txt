@@ -1,0 +1,4215 @@
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\soundOutput.cpp line:263' wanted by '.\soundOutput.cpp line:740'
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.59
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\table.cpp line:2242' wanted by '.\table.cpp line:1243'
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\vpone.cpp line:878' wanted by '.\vpone.cpp line:1089'
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by 'd:\aestesis\code\elektrosdk\src\elektronika\vpone.cpp line:878' wanted by 'd:\aestesis\code\elektrosdk\src\elektronika\vpone.cpp line:1089'
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.60
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\table.cpp line:1726' wanted by '.\table.cpp line:2242'
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\v3dout.cpp line:1654' wanted by '.\v3dout.cpp line:2085'
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\v3dout.cpp line:852' wanted by '.\v3dout.cpp line:1042'
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.61
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\QThelpers.cpp line:480' wanted by '.\QThelpers.cpp line:534'
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\QThelpers.cpp line:480' wanted by '.\QThelpers.cpp line:534'
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '' wanted by '.\ef3d-stream.cpp line:480'
+
+Error: (Asection) locked by '.\v3dout.cpp line:1996' wanted by '.\v3dout.cpp line:1043'
+
+Error: (Asection) locked by '' wanted by '.\ef3d-stream.cpp line:480'
+
+Error: (Asection) locked by '' wanted by '.\ef3d-stream.cpp line:480'
+
+Error: (Asection) locked by '.\v3dout.cpp line:1996' wanted by '.\v3dout.cpp line:1043'
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '' wanted by '.\ef3d-stream.cpp line:480'
+
+Error: (Asection) locked by '.\ef3d-stream.cpp line:850' wanted by '.\ef3d-stream.cpp line:554'
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\table.cpp line:1727' wanted by '.\table.cpp line:2243'
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\QThelpers.cpp line:480' wanted by '.\QThelpers.cpp line:534'
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\table.cpp line:1727' wanted by '.\table.cpp line:2243'
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.65
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\QThelpers.cpp line:481' wanted by '.\QThelpers.cpp line:535'
+
+Error: (Asection) locked by '.\videoIn.cpp line:1111' wanted by '.\videoIn.cpp line:1036'
+
+Error: (Asection) locked by '.\soundOutput.cpp line:263' wanted by '.\soundOutput.cpp line:740'
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\table.cpp line:1727' wanted by '.\table.cpp line:2243'
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.66
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\QThelpers.cpp line:481' wanted by '.\QThelpers.cpp line:535'
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.67
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.68
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.69
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '' wanted by '.\videoIn.cpp line:1036'
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.70
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '' wanted by '.\videoIn.cpp line:1036'
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.71
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '.\vp10.cpp line:229' wanted by '.\vp10.cpp line:407'
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.72
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by '' wanted by 'd:\aestesis\code\elektrosdk\src\elektronika\videoin.cpp line:1036'
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by 'd:\aestesis\code\elektrosdk\src\elektro\table.cpp line:1727' wanted by 'd:\aestesis\code\elektrosdk\src\elektro\table.cpp line:2243'
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.73
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by 'table.cpp line:2243' wanted by 'preview.cpp line:342'
+
+Error: (Asection) locked by 'table.cpp line:2243' wanted by 'preview.cpp line:342'
+
+Error: (Asection) locked by 'table.cpp line:2243' wanted by 'preview.cpp line:342'
+
+Error: (Asection) locked by 'table.cpp line:2243' wanted by 'preview.cpp line:342'
+
+Error: (Asection) locked by 'table.cpp line:2243' wanted by 'preview.cpp line:342'
+
+
+Elektronika 2.75
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.75
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.76
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+Error: (Asection) locked by 'table.cpp line:2248' wanted by 'table.cpp line:1732'
+
+
+Elektronika 2.77
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.77
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.77
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.77
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.77
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.77
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  
+
+
+Elektronika 2.77
+=======================================
+
+plugins\98.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\dancer.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example01.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\example02.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\flashp.dll  =>LoadLibrary::OK  GetPlugz::OK  
+plugins\zool.dll  =>LoadLibrary::OK  GetPlugz::OK  

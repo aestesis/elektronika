@@ -1,0 +1,83 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Alib"=..\src\Alib\Alib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dancer"=.\dancer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Alib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name eleKtro
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name elektronika
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "eleKtro"=..\src\eleKtro\eleKtro.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Alib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "elektronika"=..\src\elektronika\elektronika.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Alib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name eleKtro
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

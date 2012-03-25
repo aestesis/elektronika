@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Alib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP1C6.bat" with contents
+[
+@echo off
+copy debug\alib100.lib ..\..\sdk\lib\alib100.lib
+]
+Creating command line "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP1C6.bat"
+<h3>Output Window</h3>
+Performing Custom Build Step on \_code\YoY\elektroSDK\elektronika\alib100.dll
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+alib100.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

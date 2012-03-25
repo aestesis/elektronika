@@ -1,0 +1,118 @@
+﻿Build started 28/09/2010 07:51:51.
+     1>Project "D:\aestesis\code\elektroSDK\src\eleKtro\eleKtro.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\aestesis\code\elektroSDK\elektronika\eleKtro.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /I..\..\sdk\inc\alib /I..\..\sdk\inc\elektro /I..\alib /Zi /nologo /W3 /WX- /O2 /Ob2 /Ot /Oy- /GT /D VSTUDIO /D NDEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D ELEKTRO_EXPORTS /D WINVER=0x0500 /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy- /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt acontrol.cpp bpmTracker.cpp capsule.cpp connect.cpp ctrlButton.cpp effect.cpp effect3d.cpp equalizer.cpp main.cpp paddle.cpp pin.cpp sample.cpp selcolor.cpp select.cpp selectView.cpp selpad.cpp sequencer.cpp simple.cpp slider.cpp table.cpp tcpRemote.cpp timeline.cpp transition.cpp trigger.cpp video.cpp zone.cpp
+         acontrol.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         bpmTracker.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         capsule.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         connect.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         ctrlButton.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         effect.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         effect3d.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         equalizer.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         main.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         paddle.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         pin.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         sample.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         selcolor.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         select.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         selectView.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         selpad.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         sequencer.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         simple.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         slider.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         table.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+         Compiling...
+         tcpRemote.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         timeline.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         transition.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         trigger.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         video.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         zone.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11280): error C2061: syntax error : identifier '__RPC__out_xcount_part'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(11281): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\eleKtro\eleKtro.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:10.46

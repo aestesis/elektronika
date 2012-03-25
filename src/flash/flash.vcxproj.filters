@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8a0da650-da56-4a96-81b7-62251b4f68cb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5da16547-452e-462f-a118-de2c76d07569}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4cc04d90-ee58-45d2-b60a-0ab1f2e62ed7}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="hijack">
+      <UniqueIdentifier>{826fb53a-0616-4981-bf6d-e7e0d36bc401}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="flashPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shockwaveflash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apihijack.cpp">
+      <Filter>hijack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="flashPlayer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="flashp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flashPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shockwaveflash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="apihijack.h">
+      <Filter>hijack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\flash.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle_dig12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle_dig16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle_dig24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle_dig32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="select.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

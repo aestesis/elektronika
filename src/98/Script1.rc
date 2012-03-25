@@ -1,0 +1,88 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+PNG_BACK                PNG                     "back.png"
+PNG_FRONT               PNG                     "front.png"
+PNG_PADDLE              PNG                     "paddle013.png"
+PNG_CLEAR               PNG                     "clear.png"
+PNG_SPACE               PNG                     "space.png"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SGLURF              BITMAP                  "sglurf.bmp"
+IDB_HOUSE               BITMAP                  "house.bmp"
+IDB_XTIME               BITMAP                  "xtime.bmp"
+IDB_ZYGO                BITMAP                  "zygo.bmp"
+IDB_PLAYER              BITMAP                  "player.bmp"
+IDB_DEFPLAYER           BITMAP                  "defplayer.bmp"
+IDB_FLAMME              BITMAP                  "flammes.bmp"
+IDB_DEFAULT             BITMAP                  "effect.bmp"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

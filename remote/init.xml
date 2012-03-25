@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<remoteinit>
+	<master>extend</master>
+	<file>set01\set.eka</file>
+	<rs232>
+		<port>com1</port>
+		<baud>115200</baud>
+		<bits>8</bits>
+		<parity>2</parity>
+		<stop>1</stop>
+	</rs232>
+	<type>
+		<name>slow</name>
+		<snap>images/slow.png</snap>
+		<effect>
+			<name>slow 1</name>
+			<snap>images/1.png</snap>
+			<program>0</program>
+		</effect>
+		<effect>
+			<name>slow 2</name>
+			<snap>images/2.png</snap>
+			<program>1</program>
+		</effect>
+		<effect>
+			<name>slow 3</name>
+			<snap>images/3.png</snap>
+			<program>2</program>
+		</effect>
+		<effect>
+			<name>slow 4</name>
+			<snap>images/4.png</snap>
+			<program>3</program>
+		</effect>
+		<effect>
+			<name>slow 5</name>
+			<snap>images/5.png</snap>
+			<program>4</program>
+		</effect>
+		<effect>
+			<name>slow 6</name>
+			<snap>images/6.png</snap>
+			<program>5</program>
+		</effect>
+		<effect>
+			<name>slow 7</name>
+			<snap>images/7.png</snap>
+			<program>6</program>
+		</effect>
+		<effect>
+			<name>slow 8</name>
+			<snap>images/8.png</snap>
+			<program>7</program>
+		</effect>
+	</type>
+	<type>
+		<name>funk</name>
+		<snap>images/funk.png</snap>
+		<effect>
+			<name>funk 1</name>
+			<snap>images/1.png</snap>
+			<program>8</program>
+		</effect>
+		<effect>
+			<name>funk 2</name>
+			<snap>images/2.png</snap>
+			<program>9</program>
+		</effect>
+		<effect>
+			<name>funk 3</name>
+			<snap>images/3.png</snap>
+			<program>10</program>
+		</effect>
+		<effect>
+			<name>funk 4</name>
+			<snap>images/4.png</snap>
+			<program>11</program>
+		</effect>
+		<effect>
+			<name>funk 5</name>
+			<snap>images/5.png</snap>
+			<program>12</program>
+		</effect>
+		<effect>
+			<name>funk 6</name>
+			<snap>images/6.png</snap>
+			<program>13</program>
+		</effect>
+		<effect>
+			<name>funk 7</name>
+			<snap>images/7.png</snap>
+			<program>14</program>
+		</effect>
+		<effect>
+			<name>funk 8</name>
+			<snap>images/8.png</snap>
+			<program>15</program>
+		</effect>
+	</type>
+	<type>
+		<name>tek</name>
+		<snap>images/tek.png</snap>
+		<effect>
+			<name>tek 1</name>
+			<snap>images/1.png</snap>
+			<program>16</program>
+		</effect>
+		<effect>
+			<name>tek 2</name>
+			<snap>images/2.png</snap>
+			<program>17</program>
+		</effect>
+		<effect>
+			<name>tek 3</name>
+			<snap>images/3.png</snap>
+			<program>18</program>
+		</effect>
+		<effect>
+			<name>tek 4</name>
+			<snap>images/4.png</snap>
+			<program>19</program>
+		</effect>
+		<effect>
+			<name>tek 5</name>
+			<snap>images/5.png</snap>
+			<program>20</program>
+		</effect>
+		<effect>
+			<name>tek 6</name>
+			<snap>images/6.png</snap>
+			<program>21</program>
+		</effect>
+		<effect>
+			<name>tek 7</name>
+			<snap>images/7.png</snap>
+			<program>22</program>
+		</effect>
+		<effect>
+			<name>tek 8</name>
+			<snap>images/8.png</snap>
+			<program>23</program>
+		</effect>
+	</type>
+	<type>
+		<name>rock</name>
+		<snap>images/rock.png</snap>
+		<effect>
+			<name>rock 1</name>
+			<snap>images/1.png</snap>
+			<program>24</program>
+		</effect>
+		<effect>
+			<name>rock 2</name>
+			<snap>images/2.png</snap>
+			<program>25</program>
+		</effect>
+		<effect>
+			<name>rock 3</name>
+			<snap>images/3.png</snap>
+			<program>26</program>
+		</effect>
+		<effect>
+			<name>rock 4</name>
+			<snap>images/4.png</snap>
+			<program>27</program>
+		</effect>
+		<effect>
+			<name>rock 5</name>
+			<snap>images/5.png</snap>
+			<program>28</program>
+		</effect>
+		<effect>
+			<name>rock 6</name>
+			<snap>images/6.png</snap>
+			<program>29</program>
+		</effect>
+		<effect>
+			<name>rock 7</name>
+			<snap>images/7.png</snap>
+			<program>30</program>
+		</effect>
+		<effect>
+			<name>rock 8</name>
+			<snap>images/8.png</snap>
+			<program>31</program>
+		</effect>
+	</type>
+	<type>
+		<name>tcm</name>
+		<snap>images/tcm.png</snap>
+		<effect>
+			<name>tcm 1</name>
+			<snap>images/1.png</snap>
+			<program>32</program>
+		</effect>
+		<effect>
+			<name>tcm 2</name>
+			<snap>images/2.png</snap>
+			<program>33</program>
+		</effect>
+		<effect>
+			<name>tcm 3</name>
+			<snap>images/3.png</snap>
+			<program>34</program>
+		</effect>
+		<effect>
+			<name>tcm 4</name>
+			<snap>images/4.png</snap>
+			<program>35</program>
+		</effect>
+		<effect>
+			<name>tcm 5</name>
+			<snap>images/5.png</snap>
+			<program>36</program>
+		</effect>
+		<effect>
+			<name>tcm 6</name>
+			<snap>images/6.png</snap>
+			<program>37</program>
+		</effect>
+		<effect>
+			<name>tcm 7</name>
+			<snap>images/7.png</snap>
+			<program>38</program>
+		</effect>
+		<effect>
+			<name>tcm 8</name>
+			<snap>images/8.png</snap>
+			<program>39</program>
+		</effect>
+	</type>
+	<type>
+		<name>pop</name>
+		<snap>images/pop.png</snap>
+		<effect>
+			<name>pop 1</name>
+			<snap>images/1.png</snap>
+			<program>40</program>
+		</effect>
+		<effect>
+			<name>pop 2</name>
+			<snap>images/2.png</snap>
+			<program>41</program>
+		</effect>
+		<effect>
+			<name>pop 3</name>
+			<snap>images/3.png</snap>
+			<program>41</program>
+		</effect>
+		<effect>
+			<name>pop 4</name>
+			<snap>images/4.png</snap>
+			<program>42</program>
+		</effect>
+		<effect>
+			<name>pop 5</name>
+			<snap>images/5.png</snap>
+			<program>43</program>
+		</effect>
+		<effect>
+			<name>pop 6</name>
+			<snap>images/6.png</snap>
+			<program>44</program>
+		</effect>
+		<effect>
+			<name>pop 7</name>
+			<snap>images/7.png</snap>
+			<program>45</program>
+		</effect>
+		<effect>
+			<name>pop 8</name>
+			<snap>images/8.png</snap>
+			<program>46</program>
+		</effect>
+	</type>
+	<type>
+		<name>clips</name>
+		<snap>images/clips.png</snap>
+		<effect>
+			<name>clip 1</name>
+			<snap>images/1.png</snap>
+			<program>48</program>
+		</effect>
+		<effect>
+			<name>clip 2</name>
+			<snap>images/2.png</snap>
+			<program>49</program>
+		</effect>
+		<effect>
+			<name>clip 3</name>
+			<snap>images/3.png</snap>
+			<program>50</program>
+		</effect>
+		<effect>
+			<name>clip 4</name>
+			<snap>images/4.png</snap>
+			<program>51</program>
+		</effect>
+		<effect>
+			<name>clip 5</name>
+			<snap>images/5.png</snap>
+			<program>52</program>
+		</effect>
+		<effect>
+			<name>clip 6</name>
+			<snap>images/6.png</snap>
+			<program>53</program>
+		</effect>
+		<effect>
+			<name>clip 7</name>
+			<snap>images/7.png</snap>
+			<program>54</program>
+		</effect>
+		<effect>
+			<name>clip 8</name>
+			<snap>images/8.png</snap>
+			<program>55</program>
+		</effect>
+	</type>
+</remoteinit>

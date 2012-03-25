@@ -1,0 +1,101 @@
+﻿Build started 06/12/2010 07:14:23.
+     1>Project "D:\aestesis\code\elektroSDK\src\elektronika\elektronika.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "debug VSTUDIO\elektronika.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\elektronika\debug VSTUDIO\elektronika.exe) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\elektronika.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/elektronika.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86" amstrmid.lib winmm.lib elektro.lib alib100.lib dsound.lib dxguid.lib ddraw.lib ws2_32.lib strmiids.lib opengl32.lib glu32.lib d3d9.lib d3dx9.lib psapi.lib comsuppw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"debug VSTUDIO\elektronika.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\elektronika___Win32_Debug/elektronika.pdb" /SUBSYSTEM:WINDOWS /HEAP:"0" /STACK:"4000000","1000000" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"debug VSTUDIO\elektronika.lib" /MACHINE:X86 "debug VSTUDIO\elektronika.res"
+         "debug VSTUDIO\elektronika.exe.embed.manifest.res"
+         .\elektronika___Win32_Debug/aestesis.obj
+         .\elektronika___Win32_Debug/automix.obj
+         .\elektronika___Win32_Debug/band.obj
+         .\elektronika___Win32_Debug/color.obj
+         .\elektronika___Win32_Debug/dispatch.obj
+         .\elektronika___Win32_Debug/dvcap.obj
+         .\elektronika___Win32_Debug/dxfilter.obj
+         .\elektronika___Win32_Debug/export.obj
+         .\elektronika___Win32_Debug/fframe.obj
+         .\elektronika___Win32_Debug/grab.obj
+         .\elektronika___Win32_Debug/loop.obj
+         .\elektronika___Win32_Debug/mimix.obj
+         .\elektronika___Win32_Debug/network.obj
+         .\elektronika___Win32_Debug/pub.obj
+         .\elektronika___Win32_Debug/rhytmBox.obj
+         .\elektronika___Win32_Debug/soundInput.obj
+         .\elektronika___Win32_Debug/soundOutput.obj
+         .\elektronika___Win32_Debug/sphere.obj
+         .\elektronika___Win32_Debug/trail.obj
+         .\elektronika___Win32_Debug/v3dout.obj
+         .\elektronika___Win32_Debug/videoIn.obj
+         .\elektronika___Win32_Debug/viswrp.obj
+         .\elektronika___Win32_Debug/vmix.obj
+         .\elektronika___Win32_Debug/vout.obj
+         .\elektronika___Win32_Debug/vp10.obj
+         .\elektronika___Win32_Debug/vpone.obj
+         .\elektronika___Win32_Debug/webclient.obj
+         .\elektronika___Win32_Debug/websrv.obj
+         .\elektronika___Win32_Debug/wmp.obj
+         .\elektronika___Win32_Debug/aasio.obj
+         .\elektronika___Win32_Debug/asio.obj
+         .\elektronika___Win32_Debug/asiodrivers.obj
+         .\elektronika___Win32_Debug/asiolist.obj
+         .\elektronika___Win32_Debug/omppwrap.obj
+         ".\elektronika___Win32_Debug/trans-color.obj"
+         ".\elektronika___Win32_Debug/trans-fade.obj"
+         ".\elektronika___Win32_Debug/trans-luma.obj"
+         ".\elektronika___Win32_Debug/trans-slice.obj"
+         ".\elektronika___Win32_Debug/trans-video.obj"
+         .\elektronika___Win32_Debug/about.obj
+         .\elektronika___Win32_Debug/background.obj
+         .\elektronika___Win32_Debug/computerInfo.obj
+         .\elektronika___Win32_Debug/config.obj
+         .\elektronika___Win32_Debug/explorer.obj
+         .\elektronika___Win32_Debug/main.obj
+         .\elektronika___Win32_Debug/md5.obj
+         .\elektronika___Win32_Debug/presets.obj
+         .\elektronika___Win32_Debug/preview.obj
+         .\elektronika___Win32_Debug/regfile.obj
+         .\elektronika___Win32_Debug/reseller.obj
+         .\elektronika___Win32_Debug/status.obj
+         ".\elektronika___Win32_Debug/ef3d-cube.obj"
+         ".\elektronika___Win32_Debug/ef3d-meta.obj"
+         ".\elektronika___Win32_Debug/ef3d-morph.obj"
+         ".\elektronika___Win32_Debug/ef3d-morph2.obj"
+         ".\elektronika___Win32_Debug/ef3d-pixel.obj"
+         ".\elektronika___Win32_Debug/ef3d-stream.obj"
+         ".\elektronika___Win32_Debug/ef3d-test.obj"
+         ".\elektronika___Win32_Debug/ef3d-text.obj"
+         ".\elektronika___Win32_Debug/ef3d-tunel.obj"
+         ".\elektronika___Win32_Debug/ef3d-video.obj"
+         ".\elektronika___Win32_Debug/ef3d-zoom.obj"
+         ".\elektronika___Win32_Debug/ef3d-node.obj"
+         ..\..\sdk\lib\libxml2.lib
+         D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\Debug\SoundTouchD.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         "D:\aestesis\code\elektroSDK\src\COMobjects\debug VSTUDIO\COMobjects.lib"
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib /MACHINE:I386 
+         LINK : ../../elektronika/elektronika.exe not found or not built by the last incremental link; performing full link
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"debug VSTUDIO\elektronika.exe.embed.manifest" /manifest "debug VSTUDIO\elektronika.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         elektronika.vcxproj -> D:\aestesis\code\elektroSDK\src\elektronika\debug VSTUDIO\elektronika.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"debug VSTUDIO\elektronika.bsc" "debug VSTUDIO\aestesis.sbr" "debug VSTUDIO\automix.sbr" "debug VSTUDIO\band.sbr" "debug VSTUDIO\color.sbr" "debug VSTUDIO\dispatch.sbr" "debug VSTUDIO\dvcap.sbr" "debug VSTUDIO\dxfilter.sbr" "debug VSTUDIO\export.sbr" "debug VSTUDIO\fframe.sbr" "debug VSTUDIO\grab.sbr" "debug VSTUDIO\loop.sbr" "debug VSTUDIO\mimix.sbr" "debug VSTUDIO\network.sbr" "debug VSTUDIO\pub.sbr" "debug VSTUDIO\rhytmBox.sbr" "debug VSTUDIO\soundInput.sbr" "debug VSTUDIO\soundOutput.sbr" "debug VSTUDIO\sphere.sbr" "debug VSTUDIO\trail.sbr" "debug VSTUDIO\v3dout.sbr" "debug VSTUDIO\videoIn.sbr" "debug VSTUDIO\viswrp.sbr" "debug VSTUDIO\vmix.sbr" "debug VSTUDIO\vout.sbr" "debug VSTUDIO\vp10.sbr" "debug VSTUDIO\vpone.sbr" "debug VSTUDIO\webclient.sbr" "debug VSTUDIO\websrv.sbr" "debug VSTUDIO\wmp.sbr" "debug VSTUDIO\aasio.sbr" "debug VSTUDIO\asio.sbr" "debug VSTUDIO\asiodrivers.sbr" "debug VSTUDIO\asiolist.sbr" "debug VSTUDIO\omppwrap.sbr" "debug VSTUDIO\trans-color.sbr" "debug VSTUDIO\trans-fade.sbr" "debug VSTUDIO\trans-luma.sbr" "debug VSTUDIO\trans-slice.sbr" "debug VSTUDIO\trans-video.sbr" "debug VSTUDIO\about.sbr" "debug VSTUDIO\background.sbr" "debug VSTUDIO\computerInfo.sbr" "debug VSTUDIO\config.sbr" "debug VSTUDIO\explorer.sbr" "debug VSTUDIO\main.sbr" "debug VSTUDIO\md5.sbr" "debug VSTUDIO\presets.sbr" "debug VSTUDIO\preview.sbr" "debug VSTUDIO\regfile.sbr" "debug VSTUDIO\reseller.sbr" "debug VSTUDIO\status.sbr" "debug VSTUDIO\ef3d-cube.sbr" "debug VSTUDIO\ef3d-meta.sbr" "debug VSTUDIO\ef3d-morph.sbr" "debug VSTUDIO\ef3d-morph2.sbr" "debug VSTUDIO\ef3d-pixel.sbr" "debug VSTUDIO\ef3d-stream.sbr" "debug VSTUDIO\ef3d-test.sbr" "debug VSTUDIO\ef3d-text.sbr" "debug VSTUDIO\ef3d-tunel.sbr" "debug VSTUDIO\ef3d-video.sbr" "debug VSTUDIO\ef3d-zoom.sbr" "debug VSTUDIO\ef3d-node.sbr"
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\elektronika.unsuccessfulbuild".
+         Touching "debug VSTUDIO\elektronika.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\elektronika\elektronika.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.81

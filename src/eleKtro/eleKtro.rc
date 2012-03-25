@@ -1,0 +1,120 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG1                PNG                     "paddle010.png"
+IDR_PNG2                PNG                     "paddle011.png"
+IDR_PNG3                PNG                     "paddle012.png"
+IDR_PNG4                PNG                     "paddle013.png"
+PNG_OVR                 PNG                     "ovr.png"
+PNG_INS                 PNG                     "ins.png"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+PNG_TRIGGER             PNG                     "triger.png"
+PNG_ONOFF               PNG                     "button.png"
+PNG_YOLI64              PNG                     "yolie-64.png"
+PNG_YOLI24              PNG                     "yolie-24.png"
+PNG_YOLI32              PNG                     "yolie-32.png"
+PNG_YOLI16              PNG                     "yolie-16.png"
+PNG_PATTERN             PNG                     "pattern.png"
+PNG_BANK                PNG                     "bank.png"
+PNG_MUTE                PNG                     "mute.png"
+PNG_RECORD              PNG                     "record.png"
+PNG_SOLO                PNG                     "solo.png"
+PNG_LCDUP               PNG                     "lcd-up.png"
+PNG_LCDDOWN             PNG                     "lcd-down.png"
+PNG_BIGSWITCH           PNG                     "big_switch.png"
+PNG_LCDONOFF            PNG                     "lcd-onoff.png"
+PNG_DELTRACK            PNG                     "deltrack.png"
+PNG_REFRESH             PNG                     "refresh.png"
+PNG_SEQTAMPON           PNG                     "seq-tampon.png"
+PNG_SEQPEN              PNG                     "seq-crayon.png"
+PNG_SEQGOMME            PNG                     "seq-gomme.png"
+PNG_SEQBLUR             PNG                     "seq-goutte.png"
+PNG_SEQMAGNIFY          PNG                     "seq-loupe.png"
+PNG_SEQHAND             PNG                     "seq-main.png"
+PNG_SEQPIPETTE          PNG                     "seq-pipette.png"
+PNG_SEQPENCURSOR        PNG                     "seq-crayon-cursor.png"
+PNG_SEQERASECURSOR      PNG                     "seq-gomme-cursor.png"
+PNG_SEQBLURCURSOR       PNG                     "seq-goutte-cursor.png"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

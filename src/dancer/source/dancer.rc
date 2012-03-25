@@ -1,0 +1,96 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+PNG_SOURCES             PNG     DISCARDABLE     "sources.png"
+PNG_BUTTON              PNG     DISCARDABLE     "button.png"
+PNG_FRONT               PNG     DISCARDABLE     "front.png"
+PNG_SELECT              PNG     DISCARDABLE     "select.png"
+PNG_BACK                PNG     DISCARDABLE     "back.png"
+PNG_JACK                PNG     DISCARDABLE     "NEO_JACK.png"
+PNG_GRADE               PNG     DISCARDABLE     "GRADE.png"
+PNG_HELMUT              PNG     DISCARDABLE     "HELMUT.png"
+PNG_BEN                 PNG     DISCARDABLE     "BEN.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// KPR
+//
+
+KPR_JACK_TRONC          KPR     DISCARDABLE     "Jack_tronc.kpr"
+KPR_JACK_TETE           KPR     DISCARDABLE     "Jack_tete.kpr"
+KPR_JACK_JAMBES         KPR     DISCARDABLE     "Jack_jambes.kpr"
+KPR_HELMUT_TRONC        KPR     DISCARDABLE     "HELMUT_TRONC.KPR"
+KPR_BEN_TETE            KPR     DISCARDABLE     "BEN_TETE.KPR"
+KPR_BEN_TRONC           KPR     DISCARDABLE     "BEN_TRONC.KPR"
+KPR_GRADE_JAMBES        KPR     DISCARDABLE     "GRADE_JAMBES.KPR"
+KPR_GRADE_TETE          KPR     DISCARDABLE     "GRADE_TETE.KPR"
+KPR_GRADE_TRONC         KPR     DISCARDABLE     "GRADE_TRONC.KPR"
+KPR_HELMUT_JAMBES       KPR     DISCARDABLE     "HELMUT_JAMBES.KPR"
+KPR_HELMUT_TETE         KPR     DISCARDABLE     "HELMUT_TETE.KPR"
+KPR_BEN_JAMBES          KPR     DISCARDABLE     "BEN_JAMBES.KPR"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

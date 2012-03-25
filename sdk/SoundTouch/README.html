@@ -1,0 +1,719 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="author" content="Olli Parviainen">
+<meta name="description"
+content="Readme file for SoundTouch audio processing library">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>SoundTouch library README</title>
+</head>
+
+<body>
+
+<hr>
+
+<h1><font face="Arial">SoundTouch audio processing library v1.2.1
+(27/Dec/2003)</font></h1>
+
+<p><font face="Arial">SoundTouch library Copyright (c) Olli
+Parviainen 2002-2003 </font></p>
+
+<hr>
+
+<h1><font face="Arial">1. Introduction </font></h1>
+
+<p><font face="Arial">SoundTouch is an open-source audio
+processing library that allows changing the sound tempo, pitch
+and playback rate parameters independently from each other, i.e.:</font></p>
+
+<ul>
+    <li><font face="Arial">Sound tempo can be incresed or
+        decreased while maintaining the original pitch</font></li>
+    <li><font face="Arial">Sound pitch can be incresed or
+        decreased while maintaining the original tempo </font></li>
+    <li><font face="Arial">Change playback rate that affects both
+        tempo and pitch at the same time </font></li>
+    <li><font face="Arial">Choose any combination of tempo/pitch/rate</font></li>
+</ul>
+
+<h3><font face="Arial">1.1 Contact information </font></h3>
+
+<p><font face="Arial">Author email: oparviai @ iki.fi </font></p>
+
+<p><font face="Arial">SoundTouch WWW page: </font><a
+href="http://www.iki.fi/oparviai/soundtouch"><font face="Arial">http://www.iki.fi/oparviai/soundtouch</font></a></p>
+
+<blockquote>
+    <p><font face="Arial"><strong>Note:</strong> The above URL is
+    a relay address that will forward the browser to the actual
+    server. If you'll create a link to SoundTouch library page,
+    please use the above URL instead of the actual address, so
+    that the correct link address will be maintained although the
+    pages would move to another server.</font></p>
+</blockquote>
+
+<hr>
+
+<h2><font face="Arial">2. Compiling SoundTouch</font></h2>
+<P><FONT FACE="Arial">Before compiling, notice that you can choose
+sample data format if it's desirable to use floating point sample
+data instead of 16bit integers. See section &quot;sample data format&quot;
+for more information.</FONT></P>
+<H3><FONT FACE="Arial">2.1. Building in Microsoft Windows</FONT></H3>
+<P><FONT FACE="Arial">Project files for Microsoft Visual C++ 6.0 are
+supplied with the source code package. Please notice that SoundTouch
+library uses processor-specific optimizations for Pentium III and AMD
+processors that require a &ldquo;processor pack&rdquo; upgrade for
+the Visual Studio 6.0 to be installed in order to support these
+optimizations. The processor pack upgrade can be downloaded from
+Microsoft site at this URL:</FONT></P>
+<P><A HREF="http://msdn.microsoft.com/vstudio/downloads/tools/ppack/default.aspx"><FONT FACE="Arial">http://msdn.microsoft.com/vstudio/downloads/tools/ppack/default.aspx</FONT></A></P>
+<P><FONT FACE="Arial">If the above URL is unavailable or removed, go
+to <A HREF="http://msdn.microsoft.com/">http://msdn.microsoft.com</A>
+and perform a search with keywords &ldquo;processor pack&rdquo;. </FONT>
+</P>
+<P><FONT FACE="Arial">Visual Studio .NET supports required
+instructions by default and thus doesn't require installing the
+processor pack.</FONT></P>
+<P><FONT FACE="Arial">To build the binaries with Visual C++ 6.0
+compiler, either run &quot;make-win.bat&quot; script or open the
+appropriate project files in source code directories with Visual
+Studio. The final executable will appear under the &quot;SoundTouch\bin&quot;
+directory. If using the Visual Studio IDE instead of the
+&ldquo;make-win.bat&rdquo; script, directories &ldquo;bin&rdquo; and
+&ldquo;lib&rdquo; have to be created manually to the SoundTouch
+package root for the final executables. The &ldquo;make-win.bat&rdquo; script
+creates these directories automatically.</FONT>
+</P>
+<P><FONT FACE="Arial">Also other C++ compilers than Visual C++ can be
+used, but project or makefiles then have to be adapted accordingly.
+Performance optimizations are written in Visual C++ compatible
+syntax, they may or may not be compatible with other compilers. If
+using GCC (Gnu C Compiler) compiler package such as DJGPP or Cygwin,
+please see next chapter for instructions. </FONT>
+</P>
+<H3><FONT FACE="Arial">2.2. Building in Gnu platforms</FONT></H3>
+<P><FONT FACE="Arial">The SoundTouch library can be compiled in
+practically any platform supporting GNU compiler (GCC) tools.
+SoundTouch have been tested with gcc versions 3.2.3., but it
+shouldn't be very specific about the gcc version. Assembler-level
+performance optimizations for GNU platform are currently available in
+x86 platforms only, they are automatically disabled and replaced with
+standard C routines in other processor platforms.</FONT></P>
+<P><FONT FACE="Arial">To build and install the binaries, run the
+following commands in SoundTouch/ directory:</FONT></P>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=4>
+	<TR VALIGN=TOP>
+		<TD>
+			<PRE>configure    -</PRE>
+		</TD>
+		<TD>
+			<P><FONT FACE="Arial">Configures the SoundTouch package for local
+			environment.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD>
+			<PRE>make         -</PRE>
+		</TD>
+		<TD>
+			<P><FONT FACE="arial">Builds the SoundTouch library &amp;
+			SoundStretch utility.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD>
+			<PRE>make install -</PRE>
+		</TD>
+		<TD>
+			<P><FONT FACE="arial">Installs the SoundTouch &amp; BPM libraries
+			to <B>/usr/local/lib</B> and SoundStretch utility to
+			<B>/usr/local/bin</B>. Please notice that 'root' access may be
+			required to install the binaries to the destination locations.</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<hr>
+
+<h2><font face="Arial">3. About implementation &amp; Usage tips</font></h2>
+
+<h3><font face="Arial">3.1. Supported sample data formats</font></h3>
+
+<p><font face="Arial">The sample data format can be chosen
+between 16bit signed integer and 32bit floating point values, the
+default is 16bit signed inteher. The sample data format is chosen
+in file &quot;STTypes.h&quot; by choosing one of the following
+defines:</font></p>
+
+<ul>
+    <li><font face="Arial">#define INTEGER_SAMPLES for 16bit
+        signed integer</font></li>
+    <li><font face="Arial">#define FLOAT_SAMPLES for 32bit
+        floating point</font></li>
+</ul>
+
+<p><font face="Arial">The sample data can have either single (mono)
+or double (stereo) audio channel. Stereo data is interleaved so
+that every other data value is for left channel and every second
+for right channel. Notice that while it'd be possible in theory
+to process stereo sound as two separate mono channels, this isn't
+recommended because processing the channels separately would
+result in losing the phase coherency between the channels, which
+consequently would ruin the stereo effect.</font></p>
+
+<p><font face="Arial">Sample rates between 8000-48000Hz are
+supported.</font></p>
+
+<h3><font face="Arial">3.2. Processing latency</font></h3>
+
+<p><font face="Arial">The processing and latency constraints of
+the SoundTouch library are:</font></p>
+
+<ul>
+    <li><font face="Arial">Input/output processing latency for
+        the SoundTouch processor is around 100 ms. This is when
+        time-strething is used; if rate transposing effect alone
+        is used, the latency requirement is much shorter, see
+        section 'About algorithms'.</font></li>
+    <li><font face="Arial">Processing CD-quality sound (16bit
+        stereo sound with 44100Hz samplerate) in real-time or
+        faster is possible starting from processors equivalent to
+        Intel Pentium 133Mhz or better, if using &quot;quick&quot;
+        processing algorithm. If not using the &quot;quick&quot;
+        mode or if floating point sample data are being used,
+        several times more CPU power is typically required.</font></li>
+</ul>
+
+<h3><font face="Arial">3.3. About algorithms</font></h3>
+
+<p><font face="Arial">SoundTouch provides three seemingly
+independent effects: tempo, pitch and playback rate control.
+These three controls are implemented as ombination of two primary
+effects, <em>samplerate transposing</em> and <em>time-stretching</em>.</font></p>
+
+<p><font face="Arial"><em>Samplerate transposing</em> affects
+both the audio stream duration and pitch. It's implemented simply
+by converting the original audio sample stream to desired
+duration by interpolating from the original audio samples. In
+SoundTouch, linear interpolation with anti-alias filtering is
+used. Theoretically a higher-order interpolation provide better
+result than 1st order linear interpolation, but in audio
+application linear interpolation together with anti-alias
+filtering perform subjectively about as well as higher-order
+filtering would.</font></p>
+
+<p><font face="Arial"><em>Time-stretching </em>means changing
+audio stream duration without affecting it's pitch. SoundTouch
+uses WSOLA-like time-stretching routines that operate in time
+domain. Compared to samplerate transposing, time-stretching is a
+much heavier operation and also require a longer processing
+&quot;window&quot; of sound samples that's being kept inside the
+processing algorithm to work with, thus increasing the algortihm
+input/output latency. Typical i/o latency for the SoundTouch time-stretch
+algortihm is around 100 ms.</font></p>
+
+<p><font face="Arial">Samplerate transposing and time-streching
+are then used together to produce the tempo, pitch and rate
+controls:</font></p>
+
+<ul>
+    <li><font face="Arial"><strong>'Tempo'</strong> control is
+        implemented purely by time-stretching.</font></li>
+    <li><font face="Arial"><strong>'Rate</strong>' control is
+        implemented purely by samplerate transposing.</font></li>
+    <li><font face="Arial"><strong>'Pitch</strong>' control is
+        implemented as a combination of time-stretching and
+        samplerate transposing. For example, to increase pitch
+        the audio stream is first time-stretched to longer
+        duration (without affecting pitch) and then transposed
+        back to original duration by samplerate transposing,
+        which simultaneously reduces duration and increases pitch.
+        The result is original duration but increased pitch.</font></li>
+</ul>
+
+<h3><font face="Arial">3.4 Tuning the algorithm parameters</font></h3>
+
+<p><font face="Arial">The time-stretch algorithm has few
+parameters that can be tuned to optimize sound quality for
+certain application. The current default parameters have been
+chosen by iterative if-then analysis (read:&quot;trial and error&quot;)
+to obtain best subjective sound quality in pop/rock music
+processing, but in applications processing different kind of
+sound the default parameter set may result into a sub-optimal
+result.</font></p>
+
+<p><font face="Arial">The time-stretch algorithm default
+parameter values are set by these #defines in file &quot;TDStretch.h&quot;:</font></p>
+
+<blockquote>
+    <pre>#define DEFAULT_SEQUENCE_MS     82
+#define DEFAULT_SEEKWINDOW_MS   28
+#define DEFAULT_OVERLAP_MS      12</pre>
+</blockquote>
+
+<p><font face="Arial">These parameters affect to the time-stretch
+algorithm as follows:</font></p>
+
+<ul>
+    <li><font face="Arial"><strong>DEFAULT_SEQUENCE_MS</strong>:
+        This is the default length of a single processing
+        sequence, in milliseconds. Determines to how long
+        sequences the original sound is chopped in time-stretch
+        algorithm. The larger this value is, the lesser sequences
+        are used in processing. In principle a bigger value
+        sounds better when slowing down tempo, but worse when
+        increasing tempo and vice versa.<br>
+        </font></li>
+    <li><font face="Arial"><strong>DEFAULT_SEEKWINDOW_MS</strong>:
+        Seeking window default length in milliseconds for
+        algorithm that seeks for the best possible overlapping
+        location. This determines from how wide sample &quot;window&quot;
+        the algorithm can look for an optimal mixing location
+        when the sound sequences are to be linked back together.<br>
+        <br>
+        The bigger this window setting is, the higher the
+        possibility to find a better mixing position becomes, but
+        at the same time large values may cause a &quot;drifting&quot;
+        sound artifact because neighbouring sequences can be
+        chosen at more uneven intervals. If there's a disturbing
+        artifact that sounds as if a constant frequency was
+        drifting around, try reducing this setting.<br>
+        </font></li>
+    <li><font face="Arial"><strong>DEFAULT_OVERLAP_MS</strong>:
+        Overlap length in milliseconds. When the chopped sound
+        sequences are mixed back together to form again a
+        continuous sound stream, this parameter defines over how
+        long period the two consecutive sequences are let to
+        overlap each other. <br>
+        <br>
+        This shouldn't be that critical parameter. If you reduce
+        the DEFAULT_SEQUENCE_MS setting by a large amount, you
+        might wish to try a smaller value on this.</font></li>
+</ul>
+
+<p><font face="Arial">Notice that these parameters can also be
+set during execution time with functions &quot;<strong>TDStretch::setParameters()</strong>&quot;
+and &quot;<strong>SoundTouch::setSetting()</strong>&quot;.</font></p>
+
+<p><font face="Arial">The table below summarizes how the
+parameter can be adjusted for different applications:</font></p>
+
+<table border="1">
+    <tr>
+        <td valign="top"><font face="Arial"><strong>Parameter
+        name</strong></font></td>
+        <td valign="top"><font face="Arial"><strong>Default value
+        magnitude</strong></font></td>
+        <td valign="top"><font face="Arial"><strong>Larger value
+        affects...</strong></font></td>
+        <td valign="top"><font face="Arial"><strong>Smaller value
+        affects...</strong></font></td>
+        <td valign="top"><font face="Arial"><strong>Music</strong></font></td>
+        <td valign="top"><font face="Arial"><strong>Speech</strong></font></td>
+        <td valign="top"><font face="Arial"><strong>Effect in CPU
+        burden</strong></font></td>
+    </tr>
+    <tr>
+        <td valign="top"><font face="Arial">SEQUENCE_MS</font></td>
+        <td valign="top"><font face="Arial">Default value is
+        relatively large, chosen for slowing down music tempo</font></td>
+        <td valign="top"><font face="Arial">Larger value is
+        usually better for slowing down tempo. Growing the value
+        decelerates the &quot;echoing&quot; artifact when slowing
+        down the tempo.</font></td>
+        <td valign="top"><font face="Arial">Smaller value might
+        be better for speeding up tempo. Reducing the value
+        accelerates the &quot;echoing&quot; artifact when slowing
+        down the tempo </font></td>
+        <td valign="top"><font face="Arial">Default value usually
+        good</font></td>
+        <td valign="top"><font face="Arial">A smaller value than
+        default might be better</font></td>
+        <td valign="top"><font face="Arial">Increasing the
+        parameter value reduces computation burden</font></td>
+    </tr>
+    <tr>
+        <td valign="top"><font face="Arial">SEEKWINDOW_MS</font></td>
+        <td valign="top"><font face="Arial">Default value is
+        relatively large, chosen for slowing down music tempo</font></td>
+        <td valign="top"><font face="Arial">Larger value eases
+        finding a good mixing position, but may cause a &quot;drifting&quot;
+        artifact</font></td>
+        <td valign="top"><font face="Arial">Smaller reduce
+        possibility to find a good mixing position, but reduce
+        the &quot;drifting&quot; artifact.</font></td>
+        <td valign="top"><font face="Arial">Default value usually
+        good, unless a &quot;drifting&quot; artifact is
+        disturbing.</font></td>
+        <td valign="top"><font face="Arial">Default value usually
+        good</font></td>
+        <td valign="top"><font face="Arial">Increasing the
+        parameter value increases computation burden</font></td>
+    </tr>
+    <tr>
+        <td valign="top"><font face="Arial">OVERLAP_MS</font></td>
+        <td valign="top"><font face="Arial">Default value is
+        relatively large, chosen to suit with above parameters.</font></td>
+        <td valign="top">&nbsp;</td>
+        <td valign="top"><font face="Arial">If you reduce the
+        &quot;sequence ms&quot; setting, you might wish to try a
+        smaller value.</font></td>
+        <td valign="top">&nbsp;</td>
+        <td valign="top">&nbsp;</td>
+        <td valign="top"><font face="Arial">Increasing the
+        parameter value increases computation burden</font></td>
+    </tr>
+</table>
+
+<h3><font face="Arial">3.5 Performance Optimizations </font></h3>
+
+<p><font face="Arial"><strong>General optimizations:</strong></font></p>
+
+<p><font face="Arial">The time-stretch routine has a 'quick' mode
+that substantially speeds up the algorithm but may degrade the
+sound quality by a small amount. This mode is activated by
+calling SoundTouch::setSetting() function with parameter&nbsp; id
+of SETTING_USE_QUICKSEEK and value &quot;1&quot;, i.e. </font></p>
+
+<blockquote>
+    <pre><font face="Arial">setSetting(SETTING_USE_QUICKSEEK, 1);</font></pre>
+</blockquote>
+
+<p><font face="Arial"><strong>CPU-specific optimizations:</strong></font></p>
+
+<ul>
+    <li><font face="Arial">Intel MMX optimized routines are used
+        with compatible CPUs when 16bit integer sample type is
+        used. MMX optimizations are available both in Win32 and
+        Gnu/x86 platforms. Compatible processors are Intel
+        PentiumMMX and later; AMD K6-2, Athlon and later. </font></li>
+    <li><font face="Arial">Intel SSE optimized routines are used
+        with compatible CPUs when floating point sample type is
+        used. SSE optimizations are currently implemented for Win32
+        platform only. Processors compatible with SSE extension
+        are Intel processors starting from Pentium-III, and AMD
+        processors starting from Athlon XP. </font></li>
+    <li><font face="Arial">AMD 3DNow! optimized routines are used
+        with compatible CPUs when floating point sample type is
+        used, but SSE extension isn't supported . 3DNow!
+        optimizations are currently implemented for Win32
+        platform only. These optimizations are used in AMD K6-2
+        and Athlon(classic) CPU's; better performing SSE routines
+        are used with AMD processor starting from Athlon XP. </font></li>
+</ul>
+
+<hr>
+
+<h2><font face="Arial">4. SoundStretch audio processing utility </font></h2>
+
+<p><font face="Arial">SoundStretch audio processing utility<br>
+Copyright (c) Olli Parviainen 2002-2003</font></p>
+
+<p><font face="Arial">SoundStretch is a simple command-line
+application that can change tempo, pitch and playback rates of
+WAV sound files. This program is intended primarily to
+demonstrate how the &quot;SoundTouch&quot; library can be used to
+process sound in own programs, but it can as well be used for
+processing sound files.</font></p>
+
+<h3><font face="Arial">4.1. SoundStretch Usage Instructions</font></h3>
+
+<p><font face="Arial">SoundStretch Usage syntax:</font></p>
+
+<blockquote>
+    <pre><font face="Arial">soundstretch infile.wav outfile.wav [switches]</font></pre>
+</blockquote>
+
+<p><font face="Arial">Where: </font></p>
+
+<table border="0" cellpadding="2" width="100%">
+    <tr>
+        <td valign="top"><pre><font face="Arial">&quot;infile.wav&quot;</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">is name of the input
+        sound data file (in .WAV audio file format). </font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">&quot;outfile.wav&quot;</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">is name of the output
+        sound file where the resulting sound is saved (in .WAV
+        audio file format). This parameter may be omitted if it's
+        not desired to save the output (e.g. when only
+        calculating BPM rate with '-bpm' switch).</font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">&nbsp;[switches]</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Are one or more
+        control switch.</font></td>
+    </tr>
+</table>
+
+<p><font face="Arial">Available control switches are:</font></p>
+
+<table border="0" cellpadding="2" width="100%">
+    <tr>
+        <td valign="top"><pre><font face="Arial">-tempo=n </font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Change sound tempo by
+        n percents (n = -95.0 .. +5000.0 %) </font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">-pitch=n</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Change sound pitch by
+        n semitones (n = -60.0 .. + 60.0 semitones) </font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">-rate=n</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Change sound playback
+        rate by n percents (n = -95.0 .. +5000.0 %) </font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">-bpm=n</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Detect the Beats-Per-Minute
+        (BPM) rate of the sound and adjust the tempo to meet 'n'
+        BPMs. If this switch is defined, the &quot;-tempo=n&quot;
+        switch value is ignored. If &quot;=n&quot; is omitted, i.e.
+        switch &quot;-bpm&quot; is used alone, the program just
+        calculates and displays the BPM rate but doesn't adjust
+        tempo ccording to the BPM value. </font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">-quick</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Use quicker tempo
+        change algorithm. Gains speed but loses sound quality. </font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">-naa</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Don't use anti-alias
+        filtering in samplerate transposing. Gains speed but
+        loses sound quality. </font></td>
+    </tr>
+    <tr>
+        <td valign="top"><pre><font face="Arial">-license</font></pre>
+        </td>
+        <td valign="top"><font face="Arial">Displays the program
+        license text (LGPL)</font></td>
+    </tr>
+</table>
+
+<p><font face="Arial">Notes:</font></p>
+
+<ul>
+    <li><font face="Arial">The numerical switch values can be
+        entered using either integer (e.g. &quot;-tempo=123&quot;)
+        or decimal (e.g. &quot;-tempo=123.45&quot;) numbers.</font></li>
+    <li><font face="Arial">The &quot;-naa&quot; and/or &quot;-quick&quot;
+        switches can be used to reduce CPU usage while
+        compromising some sound quality </font></li>
+    <li><font face="Arial">The BPM detection algorithm works by
+        detecting repeating low-frequency (&lt;250Hz) sound
+        patterns and thus works mostly with most rock/pop music
+        with bass or drum beat. The BPM detection doesn't work on
+        pieces such as classical music without distinct,
+        repeating bass frequency patterns. Also pieces with
+        varying tempo, varying bass patterns or very complex bass
+        patterns (jazz, hiphop) may produce odd BPM readings. <br>
+        <br>
+        In cases when the bass pattern drifts a bit around a
+        nominal beat rate (e.g. drummer is again drunken :), the
+        BPM algorithm may report incorrect harmonic one-halft of
+        one-thirdth of the correct BPM value; in such case the
+        system could for example report BPM value of 50 or 100
+        instead of correct BPM value of 150. </font></li>
+</ul>
+
+<h3><font face="Arial">4.2. SoundStretch usage examples </font></h3>
+
+<p><font face="Arial"><strong>Example 1</strong></font></p>
+
+<p><font face="Arial">The following command increases tempo of
+the sound file &quot;originalfile.wav&quot; by 12.5% and saves
+result to file &quot;destinationfile.wav&quot;:</font></p>
+
+<blockquote>
+    <pre><font face="Arial">soundstretch originalfile.wav destinationfile.wav -tempo=12.5</font></pre>
+</blockquote>
+
+<p><font face="Arial"><strong>Example 2</strong></font></p>
+
+<p><font face="Arial">The following command decreases the sound
+pitch (key) of the sound file &quot;orig.wav&quot; by two
+semitones and saves the result to file &quot;dest.wav&quot;:</font></p>
+
+<blockquote>
+    <pre><font face="Arial">soundstretch orig.wav dest.wav -pitch=-2</font></pre>
+</blockquote>
+
+<p><font face="Arial"><strong>Example 3</strong></font></p>
+
+<p><font face="Arial">The following command processes the file
+&quot;orig.wav&quot; by decreasing the sound tempo by 25.3% and
+increasing the sound pitch (key) by 1.5 semitones. Result is
+saved to file &quot;dest.wav&quot;:</font></p>
+
+<blockquote>
+    <pre><font face="Arial">soundstretch orig.wav dest.wav -tempo=-25.3 -pitch=1.5</font></pre>
+</blockquote>
+
+<p><font face="Arial"><strong>Example 4</strong></font></p>
+
+<p><font face="Arial">The following command detects the BPM rate
+of the file &quot;orig.wav&quot; and adjusts the tempo to match
+100 beats per minute. Result is saved to file &quot;dest.wav&quot;:</font></p>
+
+<blockquote>
+    <pre><font face="Arial">soundstretch orig.wav dest.wav -bpm=100</font></pre>
+</blockquote>
+
+<hr>
+
+<h2><font face="Arial">5. Change History</font></h2>
+
+<h3><font face="Arial">5.1. SoundTouch library Change History </font></h3>
+
+<p><font face="Arial"><strong>v1.2.1: </strong></font></p>
+<ul>
+    <li><font face="Arial">Added automake/autoconf scripts for GNU platforms (in courtesy of David Durham)</font></li>
+    <li><font face="Arial">Fixed SCALE overflow bug in rate transposer routine.</font></li>
+    <li><font face="Arial">Fixed 64bit address space bugs.</font></li>
+    <li><font face="Arial">Created a 'soundtouch' namespace for SAMPLETYPE definitions.</font></li>
+</ul>
+
+<p><font face="Arial"><strong>v1.2.0: </strong></font></p>
+
+<ul>
+    <li><font face="Arial">Added support for 32bit floating point
+        sample data type with SSE/3DNow! optimizations for Win32
+        platform (SSE/3DNow! optimizations currently not
+        supported in GCC environment)</font></li>
+    <li><font face="Arial">Replaced 'make-gcc' script for GNU
+        environment by master Makefile</font></li>
+    <li><font face="Arial">Added time-stretch routine
+        configurability to SoundTouch main class</font></li>
+    <li><font face="Arial">Bugfixes</font></li>
+</ul>
+
+<p><font face="Arial"><strong>v1.1.1: </strong></font></p>
+
+<ul>
+    <li><font face="Arial">Moved SoundTouch under lesser GPL
+        license (LGPL). This allows using SoundTouch library in
+        programs that aren't released under GPL license. </font></li>
+    <li><font face="Arial">Changed MMX routine organization so
+        that MMX optimized routines are now implemented in
+        classes that are derived from the basic classes having
+        the standard non-mmx routines. </font></li>
+    <li><font face="Arial">MMX routines to support gcc version 3.
+        </font></li>
+    <li><font face="Arial">Replaced windows makefiles by script
+        using the .dsw files </font></li>
+</ul>
+
+<p><font face="Arial"><strong>v1.01: </strong></font></p>
+
+<ul>
+    <li><font face="Arial">&quot;mmx_gcc.cpp&quot;: Added &quot;using
+        namespace std&quot; and removed &quot;return 0&quot; from
+        a function with void return value to fix compiler errors
+        when compiling the library in Solaris environment. </font></li>
+    <li><font face="Arial">Moved file &quot;FIFOSampleBuffer.h&quot;
+        to &quot;include&quot; directory to allow accessing the
+        FIFOSampleBuffer class from external files. </font></li>
+</ul>
+
+<p><font face="Arial"><strong>v1.0: </strong></font></p>
+
+<ul>
+    <li><font face="Arial">Initial release </font></li>
+</ul>
+
+<br>
+
+<h3><font face="Arial">5.2. SoundStretch application Change
+History </font></h3>
+
+<p><font face="Arial"><strong>v1.2.1: </strong></font></p>
+<ul>
+    <li><font face="Arial">Fixed 64bit address space bugs.</font></li>
+</ul>
+<p><font face="Arial"><strong>v1.2.0: </strong></font></p>
+
+<ul>
+    <li><font face="Arial">Added support for 32bit floating point
+        sample data type</font></li>
+    <li><font face="Arial">Restructured the BPM routines into
+        separate library</font></li>
+    <li><font face="Arial">Fixed big-endian conversion bugs in
+        WAV file routines (hopefully :)</font></li>
+</ul>
+
+<p><font face="Arial"><strong>v1.1.1: </strong></font></p>
+
+<ul>
+    <li><font face="Arial">Fixed bugs in WAV file reading &amp;
+        added byte-order conversion for big-endian processors. </font></li>
+    <li><font face="Arial">Moved SoundStretch source code under
+        'example' directory to highlight difference from
+        SoundTouch stuff. </font></li>
+    <li><font face="Arial">Replaced windows makefiles by script
+        using the .dsw files </font></li>
+    <li><font face="Arial">Output file name isn't required if
+        output isn't desired (e.g. if using the switch '-bpm' in
+        plain format only) </font></li>
+</ul>
+
+<p><font face="Arial"><strong>v1.1:</strong></font></p>
+
+<ul>
+    <li><font face="Arial">Fixed &quot;Release&quot; settings in
+        Microsoft Visual C++ project file (.dsp) </font></li>
+    <li><font face="Arial">Added beats-per-minute (BPM) detection
+        routine and command-line switch &quot;-bpm&quot; </font></li>
+</ul>
+
+<p><font face="Arial"><strong>v1.01: </strong></font></p>
+
+<ul>
+    <li><font face="Arial">Initial release </font></li>
+</ul>
+
+<hr>
+
+<h2 align="left"><font face="Arial">6. LICENSE </font></h2>
+
+<p><font face="Arial">SoundTouch audio processing library<br>
+Copyright (c) Olli Parviainen</font></p>
+
+<p><font face="Arial">This library is free software; you can
+redistribute it and/or modify it under the terms of the GNU
+Lesser General Public License as published by the Free Software
+Foundation; either version 2.1 of the License, or (at your option)
+any later version.</font></p>
+
+<p><font face="Arial">This library is distributed in the hope
+that it will be useful, but WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Lesser General Public License for
+more details.</font></p>
+
+<p><font face="Arial">You should have received a copy of the GNU
+Lesser General Public License along with this library; if not,
+write to the Free Software Foundation, Inc., 59 Temple Place,
+Suite 330, Boston, MA 02111-1307 USA</font></p>
+
+<hr>
+
+<p><font size="2" face="Arial">
+$Id: README.html,v 1.11 2003/12/27 11:12:26 Olli Exp $ 
+</font></p>
+</body>
+</html>

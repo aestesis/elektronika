@@ -1,0 +1,20 @@
+// dxsend.idl : IDL source for dxsend.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (dxsend.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(8319126D-6B9E-4FDF-8BCF-7FBC99447450),
+	version(1.0),
+	helpstring("dxsend 1.0 Type Library")
+]
+library DXSENDLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

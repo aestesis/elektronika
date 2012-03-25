@@ -1,0 +1,50 @@
+﻿Build started 06/12/2010 06:35:26.
+     1>Project "D:\aestesis\code\elektroSDK\src\dancer\dancer.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug VSTUDIO\dancer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /I..\..\sdk\inc\alib /I..\..\sdk\inc\elektro /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DANCER_EXPORTS /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\dancer___Win32_Debug/" /Fd".\dancer___Win32_Debug/vc100.pdb" /FR"debug VSTUDIO\\" /Gd /TP /analyze- /errorReport:prompt source\animat.cpp source\main.cpp source\matrice.cpp
+         animat.cpp
+         main.cpp
+         matrice.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x040c" /Isource /nologo /fo"debug VSTUDIO\dancer.res" source\dancer.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\dancer.dll.embed.manifest.res" "debug VSTUDIO\dancer_manifest.rc" 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\dancer\debug VSTUDIO\dancer.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\plugins\dancer.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/dancer.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib odbc32.lib odbccp32.lib alib100.lib elektro.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"debug VSTUDIO\dancer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\dancer___Win32_Debug/dancer.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\dancer___Win32_Debug/dancer.lib" /MACHINE:X86 /DLL "debug VSTUDIO\dancer.res"
+         "debug VSTUDIO\dancer.dll.embed.manifest.res"
+         .\dancer___Win32_Debug/animat.obj
+         .\dancer___Win32_Debug/main.obj
+         .\dancer___Win32_Debug/matrice.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib /MACHINE:I386 
+            Creating library .\dancer___Win32_Debug/dancer.lib and object .\dancer___Win32_Debug/dancer.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"debug VSTUDIO\dancer.dll.embed.manifest" /manifest "debug VSTUDIO\dancer.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\dancer.dll.embed.manifest.res" "debug VSTUDIO\dancer_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/dancer.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib odbc32.lib odbccp32.lib alib100.lib elektro.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"debug VSTUDIO\dancer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\dancer___Win32_Debug/dancer.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\dancer___Win32_Debug/dancer.lib" /MACHINE:X86 /DLL "debug VSTUDIO\dancer.res"
+         "debug VSTUDIO\dancer.dll.embed.manifest.res"
+         .\dancer___Win32_Debug/animat.obj
+         .\dancer___Win32_Debug/main.obj
+         .\dancer___Win32_Debug/matrice.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib /MACHINE:I386 
+         dancer.vcxproj -> D:\aestesis\code\elektroSDK\src\dancer\debug VSTUDIO\dancer.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"debug VSTUDIO\dancer.bsc" "debug VSTUDIO\animat.sbr" "debug VSTUDIO\main.sbr" "debug VSTUDIO\matrice.sbr"
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\dancer.unsuccessfulbuild".
+         Touching "debug VSTUDIO\dancer.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\dancer\dancer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.23

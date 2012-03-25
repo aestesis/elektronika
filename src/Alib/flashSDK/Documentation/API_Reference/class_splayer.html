@@ -1,0 +1,380 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>SPlayer Class Reference</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>SPlayer  Class Reference</h1>
+<p>
+<code>#include &lt;<a class="el" href="class_splayer-include.html">splayer.h</a>&gt;</code>
+<p>
+<p>Class diagram for SPlayer:
+<p><center><img src="class_splayer.gif" usemap="#SPlayer_map" border="0"></center>
+<map name="SPlayer_map"><p>
+<area href="class_nativeplayerwnd.html" ALT="NativePlayerWnd" shape="rect" coords="0,56,110,80">
+</MAP></P>
+<a href="class_splayer-members.html">List of all members.</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td colspan=4><br><h2>Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a13">FreeBuffer</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a27">MouseMove</a> ( int x, int y, BOOL mouseIsDown)</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a28">MouseDown</a> ( int x, int y )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a29">MouseUp</a> ( int x, int y )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a30">CancelCapture</a> (BOOL outsideWindow = true)</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a63">OnDraw</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a64">Repaint</a> ( SRECT* rect )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a76">GetURL</a> ( char* url, char* target = "", char* postData = "", int loadMethod = 0)</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a77">StreamPostURLNotify</a> ( const char* url, const char* window, U32 len, const char* buf, void* notifyData ) = 0</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a78">StreamGetURLNotify</a> ( const char* url, const char* window, void* notifyData ) = 0</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a79">StreamInNew</a> ( <a class="el" href="class_streamdata.html">StreamData</a>* streamData, char* url, void* notifyData )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a80">StreamInWrite</a> ( <a class="el" href="class_streamdata.html">StreamData</a>* streamData, void* buffer, int length )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a81">StreamInDestroy</a> ( <a class="el" href="class_streamdata.html">StreamData</a>* streamData )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a82">CloseStream</a> ( <a class="el" href="class_streamdata.html">StreamData</a>* streamData ) = 0</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a83">ProcessFSCommand</a> ( char* command, char* args ) = 0</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a85">SetMenuState</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a86">GetMenuState</a> ( <a class="el" href="class_menustatus.html">MenuStatus</a>* menuStatus )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a87">GetEditMenuState</a> ( <a class="el" href="class_editmenustatus.html">EditMenuStatus</a>* editMenuStatus )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a88">GetPopupMenuState</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a89">ControlOpen</a> ( char* url )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a90">ControlClose</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a91">ControlPlay</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a92">ControlRewind</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a93">ControlForward</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a94">ControlBack</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a95">ControlLoop</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a96">ControlViewAll</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a97">Control100</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a98">ControlZoomIn</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a99">ControlZoomContext</a> ( int x, int y )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a100">ControlZoomOut</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a101">ControlHighQuality</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a103">CreateIdealPalette</a> ( SColorTable* ctab )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_splayer.html#a107">GetCursorType</a> ()</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The parent class of <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>, SPlayer deals with events (mouse, keyboard), drawing, cursors, etc. at a "higher" OS-independant level. It aggregates the ScriptPlayer, DisplayList, and CBitBuffer, acting as a sort of "main" object. <hr><h2>Member Function Documentation</h2>
+
+<h3><a name="a13" doxytag="SPlayer::FreeBuffer"></a>void SPlayer::FreeBuffer ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Deletes the bitmap backing the window, invalidates the display. Flash will rebuild the bitmap with the current screen depth and palette. </div>
+
+<h3><a name="a27" doxytag="SPlayer::MouseMove"></a>void SPlayer::MouseMove (int <em>x</em>, int <em>y</em>, BOOL <em>mouseIsDown</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+MouseMove is a method provided for use by the native code. <br>
+ MouseMove should be called whenever the mouse position needs to be updated. (The actual frequency should be often enough to update the mouse, but not so often as to clog the system.) It should be called irrespective of whether the mouse button is down. </div>
+
+<h3><a name="a28" doxytag="SPlayer::MouseDown"></a>void SPlayer::MouseDown (int <em>x</em>, int <em>y</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+MouseDown is a method provided for use by the native code. <br>
+ MouseDown should be called when the mouse button is pressed. </div>
+
+<h3><a name="a29" doxytag="SPlayer::MouseUp"></a>void SPlayer::MouseUp (int <em>x</em>, int <em>y</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+MouseUp is a method provided for use by the native code. <br>
+ MouseUp should be called when the mouse button is released. </div>
+
+<h3><a name="a30" doxytag="SPlayer::CancelCapture"></a>void SPlayer::CancelCapture (BOOL <em>outsideWindow</em> = true)</h3>
+<div class="in">
+
+<p>
+
+<p>
+CancelCapture is a method provided for use by the native code. <br>
+ CancelCapture should be called if the mouse capture needs to be aborted for some reason. outsideWindow is true if the mouse has left the window. (Elvis has left the building.) </div>
+
+<h3><a name="a63" doxytag="SPlayer::OnDraw"></a>void SPlayer::OnDraw ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+OnDraw is a method provided for use by the native code. <br>
+ OnDraw should be called when the play timer fires, or when the screen should be rendered. </div>
+
+<h3><a name="a64" doxytag="SPlayer::Repaint"></a>void SPlayer::Repaint (SRECT * <em>rect</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+OnDraw is a method provided for use by the native code. <br>
+ It is used to request a repaint of a screen rectangle. Usefull for responding to re-paint requests from the OS. </div>
+
+<h3><a name="a76" doxytag="SPlayer::GetURL"></a>void SPlayer::GetURL (char * <em>url</em>, char * <em>target</em> = "", char * <em>postData</em> = "", int <em>loadMethod</em> = 0)</h3>
+<div class="in">
+
+<p>
+
+<p>
+GetURL provides support for all URL retrieval. It is not generally used by Native code. </div>
+
+<h3><a name="a77" doxytag="SPlayer::StreamPostURLNotify"></a>virtual void SPlayer::StreamPostURLNotify (const char * <em>url</em>, const char * <em>window</em>, U32 <em>len</em>, const char * <em>buf</em>, void * <em>notifyData</em>)<code> [pure virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+StreamPostURLNotify is a call made to the Native code to start a Post. It mimics the netscape call NPN_PostURLNotify. (See the plug-in guide at http://developer.netscape.com/docs/manuals/ ) <dl compact><dt>
+<b>Parameters: </b><dd>
+<em>url</em> -  URL of the POST request, specified by the plug-in. <dd>
+<em>window</em> -  Target window. For values, see NPN_GetURL. <dd>
+<em>len</em> -  Length of the buffer buf. <dd>
+<em>buf</em> -  Path to local temporary file or data buffer that contains the data to post. <dd>
+<em>notifydata</em> -  Plug-in-private value </dl>
+<p>
+Reimplemented in <a class="el" href="class_nativeplayerwnd.html#a13">NativePlayerWnd</a>.</div>
+
+<h3><a name="a78" doxytag="SPlayer::StreamGetURLNotify"></a>virtual void SPlayer::StreamGetURLNotify (const char * <em>url</em>, const char * <em>window</em>, void * <em>notifyData</em>)<code> [pure virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+StreamGetURLNotify is a call made to the Native code to start a Get. It mimics the netscape call NPN_GetURLNotify (See the plug-in guide at http://developer.netscape.com/docs/manuals/ ) <dl compact><dt>
+<b>Parameters: </b><dd>
+<em>url</em> -  URL of the GET request, specified by the plug-in. <dd>
+<em>window</em> -  Target window. For values, see NPN_GetURL. <dd>
+<em>notifydata</em> -  Plug-in-private value </dl>
+<p>
+Reimplemented in <a class="el" href="class_nativeplayerwnd.html#a14">NativePlayerWnd</a>.</div>
+
+<h3><a name="a79" doxytag="SPlayer::StreamInNew"></a>void SPlayer::StreamInNew (<a class="el" href="class_streamdata.html">StreamData</a> * <em>streamData</em>, char * <em>url</em>, void * <em>notifyData</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+A data stream is delivered to Flash in 3 steps:<br>
+ 1) StreamInNew<br>
+ 2) StreamInWrite<br>
+ 3) StreamInDestroy<br>
+ Note that Flash has only one thread and these calls need to be on that thread; it may be necessary to perform synchronization in native code.<br>
+ StreamInNew is either a response to a POST or GET, or can be used to initiate streaming (and loading a movie) without a request from Flash. If used to initiate streaming, it is possible the incoming stream will confilct with the existing movie. There are 2 solutions to this problem:<br>
+ 1) only use StreamGetURLNotify to load the first movie - useful for plugins<br>
+ 2) use ControlOpen to start streaming, which will clear existing movies and strings.<br>
+ StreamInNew is modeled after the netscape NPP_NewStream. <dl compact><dt>
+<b>Parameters: </b><dd>
+<em>streamData</em> -  Storage space for data -- used by Flash core. <dd>
+<em>url</em> -  URL of the request, which was (usually) passed to the native code by StreamGetURLNotify. <dd>
+<em>notifyData</em> -  The data passed in by StreamGetURLNotify -- null if the stream is initiated by the native code. </dl></div>
+
+<h3><a name="a80" doxytag="SPlayer::StreamInWrite"></a>int SPlayer::StreamInWrite (<a class="el" href="class_streamdata.html">StreamData</a> * <em>streamData</em>, void * <em>buffer</em>, int <em>length</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+StreamInWrite delivers a block of SWF data to the Flash core. Based on netscape NPP_Write. Returns &gt;= 0 to continue, return -1 if error <dl compact><dt>
+<b>Parameters: </b><dd>
+<em>streamData</em> -  Storage space for data -- used by Flash core. <dd>
+<em>buffer</em> -  Pointer to a block o' SWF data. <dd>
+<em>length</em> -  length of that block. </dl></div>
+
+<h3><a name="a81" doxytag="SPlayer::StreamInDestroy"></a>void SPlayer::StreamInDestroy (<a class="el" href="class_streamdata.html">StreamData</a> * <em>streamData</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+StreamInDestroy ends the delivery of SWF data to the Flash core. Based on netscape NPP_DestroyStream. Deallocates memory stored by streamData. <dl compact><dt>
+<b>Parameters: </b><dd>
+<em>streamData</em> -  Storage space for data -- used by Flash core. </dl></div>
+
+<h3><a name="a82" doxytag="SPlayer::CloseStream"></a>virtual void SPlayer::CloseStream (<a class="el" href="class_streamdata.html">StreamData</a> * <em>streamData</em>)<code> [pure virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+If a stream needs to be axed mid-way (after the Stream in new, but before completion) this call kills it. The most basic functionality of this call should be to set streamData-&gt;scriptPlayer to NULL. That way, future calls to StreamInWrite and StreamInDestroy will not write SWF data. It is a good idea to call StreamInDestroy on the closed stream to clean up memory. 
+<p>
+Reimplemented in <a class="el" href="class_nativeplayerwnd.html#a15">NativePlayerWnd</a>.</div>
+
+<h3><a name="a83" doxytag="SPlayer::ProcessFSCommand"></a>virtual void SPlayer::ProcessFSCommand (char * <em>command</em>, char * <em>args</em>)<code> [pure virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+FSCommand sends a command from the movie to the player. The ProcessFSCommand method call is made to the <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a> when it needs to process an FSCommand. It has two parameters: Command and Argument. Since the FSCommand does something different on every host platform, there are a wide range of actions that FSCommand can cause. Please see the Flash 4 help file on FSCommand for a complete description. 
+<p>
+Reimplemented in <a class="el" href="class_nativeplayerwnd.html#a16">NativePlayerWnd</a>.</div>
+
+<h3><a name="a85" doxytag="SPlayer::SetMenuState"></a>void SPlayer::SetMenuState ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+SetMenuState will determine the state of the menu options and call EnableMenus. </div>
+
+<h3><a name="a86" doxytag="SPlayer::GetMenuState"></a>void SPlayer::GetMenuState (<a class="el" href="class_menustatus.html">MenuStatus</a> * <em>menuStatus</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+GetMenuState puts the status (enabled, disabled, checked) of the various menu items into the <a class="el" href="class_menustatus.html">MenuStatus</a> structure. It has no side effects and can be called at any time. </div>
+
+<h3><a name="a87" doxytag="SPlayer::GetEditMenuState"></a>void SPlayer::GetEditMenuState (<a class="el" href="class_editmenustatus.html">EditMenuStatus</a> * <em>editMenuStatus</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+GetEditMenuState puts the status (enabled, disabled) of the edit text popup menu items into the <a class="el" href="class_editmenustatus.html">EditMenuStatus</a> structure. It has no side effects and can be called at any time. If no field has the focus, all of the fields in the structure will be false. </div>
+
+<h3><a name="a88" doxytag="SPlayer::GetPopupMenuState"></a>int SPlayer::GetPopupMenuState ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Based on the current mouse cursor, GetPopupMenuState assumes a popup menu has been requested and returns an enumerated for what type of menu it should be: MENU_EDIT, MENU_NONE, MENU_NO_MOVIE, MENU_NORMAL, or MENU_STATIC. Please see the design doc for a description of the various menu types. </div>
+
+<h3><a name="a89" doxytag="SPlayer::ControlOpen"></a>void SPlayer::ControlOpen (char * <em>filenameToOpen</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+The Control* methods are provided for use by the native code. Their functionality (and names) reflects menu item choices.<br>
+ ControlOpen opens and plays a movie given a URL to a local or remote object. </div>
+
+<h3><a name="a90" doxytag="SPlayer::ControlClose"></a>void SPlayer::ControlClose ()</h3>
+<div class="in">
+
+<p>
+Closes a playing movie.
+<p>
+</div>
+
+<h3><a name="a91" doxytag="SPlayer::ControlPlay"></a>void SPlayer::ControlPlay ()</h3>
+<div class="in">
+
+<p>
+Play or stop (toggle).
+<p>
+</div>
+
+<h3><a name="a92" doxytag="SPlayer::ControlRewind"></a>void SPlayer::ControlRewind ()</h3>
+<div class="in">
+
+<p>
+Rewind the current movie to the beginning.
+<p>
+</div>
+
+<h3><a name="a93" doxytag="SPlayer::ControlForward"></a>void SPlayer::ControlForward ()</h3>
+<div class="in">
+
+<p>
+Move the movie forward one frame.
+<p>
+</div>
+
+<h3><a name="a94" doxytag="SPlayer::ControlBack"></a>void SPlayer::ControlBack ()</h3>
+<div class="in">
+
+<p>
+Move the movie backward one frame.
+<p>
+</div>
+
+<h3><a name="a95" doxytag="SPlayer::ControlLoop"></a>void SPlayer::ControlLoop ()</h3>
+<div class="in">
+
+<p>
+Sets the movie looping or non-looping.
+<p>
+</div>
+
+<h3><a name="a96" doxytag="SPlayer::ControlViewAll"></a>void SPlayer::ControlViewAll ()</h3>
+<div class="in">
+
+<p>
+Sets the movie to fill the client window.
+<p>
+</div>
+
+<h3><a name="a97" doxytag="SPlayer::Control100"></a>void SPlayer::Control100 ()</h3>
+<div class="in">
+
+<p>
+Sets the movie to its actual size (100% zoom).
+<p>
+</div>
+
+<h3><a name="a98" doxytag="SPlayer::ControlZoomIn"></a>void SPlayer::ControlZoomIn ()</h3>
+<div class="in">
+
+<p>
+Zoom in.
+<p>
+</div>
+
+<h3><a name="a99" doxytag="SPlayer::ControlZoomContext"></a>void SPlayer::ControlZoomContext (int <em>x</em>, int <em>y</em>)</h3>
+<div class="in">
+
+<p>
+Zoom in, from context menu. An x and y coordinate to zoom to must be specified.
+<p>
+</div>
+
+<h3><a name="a100" doxytag="SPlayer::ControlZoomOut"></a>void SPlayer::ControlZoomOut ()</h3>
+<div class="in">
+
+<p>
+Zoom out.
+<p>
+</div>
+
+<h3><a name="a101" doxytag="SPlayer::ControlHighQuality"></a>void SPlayer::ControlHighQuality ()</h3>
+<div class="in">
+
+<p>
+Toggles high quality on and off.
+<p>
+</div>
+
+<h3><a name="a103" doxytag="SPlayer::CreateIdealPalette"></a>void SPlayer::CreateIdealPalette (SColorTable * <em>ctab</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+Currently not used. Writes an "ideal" palette into ctab. Just a suggestion. </div>
+
+<h3><a name="a107" doxytag="SPlayer::GetCursorType"></a>int SPlayer::GetCursorType ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Query the current cursor type. Returns either CURSOR_TYPE_ARROW, CURSOR_TYPE_HAND, CURSOR_TYPE_BUTTON, CURSOR_TYPE_BEAM </div>
+<hr>The documentation for this classwas generated from the following file:<ul>
+<li>splayer.h</ul>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

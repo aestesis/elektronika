@@ -1,0 +1,136 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+PNG_FONTROUND10         PNG                     "font arial bold 10.png"
+PNG_FONTROUND12         PNG                     "font arial bold 12.png"
+PNG_FONTROUND20         PNG                     "font arial bold 20.png"
+PNG_FONTROUND08         PNG                     "font arial bold 8.png"
+PNG_FONTSEGMENT10       PNG                     "font segment 10.png"
+PNG_FONTTERMINAL12      PNG                     "font terminal 12.png"
+PNG_FONTTERMINAL06      PNG                     "font terminal 6.png"
+PNG_FONTTERMINAL09      PNG                     "font terminal 9.png"
+PNG_FONTCONF14          PNG                     "font_confidential_14.png"
+PNG_FONTCONF16          PNG                     "font_confidential_16.png"
+PNG_FONTCONF36          PNG                     "font_confidential_36.png"
+PNG_FONTCONF20          PNG                     "font_confidential_20.png"
+PNG_FONTCONF24          PNG                     "font_confidential_24.png"
+PNG_FONT001             PNG                     "comic font 16.png"
+PNG_DISPLAY0001         PNG                     "display001.png"
+PNG_BUTTONCLOSE         PNG                     "button close.png"
+PNG_BUTTONCHECK         PNG                     "button  check.png"
+PNG_PADDLE008           PNG                     "paddle008.png"
+PNG_PADDLE002           PNG                     "paddle002.png"
+PNG_PADDLE003           PNG                     "paddle003.png"
+PNG_PADDLE004           PNG                     "paddle004.png"
+PNG_PADDLE005           PNG                     "paddle005.png"
+PNG_PADDLE006           PNG                     "paddle006.png"
+PNG_PADDLE007           PNG                     "paddle007.png"
+PNG_PADDLE001           PNG                     "paddle001.png"
+PNG_FONTTERMINAL05      PNG                     "font terminal 5.png"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+PNG_BUTTONMIN           PNG                     "button minimize.png"
+PNG_FONTSEGMENT20       PNG                     "font segment 20.png"
+PNG_TREEVIEW            PNG                     "treeView.png"
+PNG_AESTTV              PNG                     "aestesisTV.png"
+PNG_FONT_TUBES          PNG                     "font_bm_tubes_10.png"
+PNG_FONT_ARMY           PNG                     "font_bm_army_10.png"
+PNG_FONT_LEAVE          PNG                     "font_bm_leaves_10.png"
+PNG_FONTSEGMENT06       PNG                     "font segment 06.png"
+PNG_DISPLAY0002         PNG                     "display002.png"
+PNG_PROGRESS001         PNG                     "progress001.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_INK                 CURSOR                  "cursors\\12.cur"
+IDC_HAND2               CURSOR                  "cursors\\10.cur"
+IDC_HANDKEEP            CURSOR                  "cursors\\14.cur"
+IDC_HANDSEL             CURSOR                  "cursors\\70.cur"
+IDC_MAGNIFY_SUB         CURSOR                  "cursors\\25.cur"
+IDC_MAGNIFY             CURSOR                  "cursors\\36.cur"
+IDC_MAGNIFY_ADD         CURSOR                  "cursors\\24.cur"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

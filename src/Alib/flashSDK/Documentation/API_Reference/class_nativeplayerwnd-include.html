@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>NativePlayerWnd Include File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>playerwnd.h</h1>This is the verbatim text of the playerwnd.h include file.<hr><div class="fragment"><pre>
+
+
+
+#ifndef _NATIVEPLAYERWND_H_
+#define _NATIVEPLAYERWND_H_
+
+#include "..//splayer.h"
+
+
+class NativePlayerWnd : public SPlayer 
+{
+  public:	
+
+	NativePlayerWnd();	
+
+	~NativePlayerWnd();	
+
+
+	virtual BOOL StartTimer( int playTimerInterval, int cursorTimerInterval );
+
+	virtual void StopTimer();													
+
+
+	virtual void ClientRect( SRECT* );
+
+
+	virtual BOOL UpdateCursor();	
+
+
+	virtual void InvalidateScreenArea( SRECT* );
+
+
+    virtual void AdjustWindow( int width, int height );
+
+
+	virtual void EnableMenus( const MenuStatus&amp; menuStatus );
+
+	#ifdef EDITTEXT_CLIPBOARD_WIDE
+
+		U16*  GetStringFromClipboard();
+
+
+		void  SetStringToClipboard( const U16* text );
+	#else
+		char* GetStringFromClipboard();
+		void  SetStringToClipboard( const char* text );
+	#endif
+
+
+	virtual void StreamPostURLNotify(	const char* url, 
+										const char* window,
+										U32			len, 
+										const char* buf, 
+										void*		notifyData )	
+					{}
+
+
+	virtual void StreamGetURLNotify(	const char* url,
+										const char* window,
+										void*		notifyData
+								   );
+
+	
+	virtual void CloseStream( StreamData* streamData );
+
+	
+	virtual void ProcessFSCommand( char* command, char* args );
+
+	// ------ Public methods used by Win32				    --------
+	// ------ These are NOT part of the standard interface. --------
+	void initialize( HWND hwnd );
+
+	HDC  GetNWindowDC();				// This is a call for the Flash code to use
+	void ReleaseWindowDC()		{}		// This is a call for the Flash code to use
+
+	void SetDC( HDC dc ) { windowDC = dc; }  // Only for use by the Window Message Handler
+
+	int Width()					{ SRECT rect; ClientRect( &amp;rect ); return ( rect.xmax - rect.xmin + 1 ); } 
+	int Height()				{ SRECT rect; ClientRect( &amp;rect ); return ( rect.ymax - rect.ymin + 1 ); }
+
+	void PlayTimerFire();
+	void CursorTimerFire();
+	char* GetCurrentURL()		{ return currentURL; }
+
+protected:
+	void ExitApp()						{ DestroyWindow(hwnd); }	
+	void SetFullScreen( BOOL full )		{ ShowWindow( hwnd, full ? SW_MAXIMIZE : SW_RESTORE ); }
+	void SetScaleMode( BOOL scale )		{ scaleMode = scale ? DisplayList::showAll : DisplayList::noScale;
+										  SetCamera(SPlayer::updateLazy);
+										}
+	void ExecSystem( const char* cmd)	{ WinExec(cmd, SW_SHOW); }
+
+	HPALETTE idealPalette;
+	HCURSOR	cursorArrow,
+			cursorHand,
+			cursorButton,
+			cursorBeam;
+	HWND hwnd;
+	int playTimer;
+	int cursorTimer;
+	HDC windowDC;
+	HMENU savedMenu;	// If the menu is hidden, this stores the menu handle so it can be restored.
+	char*	currentURL;	// The "current" url information. Used by GetURL.
+};
+
+DWORD WINAPI StreamThread(  LPVOID lpParameter );
+
+#define MSG_STREAM_NEW     (WM_USER+0)
+#define MSG_STREAM_WRITE   (WM_USER+1)
+#define MSG_STREAM_DESTROY (WM_USER+2)
+
+struct WriteBlock
+{
+	char data[1024];
+	int size;
+};
+
+#endif
+</pre></div>
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

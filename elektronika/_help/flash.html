@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>elektronika help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFaa00" text="#000000" link="#000000" vlink="#000000" alink="#000000">
+<div align="center"> 
+  <p align="right"><font face="Arial, Helvetica, sans-serif"><b><font size="7">eleKtroniKa</font><br>
+    help file</b> </font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="4" color="#FFFFFF"> 
+    flash player module (player) </font></b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="4" color="#FFFFFF">    </font></b><font size="4" color="#FFFFFF"><font size="3" color="#000000">play 
+      flash movies (SWF files)</font></font></font></p>
+  <p align="left"><img src="images/flash.jpg" width="511" height="49"></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>input/output</b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">1 audio in<br>
+    1 video out</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>properties</b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><font size="3">select 1 of the 8 flash movies <br>
+  zoom dial. adjust zoom<br>
+  colours. send variables 
+    to flash movie [elek_color0, elek_color1]<br>
+    6 flash controls. send variables to flash movie [elek_pad0, elek_pad5]<br>
+    the flash movie name is displayed in the box     <br>
+    text. edit the text displayed in the movie.  this is sent as the variable </font><font face="Arial, Helvetica, sans-serif"><font size="3">[elek_text] </font></font><font size="3">to the flash movie</font></font></p>
+  <p align="left"><font size="3" face="Arial, Helvetica, sans-serif">to load flash movies 
+    just drag'n drop your SWF files onto the  buttons marked 1 to 8<br>
+    the flash movie can also receive 
+     the peak level for the 3 bands (bass, medium or treble)<br>
+    as the variables [elek_bass, elek_medium, elek_treeble]<br>
+    the time from elektronika is sent as the variable 
+    [elek_time] 
+  in milliseconds<br>
+  the beat from elektronika is sent as a variable ie the  number of beats since the begining</font></p>
+  <p align="left"><font size="3" face="Arial, Helvetica, sans-serif">you can retrieve the 
+  variables in flash at _level0 instance (eg. _level0.elek_bass) </font></p>
+  <p align="left"><font size="3" face="Arial, Helvetica, sans-serif">you can also send  
+      information from flash to elektronika by using the command &quot;fscommand&quot; in your action script<br>
+    accepted commands:<br>
+    fscommand(&quot;visible&quot;, 
+    &quot;1111111&quot;); // make  all flash controls in elektronika visible<br>
+    fscommand(&quot;visible&quot; ,&quot;0000000&quot;); // make all controls invisible<br>
+    fscommand(&quot;visible&quot; 
+    ,&quot;111000&quot;); // make the first three visible<br>
+  </font><font size="3" face="Arial, Helvetica, sans-serif">fscommand(&quot;tooltips0&quot;, 
+    &quot;the tooltip&quot;); // set the tooltips(x) of the pad(x) [x=0....5]</font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font size="3" face="Arial, Helvetica, sans-serif"><b>copyright aestesis 
+    2004<br>
+    </b><a href="http://www.aestesis.org/" target="_blank">www.aestesis.org</a></font></p>
+</div>
+</body>
+</html>

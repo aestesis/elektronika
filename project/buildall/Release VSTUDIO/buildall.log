@@ -1,0 +1,12 @@
+﻿Build started 01/09/2011 19:11:32.
+     1>Project "D:\aestesis\code\elektroSDK\project\buildall\buildall.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\buildall.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\buildall.unsuccessfulbuild".
+         Touching "Release VSTUDIO\buildall.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\project\buildall\buildall.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19

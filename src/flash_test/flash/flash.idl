@@ -1,0 +1,36 @@
+// flash.idl : IDL source for flash
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (flash.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(F7384183-774C-49BD-9149-0BE59109717F),
+	dual,
+	nonextensible,
+	helpstring("IShockwaveflash Interface"),
+	pointer_default(unique)
+]
+interface IShockwaveflash : IDispatch{
+};
+[
+	uuid(C45A5B68-3374-4019-9463-05DDF714C0ED),
+	version(1.0),
+	helpstring("flash 1.0 Type Library")
+]
+library flashLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(A328704B-4783-43DC-87DA-85A15B0EA61F),
+		helpstring("Shockwaveflash Class")
+	]
+	coclass Shockwaveflash
+	{
+		[default] interface IShockwaveflash;
+	};
+};

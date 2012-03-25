@@ -1,0 +1,3 @@
+LIBRARY			FreeFrame
+DESCRIPTION		'FreeFrame Plugin IscSpikedRings1'
+EXPORTS			plugMain

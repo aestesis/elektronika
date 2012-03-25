@@ -1,0 +1,59 @@
+﻿Build started 11/09/2011 01:29:09.
+     1>Project "D:\aestesis\code\elektroSDK\src\eleKtro\eleKtro.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\eleKtro.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /I..\..\sdk\inc\alib /I..\..\sdk\inc\elektro /I..\alib /Zi /nologo /W3 /WX- /O2 /Ob2 /Ot /Oy- /GT /D VSTUDIO /D NDEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D ELEKTRO_EXPORTS /D WINVER=0x0500 /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy- /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt table.cpp
+         table.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\aestesis\code\elektroSDK\elektronika\elektro.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\sdk\lib alib100.lib odbc32.lib odbccp32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release VSTUDIO\elektro.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/eleKtro.pdb" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release/eleKtro.lib" /MACHINE:X86 /DLL "Release VSTUDIO\elektro.res"
+         .\Release/acontrol.obj
+         .\Release/bpmTracker.obj
+         .\Release/capsule.obj
+         .\Release/connect.obj
+         .\Release/ctrlButton.obj
+         .\Release/effect.obj
+         .\Release/effect3d.obj
+         .\Release/equalizer.obj
+         .\Release/main.obj
+         .\Release/paddle.obj
+         .\Release/pin.obj
+         .\Release/sample.obj
+         .\Release/selcolor.obj
+         .\Release/select.obj
+         .\Release/selectView.obj
+         .\Release/selpad.obj
+         .\Release/sequencer.obj
+         .\Release/simple.obj
+         .\Release/slider.obj
+         .\Release/table.obj
+         .\Release/tcpRemote.obj
+         .\Release/timeline.obj
+         .\Release/transition.obj
+         .\Release/trigger.obj
+         .\Release/video.obj
+         .\Release/zone.obj
+         D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\Release\SoundTouch.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\src\Alib\Release\alib100.lib /MACHINE:I386 
+            Creating library .\Release/eleKtro.lib and object .\Release/eleKtro.exp
+         eleKtro.vcxproj -> D:\aestesis\code\elektroSDK\elektronika\elektro.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\aestesis\code\elektroSDK\elektronika\elektro.dll;#2" /manifest "Release VSTUDIO\elektro.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy D:\aestesis\code\elektroSDK\src\eleKtro\release\elektro.lib D:\aestesis\code\elektroSDK\sdk\lib
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\eleKtro.unsuccessfulbuild".
+         Touching "Release VSTUDIO\eleKtro.lastbuildstate".
+       CustomBuildStep:
+       Skipping target "CustomBuildStep" because it has no outputs.
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\eleKtro\eleKtro.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98

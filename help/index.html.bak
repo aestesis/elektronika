@@ -1,0 +1,318 @@
+<html>
+<head>
+<title>elektronika help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFaa00" text="#000000" link="#000000" vlink="#000000" alink="#000000">
+<div align="center"> 
+  <p align="right"><font face="Arial, Helvetica, sans-serif"><b><font size="7">eleKtroniKa</font><br>
+    help file</b> </font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><a href="http://www.aestesis.org/" target="_blank">aestesis</a> 
+    live video software</b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>elektronika is 
+    a video software for VJs and live visual performer.<br>
+    it can be used realtime when DJs playing,<br>
+    or integrated using midi into live audio/video set.</b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">you can also link 
+    elektronika to any external midi sequencer, and create<br>
+    midi control loops for elektronika into the sequencer that's you just<br>
+    switch on/off during the show (like an audio live).</font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="4" color="#FFFFFF">general 
+    view</font></b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><img src="images/general.jpg"></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>monitor</b> 01 
+    and monitor 02, used for preview one the internal video or audio stream</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>start/stop</b>, 
+    switch on/off elektronika render stream (you can use also the space key)</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>save/config</b>, 
+    display the load/save menu or the config dialog</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>status/tooltips 
+    bar</b>, display alerts, errors or info about the button under the mouse pointer.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>effects panel</b>, 
+    the effects modules are displayed here, you can switch front/back using the 
+    tab key, up/down using the mouse wheel, create or delete effect using the 
+    context menu (right click mouse).</font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="4" color="#FFFFFF">config 
+    dialog</font></b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><img src="images/config.jpg" width="400" height="400"></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>video</b>, select 
+    the video stream size.<br>
+    </font><font face="Arial, Helvetica, sans-serif"><b>frames</b>, select the 
+    frame rates of the video stream.<br>
+    </font><font face="Arial, Helvetica, sans-serif"><b>render mode</b>, desynchronize 
+    from real time (used for AVI render)<br>
+    </font><font face="Arial, Helvetica, sans-serif"><b>hight priority mode</b>, 
+    set the priority of the video stream thread (use all the power of the computer 
+    to have the desired frame/rate).<br>
+    </font><font face="Arial, Helvetica, sans-serif"><b>midi in</b>, select the 
+    midi in device<br>
+    </font><font face="Arial, Helvetica, sans-serif"><b>midi out</b>, select the 
+    midi out device<br>
+    </font><font face="Arial, Helvetica, sans-serif"><b>splash screen</b>, switch 
+    on/off the splash screen.<br>
+    </font><font face="Arial, Helvetica, sans-serif"><b>tooltips</b>, activate 
+    the tooltips.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>register</b>, open 
+    the register info dialog box.</font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="4" color="#FFFFFF">back 
+    view</font></b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><img src="images/back.jpg" width="480" height="359"></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">on the back view you 
+    can plug together the effects with virtual video or audio cable.<br>
+    for this, just click on a pin and drag the link on the desired linked pin.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><img src="images/link.jpg"></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">you can have infinite 
+    number of cables plug onto an out pin.</font></p>
+  <p align="left"><img src="images/link2.jpg" width="480" height="135"></p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="4" color="#FFFFFF">modules 
+    list<br>
+    </font></b></font><font face="Arial, Helvetica, sans-serif"><b>modules are 
+    sorted by categories</b></font></p>
+  <div align="left"></div>
+  <table width="500" border="2" cellspacing="0" cellpadding="0" align="left" bordercolor="#000000">
+    <tr> 
+      <td bordercolor="#000000" ><b><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">in/out 
+        modules</font></b></td>
+    </tr>
+    <tr> 
+      <td align="left" valign="top" height="173" bordercolor="#000000" > 
+        <table width="500" border="0" cellspacing="0" cellpadding="0" bordercolor="#000000" align="left">
+          <tr> 
+            <td align="left" valign="top" width="150" height="164"> 
+              <p align="left"><font face="Arial, Helvetica, sans-serif"><b><a href="audioin.html" target="_blank">audio 
+                in</a><br>
+                </b></font><b><font face="Arial, Helvetica, sans-serif"><a href="audioout.html" target="_blank">audio 
+                out<br>
+                </a></font></b><b><font face="Arial, Helvetica, sans-serif"><a href="videoin.html" target="_blank">video 
+                </a></font></b><a href="videoin.html"><b><font face="Arial, Helvetica, sans-serif">in</font></b></a><b><font face="Arial, Helvetica, sans-serif"><br>
+                <a href="videoout.html" target="_blank">video out<br>
+                </a></font></b><b><font face="Arial, Helvetica, sans-serif"><a href="dvcapture.html" target="_blank">DVcapture</a><br>
+                <a href="grabber.html" target="_blank">grabber</a><br>
+                <a href="network23.html" target="_blank">network23</a> <br>
+                <a href="webserver.html" target="_blank">web server</a><br>
+                <a href="webclient.html" target="_blank">web client</a></font></b></p>
+              </td>
+            <td align="left" valign="top" height="164"> 
+              <p><font face="Arial, Helvetica, sans-serif"><b>sound capture<br>
+                </b></font><b><font face="Arial, Helvetica, sans-serif">sound 
+                playback<br>
+                video capture module</font></b><b><font face="Arial, Helvetica, sans-serif"><br>
+                video to directX, dvMax<br>
+                DV firewire video/audio capture<br>
+                capture desktop movies or effects<br>
+                video/audio streaming via lan network<br>
+                send live video on internet<br>
+                </font></b><b><font face="Arial, Helvetica, sans-serif">import 
+                live video from elektronika web server</font></b></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <table width="500" border="2" cellspacing="0" cellpadding="0" align="left" bordercolor="#000000">
+    <tr> 
+      <td bordercolor="#000000" ><b><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">mixer 
+        modules </font></b></td>
+    </tr>
+    <tr> 
+      <td align="left" valign="top" height="47" bordercolor="#000000" > 
+        <table width="500" border="0" cellspacing="0" cellpadding="0" bordercolor="#000000" align="left" height="51">
+          <tr> 
+            <td align="left" valign="top" width="150" height="41"> 
+              <p align="left"><b><font face="Arial, Helvetica, sans-serif"><a href="vmix.html" target="_blank">vmix</a><br>
+                <a href="mimix.html" target="_blank">mimix</a><br>
+                <a href="automix.html" target="_blank">automix</a><br>
+                <a href="dispatch.html" target="_blank">dispatch</a></font></b><br>
+              </p>
+              </td>
+            <td align="left" valign="top" height="41"> 
+              <p><font face="Arial, Helvetica, sans-serif"><b>mix two video sources 
+                - fade/chroma/slice mix<br>
+                mix four video sources - add/sub/mul/diff<br>
+                mix two video sources triggered by a third source </b></font><b><font face="Arial, Helvetica, sans-serif">video 
+                dispatcher </font></b></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <table width="500" border="2" cellspacing="0" cellpadding="0" align="left" bordercolor="#000000">
+    <tr> 
+      <td bordercolor="#000000" ><b><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">2D 
+        effects modules</font></b></td>
+    </tr>
+    <tr> 
+      <td align="left" valign="top" height="118" bordercolor="#000000" > 
+        <table width="500" border="0" cellspacing="0" cellpadding="0" bordercolor="#000000" align="left">
+          <tr> 
+            <td align="left" valign="top" width="150" height="118"> 
+              <p><b><font face="Arial, Helvetica, sans-serif"><a href="loop107.html" target="_blank">loop107</a><br>
+                <a href="aestesis.html" target="_blank">aestesis</a><br>
+                <a href="sphere.html" target="_blank">sphere</a><br>
+                <a href="wmp.html" target="_blank">wmp wrapper</a><br>
+                <a href="color.html" target="_blank">color</a><br>
+                <a href="freeframe.html" target="_blank">FreeFrame</a><br>
+                <a href="aestesis98.html" target="_blank">98 wrapper</a></font></b></p>
+              </td>
+            <td align="left" valign="top" height="118"> 
+              <p><font face="Arial, Helvetica, sans-serif"><b>time based video 
+                effect<br>
+                </b></font><b><font face="Arial, Helvetica, sans-serif">on sound 
+                form generator</font><font face="Arial, Helvetica, sans-serif"><br>
+                mirror/twirl and other video deformation<br>
+                media player effect wrapper<br>
+                contrast/light/paletize effect<br>
+                freeframe wrapper<br>
+                aestesis'98 wrapper</font></b></p>
+              </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <table width="500" border="2" cellspacing="0" cellpadding="0" align="left" bordercolor="#000000">
+    <tr> 
+      <td ><b><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">player 
+        modules</font></b></td>
+    </tr>
+    <tr> 
+      <td align="left" valign="top" height="67" > 
+        <table width="500" border="0" cellspacing="0" cellpadding="0" bordercolor="#000000" align="left" height="51">
+          <tr> 
+            <td bordercolor="#000000" align="left" valign="top" width="150" height="58"> 
+              <p align="left"><b><font face="Arial, Helvetica, sans-serif"><a href="rythmbox.html" target="_blank">rythmbox</a><br>
+                <a href="vp1.html" target="_blank">VP1</a><br>
+                <a href="flash.html" target="_blank">flash player</a></font></b></p>
+            </td>
+            <td bordercolor="#000000" align="left" valign="top" height="58"> 
+              <p><font face="Arial, Helvetica, sans-serif"><b>play/mix/sequence 
+                7 video loops<br>
+                long movies player<br>
+                </b></font><b><font face="Arial, Helvetica, sans-serif">play flash 
+                animation </font></b></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <table width="500" border="2" cellspacing="0" cellpadding="0" align="left" bordercolor="#000000">
+    <tr> 
+      <td bordercolor="#000000" ><b><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">3D 
+        effects modules </font></b></td>
+    </tr>
+    <tr> 
+      <td align="left" valign="top" height="46" bordercolor="#000000" > 
+        <table width="500" border="0" cellspacing="0" cellpadding="0" bordercolor="#000000" align="left" height="51">
+          <tr> 
+            <td align="left" valign="top" width="150" height="27"> 
+              <p align="left"><b><font face="Arial, Helvetica, sans-serif"><a href="dimension.html" target="_blank">dimension</a><br>
+                dancer<br>
+                zool</font></b></p>
+            </td>
+            <td align="left" valign="top" height="27"> 
+              <p><b><font face="Arial, Helvetica, sans-serif">3D video out / effect 
+                mixer<br>
+                3D dancer animation<br>
+                oldskool 3D demo</font></b></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><b><font face="Arial, Helvetica, sans-serif" size="4" color="#FFFFFF">context 
+    menu</font></b></p>
+  <p align="left"><b><font face="Arial, Helvetica, sans-serif">elektronika use 
+    context menu to manage creation and deletion of effect.<br>
+    display about dialog box, change interface background, and display<br>
+    the mapping dialog box (keyboard/midi).</font></b></p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><b><font face="Arial, Helvetica, sans-serif" size="4" color="#FFFFFF">mapping 
+    dialog box</font></b></p>
+  <p align="left"><b><font face="Arial, Helvetica, sans-serif">to display this 
+    dialog, just right click on a effect button and select mapping.<br>
+    to use midi, you must select before a midi-in device in the config/properties<br>
+    dialog box.</font></b></p>
+  <p align="left"><img src="images/mapping.jpg" width="400" height="400"></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">the dialog is cut 
+    in three part, on the top right this is the midi sniffer,<br>
+    on the top left, the assigned midi event.<br>
+    and on the bottom part the keyboard assignation.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>midi mapping</b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">the midi sniffer display 
+    all midi input events.<br>
+    you can filter this event by setting the two filters: channel and event type.<br>
+    pressing the set button wil assign the current event on the edited knob.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">you can also edit 
+    the desired event by using the list in the assign part.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">some elektronika interface 
+    button need more than one event to be midi controlled,<br>
+    just select the other controller by select it in the list that display &quot;controller 
+    1&quot;.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>keyboard mapping</b></font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">select the type of 
+    keyboard control:<br>
+    &quot;press&quot; or &quot;switch&quot; to control knob on/off or press on 
+    control.<br>
+    &quot;select&quot; or &quot;cycle&quot; to control pattern switch or same 
+    type controls.</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">after just move on 
+    the key event, and type the desired key on your keyboard.</font></p>
+  <p align="left">&nbsp;</p>
+  <p align="left"><b><font face="Arial, Helvetica, sans-serif" size="4" color="#FFFFFF">interface 
+    controls</font></b></p>
+  <p align="left"><b><font face="Arial, Helvetica, sans-serif">color button</font></b></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">left click on it and 
+    use :<br>
+    &gt;&gt; up/down for luminosity<br>
+    &gt;&gt; left/right for hue (color choice)<br>
+    &gt;&gt; ctrl up/down for saturation</font></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif">or double click and 
+    pick a color anywhere on the desktop background.</font></p>
+  <p align="right">&nbsp;</p>
+  <div align="right"></div>
+  <p align="center"><br>
+  </p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif"><b>copyright aestesis 
+    2003<br>
+    </b><a href="http://www.aestesis.org/" target="_blank">www.aestesis.org</a></font></p>
+  </div>
+</body>
+</html>

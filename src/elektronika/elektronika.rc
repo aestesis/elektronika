@@ -1,0 +1,318 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+PNG_TEST                PNG                     "test.png"
+PNG_TESTBUTTON          PNG                     "bouton.png"
+PNG_ELEKTRONIKA         PNG                     "eleKtroniKa.png"
+PNG_SOUNDINPUT          PNG                     "soundInput.png"
+PNG_MIRE_NB_220         PNG                     "_graphs\\mireNB220x166.png"
+PNG_VIDEOOUT            PNG                     "videoOut.png"
+PNG_AESTESIS            PNG                     "aestesis.png"
+PNG_AESTESIS2           PNG                     "aestesis2.png"
+PNG_SOUNDINPUT2         PNG                     "soundInput2.png"
+PNG_VIDEOOUT2           PNG                     "videoOut2.png"
+PNG_BUTTONDISK          PNG                     "button disk.png"
+PNG_BUTTONPROP          PNG                     "button properties.png"
+PNG_BUTTONFIRST         PNG                     "button first.png"
+PNG_BUTTONFWRD          PNG                     "button forward.png"
+PNG_BUTTONLAST          PNG                     "button last.png"
+PNG_BUTTONPLAY          PNG                     "button play.png"
+PNG_BUTTONREC           PNG                     "button rec.png"
+PNG_BUTTONREWIND        PNG                     "button rewind.png"
+PNG_BUTTONSTOP          PNG                     "button stop.png"
+PNG_AESTESIS_FORMS      PNG                     "aestesis_but_forms.png"
+PNG_AESTESIS_SOURCES    PNG                     "aestesis_but_sources.png"
+PNG_AESTESIS_COLORS     PNG                     "aestesis_but_colors.png"
+PNG_RHYTMBOX            PNG                     "rhytmBox.png"
+PNG_RHYTMBOX2           PNG                     "rhytmBox2.png"
+PNG_RHYTMBOX_OPEN       PNG                     "rhytmbox_open.png"
+PNG_RHYTMBOX_TRIGER     PNG                     "rhytmbox_triger.png"
+PNG_RHYTMBOX_SELECT     PNG                     "rhytmBox_select.png"
+PNG_RHYTMBOX_LOOP       PNG                     "rhytmBox_loop.png"
+PNG_RHYTMBOX_PATTERN_SWITCH PNG                     "rhytmBox_pattern_switch.png"
+PNG_RHYTMBOX_PATTERN    PNG                     "rhytmbox_pattern.png"
+PNG_VMIX                PNG                     "vmix.png"
+PNG_VMIX2               PNG                     "vmix2.png"
+PNG_VMIX_SOURCES        PNG                     "vmix_sources.png"
+PNG_VMIX_TRANS          PNG                     "vmix_trans.png"
+PNG_TRANSSLICE_INV      PNG                     "transslice_inv.png"
+PNG_TRANSSLICE_FADE     PNG                     "transslice_fade.png"
+PNG_GRAB                PNG                     "grabFront.png"
+PNG_GRAB2               PNG                     "grabBack.png"
+PNG_WEBSRV              PNG                     "websrvFront.png"
+PNG_WEBSRV2             PNG                     "websrvBack.png"
+PNG_V3DOUT_MASK         PNG                     "v3dout-mask.png"
+PNG_V3DOUT_DEFORM       PNG                     "v3dout-deform.png"
+PNG_V3DOUT_MASKICON     PNG                     "v3dout-deform-icon.png"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SWF
+//
+
+// SWF_SPLASH              SWF                     "elektronika.swf"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+// LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+PNG_DVCAP2              PNG                     "dvcap2.png"
+PNG_DVCAP               PNG                     "dvcap.png"
+PNG_RHYTMBOX_SOLO       PNG                     "rhytmbox_solo.png"
+PNG_RHYTMBOX_MUTE       PNG                     "rhytmbox_mute.png"
+PNG_TEXTURE001          PNG                     "texture001.png"
+PNG_TEXTURE007          PNG                     "texture007.png"
+PNG_TEXTURE003          PNG                     "texture003.png"
+PNG_TEXTURE004          PNG                     "texture004.png"
+PNG_TEXTURE005          PNG                     "texture005.png"
+PNG_TEXTURE006          PNG                     "texture006.png"
+PNG_TEXTURE002          PNG                     "texture002.png"
+PNG_SPHERE              PNG                     "sphere.png"
+PNG_SPHERE2             PNG                     "sphere2.png"
+PNG_SPHERE_VERT         PNG                     "sphere vertical.png"
+PNG_SPHERE_DIAG         PNG                     "sphere crossdiag.png"
+PNG_SPHERE_HORZ         PNG                     "sphere horizontal.png"
+PNG_SPHERE_CROSS        PNG                     "sphere cross.png"
+PNG_SOUNDOUTPUT2        PNG                     "soundOutput2.png"
+PNG_SOUNDOUTPUT         PNG                     "soundOutput.png"
+PNG_DISPATCH2           PNG                     "dispatch2.png"
+PNG_DISPATCH            PNG                     "dispatch.png"
+PNG_LOOP2               PNG                     "loop2.png"
+PNG_LOOP                PNG                     "loop.png"
+PNG_LOOP_SHAPE          PNG                     "loop_shape.png"
+PNG_MIMIX_SELECT        PNG                     "select.png"
+PNG_MIMIX2              PNG                     "mimix2.png"
+PNG_MIMIX               PNG                     "mimix.png"
+PNG_NETWORK2            PNG                     "network2.png"
+PNG_NETWORK             PNG                     "network.png"
+PNG_NETWORK_BROWSE      PNG                     "network_browse.png"
+PNG_WEBCLT2             PNG                     "webclient2.png"
+PNG_WEBCLT              PNG                     "webclient.png"
+PNG_VIDEO3DOUT          PNG                     "video3dOut.png"
+PNG_VIDEO3DOUT2         PNG                     "video3dOut2.png"
+PNG_EF3D_SOURCE         PNG                     "ef3d_sources.png"
+PNG_EF3D_BLEND          PNG                     "ef3d_blend.png"
+PNG_V3DOUT_EFFECTS      PNG                     "v3dout_effects.png"
+PNG_MORPH               PNG                     "ef3d-morph.png"
+PNG_MORPH2              PNG                     "ef3d-morph2.png"
+PNG_WMPBACK             PNG                     "wmp_back.png"
+PNG_WMPFRONT            PNG                     "wmp_front.png"
+PNG_VPONE_RATE          PNG                     "vp1-rate.png"
+PNG_VPONE_FRONT         PNG                     "vp1-front.png"
+PNG_VPONE_BACK          PNG                     "vp1-back.png"
+PNG_VPONE_STOP          PNG                     "vp1-stop.png"
+PNG_VPONE_MOVIE         PNG                     "vp1-movie.png"
+PNG_VPONE_PLAY          PNG                     "vp1-play.png"
+PNG_VPONE_MIRE          PNG                     "vp1-mire.png"
+PNG_VPONE_NOSNAP        PNG                     "vp1-nosnap.png"
+PNG_VPONE_STATES        PNG                     "vp1-state.png"
+PNG_EF3D_VIDEO          PNG                     "ef3d_video.png"
+PNG_EF3D_META           PNG                     "ef3d_meta.png"
+PNG_EF3D_ZOOM           PNG                     "ef3d_zoom.png"
+PNG_VPONE_BUTTON        PNG                     "vp1-button.png"
+PNG_AUTOMIX_FRONT       PNG                     "automix_front.png"
+PNG_AUTOMIX_BACK        PNG                     "automix_back.png"
+PNG_AUTOMIX_COLOR       PNG                     "automix_color.png"
+PNG_AUTOMIX_BUTTON      PNG                     "automix_button.png"
+PNG_AUTOMIX_BUTTON2     PNG                     "automix_button2.png"
+PNG_COLOR_FRONT         PNG                     "color_front.png"
+PNG_COLOR_BACK          PNG                     "color_back.png"
+PNG_VIDEOIN_FRONT       PNG                     "videoin_front.png"
+PNG_VIDEOIN_BACK        PNG                     "videoin_back.png"
+PNG_FFRAME_FRONT        PNG                     "fframe_front.png"
+PNG_FFRAME_BACK         PNG                     "fframe_back.png"
+PNG_FFRAME_BUTTON       PNG                     "fframe_button.png"
+PNG_FFRAME_RST          PNG                     "fframe_rst.png"
+PNG_ELEKREG             PNG                     "elektronika-logo.png"
+PNG_MIMIX_BLEND         PNG                     "mimix_blend.png"
+PNG_TRAIL_FRONT         PNG                     "trail_front.png"
+PNG_TRAIL_BACK          PNG                     "trail_back.png"
+PNG_SNDMIX              PNG                     "sound_mixer.png"
+PNG_RNBOX_BLEND         PNG                     "rnbox_blend.png"
+PNG_RNBOX_SEQ3          PNG                     "rnbox-seq3.png"
+PNG_RNBOX_SEQ2          PNG                     "rnbox-seq2.png"
+PNG_RNBOX_SEQ1          PNG                     "rnbox-seq1.png"
+PNG_PIXSHAD             PNG                     "ef3d_pixshad.png"
+PNG_LOOP_SELECT         PNG                     "loop107_select.png"
+PNG_FLECHE_G            PNG                     "flecheG.png"
+PNG_FLECHE_D            PNG                     "flecheD.png"
+PNG_PUB_FRONT           PNG                     "pub_front.png"
+PNG_PUB_BACK            PNG                     "pub_back.png"
+PNG_FLECHE_GA           PNG                     "flecheGA.png"
+PNG_FLECHE_DA           PNG                     "flecheDA.png"
+PNG_PUB_TEXT            PNG                     "pub-text.png"
+PNG_PUB_IMAGE           PNG                     "pub-image.png"
+PNG_SOUNDINPUT_RIGHT    PNG                     "soundInput_right.png"
+PNG_SOUNDINPUT_LEFT     PNG                     "soundInput_left.png"
+PNG_ICONOPEN            PNG                     "open.png"
+PNG_ICONSAVEAS          PNG                     "saveas.png"
+PNG_ICONSAVE            PNG                     "save.png"
+PNG_ICONNEW             PNG                     "new.png"
+PNG_PRESET_STORE_SEL    PNG                     "preset-store-sel.png"
+PNG_PRESET_RECALL_ALL   PNG                     "preset-recall-all.png"
+PNG_PRESET_RECALL_SEL   PNG                     "preset-recall-sel.png"
+PNG_PRESET_STORE_ALL    PNG                     "preset-store-all.png"
+PNG_PRESET_DEL          PNG                     "preset-delete.png"
+PNG_PUB_TEXT_POS        PNG                     "pub-text-pos.png"
+PNG_OMPPWRAP_FRONT      PNG                     "omppwrap_front.png"
+PNG_OMPPWRAP_BACK       PNG                     "omppwrap_back.png"
+PNG_OMPPWRAP_FONT       PNG                     "omppwrap_font.png"
+PNG_VIDEOIN_DEINTERLACE PNG                     "videoin_deinterlace.png"
+PNG_VP10_FRONT          PNG                     "vp10-front.png"
+PNG_VP10_BACK           PNG                     "vp10-back.png"
+PNG_BUTMETAL            PNG                     "button-metal.png"
+PNG_BUTMETAL_7          PNG                     "button-metal-7.png"
+PNG_BUTMETAL_0          PNG                     "button-metal-0.png"
+PNG_BUTMETAL_1          PNG                     "button-metal-1.png"
+PNG_BUTMETAL_2          PNG                     "button-metal-2.png"
+PNG_BUTMETAL_3          PNG                     "button-metal-3.png"
+PNG_BUTMETAL_4          PNG                     "button-metal-4.png"
+PNG_BUTMETAL_5          PNG                     "button-metal-5.png"
+PNG_BUTMETAL_6          PNG                     "button-metal-6.png"
+PNG_BAND_FRONT          PNG                     "band_front.png"
+PNG_BAND_BACK           PNG                     "band_back.png"
+PNG_EF3D_ROTO           PNG                     "ef3d_roto.png"
+PNG_VIS_FRONT           PNG                     "vis_front.png"
+PNG_VIS_BACK            PNG                     "vis_back.png"
+PNG_V3DOUT_DOWN         PNG                     "v3dout_down.png"
+PNG_V3DOUT_UP           PNG                     "v3dout_up.png"
+PNG_RNBOX_SEQ_MINI      PNG                     "rnbox-seq-mini.png"
+PNG_RNBOX_SEQ4          PNG                     "rnbox-seq4.png"
+PNG_VMIX_STICK          PNG                     "vmix_stick.png"
+PNG_VMIX_PB             PNG                     "vmix_b.png"
+PNG_VMIX_PA             PNG                     "vmix_a.png"
+PNG_TRANSCOLOR_AB       PNG                     "transcolor_ab.png"
+PNG_VMIX_AUTO           PNG                     "vmix_automix.png"
+PNG_VMIX_SWITCH         PNG                     "vmix_switch.png"
+PNG_VMIX_CUT            PNG                     "vmix_cut.png"
+PNG_SLICE_AESTESIS      PNG                     "slice_aestesis.png"
+PNG_VMIX_FLIPY          PNG                     "vmix_flipy.png"
+PNG_VMIX_FLIPX          PNG                     "vmix_flipx.png"
+PNG_COLOR_PAL           PNG                     "color_pal.png"
+PNG_DISPATCH_SOURCES    PNG                     "dispatch_sources.png"
+PNG_SPHERE_SOURCES      PNG                     "sphere_sources.png"
+PNG_ICONHELP            PNG                     "help.png"
+PNG_BOLD                PNG                     "bold.png"
+PNG_ITALIC              PNG                     "italic.png"
+PNG_EF3D_TEXTTYPE       PNG                     "ef3d_text_type.png"
+PNG_GRABWINBUT          PNG                     "grabber_winbut.png"
+PNG_GRABCURSOR          PNG                     "grabber_cursor.png"
+PNG_BUTMETAL_ALL        PNG                     "button-metal-all.png"
+PNG_VP10PATTERN         PNG                     "vp10_pattern.png"
+PNG_VP10_BUTTON2        PNG                     "vp10_button2.png"
+PNG_VP10_BUTTON         PNG                     "vp10_button.png"
+PNG_VP1_MIREOK          PNG                     "vp1-mire-ok.png"
+PNG_VMIX_RAUTO          PNG                     "vmix-autofade-b.png"
+PNG_VMIX_LAUTO          PNG                     "vmix-autofade-a.png"
+PNG_DISP_TOOLBAR        PNG                     "toolbar.png"
+PNG_VP10_PLAY           PNG                     "vp10-play.png"
+PNG_VP10_SELSTEP        PNG                     "vp10_selstep.png"
+PNG_EXPORT_FRONT        PNG                     "export-front.png"
+PNG_EXPORT_BACK         PNG                     "export-back.png"
+PNG_ELEKLIVE            PNG                     "eleklive.png"
+PNG_EXPORT_OPEN         PNG                     "export-load.png"
+PNG_EF3DCUBE_SYM        PNG                     "ef3d-cube-sym.png"
+PNG_EF3DCUBE            PNG                     "ef3d-cube.png"
+PNG_EXPORTCAM           PNG                     "export-camera.png"
+PNG_EXPORT_AESTALPHA    PNG                     "export-aestesis.png"
+PNG_EXPORT_AEST         PNG                     "export-aestesis-2.png"
+PNG_BUTEXPLORER         PNG                     "button explorer.png"
+PNG_REFRESH             PNG                     "refresh.png"
+PNG_EXPORTCOMPPRESS     PNG                     "export-compress.png"
+PNG_EXPORTFLIP          PNG                     "export-flip.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+TXT_LICENSEDEMO         TXT                     "elektronika License.txt"
+TXT_LICENSELIVE         TXT                     "elektronika License registred.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>NativeSoundMix Class Reference</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>NativeSoundMix  Class Reference</h1>
+<p>
+<code>#include &lt;<a class="el" href="class_nativesoundmix-include.html">Sound.h</a>&gt;</code>
+<p>
+<p>Class diagram for NativeSoundMix:
+<p><center><img src="class_nativesoundmix.gif" usemap="#NativeSoundMix_map" border="0"></center>
+<map name="NativeSoundMix_map"><p>
+<area href="class_csoundmix.html" ALT="CSoundMix" shape="rect" coords="0,0,104,24">
+</MAP></P>
+<a href="class_nativesoundmix-members.html">List of all members.</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td colspan=4><br><h2>Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a0">NativeConstruct</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a1">NativeDestruct</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a2">EnterCritical</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top><a name="a3" doxytag="NativeSoundMix::LeaveCritical"></a>
+virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a3">LeaveCritical</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a4">BuildAndWrite</a> ( WaveHeader* hdr, BOOL silence )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a5">GetNativeSoundCap</a> ( S32* format )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual BOOL&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a6">OpenNativeDevice</a> ( CSound* format )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a7">BuffersReady</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a8">BuffersUpdated</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a9">CloseNativeDevice</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual BOOL&nbsp;</td><td valign=top><a class="el" href="class_nativesoundmix.html#a10">IsDeviceOpen</a> ()</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+NativeSoundMix encapselates a hardware device. It has methods for opening and closing the device, managing data shared my multiple threads, and some buffer management. Sound is not completely portable. This interface may need to be modified for a particular OS. Please refer to the Design document. <hr><h2>Member Function Documentation</h2>
+
+<h3><a name="a0" doxytag="NativeSoundMix::NativeConstruct"></a>virtual void NativeSoundMix::NativeConstruct ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+<a class="el" href="class_csoundmix.html">CSoundMix</a> does not use a contructor. For compatibility with <a class="el" href="class_csoundmix.html">CSoundMix</a>, NativeConstruct is called for object "construction." 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a1" doxytag="NativeSoundMix::NativeDestruct"></a>virtual void NativeSoundMix::NativeDestruct ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+<a class="el" href="class_csoundmix.html">CSoundMix</a> does not use a destructor. For compatibility with <a class="el" href="class_csoundmix.html">CSoundMix</a>, NativeDestruct is called for object "destruction." 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a2" doxytag="NativeSoundMix::EnterCritical"></a>virtual void NativeSoundMix::EnterCritical ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+The sound data needs to be protected is multi-threaded systems. Only one thread can have the critical semaphor. This call requests, and blocks, access to the critical sound semaphor. 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a4" doxytag="NativeSoundMix::BuildAndWrite"></a>virtual void NativeSoundMix::BuildAndWrite (WaveHeader * <em>hdr</em>, BOOL <em>silence</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+BuildAndWrite is passed the WaveHeader to an available buffer. It should call BuildBuffer to repack the buffer and then send the buffer to the hardware device. If silence is true, BuildBuffer should not be called, and BuildAndWrite should write silence to the buffer and send it to the hardware.<br>
+ BuildAndWrite is called from core code when the device is opened, and called by the Native code when a buffer completes playing. 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a5" doxytag="NativeSoundMix::GetNativeSoundCap"></a>virtual void NativeSoundMix::GetNativeSoundCap (S32 * <em>format</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+GetNativeSoundCap gets the best native sound format. Called inside a critical section, when the hardware device is closed. This format is OR'd from the following variables:<br>
+ sndMono, sndStereo<br>
+ snd8Bit, snd16Bit<br>
+ snd5K, snd11K, snd22K, snd44K 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a6" doxytag="NativeSoundMix::OpenNativeDevice"></a>virtual BOOL NativeSoundMix::OpenNativeDevice (CSound * <em>format</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Opens the hardware device in the given format. This call should not change CSound* format. 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a7" doxytag="NativeSoundMix::BuffersReady"></a>virtual void NativeSoundMix::BuffersReady ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+BuffersReady is called when the device is open, the buffers are allocated, and the buffers are filled with data. A signal to start playing sound. 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a8" doxytag="NativeSoundMix::BuffersUpdated"></a>virtual void NativeSoundMix::BuffersUpdated ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+When the buffers are allocated or enlarged, BuffersUpdated is called to inform the native code. 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a9" doxytag="NativeSoundMix::CloseNativeDevice"></a>virtual void NativeSoundMix::CloseNativeDevice ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Closes the hardware device. 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+
+<h3><a name="a10" doxytag="NativeSoundMix::IsDeviceOpen"></a>virtual BOOL NativeSoundMix::IsDeviceOpen ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Queries the state of the hardware device. Should be a fast call - it may be prudent to buffer the device state rather than actually asking the device. 
+<p>
+Reimplemented from <a class="el" href="class_csoundmix.html">CSoundMix</a>.</div>
+<hr>The documentation for this classwas generated from the following file:<ul>
+<li>Sound.h</ul>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

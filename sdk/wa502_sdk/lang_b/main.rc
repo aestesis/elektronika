@@ -1,0 +1,2123 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+TIPSTEXT                TEXT    DISCARDABLE     "tips.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+WINAMP_MAIN MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "Nullsoft &Winamp...",         WINAMP_HELP_ABOUT
+        MENUITEM SEPARATOR
+        POPUP "&Play"
+        BEGIN
+            MENUITEM "&File...   \tL",              WINAMP_FILE_PLAY
+            MENUITEM "&URL...\tCtrl+L",             WINAMP_FILE_LOC
+            MENUITEM "&Folder...\tShift+L",         WINAMP_FILE_DIR
+            MENUITEM SEPARATOR
+            POPUP "&Bookmark"
+            BEGIN
+                MENUITEM "(no bookmarks)",              ID_MAIN_PLAY_BOOKMARK_NONE
+                , GRAYED
+            END
+        END
+        MENUITEM "View &file info...\tAlt+3",   WINAMP_EDIT_ID3
+        POPUP "&Bookmarks"
+        BEGIN
+            MENUITEM "&Edit bookmarks...\t(Ctrl+Alt+I)", 
+                                                    WINAMP_EDIT_BOOKMARKS
+            MENUITEM "&Add current as bookmark\t(Alt+I)", 
+                                                    WINAMP_MAKECURBOOKMARK
+            MENUITEM SEPARATOR
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Main Window\tAlt+W",          WINAMP_MAIN_WINDOW
+        MENUITEM "Playlist &Editor\tAlt+E",     WINAMP_OPTIONS_PLEDIT
+        MENUITEM "E&qualizer     \tAlt+G",      WINAMP_OPTIONS_EQ
+        MENUITEM "&Video\tAlt+V",               WINAMP_OPTIONS_VIDEO
+        MENUITEM SEPARATOR
+        POPUP "&Options"
+        BEGIN
+            MENUITEM "&Preferences...    \tCtrl+P", WINAMP_OPTIONS_PREFS
+            POPUP "Skins"
+            BEGIN
+                MENUITEM "S&kin Browser...\tAlt+S",     WINAMP_SELSKIN
+                MENUITEM "<< Get more skins! >>",       WINAMP_GETMORESKINS
+                MENUITEM SEPARATOR
+                MENUITEM "Winamp Classic",              32767
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "Time &elapsed\t(Ctrl+T toggles)", 
+                                                    WINAMP_OPTIONS_ELAPSED
+            MENUITEM "Time re&maining\t(Ctrl+T toggles)", 
+                                                    WINAMP_OPTIONS_REMAINING
+            MENUITEM SEPARATOR
+            MENUITEM "&Always On Top\tCtrl+A",      WINAMP_OPTIONS_AOT
+            MENUITEM "&Double Size\tCtrl+D",        WINAMP_OPTIONS_DSIZE
+            MENUITEM "&EasyMove\tCtrl+E",           WINAMP_OPTIONS_EASYMOVE
+            MENUITEM SEPARATOR
+            MENUITEM "&Repeat\tR",                  WINAMP_FILE_REPEAT
+            MENUITEM "&Shuffle\tS",                 WINAMP_FILE_SHUFFLE
+        END
+        POPUP "Play&back"
+        BEGIN
+            MENUITEM "P&revious\tZ",                WINAMP_BUTTON1
+            MENUITEM "&Play\tX",                    WINAMP_BUTTON2
+            MENUITEM "P&ause\tC",                   WINAMP_BUTTON3
+            MENUITEM "&Stop\tV",                    WINAMP_BUTTON4
+            MENUITEM "&Next              \tB",      WINAMP_BUTTON5
+            MENUITEM SEPARATOR
+            MENUITEM "Stop w/ fa&deout\tShift+V",   WINAMP_BUTTON4_SHIFT
+            MENUITEM "Stop after &current\tCtrl+V", WINAMP_BUTTON4_CTRL
+            MENUITEM "&Back 5 seconds\tLeft",       WINAMP_BUTTON1_SHIFT
+            MENUITEM "&Fwd 5 seconds\tRight",       WINAMP_BUTTON5_SHIFT
+            MENUITEM "&Start of list\tCtrl+Z",      WINAMP_BUTTON1_CTRL
+            MENUITEM "&End of list\tCtrl+B",        WINAMP_BUTTON5_CTRL
+            MENUITEM "10 t&racks back\tNum. 1",     WINAMP_JUMP10BACK
+            MENUITEM "10 &tracks fwd\tNum. 3",      WINAMP_JUMP10FWD
+            MENUITEM SEPARATOR
+            MENUITEM "&Jump to time\tCtrl+J",       WINAMP_JUMP
+            MENUITEM "Ju&mp to file\tJ",            WINAMP_JUMPFILE
+        END
+        POPUP "&Visualization"
+        BEGIN
+            MENUITEM "Start/Stop &plug-in\tCtrl+Shift+K", WINAMP_VISPLUGIN
+            MENUITEM "&Configure plug-in... \tAlt+K", WINAMP_VISCONF
+            MENUITEM "&Select plug-in...\tCtrl+K",  WINAMP_PLGSETUP
+        END
+        POPUP "Skins"
+        BEGIN
+            MENUITEM "S&kin Browser...\tAlt+S",     WINAMP_SELSKIN
+            MENUITEM "<< Get more skins! >>",       WINAMP_GETMORESKINS
+            MENUITEM SEPARATOR
+            MENUITEM "Winamp Classic",              32767
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Winamp Help\tF1",             ID_HELP_HELPTOPICS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       WINAMP_FILE_QUIT
+    END
+    POPUP "EQpresets"
+    BEGIN
+        POPUP "Load"
+        BEGIN
+            MENUITEM "&Preset...",                  IDM_EQ_LOADPRE
+            MENUITEM "&Auto-load preset...",        IDM_EQ_LOADMP3
+            MENUITEM "&Default",                    IDM_EQ_LOADDEFAULT
+            MENUITEM SEPARATOR
+            MENUITEM "From &EQF...",                ID_LOAD_EQF
+        END
+        POPUP "Save"
+        BEGIN
+            MENUITEM "&Preset...",                  IDM_EQ_SAVEPRE
+            MENUITEM "&Auto-load preset...",        IDM_EQ_SAVEMP3
+            MENUITEM "&Default",                    IDM_EQ_SAVEDEFAULT
+            MENUITEM SEPARATOR
+            MENUITEM "To &EQF...",                  ID_SAVE_EQF
+        END
+        POPUP "Delete"
+        BEGIN
+            MENUITEM "&Preset...",                  IDM_EQ_DELPRE
+            MENUITEM "&Auto-load preset...",        IDM_EQ_DELMP3
+        END
+    END
+    POPUP "PLContextMenu"
+    BEGIN
+        POPUP "MiscOpt"
+        BEGIN
+            POPUP "File info"
+            BEGIN
+                MENUITEM "F&ile info...\tAlt+3",        ID_PE_ID3
+                MENUITEM "Playlist entry...\tCtrl+E",   ID_PE_ENTRY
+            END
+            POPUP "Sort"
+            BEGIN
+                MENUITEM "Sort list by &title",         ID_PE_S_TITLE
+                MENUITEM "Sort list by &filename",      ID_PE_S_FILENAME
+                MENUITEM "Sort list by &path and filename", ID_PE_S_PATH
+                MENUITEM SEPARATOR
+                MENUITEM "R&everse list\tCtrl+R",       ID_PE_S_REV
+                MENUITEM "&Randomize list",             ID_PE_S_RANDOM
+            END
+            POPUP "Misc"
+            BEGIN
+                MENUITEM "&Generate HTML playlist\t(Ctrl+Alt+G)", 
+                                                        ID_PE_PRINT
+                MENUITEM SEPARATOR
+                MENUITEM "&Read extended info on selection\t(Ctrl+Alt+E)", 
+                                                        ID_PE_EXTINFO
+            END
+        END
+        POPUP "Add"
+        BEGIN
+            MENUITEM "Add file(s)\tL",              IDC_PLAYLIST_ADDMP3
+            MENUITEM "Add folder\tShift+L",         IDC_PLAYLIST_ADDDIR
+            MENUITEM "Add URL\tCtrl+L",             IDC_PLAYLIST_ADDLOC
+        END
+        POPUP "Remove"
+        BEGIN
+            MENUITEM "Remove selected\tDelete",     IDC_PLAYLIST_REMOVEMP3
+            MENUITEM "Crop selected\tCtrl+Delete",  IDC_PLAYLIST_CROP
+            MENUITEM "Clear playlist\tCtrl+Shift+Delete", ID_PE_CLEAR
+            POPUP "Remove..."
+            BEGIN
+                MENUITEM "Remove &missing files from playlist\tAlt+Delete", 
+                                                        ID_PE_NONEXIST
+                MENUITEM "&Physically remove selected file(s)", 
+                                                        ID_PE_DELETEFROMDISK
+            END
+        END
+        POPUP "Select"
+        BEGIN
+            MENUITEM "Select all\tCtrl+Alt+A",      ID_PE_SELECTALL
+            MENUITEM "Select none",                 ID_PE_NONE
+            MENUITEM "Invert selection\tCtrl+I",    IDC_SELECTINV
+        END
+        POPUP "Playlist"
+        BEGIN
+            MENUITEM "Open playlist\tCtrl+O",       ID_PE_OPEN
+            MENUITEM "Save playlist\tCtrl+S",       ID_PE_SAVEAS
+            MENUITEM "New playlist (clear)\tCtrl+N", ID_PE_CLEAR
+        END
+        POPUP "Context"
+        BEGIN
+            MENUITEM "Play item(s)\tEnter",         IDC_PLAYLIST_PLAY
+            MENUITEM SEPARATOR
+            MENUITEM "Remove item(s)\tDelete",      IDC_PLAYLIST_REMOVEMP3
+            MENUITEM "Crop files\tCtrl+Delete",     IDC_PLAYLIST_CROP
+            MENUITEM SEPARATOR
+            MENUITEM "View file info...\tAlt+3",    ID_PE_ID3
+            MENUITEM "Playlist entry\tCtrl+E",      ID_PE_ENTRY
+            MENUITEM "Bookmark item(s)\tAlt+I",     ID_PE_BOOKMARK
+        END
+    END
+    POPUP "Context menus"
+    BEGIN
+        POPUP "Song title"
+        BEGIN
+            MENUITEM "View &file info...\tAlt+3 or Dblclick", 
+                                                    WINAMP_EDIT_ID3
+            MENUITEM "Jump to file...\tJ",          WINAMP_JUMPFILE
+            MENUITEM "Jump to time...\tCtrl+J",     WINAMP_JUMP
+            MENUITEM "Autoscroll songname",         WINAMP_TOGGLE_AUTOSCROLL
+        END
+        POPUP "Time display"
+        BEGIN
+            MENUITEM "Time &elapsed\t(Ctrl+T toggles)", 
+                                                    WINAMP_OPTIONS_ELAPSED
+            MENUITEM "Time re&maining\t(Ctrl+T toggles)", 
+                                                    WINAMP_OPTIONS_REMAINING
+        END
+        POPUP "Previous button"
+        BEGIN
+            MENUITEM "&Previous\t(Click)",          WINAMP_BUTTON1
+            MENUITEM "&Start of list\t(Ctrl+Click)", WINAMP_BUTTON1_CTRL
+            MENUITEM "&Rewind 5 seconds\t(Shift+Click)", 
+                                                    WINAMP_BUTTON1_SHIFT
+        END
+        POPUP "Play Button"
+        BEGIN
+            MENUITEM "&Play/restart\t(Click)",      WINAMP_BUTTON2
+            MENUITEM "Open &URL...\t(Ctrl+Click)",  WINAMP_BUTTON2_CTRL
+            MENUITEM "Open &file...\t(Shift+Click)", WINAMP_BUTTON2_SHIFT
+        END
+        POPUP "Pause button"
+        BEGIN
+            MENUITEM "&Pause/Unpause\t(Click)",     WINAMP_BUTTON3
+        END
+        POPUP "Stop button"
+        BEGIN
+            MENUITEM "&Stop\t(Click)",              WINAMP_BUTTON4
+            MENUITEM "&Stop w/ fadeout\t(Shift+Click)", WINAMP_BUTTON4_SHIFT
+            MENUITEM "Stop after &current\t(Ctrl+Click)", 
+                                                    WINAMP_BUTTON4_CTRL
+        END
+        POPUP "Next button"
+        BEGIN
+            MENUITEM "&Next\t(Click)",              WINAMP_BUTTON5
+            MENUITEM "&Fastforward 5 seconds\t(Shift+Click)", 
+                                                    WINAMP_BUTTON5_SHIFT
+            MENUITEM "&End of list\t(Ctrl+Click)",  WINAMP_BUTTON5_CTRL
+        END
+        POPUP "Eject button"
+        BEGIN
+            MENUITEM "Open &file...\t(Click)",      WINAMP_FILE_PLAY
+            MENUITEM "Open &folder...\t(Shift+Click)", WINAMP_FILE_DIR
+            MENUITEM "Open &URL...\t(Ctrl+Click)",  WINAMP_FILE_LOC
+        END
+        POPUP "Seek bar"
+        BEGIN
+            MENUITEM "Jump to time\t(Ctrl+J)",      WINAMP_JUMP
+            MENUITEM "Rewind 5 seconds\t(Left Arrow)", WINAMP_REW5S
+            MENUITEM "Forward 5 seconds\t(Right Arrow)", WINAMP_FFWD5S
+        END
+        POPUP "Shuffle"
+        BEGIN
+            MENUITEM "Shuffle\t(S)",                WINAMP_FILE_SHUFFLE
+        END
+        POPUP "Repeat"
+        BEGIN
+            MENUITEM "Repeat\t(R)",                 WINAMP_FILE_REPEAT
+        END
+        POPUP "EQ button"
+        BEGIN
+            MENUITEM "Graphical Equalizer\t(Alt+G)", WINAMP_OPTIONS_EQ
+        END
+        POPUP "PE button"
+        BEGIN
+            MENUITEM "Playlist Editor\t(Alt+E)",    WINAMP_OPTIONS_PLEDIT
+        END
+        POPUP "VideoWnd"
+        BEGIN
+            MENUITEM "&Fullscreen\tAlt+Enter",      ID_VIDEOWND_ZOOMFULLSCREEN
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Normal size\t1",             ID_VIDEOWND_ZOOM100
+            MENUITEM "&Half size\t`",               ID_VIDEOWND_ZOOM50
+            MENUITEM "&Double size\t2",             ID_VIDEOWND_ZOOM200
+            MENUITEM SEPARATOR
+            MENUITEM "Video options...",            ID_VIDEOWND_VIDEOOPTIONS
+        END
+    END
+    POPUP "EQContext"
+    BEGIN
+        POPUP "enbut"
+        BEGIN
+            MENUITEM "EQ enabled\t(O)",             EQ_ENABLE
+        END
+        POPUP "albut"
+        BEGIN
+            MENUITEM "EQ autoloading enabled\t(A)", EQ_AUTO
+        END
+    END
+    POPUP "Prefs"
+    BEGIN
+        POPUP "Skin"
+        BEGIN
+            MENUITEM "Switch to skin",              ID_PREFS_SKIN_SWITCHTOSKIN
+
+            MENUITEM SEPARATOR
+            MENUITEM "Rename skin...",              ID_PREFS_SKIN_RENAMESKIN
+            MENUITEM "Delete skin...",              ID_PREFS_SKIN_DELETESKIN
+        END
+    END
+END
+
+WINAMP5_MENUBAR MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Play &file...   \tL",         WINAMP_FILE_PLAY
+        MENUITEM "Play &URL...\tCtrl+L",        WINAMP_FILE_LOC
+        MENUITEM "Play &folder...\tShift+L",    WINAMP_FILE_DIR
+        POPUP "Play &bookmark"
+        BEGIN
+            MENUITEM "&Edit bookmarks...\t(Ctrl+Alt+I)", 
+                                                    WINAMP_EDIT_BOOKMARKS
+            MENUITEM "&Add current as bookmark\t(Alt+I)", 
+                                                    WINAMP_MAKECURBOOKMARK
+            MENUITEM SEPARATOR
+            MENUITEM "(no bookmarks)",              ID_MAIN_PLAY_BOOKMARK_NONE
+            , GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Internet &Radio...",          ID_MLVIEW_INTERNETRADIO
+        MENUITEM "Internet &TV...",             ID_MLVIEW_INTERNETTV
+        MENUITEM SEPARATOR
+        MENUITEM "Open &playlist\tCtrl+O",      ID_PE_OPEN
+        MENUITEM "Save playlist\tCtrl+S",       ID_PE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "&Add Media to Library...",    ID_FILE_ADDTOLIBRARY
+        MENUITEM SEPARATOR
+        MENUITEM "&View file info...\tAlt+3",   WINAMP_EDIT_ID3
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt-F4",               WINAMP_FILE_QUIT
+    END
+    POPUP "Play"
+    BEGIN
+        MENUITEM "P&revious\tZ",                WINAMP_BUTTON1
+        MENUITEM "&Play\tX",                    WINAMP_BUTTON2
+        MENUITEM "P&ause\tC",                   WINAMP_BUTTON3
+        MENUITEM "&Stop\tV",                    WINAMP_BUTTON4
+        MENUITEM "&Next              \tB",      WINAMP_BUTTON5
+        MENUITEM SEPARATOR
+        POPUP "&Advanced Playback"
+        BEGIN
+            MENUITEM "&Start of list\tCtrl+Z",      WINAMP_BUTTON1_CTRL
+            MENUITEM "Stop w/ fa&deout\tShift+V",   WINAMP_BUTTON4_SHIFT
+            MENUITEM "Stop after &current\tCtrl+V", WINAMP_BUTTON4_CTRL
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Jump to"
+        BEGIN
+            MENUITEM "Ju&mp to track\tJ",           WINAMP_JUMPFILE
+            MENUITEM "Jump 10 t&racks back\tNum. 1", WINAMP_JUMP10BACK
+            MENUITEM "Jump 10 &tracks fwd\tNum. 3", WINAMP_JUMP10FWD
+            MENUITEM "&Jump to time\tCtrl+J",       WINAMP_JUMP
+            MENUITEM "&Start of list\tCtrl+Z",      WINAMP_BUTTON1_CTRL
+            MENUITEM "&End of list\tCtrl+B",        WINAMP_BUTTON5_CTRL
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Back 5 seconds\tLeft",       WINAMP_BUTTON1_SHIFT
+        MENUITEM "&Fwd 5 seconds\tRight",       WINAMP_BUTTON5_SHIFT
+        MENUITEM SEPARATOR
+        MENUITEM "&Repeat\tR",                  WINAMP_FILE_REPEAT
+        MENUITEM "&Shuffle\tS",                 WINAMP_FILE_SHUFFLE
+        MENUITEM SEPARATOR
+        MENUITEM "Volume &Up\tUp",              ID_PLAY_VOLUMEUP
+        MENUITEM "Volume &Down\tDown",          ID_PLAY_VOLUMEDOWN
+    END
+    POPUP "Options"
+    BEGIN
+        POPUP "&Skins"
+        BEGIN
+            MENUITEM "S&kin Browser...\tAlt+S",     WINAMP_SELSKIN
+            MENUITEM "<< Get more skins! >>",       WINAMP_GETMORESKINS
+            MENUITEM SEPARATOR
+            MENUITEM "Winamp Classic",              32767
+        END
+        POPUP "&Visualization"
+        BEGIN
+            MENUITEM "Start/Stop &plug-in\tCtrl+Shift+K", WINAMP_VISPLUGIN
+            MENUITEM "&Configure plug-in... \tAlt+K", WINAMP_VISCONF
+            MENUITEM "&Select plug-in...\tCtrl+K",  WINAMP_PLGSETUP
+        END
+        POPUP "&Equalizer"
+        BEGIN
+            MENUITEM "&EQ enabled",                 EQ_ENABLE
+            POPUP "&Load Preset"
+            BEGIN
+                MENUITEM "&Preset...",                  IDM_EQ_LOADPRE
+                MENUITEM "&Auto-load preset...",        IDM_EQ_LOADMP3
+                MENUITEM "&Default",                    IDM_EQ_LOADDEFAULT
+                MENUITEM SEPARATOR
+                MENUITEM "From &EQF...",                ID_LOAD_EQF
+            END
+            POPUP "&Save Preset"
+            BEGIN
+                MENUITEM "&Preset...",                  IDM_EQ_SAVEPRE
+                MENUITEM "&Auto-load preset...",        IDM_EQ_SAVEMP3
+                MENUITEM "&Default",                    IDM_EQ_SAVEDEFAULT
+                MENUITEM SEPARATOR
+                MENUITEM "To &EQF...",                  ID_SAVE_EQF
+            END
+            POPUP "&Delete Preset"
+            BEGIN
+                MENUITEM "&Preset...",                  IDM_EQ_DELPRE
+                MENUITEM "&Auto-load preset...",        IDM_EQ_DELMP3
+            END
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Time &elapsed\t(Ctrl+T toggles)", WINAMP_OPTIONS_ELAPSED
+        MENUITEM "Time re&maining\t(Ctrl+T toggles)", 
+                                                WINAMP_OPTIONS_REMAINING
+        MENUITEM SEPARATOR
+        MENUITEM "&Always On Top\tCtrl+A",      WINAMP_OPTIONS_AOT
+        MENUITEM "&Double Size\tCtrl+D",        WINAMP_OPTIONS_DSIZE
+        MENUITEM SEPARATOR
+        MENUITEM "&Preferences...    \tCtrl+P", WINAMP_OPTIONS_PREFS
+    END
+    POPUP "Windows"
+    BEGIN
+        MENUITEM "Playlist &Editor\tAlt+E",     WINAMP_OPTIONS_PLEDIT
+        MENUITEM "&Video\tAlt+V",               WINAMP_OPTIONS_VIDEO
+        MENUITEM "Visualizations\tCtrl+Shift+K", WINAMP_VISPLUGIN
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Winamp Help\tF1",             ID_HELP_HELPTOPICS
+        MENUITEM "&Register Winamp Pro",        ID_HELP_REGISTERWINAMPPRO
+        MENUITEM SEPARATOR
+        MENUITEM "About &Winamp...",            WINAMP_HELP_ABOUT
+    END
+    POPUP "PE_File"
+    BEGIN
+        MENUITEM "&New playlist (clear)\tCtrl+N", ID_PE_CLEAR
+        MENUITEM "&Open playlist\tCtrl+O",      ID_PE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Add file(s)\tL",             IDC_PLAYLIST_ADDMP3
+        MENUITEM "Add &folder\tShift+L",        IDC_PLAYLIST_ADDDIR
+        MENUITEM "Add UR&L\tCtrl+L",            IDC_PLAYLIST_ADDLOC
+        MENUITEM SEPARATOR
+        MENUITEM "&Save playlist\tCtrl+S",      ID_PE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "File &info\tAlt+3",           WINAMP_EDIT_ID3
+        MENUITEM "Playlist &entry\tCtrl+E",     ID_PE_ENTRY
+        MENUITEM SEPARATOR
+        MENUITEM "&Close playlist editor\tAlt+E", ID_PE_CLOSE
+    END
+    POPUP "PE_Playlist"
+    BEGIN
+        MENUITEM "Select &all\tCtrl+Alt+A",     ID_PE_SELECTALL
+        MENUITEM "Select &none",                ID_PE_NONE
+        MENUITEM "&Invert selection\tCtrl+I",   IDC_SELECTINV
+        MENUITEM SEPARATOR
+        MENUITEM "&Remove selected\tDelete",    IDC_PLAYLIST_REMOVEMP3
+        MENUITEM "&Crop selected\tCtrl+Delete", IDC_PLAYLIST_CROP
+        MENUITEM "C&lear playlist\tCtrl+Shift+Delete", ID_PE_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Remove &missing files from playlist\tAlt+Delete", 
+                                                ID_PE_NONEXIST
+        MENUITEM "&Physically remove selected file(s)", ID_PE_DELETEFROMDISK
+        MENUITEM SEPARATOR
+        MENUITEM "Playlist pre&ferences",       ID_PEPLAYLIST_PLAYLISTPREFERENCES
+
+    END
+    POPUP "PE_Sort"
+    BEGIN
+        MENUITEM "Sort list by &title",         ID_PE_S_TITLE
+        MENUITEM "Sort list by &filename",      ID_PE_S_FILENAME
+        MENUITEM "Sort list by &path and filename", ID_PE_S_PATH
+        MENUITEM SEPARATOR
+        MENUITEM "R&everse list\tCtrl+R",       ID_PE_S_REV
+        MENUITEM "&Randomize list",             ID_PE_S_RANDOM
+    END
+    POPUP "ML_File"
+    BEGIN
+        MENUITEM "&New playlist\tShift+Ins",    ID_MLFILE_NEWPLAYLIST
+        MENUITEM "Import &current playlist",    ID_MLFILE_IMPORTCURRENTPLAYLIST
+
+        MENUITEM "&Import playlist from file",  ID_MLFILE_LOADPLAYLIST
+        MENUITEM "&Export playlist",            ID_MLFILE_SAVEPLAYLIST
+        MENUITEM SEPARATOR
+        MENUITEM "&Add Media to Library...",    ID_FILE_ADDTOLIBRARY
+        MENUITEM SEPARATOR
+        MENUITEM "&Close Media Library\tAlt+L", ID_FILE_CLOSELIBRARY
+    END
+    POPUP "ML_View"
+    BEGIN
+        MENUITEM "&Now playing...",             ID_MLVIEW_NOWPLAYING
+        MENUITEM "Internet &Radio",             ID_MLVIEW_INTERNETRADIO
+        MENUITEM "Internet &TV",                ID_MLVIEW_INTERNETTV
+        MENUITEM SEPARATOR
+        MENUITEM "Media Library &Preferences...", 
+                                                ID_MLVIEW_LIBRARYPREFERENCES
+        , HELP
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SPLASH DIALOG DISCARDABLE  0, 0, 201, 111
+STYLE DS_CENTER | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         109,IDC_SPLASHIMG,"Static",SS_BITMAP,0,0,200,144
+END
+
+IDD_NEWABOUT1 DIALOG DISCARDABLE  0, 0, 301, 207
+STYLE DS_3DLOOK | DS_CENTER | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_ABOUTIMG,"Static",SS_BLACKRECT | SS_CENTERIMAGE,0,
+                    0,301,178
+    LTEXT           "Visit ",IDC_STATIC,86,196,14,8
+    LTEXT           "for updates.",IDC_STATIC,181,196,38,8
+    CONTROL         "http://www.winamp.com",IDC_WINAMPLINK,"Button",
+                    BS_OWNERDRAW | BS_CENTER | BS_VCENTER | BS_FLAT | 
+                    WS_TABSTOP,100,195,80,11
+    CTEXT           "Copyright © 1997-2004 Nullsoft, Inc.",IDC_STATIC,0,179,
+                    301,8,SS_NOTIFY
+    CTEXT           "v%s %s - %s",IDC_ABOUTTEXT,0,187,301,8
+END
+
+IDD_LOADPRESET DIALOG DISCARDABLE  0, 0, 171, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Load EQ preset"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LOADEQLIST,7,7,157,128,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Load",IDOK,30,141,47,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,93,141,47,14
+END
+
+IDD_SAVEPRESET DIALOG DISCARDABLE  0, 0, 171, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Save EQ preset"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SAVEPRESET_EDIT,7,122,157,13,ES_AUTOHSCROLL
+    LISTBOX         IDC_LOADEQLIST,7,7,157,113,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Save",IDOK,30,142,47,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,93,142,47,14
+END
+
+IDD_OPENLOC DIALOG DISCARDABLE  0, 0, 186, 68
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open URL"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_URL_NEW,7,28,171,115,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Open",IDOK,7,47,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,62,47,50,14
+    LTEXT           "Enter a URL to open here:\nFor example: http://www.server.com/file.mp3",
+                    IDC_STATIC,7,7,162,18
+END
+
+IDD_JUMPDLG DIALOG DISCARDABLE  0, 0, 142, 78
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Jump to time"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_MINUTES,11,17,43,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Jump",IDOK,7,57,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,65,57,50,14
+    LTEXT           "Minutes:Seconds",IDC_STATIC,59,19,56,8
+    LTEXT           "Track length:",IDC_STATIC,19,35,43,8
+    GROUPBOX        "Jump to:",IDC_STATIC,7,7,128,45
+    LTEXT           "0:00",IDC_TRACKLEN,65,35,38,8
+END
+
+IDD_JUMPFILEDLG DIALOG DISCARDABLE  0, 0, 258, 207
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Jump to file"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,13,17,231,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_SELBOX,7,43,244,139,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Cancel",IDCANCEL,7,186,244,14
+    GROUPBOX        "Search for text",IDC_STATIC,7,7,244,30
+END
+
+IDD_EDITENTRY DIALOG DISCARDABLE  0, 0, 241, 62
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit playlist entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NEW,28,22,206,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&OK",IDOK,7,41,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,65,41,50,14
+    EDITTEXT        IDC_OLD,28,7,206,14,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP
+    LTEXT           "Old",IDC_STATIC,9,9,12,8
+    LTEXT           "New",IDC_STATIC,9,24,16,8
+END
+
+IDD_HTTPGET DIALOG DISCARDABLE  0, 0, 186, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Retrieving file..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Abort",IDCANCEL,7,49,50,14
+    LTEXT           "...",IDC_STATUS,7,27,172,19,SS_SUNKEN
+    EDITTEXT        IDC_URL,7,6,172,21,ES_MULTILINE | ES_READONLY
+END
+
+IDD_NEWPREFS DIALOG DISCARDABLE  0, 0, 378, 261
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Winamp Preferences"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASLINES | 
+                    TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,7,7,86,227
+    DEFPUSHBUTTON   "Close",IDOK,7,239,86,14
+    CONTROL         "",IDC_RECT,"Static",SS_BLACKRECT | NOT WS_VISIBLE,99,7,
+                    272,246
+END
+
+IDD_NEWSETUP DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO1,44,12,150,230,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Find more languages",IDC_PLUGINVERS,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,198,14,67,9
+    COMBOBOX        IDC_COMBO2,12,56,246,125,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_PROXYSTR,12,84,246,14,ES_AUTOHSCROLL
+    CONTROL         "Use proxy only for port 80 URLs",IDC_PROXY_ONLY_PORT_80,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,102,116,10
+    CONTROL         "Show splash screen",IDC_PREFS_SPLASH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,123,82,8
+    CONTROL         "Allow &multiple instances",IDC_MINST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,133,94,10
+    CONTROL         "Check for new versions of Winamp at startup",
+                    IDC_NEWVERCHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    144,157,10
+    CONTROL         "Allow Winamp to report anonymous usage statistics",
+                    IDC_NEWVERCHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    155,192,8
+    LTEXT           "Show Winamp in:",IDC_STATIC,6,170,56,8
+    CONTROL         "Taskbar",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,181,42,10
+    CONTROL         "System tray",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,191,52,10
+    CONTROL         "Slider1",IDC_SYSTRAY_SCROLLER,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_GROUP | WS_TABSTOP,81,182,89,13
+    ICON            262,IDC_SYSTRAY_ICON,174,178,20,20,NOT WS_VISIBLE
+    CONTROL         "Slider1",IDC_PREFS_PRIORITY_CLASS,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | TBS_TOP | WS_TABSTOP,246,131,
+                    11,55
+    LTEXT           "Select your internet connection type:",IDC_STATIC,12,44,
+                    116,8
+    LTEXT           "(optional) Specify HTTP proxy address: 'Server:port' ",
+                    IDC_STATIC,12,73,165,8
+    GROUPBOX        "General Preferences",IDC_STATIC,0,0,272,246
+    GROUPBOX        "Internet Connection Settings",IDC_STATIC,6,32,259,84
+    LTEXT           "Language:",IDC_STATIC,7,14,35,8
+    GROUPBOX        "Priority class",IDC_STATIC,205,120,60,104
+    RTEXT           "Normal",IDC_STATIC,220,162,23,8
+    RTEXT           "High",IDC_STATIC,227,147,16,8
+    RTEXT           "Realtime",IDC_STATIC,215,131,28,8
+    RTEXT           "Idle",IDC_STATIC,228,177,15,8
+    LTEXT           "Note: High and Realtime priorities are not recommended.",
+                    IDC_STATIC,210,188,52,34
+    GROUPBOX        "System tray icon:",IDC_STATIC,76,169,123,35
+    CONTROL         "Scroll title in the Windows taskbar",IDC_SCROLLTITLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,206,119,10
+END
+
+IDD_NEWFTYPES DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_FTYPE_LIST,12,22,53,214,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "All",IDC_SELALL,69,34,61,13,BS_CENTER | BS_MULTILINE
+    PUSHBUTTON      "Audio Only",IDC_SELALL2,69,49,61,13,BS_CENTER | 
+                    BS_MULTILINE
+    PUSHBUTTON      "Video Only",IDC_SELALL3,69,63,61,13,BS_CENTER | 
+                    BS_MULTILINE
+    PUSHBUTTON      "None",IDC_SELNONE,69,78,61,13,BS_CENTER | BS_MULTILINE
+    CONTROL         "Restore file associations at Winamp start-up",
+                    IDC_RSTART,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,70,95,59,31
+    CONTROL         "Enable Winamp agent",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,148,123,84,10
+    CONTROL         "Show system tray icon",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,161,212,86,10
+    CONTROL         "Maintain file associations",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,161,223,94,10
+    CONTROL         "Slider1",IDC_FILETYPES_ICONSCROLL,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | WS_GROUP | WS_TABSTOP,79,138,
+                    13,40
+    CONTROL         "Slider1",IDC_FILETYPES_ICONSCROLL2,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | WS_GROUP | WS_TABSTOP,79,193,
+                    13,40
+    ICON            131,IDC_FILETYPES_ICON,98,147,20,20,NOT WS_VISIBLE
+    ICON            131,IDC_FILETYPES_ICON2,98,203,20,20,NOT WS_VISIBLE
+    GROUPBOX        "File icon",IDC_STATIC,75,129,49,51,BS_CENTER
+    GROUPBOX        "Playlist icon",IDC_STATIC,75,184,49,51,BS_CENTER
+    GROUPBOX        "Associated file types",IDC_STATIC,7,10,127,231,
+                    BS_CENTER
+    GROUPBOX        "File Types",IDC_STATIC,0,0,272,246
+    LTEXT           "Set selection:",IDC_STATIC,69,23,44,8
+    GROUPBOX        "Winamp Agent",IDC_WATEXT2,141,111,122,130
+    LTEXT           "Winamp Agent can maintain your Winamp file associations and show an icon in the system tray.\r\n\r\nDisabling this feature may result in other applications launching when you open media files from Windows Explorer.",
+                    IDC_WATEXT1,149,135,102,71
+    CONTROL         "Launch Winamp for audio CDs",IDC_CD,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,149,22,104,
+                    18
+    CONTROL         "Show Winamp in folder context menus in Windows Explorer",
+                    IDC_DIRCONTEXT,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,149,73,104,27
+    CONTROL         "Enqueue files on double click in Windows Explorer (default is unchecked)",
+                    IDC_ADDFILES,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,149,42,104,27
+    GROUPBOX        "Explorer Settings",IDC_STATIC,141,10,121,97
+END
+
+IDD_NEWPLUG DIALOGEX 0, 0, 272, 247
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_VISDIR,11,19,248,14
+    PUSHBUTTON      "",IDC_DSPDIR,11,51,248,14
+    CONTROL         "Slider1",IDC_VISPRIO,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,104,86,96,10
+    CONTROL         "&Auto execute visualization plug-in on playback",
+                    IDC_AUTOEXEC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,
+                    109,160,10
+    CONTROL         "&Disable built-in visualization when visualization plug-in active",
+                    IDC_DISVIS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,120,
+                    201,13
+    CONTROL         "Disable SEH for visualization plug-ins (useful for plug-in developers)",
+                    IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,135,
+                    226,10
+    CONTROL         "Disable SEH for DSP plug-ins (useful for plug-in developers)",
+                    IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,154,
+                    203,10
+    CONTROL         "Disable SEH for general purpose plug-ins (useful for plug-in developers)",
+                    IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,165,
+                    239,10
+    PUSHBUTTON      "Flush plug-in name &cache",IDC_FLUSHCACHE,6,178,99,14
+    GROUPBOX        "Visualization plug-in directory",IDC_STATIC,6,9,259,29
+    GROUPBOX        "DSP/Effect plug-in directory",IDC_STATIC,6,41,259,29
+    LTEXT           "Idle",IDC_STATIC,108,98,14,8
+    LTEXT           "High",IDC_STATIC,182,98,16,8
+    LTEXT           "Normal",IDC_STATIC,142,98,23,8
+    GROUPBOX        "Plug-in settings",IDC_STATIC,0,0,272,246
+    GROUPBOX        "Visualization plug-in specific options",IDC_STATIC,6,73,
+                    259,76
+    LTEXT           "Visualization plug-in priority:",IDC_STATIC,12,90,86,8
+END
+
+IDD_NEWINPUT DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_INPUTS,5,35,260,185,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Configure",IDC_CONF,5,227,50,14,WS_DISABLED
+    PUSHBUTTON      "&About",IDC_ABOUT,59,227,50,14,WS_DISABLED
+    GROUPBOX        "Input plug-ins",IDC_STATIC,0,0,271,246
+    CONTROL         "Get plug-ins",IDC_PLUGINVERS,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,224,230,41,9
+    LTEXT           "The plug-ins below allow Winamp to play the various media types that it does. You can select a plug-in and configure, view about boxes, or uninstall them.",
+                    IDC_STATIC,6,12,257,17
+    PUSHBUTTON      "&Uninstall plug-in",IDC_UNINSTINPUT,113,227,62,14,
+                    WS_DISABLED
+END
+
+IDD_NEWOUTPUT DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_OUTPUTS,5,35,260,185,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Configure",IDC_CONF2,5,227,50,14
+    PUSHBUTTON      "&About",IDC_ABOUT2,59,227,50,14
+    GROUPBOX        "Output plug-ins",IDC_STATIC,0,0,272,246
+    CONTROL         "Get plug-ins",IDC_PLUGINVERS,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,224,230,41,9
+    LTEXT           "The plug-in selected below determines how Winamp plays audio. If you select a plug-in, Winamp will use it (starting with the next item played) for audio output.",
+                    IDC_STATIC,6,12,257,17
+    PUSHBUTTON      "&Uninstall plug-in",IDC_UNINSTOUT,113,227,62,14
+END
+
+IDD_NEWVIS DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_VISLIB,5,35,260,170,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_VISMOD,61,209,204,143,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Start",IDC_VISTEST,5,227,37,14
+    PUSHBUTTON      "&Stop",IDC_VISSTOP,45,227,37,14
+    PUSHBUTTON      "&Configure",IDC_VISCONF,85,227,48,14
+    GROUPBOX        "Visualization plug-ins",IDC_STATIC,0,0,271,246
+    CONTROL         "Get plug-ins",IDC_PLUGINVERS,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,224,230,41,9
+    LTEXT           "Plug-in module:",IDC_STATIC,7,211,50,8
+    LTEXT           "Select a visualization plug-in below. The selected plug-in can be launched using the 'Start' button below, or by using Ctrl+Shift+K from Winamp.",
+                    IDC_STATIC,6,12,257,17
+    PUSHBUTTON      "&Uninstall plug-in",IDC_UNINSTVIS,136,227,62,14
+END
+
+IDD_NEWDSP DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_DSPLIB,5,35,260,170,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DSPMOD,61,209,204,64,CBS_DROPDOWNLIST | WS_DISABLED | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Configure active plug-in",IDC_DSPCONF,5,227,91,14,
+                    WS_DISABLED
+    GROUPBOX        "DSP/Effect plug-in",IDC_STATIC,0,0,271,246
+    CONTROL         "Get plug-ins",IDC_PLUGINVERS,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,224,230,41,9
+    LTEXT           "Plug-in module:",IDC_PLUGINLABEL,7,211,50,8,WS_DISABLED
+    LTEXT           "The plug-in selected below will be active, and will usually modify the sound being played. Select (none) if you do not wish to use a DSP/Effect plug-in.",
+                    IDC_STATIC,5,12,261,17
+    PUSHBUTTON      "&Uninstall plug-in",IDC_UNINSTDSP,100,227,62,14,
+                    WS_DISABLED
+END
+
+IDD_NEWGEN DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_GENLIB,5,26,259,198,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Configure selected plug-in",IDC_GENCONF,5,227,96,14,
+                    WS_DISABLED
+    PUSHBUTTON      "Uninstall selected plug-in",IDC_UNINST,105,227,90,14,
+                    WS_DISABLED
+    GROUPBOX        "General purpose plug-ins",IDC_STATIC,0,0,271,246
+    CONTROL         "Get plug-ins",IDC_PLUGINVERS,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,224,230,41,9
+    LTEXT           "Installed general purpose plug-ins (loaded at startup):",
+                    IDC_STATIC,6,12,166,8
+END
+
+IDD_OPENLOCMB DIALOG DISCARDABLE  0, 0, 186, 68
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open URL"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_URL_NEW,7,28,171,115,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Open",IDOK,7,47,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,62,47,50,14
+    LTEXT           "Type a URL to open in the Winamp Minibrowser. For example, http://www.winamp.com",
+                    IDC_STATIC,7,7,162,18
+END
+
+IDD_FIRSTSETUP DIALOG DISCARDABLE  0, 0, 287, 181
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Winamp: User information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Send",IDC_BUTTON1,230,162,50,14
+    PUSHBUTTON      "Later",IDC_BUTTON2,7,162,50,14
+    CONTROL         "",IDC_RECT,"Static",SS_BLACKRECT | NOT WS_VISIBLE,35,2,
+                    245,150
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,156,273,1
+    ICON            102,IDC_STATIC,7,2,21,20
+END
+
+IDD_FS_REG DIALOGEX 0, 0, 245, 152
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EMAIL,50,8,142,12,ES_AUTOHSCROLL
+    CONTROL         "Yes, send me Winamp announcements (Recommended)",
+                    IDC_EMAILUSE,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,0,22,195,10
+    EDITTEXT        IDC_COUNTRY,105,52,88,12,ES_AUTOHSCROLL
+    CONTROL         "Male",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,50,71,30,8
+    CONTROL         "Female",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,82,71,39,
+                    8
+    CONTROL         "Yes, allow anonymous usage statistics (Recommended)",
+                    IDC_ALLOWMETRICS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,
+                    91,218,10
+    CONTROL         "Do not ask again until next install",IDC_NEVER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,120,136,119,10
+    LTEXT           "Email address:",IDC_STATIC,0,9,47,8
+    LTEXT           "ZIP code (US) or Country:",IDC_STATIC,19,53,82,8
+    LTEXT           "With this option checked, Winamp will occasionally send basic usage statistics back to Winamp.com. The information that is reported is simply how much Winamp is being used. ",
+                    IDC_STATIC,19,104,218,25
+    LTEXT           "Gender:",IDC_STATIC,20,71,26,8
+    LTEXT           "Winamp user survey (optional and anonymous):",
+                    IDC_STATIC,0,39,150,8
+END
+
+IDD_FS_REG2 DIALOGEX 0, 0, 219, 130
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Winamp Walkthrough",IDC_WINAMPLINK2,"Button",
+                    BS_OWNERDRAW | BS_LEFT | BS_VCENTER | BS_FLAT | 
+                    WS_TABSTOP,86,20,71,11
+    CONTROL         "Winamp.com",IDC_WINAMPLINK,"Button",BS_OWNERDRAW | 
+                    BS_LEFT | BS_VCENTER | BS_FLAT | WS_TABSTOP,117,40,48,11
+    LTEXT           "Select 'Run Winamp' to begin.",IDC_RUNWINAMP,2,0,209,9
+    LTEXT           "New users should try our",IDC_STATIC,8,22,78,8
+    LTEXT           "Advanced users should check out",IDC_STATIC,8,41,109,8
+    LTEXT           "for Winamp skins and plug-ins.",IDC_STATIC,8,49,97,8
+    LTEXT           ".",IDC_STATIC,158,22,8,8
+    LTEXT           "",IDC_REGTEXT,8,64,204,61
+END
+
+IDD_NEWSKIN DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_SELBOX,5,26,174,152,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,5,194,174,45,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    PUSHBUTTON      "Set skins directory...",IDC_CHDIR,185,26,80,15,
+                    BS_CENTER | BS_VCENTER | BS_MULTILINE | NOT WS_TABSTOP
+    CONTROL         "&Random skin on play",IDC_RANDOM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,185,43,81,10
+    PUSHBUTTON      "Re&name current skin...",IDC_RENAME_SKIN,185,102,80,15,
+                    WS_DISABLED
+    PUSHBUTTON      "&Uninstall current skin...",IDC_DELETE_SKIN,185,120,80,
+                    14,WS_DISABLED
+    CONTROL         "Get skins",IDC_WINAMPLINK,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER,224,230,41,9
+    GROUPBOX        "Skins",IDC_STATIC,0,0,271,246
+    LTEXT           "Current skin information:",IDC_STATIC,6,182,76,8
+    LTEXT           "Installed skins:",IDC_STATIC,6,12,47,8
+    LTEXT           "To uninstall/rename a skin without switching skins, right click on the skin you wish to uninstall or rename.",
+                    IDC_STATIC,186,137,79,41
+END
+
+IDD_CLASSIC_VIS DIALOGEX 0, 0, 259, 221
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Spectrum analyzer",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,12,45,74,10
+    CONTROL         "Oscilliscope",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,100,45,53,10
+    CONTROL         "No visualization",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,172,45,65,10
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,94,63,119,9
+    CONTROL         "Normal style",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,20,106,54,10
+    CONTROL         "Fire style",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,20,116,43,10
+    CONTROL         "Line style",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,20,126,45,10
+    CONTROL         "Show peaks on analyzer",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,11,139,93,10
+    CONTROL         "Thin",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,82,155,30,10
+    CONTROL         "Thick",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,113,155,34,10
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,156,103,94,9
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,156,139,93,9
+    GROUPBOX        "Classic Visualization Settings",IDC_STATIC,3,3,256,78
+    GROUPBOX        "Spectrum Analyzer Options",IDC_STATIC,3,83,256,90,
+                    BS_LEFT
+    LTEXT           "Analyzer falloff speed:",IDC_STATIC,158,94,70,8
+    LTEXT           "Analyzer peak falloff speed:",IDC_STATIC,158,131,88,8
+    LTEXT           "Visualization refresh rate:",IDC_STATIC,9,63,79,8
+    LTEXT           "70fps",IDC_RRATE,217,63,18,8
+    GROUPBOX        "Oscilliscope Options",IDC_STATIC,3,175,256,42,BS_LEFT
+    CONTROL         "Dots",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,21,200,31,10
+    CONTROL         "Lines",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,70,200,33,10
+    CONTROL         "Solid",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,120,200,31,10
+    LTEXT           "Slow",IDC_STATIC,158,151,16,8
+    LTEXT           "Fast",IDC_STATIC,232,151,14,8
+    LTEXT           "Winamp Classic skins have simple visualization in the main window. You can select what kind of visualization here, or click on the visualization to cycle through the modes:",
+                    IDC_STATIC,11,15,236,25
+    LTEXT           "Oscilliscope drawing style",IDC_STATIC,12,188,81,8
+    LTEXT           "Analyzer band width:",IDC_STATIC,12,155,66,8
+    LTEXT           "Analyzer coloring style:",IDC_STATIC,12,95,72,8
+    LTEXT           "Slow",IDC_STATIC,158,115,16,8
+    LTEXT           "Fast",IDC_STATIC,232,115,14,8
+END
+
+IDD_NEWABOUT2 DIALOG DISCARDABLE  0, 0, 301, 207
+STYLE DS_3DLOOK | DS_CENTER | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_ABOUTIMG,"Static",SS_BLACKRECT | SS_CENTERIMAGE,0,
+                    0,301,206
+END
+
+IDD_NEWABOUT3 DIALOG DISCARDABLE  0, 0, 301, 207
+STYLE DS_3DLOOK | DS_CENTER | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TIPS,0,0,301,206,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL | NOT WS_TABSTOP
+END
+
+IDD_NEWABOUT4 DIALOG DISCARDABLE  0, 0, 301, 207
+STYLE DS_3DLOOK | DS_CENTER | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TIPS,0,0,301,206,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL | NOT WS_TABSTOP
+END
+
+#if defined(APSTUDIO_INVOKED) || !defined(NETSCAPE)
+IDD_NEWABOUT DIALOG DISCARDABLE  0, 0, 313, 230
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Winamp"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Winamp",IDC_BUTTON3,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    5,4,75,14
+    CONTROL         "Credits",IDC_BUTTON4,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    81,4,75,14
+    CONTROL         "Keyboard shortcuts",IDC_BUTTON5,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,157,4,75,14
+    CONTROL         "Version history",IDC_BUTTON6,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,233,4,74,14
+    CONTROL         "",IDC_RECT,"Static",SS_BLACKRECT | NOT WS_VISIBLE,5,19,
+                    302,205
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(NETSCAPE)
+#if defined(APSTUDIO_INVOKED)
+IDD_NEWABOUT$(NETSCAPE) DIALOG DISCARDABLE  0, 0, 313, 230
+#else
+IDD_NEWABOUT DIALOG DISCARDABLE  0, 0, 313, 230
+#endif
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Winamp"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Winamp",IDC_BUTTON3,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    5,4,101,14
+    CONTROL         "Keyboard shortcuts",IDC_BUTTON5,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,107,4,98,14
+    CONTROL         "Version history",IDC_BUTTON6,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,206,4,101,14
+    CONTROL         "",IDC_RECT,"Static",SS_BLACKRECT | NOT WS_VISIBLE,5,19,
+                    302,205
+END
+#endif
+
+IDD_NEWSHUFFLEOPTS DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Playlist",IDC_STATIC,0,0,272,246
+    CONTROL         "Slider1",IDC_PREFS_SHUFFLE_MORPH_RATE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,10,187,250,8
+    GROUPBOX        "Shuffle Morph Rate",IDC_STATIC,5,175,259,66,BS_LEFT
+    LTEXT           "Slow",IDC_STATIC,12,194,17,10
+    LTEXT           "Fast",IDC_STATIC,242,194,17,10
+    LTEXT           "Shuffle morph rate controls how songs within playlists are selected during Shuffle playback. Slow shuffle morphing causes a slight variation of the playlist order, whereas fast shuffle morphing causes major variations of the playlist order.",
+                    IDC_STATIC,11,204,248,31
+    CONTROL         "When loading multiple files, sort files by name",
+                    IDC_RFL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,146,154,
+                    8
+    CONTROL         "Manual playlist advance",IDC_MANUALPLAYLISTADVANCE,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,13,
+                    116,94,8
+    LTEXT           "Assume file extension of unknown files is to be (default is ""mp3""):",
+                    IDC_STATIC,13,158,205,9
+    EDITTEXT        IDC_DEFEXT,220,156,38,12
+    CONTROL         "Show playlist item numbers in Playlist Editor",
+                    IDC_PLNUMS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,22,
+                    173,10
+    LTEXT           "Playlist font size, in pixels:",IDC_PLFONTSIZE_TEXT,11,
+                    35,81,8
+    EDITTEXT        IDC_PLFONTSIZE,95,33,21,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Playlist Editor Appearance",IDC_STATIC,5,9,259,91,
+                    BS_LEFT
+    LTEXT           "Note: you can easily adjust the playlist font size from the playlist editor by holding Ctrl and hitting the NumPad + or - keys.",
+                    IDC_STATIC,13,48,236,18
+    GROUPBOX        "Advanced Playback Settings",IDC_STATIC,6,103,258,70
+    LTEXT           "When this option is enabled, the playing song will repeat indefinitely if repeat is on, or playback will halt after every track if repeat is off.",
+                    IDC_STATIC,25,126,230,17
+    CONTROL         "Use skin or language pack font",IDC_NOCUSTOMFONT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,69,151,10
+    COMBOBOX        IDC_CUSTOMFONT,45,82,135,163,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Use font :",IDC_STATIC_CUSTOMFONT,11,84,32,8
+END
+
+IDD_NEWVIDEOOPTS DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Display the video window when video playback begins",
+                    IDC_PREFS_VIDEO_AUTOOPEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,22,188,10
+    CONTROL         "Close the video window after video playback ends",
+                    IDC_PREFS_VIDEO_AUTOCLOSE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,34,174,10
+    CONTROL         "Stop playback when video window is closed",
+                    IDC_PREFS_VIDEO_STOPCLOSE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,46,155,10
+    CONTROL         "Resize video window to fit video",
+                    IDC_PREFS_VIDEO_UPDSIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,58,117,10
+    CONTROL         "Disable Windows screensaver when playing video",
+                    IDC_PREFS_VIDEO_NOSS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,70,174,10
+    CONTROL         "Remove fullscreen on stop",
+                    IDC_PREFS_VIDEO_REMOVE_FS_ON_STOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,99,100,10
+    CONTROL         "Enable On Screen Display when in fullscreen mode",
+                    IDC_PREFS_VIDEO_OSD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,111,177,10
+    CONTROL         "Lock video aspect ratio",IDC_PREFS_VIDEO_ADJASP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,141,90,10
+    CONTROL         "My screen has an aspect ratio of",IDC_USE_SCREENSHAPE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,26,153,119,10
+    EDITTEXT        IDC_SCREENSHAPE1,145,152,15,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_SCREENSHAPE2,171,152,15,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Allow hardware video overlay (recommended -- best performance)",
+                    IDC_PREFS_VIDEO_OVERLAYS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,166,221,10
+    CONTROL         "Allow YV12 overlay mode (off by default)",
+                    IDC_PREFS_VIDEO_YV12,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,26,179,143,10
+    CONTROL         "Synchronize video to screen refresh rate (off by default)",
+                    IDC_PREFS_VIDEO_VSYNC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,192,189,10
+    LTEXT           " :",IDC_STATIC,163,154,8,8
+    GROUPBOX        "Video Preferences",IDC_STATIC,0,0,272,246
+    LTEXT           "(usually 4:3)",IDC_STATIC,191,154,38,8
+    GROUPBOX        "Fullscreen Video Playback",IDC_STATIC,6,87,259,41
+    GROUPBOX        "Advanced Video Options",IDC_STATIC,7,129,258,78
+    GROUPBOX        "Video Playback",IDC_STATIC,8,10,258,75
+END
+
+IDD_NEWREG DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_FRAME1,0,0,272,246
+    LTEXT           "",IDC_ITEXT1,8,12,254,32
+    GROUPBOX        "Registration information",IDC_STATIC,8,91,255,74
+    PUSHBUTTON      "More Information",IDC_WEBLINK,8,50,255,32
+    RTEXT           "Registered to:",IDC_STATIC,16,107,61,8
+    EDITTEXT        IDC_EDIT1,81,105,176,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_WANTRETURN
+    RTEXT           "Registration status:",IDC_STATIC,16,123,61,8
+    EDITTEXT        IDC_EDIT2,81,121,176,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "Enter Registration Key",IDC_BUTTON1,16,141,80,14
+    CONTROL         "Recover lost registration info",IDC_WEBLINK2,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,164,143,91,9
+END
+
+IDD_EDITREG DIALOG DISCARDABLE  0, 0, 241, 114
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Winamp Pro Registration Key Entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,95,24,139,14,ES_AUTOHSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_KEY,95,67,139,14,ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "OK",IDC_REGISTER,7,93,56,14
+    PUSHBUTTON      "Cancel",IDCANCEL,67,93,56,14
+    LTEXT           "Registration name:",IDC_STATIC,31,27,60,8
+    LTEXT           "Registration key:",IDC_STATIC,32,69,54,8
+    LTEXT           "The registration key should be a 20 digit sequence, i.e.:\r\n\t12345-ABCDE-FGHIJ-F3F21",
+                    IDC_STATIC,7,49,213,16
+    LTEXT           "The registration name should be the exact name used to register, i.e.:\r\n\tJohn Smith",
+                    IDC_STATIC,7,7,227,16
+    PUSHBUTTON      "Remove Registration Key",IDC_BUTTON1,141,93,93,14,NOT 
+                    WS_VISIBLE
+END
+
+IDD_PREFS_CLASSICSKIN DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,0,0,271,246
+END
+
+IDD_CLASSIC_UI DIALOGEX 0, 0, 259, 206
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Dim window titlebars when not in focus",IDC_HIGHLIGHT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,16,138,10
+    CONTROL         "Dock skinned windows at",IDC_SNAP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,28,95,8
+    EDITTEXT        IDC_SNAPW,111,26,17,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Use skinned mouse cursors",IDC_WA_CURSORS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,102,103,10
+    CONTROL         "Enable smooth window resizing for resizeable skinned windows",
+                    IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,40,
+                    230,10
+    CONTROL         "Use skinned font for main window title display (no international title support)",
+                    IDC_BIFONT,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,13,113,228,20
+    CONTROL         "Always show Winamp ""Clutterbar"" in main window",
+                    IDC_CLUTTERBAR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,
+                    52,173,10,0,HIDC_CLUTTERBAR
+    CONTROL         "Display tooltips in Winamp's main window",IDC_TTIPS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,65,146,10
+    CONTROL         "Use doublesize setting on equalizer as well as main window",
+                    IDC_EQDSIZE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,78,
+                    222,10
+    CONTROL         "Oldschool playlist button behavior",IDC_SPLB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,91,193,8
+    LTEXT           "pixels",IDC_STATIC,131,28,18,8
+    GROUPBOX        "Classic Skin Options",IDC_STATIC,3,3,256,169
+    CONTROL         "Litestep VWM compatible mode (no screen snap)",
+                    IDC_KEEPONSCREEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    14,133,167,9
+    CONTROL         "Always on Litestep Virtual Desktops",IDC_AOVD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,144,133,10
+END
+
+IDD_NEWTITLE DIALOGEX 0, 0, 272, 246
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Titles",IDC_STATIC,0,0,272,246
+    LTEXT           "Winamp can read extended metadata for titles. Choose when Winamp should query this data:",
+                    IDC_STATIC,16,26,236,17
+    CONTROL         "Read metadata when file(s) are loaded into Winamp (can be slow if lots of files are added at once)",
+                    IDC_USEID4,"Button",BS_AUTORADIOBUTTON | BS_MULTILINE | 
+                    WS_GROUP | WS_TABSTOP,16,47,235,16
+    CONTROL         "Read metadata when file(s) are played or viewed in the playlist editor (this is the recommended setting)",
+                    IDC_USEID3,"Button",BS_AUTORADIOBUTTON | BS_MULTILINE,16,
+                    68,235,16
+    CONTROL         "Read metadata only when file(s) are played",IDC_USEID5,
+                    "Button",BS_AUTORADIOBUTTON,16,89,151,10
+    CONTROL         "Show '%20's in titles as spaces",IDC_CONVERT1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,222,113,10
+    CONTROL         "Show underscores in titles as spaces",IDC_CONVERT2,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,211,132,10
+    GROUPBOX        "Metadata Reading",IDC_STATIC,8,14,255,90
+    LTEXT           "Advanced title display format :",IDC_STATIC,24,137,95,8
+    PUSHBUTTON      "Default",IDC_TAGZ_DEFAULT,180,134,38,12
+    PUSHBUTTON      "Help",IDC_TAGZ_HELP,220,134,36,12
+    EDITTEXT        IDC_FORMAT,22,149,234,14,ES_AUTOHSCROLL
+    LTEXT           "Example : ""%artist% - %title%""\r\n\r\nOther field names: %artist%, %album%, %title%, %tracknumber%, %year%, %genre%, %comment%, %filename%",
+                    IDC_STATIC,23,166,228,36
+    CONTROL         "Use advanced title formatting when possible",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,120,153,11
+    GROUPBOX        "Advanced Title Formatting",IDC_STATIC,8,108,255,99
+END
+
+IDD_RENAMESKIN DIALOG DISCARDABLE  0, 0, 241, 62
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rename Skin"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NEW,28,22,206,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&OK",IDOK,7,41,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,65,41,50,14
+    EDITTEXT        IDC_OLD,28,7,206,14,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP
+    LTEXT           "Old",IDC_STATIC,9,9,12,8
+    LTEXT           "New",IDC_STATIC,9,24,16,8
+END
+
+IDD_CONVERT_WAV DIALOGEX 0, 0, 255, 167
+STYLE DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        ".WAV Output Options",IDC_STATIC,0,0,255,167
+    CONTROL         "Write .WAV header (otherwise write raw data)",
+                    IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,12,
+                    159,10
+    EDITTEXT        IDC_EDIT1,9,41,216,19,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "...",IDC_BUTTON1,228,41,17,19
+    CONTROL         "Convert to format:",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,26,72,10
+    LTEXT           "Filename extension:",IDC_STATIC,10,67,66,8
+    EDITTEXT        IDC_EXT,78,65,40,14,ES_AUTOHSCROLL
+END
+
+IDD_BURN DIALOG DISCARDABLE  0, 0, 308, 157
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Burning..."
+CLASS "WinampBurnWnd"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Hide Window",IDCANCEL,99,136,50,14
+    PUSHBUTTON      "Cancel",IDC_ABORT,152,136,50,14
+    CONTROL         "Auto-close window when done",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,99,113,10
+    CONTROL         "Eject CD when done",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,110,81,10
+    CONTROL         "Add CD titles to local DB when complete",IDC_CHECK3,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,121,143,10
+    LTEXT           "",IDC_STATUS,7,7,294,8
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,47,294,13
+    CONTROL         "Progress2",IDC_PROGRESS2,"msctls_progress32",WS_BORDER,
+                    7,78,294,13
+    LTEXT           "Total:",IDC_STATIC,147,67,19,8
+    LTEXT           "Current:",IDC_STATIC,145,37,26,8
+    LTEXT           "",IDC_STATUS2,7,21,294,8
+END
+
+IDD_BROWSE_RECDLG DIALOG DISCARDABLE  0, 0, 109, 26
+STYLE DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Recurse subdirectories",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,4,95,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SPLASH, DIALOG
+    BEGIN
+        RIGHTMARGIN, 200
+    END
+
+    IDD_NEWABOUT1, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_LOADPRESET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_SAVEPRESET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_OPENLOC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_JUMPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_JUMPFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_EDITENTRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_HTTPGET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_NEWPREFS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 371
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_NEWPLUG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_OPENLOCMB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_FIRSTSETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_FS_REG, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+    END
+
+    IDD_FS_REG2, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+    END
+
+    IDD_NEWSKIN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 245
+    END
+
+    IDD_NEWABOUT2, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+
+    IDD_NEWABOUT3, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+
+    IDD_NEWABOUT4, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+
+    IDD_NEWABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 307
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 225
+    END
+
+    "IDD_NEWABOUT$(NETSCAPE)", DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 307
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 225
+    END
+
+    IDD_EDITREG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_RENAMESKIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_BURN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 301
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 5,0,0,2
+ PRODUCTVERSION 5,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Visit http://www.winamp.com/ for updates.\0"
+            VALUE "CompanyName", "Nullsoft\0"
+            VALUE "FileDescription", "Winamp\0"
+            VALUE "FileVersion", "5.02\0"
+            VALUE "InternalName", "WINAMP\0"
+            VALUE "LegalCopyright", "Copyright © 1997-2004,  Nullsoft, Inc.\0"
+            VALUE "LegalTrademarks", "Nullsoft and Winamp are trademarks of Nullsoft, Inc.\0"
+            VALUE "OriginalFilename", "Winamp.exe\0"
+            VALUE "PrivateBuild", "1\0"
+            VALUE "ProductName", "Winamp\0"
+            VALUE "ProductVersion", "5.02\0"
+            VALUE "SpecialBuild", "1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    "3",            WINAMP_EDIT_ID3,        VIRTKEY, ALT, NOINVERT
+    "A",            WINAMP_OPTIONS_AOT,     VIRTKEY, CONTROL, NOINVERT
+    "B",            WINAMP_BUTTON5,         VIRTKEY, NOINVERT
+    "B",            WINAMP_BUTTON5_CTRL,    VIRTKEY, CONTROL, NOINVERT
+    "B",            WINAMP_BUTTON5_SHIFT,   VIRTKEY, SHIFT, NOINVERT
+    "C",            WINAMP_BUTTON3,         VIRTKEY, NOINVERT
+    "D",            WINAMP_OPTIONS_DSIZE,   VIRTKEY, CONTROL, NOINVERT
+    "E",            WINAMP_OPTIONS_EASYMOVE, VIRTKEY, CONTROL, NOINVERT
+    "E",            WINAMP_OPTIONS_PLEDIT,  VIRTKEY, ALT, NOINVERT
+    "F",            WINAMP_MAINMENU,        VIRTKEY, ALT, NOINVERT
+    "G",            WINAMP_OPTIONS_EQ,      VIRTKEY, ALT, NOINVERT
+    "I",            WINAMP_MAKECURBOOKMARK, VIRTKEY, ALT, NOINVERT
+    "I",            WINAMP_EDIT_BOOKMARKS,  VIRTKEY, CONTROL, ALT, NOINVERT
+    "J",            WINAMP_JUMPFILE,        VIRTKEY, NOINVERT
+    "J",            WINAMP_JUMP,            VIRTKEY, CONTROL, NOINVERT
+    "K",            WINAMP_PLGSETUP,        VIRTKEY, CONTROL, NOINVERT
+    "K",            WINAMP_VISCONF,         VIRTKEY, ALT, NOINVERT
+    "K",            WINAMP_VISPLUGIN,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "L",            WINAMP_FILE_PLAY,       VIRTKEY, NOINVERT
+    "L",            WINAMP_FILE_LOC,        VIRTKEY, CONTROL, NOINVERT
+    "L",            WINAMP_FILE_DIR,        VIRTKEY, SHIFT, NOINVERT
+    "M",            WINAMP_MINIMIZE,        VIRTKEY, ALT, NOINVERT
+    "N",            WINAMP_NEW_INSTANCE,    VIRTKEY, CONTROL, ALT, NOINVERT
+    "O",            WINAMP_PLGSETUP,        VIRTKEY, ALT, NOINVERT
+    "P",            WINAMP_OPTIONS_PREFS,   VIRTKEY, CONTROL, NOINVERT
+    "R",            WINAMP_FILE_REPEAT,     VIRTKEY, NOINVERT
+    "S",            WINAMP_FILE_SHUFFLE,    VIRTKEY, NOINVERT
+    "S",            WINAMP_SELSKIN,         VIRTKEY, ALT, NOINVERT
+    "T",            WINAMP_OPTIONS_TOGTIME, VIRTKEY, CONTROL, NOINVERT
+    "T",            WINAMP_OPTIONS_MINIBROWSER, VIRTKEY, ALT, NOINVERT
+    "V",            WINAMP_BUTTON4,         VIRTKEY, NOINVERT
+    "V",            WINAMP_BUTTON4_CTRL,    VIRTKEY, CONTROL, NOINVERT
+    "V",            WINAMP_OPTIONS_VIDEO,   VIRTKEY, ALT, NOINVERT
+    "V",            WINAMP_BUTTON4_SHIFT,   VIRTKEY, SHIFT, NOINVERT
+    VK_DECIMAL,     WINAMP_JUMPFILE,        VIRTKEY, NOINVERT
+    VK_DOWN,        WINAMP_VOLUMEDOWN,      VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP_HELPTOPICS,     VIRTKEY, NOINVERT
+    VK_F1,          WINAMP_HELP_ABOUT,      VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          WINAMP_PE_SEARCH,       VIRTKEY, NOINVERT
+    VK_F4,          ID_PE_CLOSE,            VIRTKEY, CONTROL, NOINVERT
+    VK_F4,          WINAMP_FILE_QUIT,       VIRTKEY, ALT, NOINVERT
+    VK_F5,          WINAMP_REFRESHSKIN,     VIRTKEY, NOINVERT
+    VK_INSERT,      WINAMP_FILE_DIR,        VIRTKEY, NOINVERT
+    VK_LEFT,        WINAMP_REW5S,           VIRTKEY, NOINVERT
+    VK_NUMPAD0,     WINAMP_FILE_PLAY,       VIRTKEY, NOINVERT
+    VK_NUMPAD0,     WINAMP_FILE_LOC,        VIRTKEY, CONTROL, NOINVERT
+    VK_NUMPAD1,     WINAMP_JUMP10BACK,      VIRTKEY, NOINVERT
+    VK_NUMPAD2,     WINAMP_VOLUMEDOWN,      VIRTKEY, NOINVERT
+    VK_NUMPAD3,     WINAMP_JUMP10FWD,       VIRTKEY, NOINVERT
+    VK_NUMPAD4,     WINAMP_BUTTON1,         VIRTKEY, NOINVERT
+    VK_NUMPAD5,     WINAMP_BUTTON2,         VIRTKEY, NOINVERT
+    VK_NUMPAD6,     WINAMP_BUTTON5,         VIRTKEY, NOINVERT
+    VK_NUMPAD7,     WINAMP_REW5S,           VIRTKEY, NOINVERT
+    VK_NUMPAD8,     WINAMP_VOLUMEUP,        VIRTKEY, NOINVERT
+    VK_NUMPAD9,     WINAMP_FFWD5S,          VIRTKEY, NOINVERT
+    VK_RETURN,      WINAMP_VIDEO_TOGGLE_FS, VIRTKEY, ALT, NOINVERT
+    VK_RIGHT,       WINAMP_FFWD5S,          VIRTKEY, NOINVERT
+    VK_TAB,         WINAMP_NEXT_WINDOW,     VIRTKEY, CONTROL, NOINVERT
+    VK_UP,          WINAMP_VOLUMEUP,        VIRTKEY, NOINVERT
+    "W",            WINAMP_OPTIONS_WINDOWSHADE, VIRTKEY, CONTROL, NOINVERT
+    "W",            WINAMP_MAIN_WINDOW,     VIRTKEY, ALT, NOINVERT
+    "X",            WINAMP_BUTTON2,         VIRTKEY, NOINVERT
+    "X",            WINAMP_FILE_LOC,        VIRTKEY, CONTROL, NOINVERT
+    "X",            WINAMP_FILE_PLAY,       VIRTKEY, SHIFT, NOINVERT
+    "Z",            WINAMP_BUTTON1,         VIRTKEY, NOINVERT
+    "Z",            WINAMP_BUTTON1_CTRL,    VIRTKEY, CONTROL, NOINVERT
+    "Z",            WINAMP_BUTTON1_SHIFT,   VIRTKEY, SHIFT, NOINVERT
+END
+
+IDR_ACCELERATOR3 ACCELERATORS DISCARDABLE 
+BEGIN
+    "1",            ID_PE_S_TITLE,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "2",            ID_PE_S_FILENAME,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "3",            ID_PE_ID3,              VIRTKEY, ALT, NOINVERT
+    "3",            ID_PE_S_PATH,           VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "A",            ID_PE_SELECTALL,        VIRTKEY, CONTROL, NOINVERT
+    "A",            WINAMP_OPTIONS_AOT,     VIRTKEY, CONTROL, ALT, NOINVERT
+    "B",            WINAMP_BUTTON5,         VIRTKEY, NOINVERT
+    "B",            WINAMP_BUTTON5_CTRL,    VIRTKEY, CONTROL, NOINVERT
+    "B",            WINAMP_BUTTON5_SHIFT,   VIRTKEY, SHIFT, NOINVERT
+    "C",            WINAMP_BUTTON3,         VIRTKEY, NOINVERT
+    "D",            WINAMP_OPTIONS_DSIZE,   VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_PE_ENTRY,            VIRTKEY, CONTROL, NOINVERT
+    "E",            WINAMP_OPTIONS_PLEDIT,  VIRTKEY, ALT, NOINVERT
+    "E",            ID_PE_EXTINFO,          VIRTKEY, CONTROL, ALT, NOINVERT
+    "F",            WINAMP_MAINMENU,        VIRTKEY, ALT, NOINVERT
+    "G",            WINAMP_OPTIONS_EQ,      VIRTKEY, ALT, NOINVERT
+    "G",            ID_PE_PRINT,            VIRTKEY, CONTROL, ALT, NOINVERT
+    "I",            IDC_SELECTINV,          VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_PE_BOOKMARK,         VIRTKEY, ALT, NOINVERT
+    "J",            WINAMP_JUMPFILE,        VIRTKEY, NOINVERT
+    "J",            WINAMP_JUMP,            VIRTKEY, CONTROL, NOINVERT
+    "K",            WINAMP_PLGSETUP,        VIRTKEY, CONTROL, NOINVERT
+    "K",            WINAMP_VISCONF,         VIRTKEY, ALT, NOINVERT
+    "K",            WINAMP_VISPLUGIN,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "L",            IDC_PLAYLIST_ADDMP3,    VIRTKEY, NOINVERT
+    "L",            IDC_PLAYLIST_ADDLOC,    VIRTKEY, CONTROL, NOINVERT
+    "L",            IDC_PLAYLIST_ADDDIR,    VIRTKEY, SHIFT, NOINVERT
+    "M",            WINAMP_MINIMIZE,        VIRTKEY, ALT, NOINVERT
+    "N",            ID_PE_CLEAR,            VIRTKEY, CONTROL, NOINVERT
+    "N",            WINAMP_NEW_INSTANCE,    VIRTKEY, CONTROL, ALT, NOINVERT
+    "O",            ID_PE_OPEN,             VIRTKEY, CONTROL, NOINVERT
+    "O",            WINAMP_PLGSETUP,        VIRTKEY, ALT, NOINVERT
+    "P",            WINAMP_OPTIONS_PREFS,   VIRTKEY, CONTROL, NOINVERT
+    "R",            WINAMP_FILE_REPEAT,     VIRTKEY, NOINVERT
+    "R",            ID_PE_S_REV,            VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_PE_S_RANDOM,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "S",            WINAMP_FILE_SHUFFLE,    VIRTKEY, NOINVERT
+    "S",            ID_PE_SAVEAS,           VIRTKEY, CONTROL, NOINVERT
+    "S",            WINAMP_SELSKIN,         VIRTKEY, ALT, NOINVERT
+    "T",            WINAMP_OPTIONS_TOGTIME, VIRTKEY, CONTROL, NOINVERT
+    "T",            WINAMP_OPTIONS_MINIBROWSER, VIRTKEY, ALT, NOINVERT
+    "V",            WINAMP_BUTTON4,         VIRTKEY, NOINVERT
+    "V",            WINAMP_BUTTON4_CTRL,    VIRTKEY, CONTROL, NOINVERT
+    "V",            WINAMP_OPTIONS_VIDEO,   VIRTKEY, ALT, NOINVERT
+    "V",            WINAMP_BUTTON4_SHIFT,   VIRTKEY, SHIFT, NOINVERT
+    VK_ADD,         ID_PE_FONTBIGGER,       VIRTKEY, CONTROL, NOINVERT
+    VK_DECIMAL,     WINAMP_JUMPFILE,        VIRTKEY, NOINVERT
+    VK_DELETE,      IDC_PLAYLIST_REMOVEMP3, VIRTKEY, NOINVERT
+    VK_DELETE,      IDC_PLAYLIST_CROP,      VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_PE_NONEXIST,         VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_PE_CLEAR,            VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_DOWN,        ID_PE_SCDOWN,           VIRTKEY, NOINVERT
+    VK_DOWN,        ID_PE_MOVEDOWN,         VIRTKEY, ALT, NOINVERT
+    VK_END,         ID_PE_BOTTOM,           VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP_HELPTOPICS,     VIRTKEY, NOINVERT
+    VK_F1,          WINAMP_HELP_ABOUT,      VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          WINAMP_PE_SEARCH,       VIRTKEY, NOINVERT
+    VK_F4,          ID_PE_CLOSE,            VIRTKEY, CONTROL, NOINVERT
+    VK_F4,          WINAMP_FILE_QUIT,       VIRTKEY, ALT, NOINVERT
+    VK_F5,          WINAMP_REFRESHSKIN,     VIRTKEY, NOINVERT
+    VK_HOME,        ID_PE_TOP,              VIRTKEY, NOINVERT
+    VK_INSERT,      IDC_PLAYLIST_ADDDIR,    VIRTKEY, NOINVERT
+    VK_INSERT,      IDC_PLAYLIST_ADDMP3,    VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      IDC_PLAYLIST_ADDLOC,    VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        WINAMP_REW5S,           VIRTKEY, NOINVERT
+    VK_NEXT,        ID_PE_SCROLLDOWN,       VIRTKEY, NOINVERT
+    VK_NUMPAD0,     IDC_PLAYLIST_ADDMP3,    VIRTKEY, NOINVERT
+    VK_NUMPAD0,     IDC_PLAYLIST_ADDLOC,    VIRTKEY, CONTROL, NOINVERT
+    VK_NUMPAD1,     WINAMP_JUMP10BACK,      VIRTKEY, NOINVERT
+    VK_NUMPAD2,     WINAMP_VOLUMEDOWN,      VIRTKEY, NOINVERT
+    VK_NUMPAD3,     WINAMP_JUMP10FWD,       VIRTKEY, NOINVERT
+    VK_NUMPAD4,     WINAMP_BUTTON1,         VIRTKEY, NOINVERT
+    VK_NUMPAD5,     WINAMP_BUTTON2,         VIRTKEY, NOINVERT
+    VK_NUMPAD6,     WINAMP_BUTTON5,         VIRTKEY, NOINVERT
+    VK_NUMPAD7,     WINAMP_REW5S,           VIRTKEY, NOINVERT
+    VK_NUMPAD8,     WINAMP_VOLUMEUP,        VIRTKEY, NOINVERT
+    VK_NUMPAD9,     WINAMP_FFWD5S,          VIRTKEY, NOINVERT
+    VK_PRIOR,       ID_PE_SCROLLUP,         VIRTKEY, NOINVERT
+    VK_RETURN,      IDC_PLAYLIST_PLAY,      VIRTKEY, NOINVERT
+    VK_RETURN,      WINAMP_VIDEO_TOGGLE_FS, VIRTKEY, ALT, NOINVERT
+    VK_RIGHT,       WINAMP_FFWD5S,          VIRTKEY, NOINVERT
+    VK_SPACE,       ID_PE_SHOWPLAYING,      VIRTKEY, NOINVERT
+    VK_SUBTRACT,    ID_PE_FONTSMALLER,      VIRTKEY, CONTROL, NOINVERT
+    VK_TAB,         WINAMP_NEXT_WINDOW,     VIRTKEY, CONTROL, NOINVERT
+    VK_UP,          ID_PE_SCUP,             VIRTKEY, NOINVERT
+    VK_UP,          ID_PE_MOVEUP,           VIRTKEY, ALT, NOINVERT
+    "W",            WINAMP_OPTIONS_WINDOWSHADE, VIRTKEY, CONTROL, NOINVERT
+    "W",            WINAMP_MAIN_WINDOW,     VIRTKEY, ALT, NOINVERT
+    "X",            WINAMP_BUTTON2,         VIRTKEY, NOINVERT
+    "X",            WINAMP_FILE_LOC,        VIRTKEY, CONTROL, NOINVERT
+    "X",            WINAMP_FILE_PLAY,       VIRTKEY, SHIFT, NOINVERT
+    "Z",            WINAMP_BUTTON1,         VIRTKEY, NOINVERT
+    "Z",            WINAMP_BUTTON1_CTRL,    VIRTKEY, CONTROL, NOINVERT
+    "Z",            WINAMP_BUTTON1_SHIFT,   VIRTKEY, SHIFT, NOINVERT
+END
+
+IDR_ACCELERATOR2 ACCELERATORS DISCARDABLE 
+BEGIN
+    "0",            EQ_INC10,               VIRTKEY, NOINVERT
+    "1",            EQ_INC1,                VIRTKEY, NOINVERT
+    192,            EQ_INCPRE,              VIRTKEY, NOINVERT
+    "2",            EQ_INC2,                VIRTKEY, NOINVERT
+    "3",            EQ_INC3,                VIRTKEY, NOINVERT
+    "4",            EQ_INC4,                VIRTKEY, NOINVERT
+    "5",            EQ_INC5,                VIRTKEY, NOINVERT
+    "6",            EQ_INC6,                VIRTKEY, NOINVERT
+    "7",            EQ_INC7,                VIRTKEY, NOINVERT
+    "8",            EQ_INC8,                VIRTKEY, NOINVERT
+    "9",            EQ_INC9,                VIRTKEY, NOINVERT
+    "A",            EQ_AUTO,                VIRTKEY, NOINVERT
+    "A",            WINAMP_OPTIONS_AOT,     VIRTKEY, CONTROL, NOINVERT
+    "B",            WINAMP_BUTTON5,         VIRTKEY, NOINVERT
+    "C",            WINAMP_BUTTON3,         VIRTKEY, NOINVERT
+    "D",            WINAMP_OPTIONS_DSIZE,   VIRTKEY, CONTROL, NOINVERT
+    "E",            EQ_DEC3,                VIRTKEY, NOINVERT
+    "E",            WINAMP_OPTIONS_EASYMOVE, VIRTKEY, CONTROL, NOINVERT
+    "E",            WINAMP_OPTIONS_PLEDIT,  VIRTKEY, ALT, NOINVERT
+    "F",            WINAMP_MAINMENU,        VIRTKEY, ALT, NOINVERT
+    "G",            WINAMP_OPTIONS_EQ,      VIRTKEY, ALT, NOINVERT
+    "I",            EQ_DEC8,                VIRTKEY, NOINVERT
+    "J",            WINAMP_JUMPFILE,        VIRTKEY, NOINVERT
+    "J",            WINAMP_JUMP,            VIRTKEY, CONTROL, NOINVERT
+    "K",            WINAMP_PLGSETUP,        VIRTKEY, CONTROL, NOINVERT
+    "K",            WINAMP_VISCONF,         VIRTKEY, ALT, NOINVERT
+    "K",            WINAMP_VISPLUGIN,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "M",            WINAMP_MINIMIZE,        VIRTKEY, ALT, NOINVERT
+    "N",            EQ_ENABLE,              VIRTKEY, NOINVERT
+    "N",            WINAMP_NEW_INSTANCE,    VIRTKEY, CONTROL, ALT, NOINVERT
+    "O",            EQ_DEC9,                VIRTKEY, NOINVERT
+    "P",            EQ_DEC10,               VIRTKEY, NOINVERT
+    "P",            WINAMP_OPTIONS_PREFS,   VIRTKEY, CONTROL, NOINVERT
+    "Q",            EQ_DEC1,                VIRTKEY, NOINVERT
+    "R",            EQ_DEC4,                VIRTKEY, NOINVERT
+    "S",            EQ_PRESETS,             VIRTKEY, NOINVERT
+    "S",            IDM_EQ_LOADPRE,         VIRTKEY, CONTROL, NOINVERT
+    "S",            WINAMP_SELSKIN,         VIRTKEY, ALT, NOINVERT
+    "T",            EQ_DEC5,                VIRTKEY, NOINVERT
+    "T",            WINAMP_OPTIONS_TOGTIME, VIRTKEY, CONTROL, NOINVERT
+    "T",            WINAMP_OPTIONS_MINIBROWSER, VIRTKEY, ALT, NOINVERT
+    "U",            EQ_DEC7,                VIRTKEY, NOINVERT
+    "V",            WINAMP_BUTTON4,         VIRTKEY, NOINVERT
+    "V",            WINAMP_BUTTON4_CTRL,    VIRTKEY, CONTROL, NOINVERT
+    "V",            WINAMP_OPTIONS_VIDEO,   VIRTKEY, ALT, NOINVERT
+    "V",            WINAMP_BUTTON4_SHIFT,   VIRTKEY, SHIFT, NOINVERT
+    VK_DECIMAL,     WINAMP_JUMPFILE,        VIRTKEY, NOINVERT
+    VK_DOWN,        WINAMP_VOLUMEDOWN,      VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP_HELPTOPICS,     VIRTKEY, NOINVERT
+    VK_F1,          WINAMP_HELP_ABOUT,      VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          WINAMP_PE_SEARCH,       VIRTKEY, NOINVERT
+    VK_F4,          ID_PE_CLOSE,            VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          WINAMP_REFRESHSKIN,     VIRTKEY, NOINVERT
+    VK_LEFT,        EQ_PANLEFT,             VIRTKEY, NOINVERT
+    VK_RETURN,      WINAMP_VIDEO_TOGGLE_FS, VIRTKEY, ALT, NOINVERT
+    VK_RIGHT,       EQ_PANRIGHT,            VIRTKEY, NOINVERT
+    VK_TAB,         EQ_DECPRE,              VIRTKEY, NOINVERT
+    VK_TAB,         WINAMP_NEXT_WINDOW,     VIRTKEY, CONTROL, NOINVERT
+    VK_UP,          WINAMP_VOLUMEUP,        VIRTKEY, NOINVERT
+    "W",            EQ_DEC2,                VIRTKEY, NOINVERT
+    "W",            WINAMP_OPTIONS_WINDOWSHADE, VIRTKEY, CONTROL, NOINVERT
+    "W",            WINAMP_MAIN_WINDOW,     VIRTKEY, ALT, NOINVERT
+    "X",            WINAMP_BUTTON2,         VIRTKEY, NOINVERT
+    "X",            WINAMP_FILE_LOC,        VIRTKEY, CONTROL, NOINVERT
+    "X",            WINAMP_FILE_PLAY,       VIRTKEY, SHIFT, NOINVERT
+    "Y",            EQ_DEC6,                VIRTKEY, NOINVERT
+    "Z",            WINAMP_BUTTON1,         VIRTKEY, NOINVERT
+    "Z",            WINAMP_BUTTON1_CTRL,    VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERRORINIT           "Error initializing"
+    IDS_EQCAPTION           "Winamp Equalizer"
+    IDS_PECAPTION           "Winamp Playlist Editor"
+    IDS_OPENDIR             "Open Folder"
+    IDS_OPENDIRMORE         "Select a folder to play:"
+    IDS_PLUGINERROR         "Plug-in executed illegal operation.\nRestart of Winamp is recommended"
+    IDS_ERRORLOADINGPLUGIN  "Error loading module"
+    IDS_DYNAMICLINKS        "Dynamic Links"
+    IDS_PREFS_BOOK          "Bookmarks"
+    IDS_DLINK_NOCONTENT     "Error finding content (try hitting update)"
+    IDS_DLINK_GETTING       "Retrieving Winamp dynamic links"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DLINK_ERROR         "Error updating links!"
+    IDS_NOOUTPUT            "Can't find output plug-in"
+    IDS_PLAYLISTSTRING      "Playlist Files (*.M3U;*.PLS)"
+    IDS_ALLTYPES            "All supported types"
+    IDS_RETRPL              "Retrieving playlist..."
+    IDS_CONF_HELPSTR        "Try hovering the mouse over the\nitem you want help on (a tooltip\nwill appear)!"
+    IDS_P_IN_INPUTS         "This is a list of installed input plug-ins for Winamp. You can configure each one by selecting it and hitting Configure."
+    IDS_P_IN_CONF           "This option configures the selected input plug-in."
+    IDS_P_IN_ABOUT          "This option views the about box for the selected input plug-in."
+    IDS_P_O_DEFEXT          "If no input plug-ins can claim the current file extension as their own, this extension is used by default. (we recommend mp3)."
+    IDS_P_SETUP_PROXY       "This specifies the proxy server to use for HTTP transfers. If blank, no proxy is used. Otherwise, specify machine:port, i.e. proxy.aol.com:81, or user:password@machine:port, i.e. justin:rules@myproxy.com:80"
+    IDS_P_OUT_CONF          "This button configures the currently selected output plug-in. Changes to the output plug-in usually take effect on the next track played."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_P_OUT_ABOUT         "This option views the about box for the selected output plug-in."
+    IDS_P_OUT_OUTPUTS       "This box lists all of the installed output plug-ins. Select the one you wish to use."
+    IDS_P_SETUP_PRIO        "Adjusts the priority class of Winamp. Usually this is set to Normal, but sometimes it's nice to set it higher (or lower)."
+    IDS_P_DISP_SYSTRAY      "Changes the icon that Winamp puts in the system tray."
+    IDS_P_DISP_TASKBAR      "This check toggles whether Winamp listed on the Windows Taskbar, like normal programs."
+    IDS_P_DISP_SYSTRAYICON  "This check toggles whether Winamp has an icon in the System Tray (near the clock)."
+    IDS_P_DISP_FREESIZE     "Allows Winamp Classic skinned resizable windows to be freely sized, instead of kept at 25x29 blocks"
+    IDS_P_CLASSICUI         "Classic Skin Options"
+    IDS_P_DISP_HILITE       "If enabled this option lets Winamp dim its titlebar when inactive (normally enabled)"
+    IDS_P_DISP_SNAP         "If enabled this option makes Winamp snap when you move it. You can temporarily toggle this option by holding down Shift while moving Winamp."
+    IDS_P_DISP_CB           "If disabled this option makes Winamp hide the normally-shown ClutterBar (for some skins)."
+    IDS_P_DISP_TTIPS        "If enabled this option makes Winamp show helpful (but often annoying) tooltips."
+    IDS_P_O_SPLASH          "If enabled this option makes Winamp display a nice splash screen for 2 seconds."
+    IDS_P_DISP_TNUMS        "This option makes Winamp display the track #s before the songs in the Playlist Editor. Enabled by default."
+    IDS_P_O_SPLB            "This option enables old-school single-click playlist buttons, which some people like better."
+    IDS_P_O_EQDS            "This option makes the Graphical Equalizer go into doublesize mode when the main Winamp window is (otherwise, the EQ stays single-sized, always)."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_P_DISP_CURSORS      "This option makes Winamp use Winamp cursors for the mouse. Some people don't seem to like it, so there's this option for it."
+    IDS_P_O_ONLOAD          "Reads track info such as title or ID3 tag, as well as a track length estimate, on load (rather than on play)."
+    IDS_P_O_ONDEM           "Reads track info such as title or ID3 tag, as well as a track length estimate, on view (when you see it in the playlist editor)"
+    IDS_P_O_RFL             "Sorts the files you add/open before adding them."
+    IDS_P_SETUP_MINST       "Allow Multiple Instances loads a new copy of Winamp whenever you run it (same as using the /NEW switch on the command line). When turned off, if Winamp is already running when executed, it will be activated."
+    IDS_P_O_CONVERT1        "Converts %20 in song filenames (IE puts them in there too often when downloading) to spaces."
+    IDS_P_O_CONVERT2        "Converts underscores (the character _, mirc sometimes replaces spaces with them) in song filenames to spaces."
+    IDS_P_DISP_STITLE       "Scrolls the title in the Windows taskbar if selected."
+    IDS_P_DISP_PLFONT       "This box controls the size of the playlist font (in pixels). The default is 10."
+    IDS_P_O_LITESTEP        "This box, when enabled, allows Winamp to stay offscreen, which is good for use with LiteStep's virtual window manager."
+    IDS_P_O_AOVD            "This box makes Winamp always appear on virtual desktops in LiteStep."
+    IDS_P_FT_EXTENSIONS     "Extensions selected here will be registered by Winamp in the Windows Explorer."
+    IDS_P_FT_ALL            "Selects all extensions."
+    IDS_P_FT_NO             "Selects no extensions."
+    IDS_P_FT_ENQUEUE        "Makes double-clicking on a file in explorer enqueue it into Winamp's playlist instead of instant playback"
+    IDS_P_FT_ICON           "Selects the icon that Winamp audio files use in Explorer."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_P_FT_ICON2          "Selects the icon that Winamp playlist files use in Explorer."
+    IDS_P_SETUP_START       "Adds Winamp items (program, documentation, and uninstall link) to the Start Menu."
+    IDS_PREFSHLP_FT_DESK    "Adds Winamp as an icon to the Windows Desktop. Uses the currently selected file icon for the icon."
+    IDS_P_VIS_LIB           "This is a list of installed visualization plug-ins. You can select one, and start/stop or configure it."
+    IDS_P_VIS_MOD           "Once you have selected a plug-n, you can select a different module with this combo box."
+    IDS_P_PLUG_AUTO         "This option makes visualization plug-ins auto-execute when you start a file."
+    IDS_P_PLUG_DIS          "This option disables Winamp's built-in visualization when a visualization plug-in is running."
+    IDS_P_VIS_START         "This button starts the currently selected visualization plug-in."
+    IDS_P_VIS_STOP          "This button stops the currently selected visualization plug-in."
+    IDS_P_VIS_CONF          "This button configures the currently selected visualization plug-in."
+    IDS_P_PLUG_PRIO         "This slider adjusts the priority of any running visualization plug-ins."
+    IDS_P_DSP_LIB           "Selects a DSP library to use."
+    IDS_P_DSP_MOD           "Selects a module in the current DSP library."
+    IDS_P_DSP_CONF          "Configures the currently selected DSP library."
+    IDS_P_GEN_LIB           "Displays a list of general purpose plug-ins. Note that all are running at once, you just use this box to configure them."
+    IDS_P_GEN_CONF          "Configures the currently selected general purpose Winamp plug-in."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_P_PLUG_FLUSH        "Flushes the Visualization and DSP plug-in Name Caches. Good to do once in awhile, also use if the plug-in title isn't correct."
+    IDS_TOOLTIPS            "Toggle Windowshade Mode|Minimize|Close|Winamp Menu|Toggle Graphical Equalizer|Toggle Playlist Editor|Options Menu|Toggle Always-On-Top|File Info Box|Toggle Doublesize Mode|Visualization Menu|Volume Bar|Panning Bar|Seeking Bar|Toggle Shuffle|Toggle Repeat|About Winamp|Open file(s)|Previous Track|Play|Pause|Stop|Next Track|Time Display (click to toggle elapsed/remaining)|Song Title (right-click for options)"
+    IDS_P_SETUP_START2      "Removes Winamp items (added from the 'Add' button) from the Start Menu."
+    IDS_P_SETUP_LANG        "This lets you change the current language package for Winamp. The default is English."
+    IDS_P_FT_DIRCONTEXT     "Checking this option makes Winamp add a 'play' and 'enqueue' option to directories in explorer."
+    IDS_P_DISP_SNAPW        "This value controls at what distance (in pixels) Winamp windows snap to eachother and to the viewport."
+    IDS_P_PLUG_VISDIR       "This button lets you select the directory for Winamp visualization plug-ins. The default is <yourwinampdirectory>\\Plugins"
+    IDS_P_PLUG_DSPDIR       "This button lets you select the directory for Winamp DSP/effect plug-ins. The default is <yourwinampdirectory>\\Plugins"
+    IDS_SELVISDIR           "Select visualization plug-in directory"
+    IDS_SELDSPDIR           "Select effect plug-in directory"
+    IDS_PREFS_SETUP         "General Preferences"
+    IDS_PREFS_FT            "File Types"
+    IDS_PREFS_WINAMPPRO     "Winamp Pro"
+    IDS_PREFS_TITLES        "Titles"
+    IDS_PREFS_PLUG          "Plug-ins"
+    IDS_PREFS_PLUG_IN       "Input"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PREFS_PLUG_OUT      "Output"
+    IDS_PREFS_PLUG_VIS      "Visualization"
+    IDS_PREFS_PLUG_DSP      "DSP/Effect"
+    IDS_PREFS_PLUG_GEN      "General Purpose"
+    IDS_P_FT_CD             "This option will associate Winamp with Audio CDs in explorer, so that when you insert a disc or click on the disc icon in explorer Winamp will automatically play it."
+    IDS_MBCAPTION           "Winamp Minibrowser"
+    IDS_INETLOC             "Open URL...\tCtrl+O"
+    IDS_PERMDELALL          "Using this command will remove\nall selected files PERMANENTLY\nfrom disk. Are you SURE you want\nto do this?"
+    IDS_LANGCHANGE          "Note that a restart of Winamp is required for the language pack to take effect.\r\n\r\nHit OK to restart Winamp, or cancel to continue using Winamp (language pack will be loaded on next Winamp restart)."
+    IDS_SELLANGPACK         "Open language pack (select Winamp.exe for English)"
+    IDS_DELETEAUTOLOAD1     "Delete auto-load preset"
+    IDS_DELETEAUTOLOAD2     "&Delete..."
+    IDS_DELETEPRE1          "Delete preset"
+    IDS_LOADAUTOLOAD        "Load auto-load preset"
+    IDS_SAVEAUTOLOAD        "Save auto-load preset"
+    IDS_PLFONT              "Arial"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PLFONT_CHARSET      "1"
+    IDS_P_FT_RSTART         "This option will make Winamp retake its filetypes when other programs steal them. It is recommended."
+    IDS_P_DISP_BIFONT       "This option makes Winamp use it's own (skinnable) font for displaying track titles. Disable this if you want to be able to see titles with non-english characters in them."
+    IDS_GETMORE             "Update Links\tCtrl+Alt+R"
+    IDS_INST_DONETITLE      "Winamp install information"
+    IDS_INST_SENDINGIN      "Sending in user information"
+    IDS_INST_FINISH         "Run Winamp"
+    IDS_INST_INET1          "Always connected (LAN, DSL, Cable)"
+    IDS_INST_INET2          "Connected via dial-up (Modem)"
+    IDS_INST_INET3          "Not connected to the internet"
+    IDS_P_SETUP_VER         "This option when enabled will have Winamp automatically detect whether a new version has been released and notify you of it."
+    IDS_P_SETUP_INTERNET    "Select your internet connection method here."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_P_SETUP_INET1       "LAN internet connection"
+    IDS_P_SETUP_INET2       "Dialup modem internet connection"
+    IDS_P_SETUP_INET3       "No internet connection"
+    IDS_DSP_NONE            "(none)"
+    IDS_CONFIG_PLAYSTR      "&Play in Winamp"
+    IDS_CONFIG_ENQUEUESTR   "&Enqueue in Winamp"
+    IDS_PREFS_SKIN          "Skins"
+    IDS_P_O_MPA             "This option controls whether Winamp automatically advances to the next track or not. You only want to enable it if you are DJing and want to be able to jump around without worrying about the playlist auto-advancing."
+    IDS_P_SK_SEL            "This box lists available skins to enable."
+    IDS_P_SK_RND            "When this is checked, Winamp will switch skins randomly on every new file played."
+    IDS_P_SK_CHDR           "This button lets you change the directory where you keep your skins."
+    IDS_PREFS_CLASSICSKIN   "Classic Skins"
+    IDS_PREFS_AG            "Agent"
+    IDS_P_SETUP_VER2        "This option, when checks, allows Winamp to report anonymous usage information back to Nullsoft. It simply reports how much Winamp is being used, but not how you are using it."
+    IDS_P_A_ENABLE          "This option enables the Winamp Agent, which runs at all times and lets you have enhanced functionality."
+    IDS_P_A_TRAY            "This option, when the Agent is enabled, shows an icon in the system tray that lets you run Winamp, browse your bookmarks, etc."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    32767                   "5.0v0"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_P_FILEASSOCIATIONS  "This option lets the Agent maintain Winamp's file associations, so that if other software is installed that uses the same extensions, Winamp will keep them."
+    IDS_CONFIG_BOOKMARKSTR  "Add to Winamp's &Bookmark list"
+    IDS_P_O_ONPLAY          "Reads track info such as title or ID3 tag, as well as a track length estimate, on play only (rather than on view or load)."
+    IDS_P_O_SMS             "This controls how quickly the playlist order changes (morphs) over time, when shuffle is on."
+    IDS_PREFS_SHUFFLE       "Playlist"
+    IDS_VIDEOCAPTION        "Winamp Video"
+    IDS_PREFS_VIDEO         "Video"
+    IDS_P_O_VIDEO_VSYNC     "This option enables video to sync with the vertical blank line for smoother display."
+    IDS_P_O_VIDEO_ADJASP    "This option corrects the aspect ratio of the videos so they display at the correct size."
+    IDS_P_O_VIDEO_OVERLAYS  "This option enables the use of the video card overlay feature (if available)."
+    IDS_P_O_VIDEO_UPDSIZE   "This option will make the video window resize to the video dimensions"
+    IDS_P_O_VIDEO_AUTOCLOSE "Close video window as soon as playing is done"
+    IDS_P_O_VIDEO_NOSS      "This option disables your current screen saver when a video is playing"
+    IDS_P_O_VIDEO_OSD       "This option enables the On Screen Display interface when a video is playing in Fullscreen mode"
+    IDS_P_O_VIDEO_YV12      "This option enables the use of the YV12 type when overlay is enabled. It makes video updates faster when possible but some video cards don't support it well or correctly."
+    IDS_P_O_VIDEO_STOPCLOSE "This option will make the playback stop when the video window is closed"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_P_O_VIDEO_REMOVE_FS_ON_STOP 
+                            "This option will make the video window switch back from fullscreen when the playback stops"
+    IDS_P_O_VIDEO_AUTOOPEN  "This option will make the video window open every time a video file is played"
+    IDS_P_CLASSICVIS        "Classic Visualization"
+    IDS_P_IN_UNINST         "This button will uninstall the selected input plug-in. This may require a restart of Winamp."
+    IDS_P_VIS_UNINST        "This button will uninstall the selected visualization plug-in."
+    IDS_P_OUT_UNINST        "This button will uninstall the selected output plug-in. This may require a restart of Winamp."
+    IDS_P_SKINS_DELETESKIN  "Delete Skin?"
+    IDS_P_SKINS_DELETESKIN_PROMPT "Delete the skin '%s'?"
+    IDS_P_O_VIDEO_AGRESSIVENOSS 
+                            "This option makes Winamp try even harder to prevent the screensaver from coming on while playing video. Use with care, it might not be the best idea..."
+    IDS_P_PLUG_DISSEHVIS    "Enabling this option disables structured exception handling (SEH) for visualization plug-ins, which lets plug-in developers more easily debug their plug-ins."
+    IDS_P_PLUG_DISSEHDSP    "Enabling this option disables structured exception handling (SEH) for DSP plug-ins, which lets plug-in developers more easily debug their plug-ins."
+    IDS_P_PLUG_DISSEHGEN    "Enabling this option disables structured exception handling (SEH) for general purpose plug-ins, which lets plug-in developers more easily debug their plug-ins."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

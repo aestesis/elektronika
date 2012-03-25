@@ -1,0 +1,22 @@
+﻿Build started 01/09/2011 19:09:31.
+     1>Project "D:\aestesis\code\elektroSDK\ompp\forms\forms.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\forms.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /nologo /W3 /WX- /O2 /Ob2 /Ot /Oy- /GT /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release VSTUDIO\\" /Fd"Release VSTUDIO\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt forms.cpp
+         forms.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\ompp\forms\Release VSTUDIO\forms.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\ompp\forms.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/ompp/forms.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\forms.def" /MANIFEST /ManifestFile:"Release VSTUDIO\forms.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\aestesis\code\elektroSDK\ompp\forms\Release VSTUDIO\forms.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release VSTUDIO\forms.lib" /MACHINE:X86 /DLL "Release VSTUDIO\forms.obj"
+            Creating library Release VSTUDIO\forms.lib and object Release VSTUDIO\forms.exp
+         forms.vcxproj -> D:\aestesis\code\elektroSDK\ompp\forms\Release VSTUDIO\forms.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../elektronika/ompp/forms.dll;#2" /manifest "Release VSTUDIO\forms.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\forms.unsuccessfulbuild".
+         Touching "Release VSTUDIO\forms.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\ompp\forms\forms.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81

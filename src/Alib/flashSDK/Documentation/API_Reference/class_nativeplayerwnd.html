@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>NativePlayerWnd Class Reference</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>NativePlayerWnd  Class Reference</h1>
+<p>
+<code>#include &lt;<a class="el" href="class_nativeplayerwnd-include.html">playerwnd.h</a>&gt;</code>
+<p>
+<p>Class diagram for NativePlayerWnd:
+<p><center><img src="class_nativeplayerwnd.gif" usemap="#NativePlayerWnd_map" border="0"></center>
+<map name="NativePlayerWnd_map"><p>
+<area href="class_splayer.html" ALT="SPlayer" shape="rect" coords="0,0,110,24">
+</MAP></P>
+<a href="class_nativeplayerwnd-members.html">List of all members.</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td colspan=4><br><h2>Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top><a name="a0" doxytag="NativePlayerWnd::NativePlayerWnd"></a>
+&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a0">NativePlayerWnd</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top><a name="a1" doxytag="NativePlayerWnd::~NativePlayerWnd"></a>
+&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a1">~NativePlayerWnd</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual BOOL&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a2">StartTimer</a> ( int playTimerInterval, int cursorTimerInterval )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a3">StopTimer</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a4">ClientRect</a> ( SRECT* )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual BOOL&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a5">UpdateCursor</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a6">InvalidateScreenArea</a> ( SRECT* )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a7">AdjustWindow</a> ( int width, int height )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a8">EnableMenus</a> ( const <a class="el" href="class_menustatus.html">MenuStatus</a>&amp; menuStatus )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>U16*&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a9">GetStringFromClipboard</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a10">SetStringToClipboard</a> ( const U16* text )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>char*&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a11">GetStringFromClipboard</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a13">StreamPostURLNotify</a> ( const char* url, const char* window, U32 len, const char* buf, void* notifyData )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a14">StreamGetURLNotify</a> ( const char* url, const char* window, void* notifyData )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a15">CloseStream</a> ( <a class="el" href="class_streamdata.html">StreamData</a>* streamData )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>virtual void&nbsp;</td><td valign=top><a class="el" href="class_nativeplayerwnd.html#a16">ProcessFSCommand</a> ( char* command, char* args )</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The NativePlayerWnd is the link between the OS messages/events and Flash. It is the main objects, and creates or aggregrates almost all of the Flash player. <br>
+ In addition to the functions implemented below, NativePlayerWnd needs to react to menu selection (if relevant to your version of the player). Also, a SetMenuState call can be used at any time to trigger a EnableMenus call. The menus, and the resulting calls, are as follows: <br>
+ FILE MENU:<br>
+ Open calls <a class="el" href="class_splayer.html#a89">ControlOpen</a>( char* filenameToOpen )<br>
+ Close calls <a class="el" href="class_splayer.html#a90">ControlClose</a>()<br>
+ Exit handled by native code.<br>
+ VIEW MENU:<br>
+ 100% calls <a class="el" href="class_splayer.html#a97">Control100</a>()<br>
+ View All calls <a class="el" href="class_splayer.html#a96">ControlViewAll</a>()<br>
+ Zoom In calls <a class="el" href="class_splayer.html#a98">ControlZoomIn</a>()<br>
+ Zoom Out calls <a class="el" href="class_splayer.html#a100">ControlZoomOut</a>()<br>
+ Full Screen handled by native code.<br>
+ High Quality calls <a class="el" href="class_splayer.html#a101">ControlHighQuality</a>()<br>
+ CONTROL MENU: <br>
+ Play calls <a class="el" href="class_splayer.html#a91">ControlPlay</a>()<br>
+ Rewind calls <a class="el" href="class_splayer.html#a92">ControlRewind</a>()<br>
+ StepForward calls <a class="el" href="class_splayer.html#a93">ControlForward</a>()<br>
+ StepBack calls <a class="el" href="class_splayer.html#a94">ControlBack</a>()<br>
+ Loop calls <a class="el" href="class_splayer.html#a95">ControlLoop</a>()<br>
+ <hr><h2>Member Function Documentation</h2>
+
+<h3><a name="a2" doxytag="NativePlayerWnd::StartTimer"></a>virtual BOOL NativePlayerWnd::StartTimer (int <em>playTimerInterval</em>, int <em>cursorTimerInterval</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+There are two timers:<br>
+ 1. PlayTimer, which fires every frame to redraw, and <br>
+ 2. CursorTimer, which causes the edit text cursor to blink.<br>
+ How the timers work is left completely up to the implementation. When the PlayerTimer fires, it calls DoPlay( true ). When the CursorTimer fires, it calls BlinkCursor(). The time passed in to StartTimer is in milliseconds. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html">SPlayer</a>.</div>
+
+<h3><a name="a3" doxytag="NativePlayerWnd::StopTimer"></a>virtual void NativePlayerWnd::StopTimer ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Stops both timers. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html">SPlayer</a>.</div>
+
+<h3><a name="a4" doxytag="NativePlayerWnd::ClientRect"></a>virtual void NativePlayerWnd::ClientRect (SRECT *)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Screen function to get the size of the client window (The client window is the drawing area for Flash) into SRECT. NOTE: the returned rectangle must be 0 based. (That is xmin == ymin == 0.) 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html">SPlayer</a>.</div>
+
+<h3><a name="a5" doxytag="NativePlayerWnd::UpdateCursor"></a>virtual BOOL NativePlayerWnd::UpdateCursor ()<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Flash uses this call to request a cursor shape change. Update Cursor calls <a class="el" href="class_splayer.html#a107">GetCursorType</a>() to get the description of the current cursor type. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html">SPlayer</a>.</div>
+
+<h3><a name="a6" doxytag="NativePlayerWnd::InvalidateScreenArea"></a>virtual void NativePlayerWnd::InvalidateScreenArea (SRECT *)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Requests an OS repaint message be sent for the SRECT passed in.
+<p>
+Why use the system message at all? The issue arises because we may not be doing regular updates (in the case of a paused or single frame movie) but if the image changes - for example the user zooms in on a particular spot - we need to repaint that single frame. If several events queue up we only want to repaint once so we go through the operating system event queue.
+<p>
+A valid resonse to this call is to call OnDraw, which could cause multiple redraws.
+<p>
+If using the OS repaint message, it is acceptabe to generate a message for the entire client window. This function can be called by the core code under the following circumstances:<br>
+ - a new <a class="el" href="class_nativebitmap.html">NativeBitmap</a> gets created.<br>
+ - camera or view change (from CheckUpdate)<br>
+ - after a goto frame (from CheckUpdate)<br>
+ The usage of this function by the core code is a bit quirky. It is not a function that a developer should rely on to be called in a regular way. The windows demo code has two versions of this function one which uses the OS event queue, and one which calls OnDraw.
+<p>
+Note this method may be deprectated in 1.1. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html">SPlayer</a>.</div>
+
+<h3><a name="a7" doxytag="NativePlayerWnd::AdjustWindow"></a>virtual void NativePlayerWnd::AdjustWindow (int <em>width</em>, int <em>height</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Screen function to set the size of the client window. (The client window is the drawing area for Flash.) If you have a fixed size window, meaning your client window can't or doesn't want to change size, this call should do nothing. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html">SPlayer</a>.</div>
+
+<h3><a name="a8" doxytag="NativePlayerWnd::EnableMenus"></a>virtual void NativePlayerWnd::EnableMenus (const <a class="el" href="class_menustatus.html">MenuStatus</a> &amp; <em>menuStatus</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Flash makes this call and passes the state of the menus to the function through the menuStatus parameter. An application that uses menus can use this data to set them enabled, disabled, or checked. A call to SetMenuState will result in a call back to EnableMenus; use this to request the EnableMenus call. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html">SPlayer</a>.</div>
+
+<h3><a name="a9" doxytag="NativePlayerWnd::GetStringFromClipboard"></a>U16 * NativePlayerWnd::GetStringFromClipboard ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Flash makes this call to gets a text string from the clipboard. May return NULL if there is none. If EDITTEXT_CLIPBOARD_WIDE is defined, then uses Unicode, else uses ascii. Note that in either format, Flash uses \n for a newline, and null to terminate the string. The native code should allocate the string and Flash core will delete it. </div>
+
+<h3><a name="a10" doxytag="NativePlayerWnd::SetStringToClipboard"></a>void NativePlayerWnd::SetStringToClipboard (const U16 * <em>text</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+Flash makes this call to set a text string from the clipboard. If EDITTEXT_CLIPBOARD_WIDE is defined, then uses Unicode, else uses ascii. Note that in either format, Flash uses \n for a newline, and null to terminate the string. </div>
+
+<h3><a name="a11" doxytag="NativePlayerWnd::GetStringFromClipboard"></a>U16 * NativePlayerWnd::GetStringFromClipboard ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Flash makes this call to gets a text string from the clipboard. May return NULL if there is none. If EDITTEXT_CLIPBOARD_WIDE is defined, then uses Unicode, else uses ascii. Note that in either format, Flash uses \n for a newline, and null to terminate the string. The native code should allocate the string and Flash core will delete it. </div>
+
+<h3><a name="a13" doxytag="NativePlayerWnd::StreamPostURLNotify"></a>virtual void NativePlayerWnd::StreamPostURLNotify (const char * <em>url</em>, const char * <em>window</em>, U32 <em>len</em>, const char * <em>buf</em>, void * <em>notifyData</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Streaming function. See the <a class="el" href="class_splayer.html#a77">SPlayer::StreamPostURLNotify</a>() reference for a full description. Note that the post is not supported, at this time, in the demo version. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html#a77">SPlayer</a>.</div>
+
+<h3><a name="a14" doxytag="NativePlayerWnd::StreamGetURLNotify"></a>virtual void NativePlayerWnd::StreamGetURLNotify (const char * <em>url</em>, const char * <em>window</em>, void * <em>notifyData</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Streaming function. See the <a class="el" href="class_splayer.html#a78">SPlayer::StreamGetURLNotify</a>() reference for a full description. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html#a78">SPlayer</a>.</div>
+
+<h3><a name="a15" doxytag="NativePlayerWnd::CloseStream"></a>virtual void NativePlayerWnd::CloseStream (<a class="el" href="class_streamdata.html">StreamData</a> * <em>streamData</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Streaming function. See the <a class="el" href="class_splayer.html#a82">SPlayer::CloseStream</a>() reference for a full description. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html#a82">SPlayer</a>.</div>
+
+<h3><a name="a16" doxytag="NativePlayerWnd::ProcessFSCommand"></a>virtual void NativePlayerWnd::ProcessFSCommand (char * <em>command</em>, char * <em>args</em>)<code> [virtual]</code></h3>
+<div class="in">
+
+<p>
+
+<p>
+Streaming function -- in some cases. See the <a class="el" href="class_splayer.html#a83">SPlayer::ProcessFSCommand</a>() reference for a full description. 
+<p>
+Reimplemented from <a class="el" href="class_splayer.html#a83">SPlayer</a>.</div>
+<hr>The documentation for this classwas generated from the following file:<ul>
+<li>playerwnd.h</ul>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

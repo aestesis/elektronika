@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>String Utilities.</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr> The string utilities are defined in splay.h and provide general functions for working with Flash strings.
+<p>
+ <b>BOOL ConvertStringToInteger(const char *s, int *value)</b><br>
+ Converts a string to an integer value. Returns true if it succeeds, false if it fails.
+<p>
+ <b>char* SkipPrefix( char* str, char* pre )</b><br>
+ If the prefix pre is found, returns a pointer past the prefix. If not found, returns null.
+<p>
+ <b>BOOL StrEqual( const char* a, const char* b)</b><br>
+ Returns true if both strings equal.
+<p>
+ <b>int ToInt(const char* c)</b><br>
+ String to integer conversion.
+<p>
+ <b>void FreeStr(char* s)</b><br>
+ Free's memory created with CreateStr.
+<p>
+ <b>char* CreateStr( const char* s)</b><br>
+ Creates a string (alloctating memory) by copying the string passed in. Returns a pointer to the created string.
+<p>
+ <b>char *CreateStr( const char *s, int count)</b><br>
+ String utility. Creates a string (alloctating memory) by copying the string passed in. Count specifies the amount of memory allocated and must be sufficient.
+<p>
+ <b>BOOL IsTrue( const char* )</b><br>
+ Returns true if the string passed in a string representation of a non zero number, the word "true" or the word "yes".<br>
+
+<p>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

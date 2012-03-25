@@ -1,0 +1,293 @@
+<html>
+<head>
+<title>Irrlicht Engine Official Homepage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<br>
+<table width="95%" border="0" cellspacing="0" cellpadding="2" align="center">
+  <tr> 
+    <td bgcolor="#666699" width="10"><b><a href="http://irrlicht.sourceforge.net" target="_blank"><img src="../../media/irrlichtlogo.jpg" width="88" height="31" border="0"></a></b></td>
+    <td bgcolor="#666699" width="100%"> 
+      <div align="center"><b><font color="#FFFFFF"></font></b></div>
+      <b><font color="#FFFFFF">Tutorial 1.HelloWorld</font></b></td>
+  </tr>
+  <tr bgcolor="#eeeeff"> 
+    <td height="90" colspan="2"> 
+      <div align="left"> 
+        <p>This Tutorial shows how to set up the IDE for using the Irrlicht Engine 
+          and how to write a simple HelloWorld program with it. The program will 
+          show how to use the basics of the VideoDriver, the GUIEnvironment and 
+          the SceneManager.<br>
+          The result of this example will look like this:</p>
+        <p align="center"><img src="../../media/001shot.jpg"><br>
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="95%" border="0" cellspacing="0" cellpadding="2" align="center">
+  <tr> 
+    <td bgcolor="#666699"> 
+      <div align="center"><b><font color="#FFFFFF"></font></b></div>
+      <b><font color="#FFFFFF">Setting up the IDE</font></b></td>
+  </tr>
+  <tr> 
+    <td height="90" valign="top" bgcolor="#eeeeff"><div align="left"> 
+        <p align="left">To use the engine, we will have to include the header 
+          file &lt;irrlicht.h&gt;, which can be found in the Irrlicht Engine SDK<br>
+          directory \include. To let the compiler find this header file, the directory 
+          where it is located should be specified somewhere. This is different 
+          for every IDE and compiler you use. I explain shortly how to do this 
+          in Microsift Visual Studio C++ 6.0 and .NET:</p>
+      </div>
+      <ul>
+        <li> 
+          <div align="left">If you use Version 6.0, select the Menu Extras -&gt; 
+            Options. Select the directories tab, and select the 'Include' Item 
+            in the combo box. Add the \include directory of the irrlicht engine 
+            folder to the list of directories. Now the compiler will find the 
+            Irrlicht.h header file. We also need the irrlicht.lib to be found, 
+            so stay in that dialog, select 'Libraries' in the combo box and add 
+            the \lib\VisualStudio directory.<br>
+            <br>
+            <img src="../../media/vc6optionsdir.jpg" width="231" height="172" align="middle">&nbsp;&nbsp;<img src="../../media/vc6include.jpg" width="231" height="159" align="middle"><br>
+            &nbsp; <br>
+          </div>
+        </li>
+        <li>If your IDE is Visual Studio .NET, select Tools -&gt; Options. Select 
+          the projects entry and then select VC++ directories. Select 'show directories 
+          for include files' in the combo box, and add the \include directory 
+          of the irrlicht engine folder to the list of directories. Now the compiler 
+          will find the Irrlicht.h header file. We also need the irrlicht.lib 
+          to be found, so stay in that dialog, select 'show directories for Library 
+          files' and add the \lib\VisualStudio directory.<br>
+          <br>
+          <img src="../../media/vcnetinclude.jpg" width="256" height="160"> 
+          <br>
+        </li>
+      </ul>
+      <div align="left">
+        <p align="left">&nbsp;</p>
+      </div></td>
+  </tr>
+</table>
+<br>
+<table width="95%" border="0" cellspacing="0" cellpadding="2" align="center">
+  <tr> 
+    <td bgcolor="#666699"> 
+      <div align="center"><b><font color="#FFFFFF"></font></b></div>
+      <b><font color="#FFFFFF">Lets start!</font></b></td>
+  </tr>
+  <tr> 
+    <td height="90" bgcolor="#eeeeff" valign="top"> 
+      <div align="left"> 
+        <p>After we have set up the IDE that the compiler will find the Irrlicht 
+          Engine header files, we can include it now into our code.</p>
+        <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+          <tr> 
+            <td> 
+              <pre>#include &lt;irrlicht.h&gt;</pre>
+            </td>
+          </tr>
+        </table>
+        <p>In the Irrlicht Engine, everything can be found in the namespace 'irr'. 
+          So if you want to use a class of the engine, you have to write an irr:: 
+          before the name of the class. For example to use the IrrlichtDevice 
+          write: irr::IrrlichtDevice. To get rid of the irr:: in front of the 
+          name of every class, we tell the compiler that we use that namespace 
+          from now on, and we will not have to write that 'irr::'.</p>
+        <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+          <tr> 
+            <td> 
+              <pre>using namespace irr;</pre>
+            </td>
+          </tr>
+        </table>
+        <p>There are 5 sub namespaces in the Irrlicht Engine. Take a look at them, 
+          you can read a detailed description of them in the documentation by 
+          clicking on the top menu item 'Namespace List' or using this <a href="http://irrlicht.sourceforge.net/docu/namespaces.html" target="_blank">link</a>. 
+          Like the irr Namespace, we do not want these 5 sub namespaces now, to 
+          keep this example simple. Hence we tell the compiler again that we do 
+          not want always to write their names:</p>
+        <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+          <tr> 
+            <td> 
+              <pre>using namespace core;<br>using namespace scene;<br>using namespace video;<br>using namespace io;<br>using namespace gui;</pre>
+            </td>
+          </tr>
+        </table>
+        <p>To be able to use the Irrlicht.DLL file, we need to link with the Irrlicht.lib. 
+          We could set this option in the project settings, but to make it easy, 
+          we use a pragma comment lib:</p>
+        <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+          <tr> 
+            <td> 
+              <pre>#pragma comment(lib, &quot;Irrlicht.lib&quot;)</pre>
+            </td>
+          </tr>
+        </table>
+        <p>Now the main method. We can use void main() on every platform. On Windows 
+          platforms, we could also use the WinMain method if we would want to 
+          get rid of the console window, which pops up when starting a program 
+          with main(), but to keep this example simple, we use main().</p>
+        <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+          <tr> 
+            <td> 
+              <pre>int main()<br>{</pre>
+            </td>
+          </tr>
+        </table>
+        <p>The most important function of the engine is the 'createDevice' function. 
+          The Irrlicht Device can be created with it, which is the root object 
+          for doing everything with the engine. createDevice() has 7 parameters:</p>
+      </div>
+      <ul>
+        <li> 
+          <div align="left"> deviceType: Type of the device. This can currently 
+            be the Null-device, the Software device, DirectX8, DirectX9, or OpenGL. 
+            In this example we use EDT_SOFTWARE, but to try out, you might want 
+            to change it to EDT_NULL, EDT_DIRECTX8 or EDT_OPENGL. </div>
+        </li>
+        <li> 
+          <div align="left">windowSize: Size of the Window or FullscreenMode to 
+            be created. In this example we use 512x384.</div>
+        </li>
+        <li> 
+          <div align="left">bits: Amount of bits per pixel when in fullscreen 
+            mode. This should be 16 or 32. This parameter is ignored when running 
+            in windowed mode.</div>
+        </li>
+        <li> 
+          <div align="left">fullscreen: Specifies if we want the device to run 
+            in fullscreen mode or not.</div>
+        </li>
+        <li>stencilbuffer: Specifies if we want to use the stencil buffer for 
+          drawing shadows.</li>
+        <li>vsync: Specifies if we want to have vsync enabled, this is only useful 
+          in fullscreen mode.</li>
+        <li> 
+          <div align="left">eventReceiver: An object to receive events. We do 
+            not want to use this parameter here, and set it to 0.</div>
+        </li>
+      </ul>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> <pre>IrrlichtDevice *device =<br>		createDevice(EDT_SOFTWARE, dimension2d&lt;s32&gt;(512, 384), 16,<br>			false, false, false, 0);</pre> </td>
+        </tr>
+      </table>
+      <p>Now we set the caption of the window to some nice text. Note that there 
+        is a 'L' in front of the string. The Irrlicht Engine uses wide character 
+        strings when displaying text.</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>device-&gt;setWindowCaption(L&quot;Hello World! - Irrlicht Engine Demo&quot;);</pre>
+          </td>
+        </tr>
+      </table>
+      <p>Now we store a pointer to the video driver, the SceneManager and the 
+        graphical user interface environment, so that we do not always have to 
+        write device-&gt;getVideoDriver(), device-&gt;getSceneManager() and device-&gt;getGUIEnvironment().</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>IVideoDriver* driver = device-&gt;getVideoDriver();<br>ISceneManager* smgr = device-&gt;getSceneManager();<br>IGUIEnvironment* guienv = device-&gt;getGUIEnvironment();</pre>
+          </td>
+        </tr>
+      </table>
+      <p> We add a hello world label to the window, using the GUI environment. 
+        The text is placed at the position (10,10) as top left corner and (200,22) 
+        as lower right corner.</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>guienv-&gt;addStaticText(L&quot;Hello World! This is the Irrlicht Software engine!&quot;,<br>	 rect&lt;int&gt;(10,10,200,22), true);</pre>
+          </td>
+        </tr>
+      </table>
+      <p>To display something interesting, we load a Quake 2 model and display 
+        it. We only have to get the Mesh from the Scene Manager (getMesh()) and 
+        add a SceneNode to display the mesh (addAnimatedMeshSceneNode()). Instead 
+        of writing the filename sydney.md2, it would also be possible to load 
+        a Maya object file (.obj), a complete Quake3 map (.bsp) or a Milshape 
+        file (.ms3d).<br>
+        By the way, that cool Quake 2 model called sydney was modelled by Brian 
+        Collins.</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>IAnimatedMesh* mesh = smgr-&gt;getMesh(&quot;../../media/sydney.md2&quot;);<br>IAnimatedMeshSceneNode* node = smgr-&gt;addAnimatedMeshSceneNode( mesh );</pre>
+          </td>
+        </tr>
+      </table>
+      <p>To let the mesh look a little bit nicer, we change its material a little 
+        bit: We disable lighting because we do not have a dynamic light in here, 
+        and the mesh would be totally black. Then we set the frame loop, so that 
+        the animation is looped between the frames 0 and 310. And at last, we 
+        apply a texture to the mesh. Without it the mesh would be drawn using 
+        only a color.</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>if (node)<br>{<br>	node-&gt;setMaterialFlag(EMF_LIGHTING, false);<br>	node-&gt;setFrameLoop(0, 310);	<br>	node-&gt;setMaterialTexture( 0, driver-&gt;getTexture(&quot;../../media/sydney.bmp&quot;) );<br>}</pre>
+          </td>
+        </tr>
+      </table>
+      <p>To look at the mesh, we place a camera into 3d space at the position 
+        (0, 10, -40). The camera looks from there to (0,5,0).</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>smgr-&gt;addCameraSceneNode(0, vector3df(0,30,-40), vector3df(0,5,0));</pre>
+          </td>
+        </tr>
+      </table>
+      <p>Ok, now we have set up the scene, lets draw everything: We run the device 
+        in a while() loop, until the device does not want to run any more. This 
+        would be when the user closed the window or pressed ALT+F4 in windows.</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>while(device-&gt;run())<br>{</pre>
+          </td>
+        </tr>
+      </table>
+      <p> Anything can be drawn between a beginScene() and an endScene() call. 
+        The beginScene clears the screen with a color and also the depth buffer 
+        if wanted. Then we let the Scene Manager and the GUI Environment draw 
+        their content. With the endScene() call everything is presented on the 
+        screen.</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>	driver-&gt;beginScene(true, true, SColor(0,200,200,200));<br>
+	smgr-&gt;drawAll();
+	guienv-&gt;drawAll();</pre>
+            <pre>	driver-&gt;endScene();
+}</pre>
+          </td>
+        </tr>
+      </table>
+      <p>After we are finished, we have to delete the Irrlicht Device created 
+        before with createDevice(). In the Irrlicht Engine, you will have to delete 
+        all objects you created with a method or function which starts with 'create'. 
+        The object is simply deleted by calling -&gt;drop(). See the <a href="http://irrlicht.sourceforge.net/docu/classirr_1_1IUnknown.html#a3" target="_blank">documentation</a> 
+        for more information.</p>
+      <table width="95%" border="0" cellspacing="2" cellpadding="0" bgcolor="#CCCCCC" align="center">
+        <tr> 
+          <td> 
+            <pre>	device-&gt;drop();<br> return 0;
+}</pre>
+          </td>
+        </tr>
+      </table>
+      <p>That's it. Compile and run. </p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<remoteinit>
+	<master>extend</master>
+	<file>set01\tonytest.eka</file>
+	<rs232>
+		<port>com1</port>
+		<baud>115200</baud>
+		<bits>8</bits>
+		<parity>2</parity>
+		<stop>1</stop>
+	</rs232>
+	<type>
+		<name>slow</name>
+		<snap>images/slow.png</snap>
+		<effect>
+			<name>flash 1</name>
+			<snap>images/1.png</snap>
+			<program>0</program>
+		</effect>
+		<effect>
+			<name>flash 2</name>
+			<snap>images/2.png</snap>
+			<program>1</program>
+		</effect>
+		<effect>
+			<name>flash 3</name>
+			<snap>images/2.png</snap>
+			<program>2</program>
+		</effect>
+		<effect>
+			<name>flash 4</name>
+			<snap>images/2.png</snap>
+			<program>3</program>
+		</effect>
+		<effect>
+			<name>flash 5</name>
+			<snap>images/2.png</snap>
+			<program>4</program>
+		</effect>
+		<effect>
+			<name>flash 6</name>
+			<snap>images/2.png</snap>
+			<program>5</program>
+		</effect>
+		<effect>
+			<name>flash 7</name>
+			<snap>images/2.png</snap>
+			<program>6</program>
+		</effect>
+		<effect>
+			<name>flash 8</name>
+			<snap>images/2.png</snap>
+			<program>7</program>
+		</effect>
+	</type>
+</remoteinit>

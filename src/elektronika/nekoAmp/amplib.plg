@@ -1,0 +1,153 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: amplib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP9B3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/amplib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\_code\YoY\mp3\nekoAmp\AMPBitstream.cpp"
+"D:\_code\YoY\mp3\nekoAmp\AMPDecoder.cpp"
+"D:\_code\YoY\mp3\nekoAmp\hufftbl.cpp"
+"D:\_code\YoY\mp3\nekoAmp\imdct.cpp"
+"D:\_code\YoY\mp3\nekoAmp\layer2.cpp"
+"D:\_code\YoY\mp3\nekoAmp\layer3.cpp"
+"D:\_code\YoY\mp3\nekoAmp\polyphase.cpp"
+"D:\_code\YoY\mp3\nekoAmp\staticinit.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\renan\LOCALS~1\Temp\RSP9B3.tmp" 
+Creating command line "xilink6.exe -lib /nologo /out:"Debug\amplib.lib" /nodefaultlib  .\Debug\AMPBitstream.obj .\Debug\AMPDecoder.obj .\Debug\hufftbl.obj .\Debug\imdct.obj .\Debug\layer2.obj .\Debug\layer3.obj .\Debug\polyphase.obj .\Debug\staticinit.obj "
+<h3>Output Window</h3>
+Compiling...
+AMPBitstream.cpp
+d:\_code\yoy\mp3\nekoamp\ampbitstream.cpp(99) : warning C4101: 'rv' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\ampbitstream.cpp(118) : warning C4101: 'rv' : unreferenced local variable
+AMPDecoder.cpp
+hufftbl.cpp
+D:\_code\YoY\mp3\nekoAmp\hufftbl.cpp(686) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+D:\_code\YoY\mp3\nekoAmp\hufftbl.cpp(687) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+D:\_code\YoY\mp3\nekoAmp\hufftbl.cpp(602) : warning C4101: 'i' : unreferenced local variable
+imdct.cpp
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(297) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(298) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(320) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(321) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(328) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(329) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(330) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(331) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(334) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(335) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(359) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(360) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(384) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(385) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(266) : warning C4101: 'sum' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(244) : warning C4101: 'm' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\imdct.cpp(280) : warning C4101: 'j' : unreferenced local variable
+layer2.cpp
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(256) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(288) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(203) : warning C4101: 'j' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(420) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(425) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(426) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(431) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(436) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(480) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(481) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(482) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(490) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(491) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(492) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(505) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(506) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(507) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(515) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(516) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer2.cpp(517) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+layer3.cpp
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(170) : warning C4101: 'sb' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(450) : warning C4101: 'si' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(547) : warning C4018: '>' : signed/unsigned mismatch
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(550) : warning C4018: '>' : signed/unsigned mismatch
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(573) : warning C4018: '<' : signed/unsigned mismatch
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(602) : warning C4018: '<' : signed/unsigned mismatch
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(519) : warning C4101: 'v' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(519) : warning C4101: 'w' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(518) : warning C4101: 'x' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(518) : warning C4101: 'y' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(587) : warning C4101: 'count' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(714) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(803) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(708) : warning C4101: 'cb_low' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(661) : warning C4101: 'sign' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1140) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1141) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1153) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1154) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1159) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1160) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1175) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1176) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(874) : warning C4101: 'js_bound' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(876) : warning C4101: 'ch' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1191) : warning C4101: 'sb' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1191) : warning C4101: 'ss' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1301) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1302) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\layer3.cpp(1318) : warning C4101: 'rawout' : unreferenced local variable
+polyphase.cpp
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(193) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(194) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(195) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(196) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(205) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(206) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(207) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(208) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(218) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(219) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(220) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(221) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(305) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(306) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(307) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(308) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(309) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(310) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(311) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(312) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(314) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(315) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(316) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(317) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(318) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(319) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(320) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(321) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(421) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(429) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(477) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(485) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(1429) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(1437) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(366) : warning C4101: 'sum3' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(366) : warning C4101: 'sum4' : unreferenced local variable
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(1484) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(1515) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(2049) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+d:\_code\yoy\mp3\nekoamp\polyphase.cpp(1446) : warning C4101: 'sum2' : unreferenced local variable
+staticinit.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+amplib.lib - 0 error(s), 112 warning(s)
+</pre>
+</body>
+</html>

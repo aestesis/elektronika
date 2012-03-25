@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>NativeBitmap Class Reference</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>NativeBitmap  Class Reference</h1>
+<p>
+<code>#include &lt;<a class="el" href="class_nativebitmap-include.html">display.h</a>&gt;</code>
+<p>
+<a href="class_nativebitmap-members.html">List of all members.</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td colspan=4><br><h2>Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a0">NativeBitmap</a> ( <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>* native, const SColorTable* ctab, int width, int height, int depth, int pixelFormat )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top><a name="a1" doxytag="NativeBitmap::~NativeBitmap"></a>
+&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a1">~NativeBitmap</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a2">Height</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a3">Width</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>U8*&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a4">Bits</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a5">ScanLine</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a6">PixelFormat</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>int&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a7">Depth</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a8">Flush</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a9">BltNativeToScreen</a> ( <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>* native, int xDest, int yDest, int cx, int cy, int xSource, int ySource )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_nativebitmap.html#a10">ClearScreen</a> ( <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a>* )</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The NativeBitmap is a wrapper around a block of memory treated as a raster device. The "defining function" of this class is the BitBlt - which moves the bits in memory to the screen. Many OSs have a rather specific idea of what a bitmap is. NativeBitmap wraps this OS dependent object and presents an interface to the main Flash code. The closer the OS bitmap is to a block of bits in memory (as opposed to an abstract object) the easier it will be to port, and the better the results will be. Flash will create and destroy the NativeBitmap in order that it has the same dimensions as the player window. <hr><h2>Member Function Documentation</h2>
+
+<h3><a name="a0" doxytag="NativeBitmap::NativeBitmap"></a>NativeBitmap::NativeBitmap (<a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a> * <em>native</em>, const SColorTable * <em>ctab</em>, int <em>width</em>, int <em>height</em>, int <em>depth</em>, int <em>pixelFormat</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+Fully contstructs a bitmap - after construction, it can be read or written at any time. <dl compact><dt>
+<b>Parameters: </b><dd>
+<em>native</em> -  Pointer back to the native code, so that OS dependant states can be queried. <dd>
+<em>ctab</em> -  For Indexed modes, this cotains the palette. <dd>
+<em>width</em> -  Not guaranteed to be word aligned. <dd>
+<em>height</em> -  <dd>
+<em>depth</em> -  The number of bits per pixel. <dd>
+<em>pixelFormat</em> -  How to interpret pixel data. See PixelFormat. </dl></div>
+
+<h3><a name="a2" doxytag="NativeBitmap::Height"></a>int NativeBitmap::Height ()</h3>
+<div class="in">
+
+<p>
+Height, in pixels.
+<p>
+</div>
+
+<h3><a name="a3" doxytag="NativeBitmap::Width"></a>int NativeBitmap::Width ()</h3>
+<div class="in">
+
+<p>
+Width, , in pixels.
+<p>
+</div>
+
+<h3><a name="a4" doxytag="NativeBitmap::Bits"></a>U8 * NativeBitmap::Bits ()</h3>
+<div class="in">
+
+<p>
+Pointer to the base address of bitmap memory.
+<p>
+</div>
+
+<h3><a name="a5" doxytag="NativeBitmap::ScanLine"></a>int NativeBitmap::ScanLine ()</h3>
+<div class="in">
+
+<p>
+Bytes of memory per row of pixels.
+<p>
+</div>
+
+<h3><a name="a6" doxytag="NativeBitmap::PixelFormat"></a>int NativeBitmap::PixelFormat ()</h3>
+<div class="in">
+
+<p>
+Valid formats are: pix1, pix4, pix8, pix16, pix16A, pix24, pix32, pix32A.
+<p>
+</div>
+
+<h3><a name="a7" doxytag="NativeBitmap::Depth"></a>int NativeBitmap::Depth ()</h3>
+<div class="in">
+
+<p>
+The number of pixels per byte.
+<p>
+</div>
+
+<h3><a name="a8" doxytag="NativeBitmap::Flush"></a>void NativeBitmap::Flush ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Flush is only meaningful if you have to worry about graphics commands being queued on your OS. Win and Mac, mainly. Mac code looks like: while ( !QDDone((GrafPort*)bits-&gt;m_gWorld) ) ; </div>
+
+<h3><a name="a9" doxytag="NativeBitmap::BltNativeToScreen"></a>void NativeBitmap::BltNativeToScreen (<a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a> * <em>native</em>, int <em>xDest</em>, int <em>yDest</em>, int <em>cx</em>, int <em>cy</em>, int <em>xSource</em>, int <em>ySource</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+BltNativeToScreen transfers a block of pixels from memory to the display. All parameters are input. <dl compact><dt>
+<b>Parameters: </b><dd>
+<em>native</em> -  Since the information needed to make a screen blit is dependent on the OS, no assumption is made about what info you might need. Therefore, a BltToScreen() passes (as input) a pointer to the <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a> so it can be queried for things like the current window handle, graphics context, etc. These query functions in the <a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a> are up to the implementor. <dd>
+<em>xDest</em> -  X value of upper left target on screen. <dd>
+<em>yDest</em> -  Y value of upper left target on screen. <dd>
+<em>cx</em> -  X size of pixels to blt. <dd>
+<em>cy</em> -  Y size of pixels to blt. <dd>
+<em>xSource</em> -  X coordinate of source pixels (in this object). <dd>
+<em>ySource</em> -  Y coordinate of source pixels (in this object). </dl></div>
+
+<h3><a name="a10" doxytag="NativeBitmap::ClearScreen"></a>void NativeBitmap::ClearScreen (<a class="el" href="class_nativeplayerwnd.html">NativePlayerWnd</a> *)</h3>
+<div class="in">
+
+<p>
+
+<p>
+Clears the screen when nothing is going on. </div>
+<hr>The documentation for this classwas generated from the following file:<ul>
+<li>display.h</ul>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

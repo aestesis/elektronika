@@ -1,0 +1,35 @@
+﻿Build started 11/09/2011 01:29:12.
+     1>Project "D:\aestesis\code\elektroSDK\src\98\98.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\98.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\98\Release VSTUDIO\98.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\plugins\98.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/98.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\sdk\lib vfw32.lib elektro.lib odbc32.lib odbccp32.lib alib100.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\automod.def" /MANIFEST /ManifestFile:"Release VSTUDIO\98.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/98.pdb" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release/98.lib" /MACHINE:X86 /DLL "Release VSTUDIO\Script1.res"
+         .\Release/dsglurf.obj
+         .\Release/flammes.obj
+         .\Release/house.obj
+         .\Release/main.obj
+         .\Release/patchly.obj
+         .\Release/player.obj
+         .\Release/xtime.obj
+         .\Release/zygo.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Release\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Release\eleKtro.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib /MACHINE:I386 
+            Creating library .\Release/98.lib and object .\Release/98.exp
+         98.vcxproj -> D:\aestesis\code\elektroSDK\src\98\Release VSTUDIO\98.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../elektronika/plugins/98.dll;#2" /manifest "Release VSTUDIO\98.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\98.unsuccessfulbuild".
+         Touching "Release VSTUDIO\98.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\98\98.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47

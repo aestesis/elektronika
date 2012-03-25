@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Alib", "Alib.vcproj", "{5EC16667-1210-4A00-B5D4-6AEB577BBE54}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "..\libpng\libpng.vcproj", "{073D40D3-D2EB-4ED3-BC43-9E02D9CAD8C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5EC16667-1210-4A00-B5D4-6AEB577BBE54}.Debug.ActiveCfg = Debug|Win32
+		{5EC16667-1210-4A00-B5D4-6AEB577BBE54}.Debug.Build.0 = Debug|Win32
+		{5EC16667-1210-4A00-B5D4-6AEB577BBE54}.Release.ActiveCfg = Release|Win32
+		{5EC16667-1210-4A00-B5D4-6AEB577BBE54}.Release.Build.0 = Release|Win32
+		{073D40D3-D2EB-4ED3-BC43-9E02D9CAD8C4}.Debug.ActiveCfg = Debug|Win32
+		{073D40D3-D2EB-4ED3-BC43-9E02D9CAD8C4}.Debug.Build.0 = Debug|Win32
+		{073D40D3-D2EB-4ED3-BC43-9E02D9CAD8C4}.Release.ActiveCfg = Release|Win32
+		{073D40D3-D2EB-4ED3-BC43-9E02D9CAD8C4}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

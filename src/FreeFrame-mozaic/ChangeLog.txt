@@ -1,0 +1,22 @@
+2003/03/29	Bart van der Werf (Bluelive) <bluelive@xs4all.nl>
+	* ChangeLog.txt: Created
+	* FreeFrameSample.cpp:
+		Added a better capability check in initialize
+		Changed processFrame to dispatch to a templated function, so that 24 and 32 bits implementations share the same source.
+		Added a few bugfixes and optimalisations.
+	* FreeFrameSample.h:
+		Changed VideoPixel32bitTag struct so that alpha comes last, this resolved some problems i had when testing the plugin, i hope is not a cludge.
+	* MemCopy.h MemCopy.cpp:
+		Provides the function memcopy, which is the same as memcpy, except it checks what type of processor is available and uses a better suited assembly routine, currently either mmx, 3dnowext or the old memcpy
+		On linux or when NO_INTEL is used, the standard memcpy will be used through a macro removing anyoverhead.
+		The assembly should be usable under linux, but it will first be needed to converted to at&t syntax.
+		Support should be added to take the best advantage of sse/sse2/simd/3dnow, 
+
+
+***********************************************************************
+
+28th July 2003 Russell Blakeborough (vjamm) boblists@brightonart.org
+
+* rolled back bluelive commits of sat mar 29th 2003 - they don't work in MSVC
+
+* freeframe 1.0 upgrade

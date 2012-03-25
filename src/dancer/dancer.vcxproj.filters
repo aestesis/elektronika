@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6c16ec9a-562c-4b49-bd33-e9bd2417e3f1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{227f3652-5ab7-4cfe-8f6a-350e8eb8bf90}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7f38e219-185f-4cae-9cfd-a15ae6cbe8bf}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\animat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\matrice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\animat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\matrice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\BEN.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\BEN_JAMBES.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\BEN_TETE.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\BEN_TRONC.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\GRADE.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\GRADE_JAMBES.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\GRADE_TETE.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\GRADE_TRONC.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\HELMUT.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\HELMUT_JAMBES.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\HELMUT_TETE.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\HELMUT_TRONC.KPR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\Jack_jambes.kpr">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\Jack_tete.kpr">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\Jack_tronc.kpr">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\NEO_JACK.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\select.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\sources.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\dancer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

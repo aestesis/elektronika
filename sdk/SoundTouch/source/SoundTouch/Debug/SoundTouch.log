@@ -1,0 +1,46 @@
+﻿Build started 06/12/2010 06:34:28.
+     1>Project "D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\SoundTouch.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\SoundTouch.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt 3dnow_win.cpp AAFilter.cpp cpu_detect_x86_win.cpp FIFOSampleBuffer.cpp FIRFilter.cpp mmx_win.cpp RateTransposer.cpp SoundTouch.cpp sse_win.cpp TDStretch.cpp
+         3dnow_win.cpp
+         AAFilter.cpp
+         cpu_detect_x86_win.cpp
+         FIFOSampleBuffer.cpp
+         FIRFilter.cpp
+         mmx_win.cpp
+         RateTransposer.cpp
+         SoundTouch.cpp
+         sse_win.cpp
+         TDStretch.cpp
+         Generating Code...
+     1>d:\aestesis\code\elektrosdk\sdk\soundtouch\source\soundtouch\mmx_win.cpp(185): warning C4799: function 'TDStretchMMX::calculateCrossCorrelation' has no EMMS instruction
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\.\Debug\SoundTouch.lib) does not match the Library's OutputFile property value (D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\Debug\SoundTouchD.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(SoundTouch) does not match the Library's OutputFile property value (SoundTouchD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Debug\SoundTouchD.lib" /NOLOGO .\Debug/3dnow_win.obj
+         .\Debug/AAFilter.obj
+         .\Debug/cpu_detect_x86_win.obj
+         .\Debug/FIFOSampleBuffer.obj
+         .\Debug/FIRFilter.obj
+         .\Debug/mmx_win.obj
+         .\Debug/RateTransposer.obj
+         .\Debug/SoundTouch.obj
+         .\Debug/sse_win.obj
+         .\Debug/TDStretch.obj
+         SoundTouch.vcxproj -> D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\.\Debug\SoundTouch.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\SoundTouch.bsc" .\Debug\3dnow_win.sbr .\Debug\AAFilter.sbr .\Debug\cpu_detect_x86_win.sbr .\Debug\FIFOSampleBuffer.sbr .\Debug\FIRFilter.sbr .\Debug\mmx_win.sbr .\Debug\RateTransposer.sbr .\Debug\SoundTouch.sbr .\Debug\sse_win.sbr .\Debug\TDStretch.sbr
+       PostBuildEvent:
+         copy         .\Debug\SoundTouchD.lib         ..\..\lib\
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\SoundTouch.unsuccessfulbuild".
+         Touching ".\Debug\SoundTouch.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\SoundTouch.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.11

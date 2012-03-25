@@ -1,0 +1,123 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "r"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,0,0
+ PRODUCTVERSION 2,1,0,0
+ FILEFLAGSMASK 0x30003fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "aestesis"
+            VALUE "FileDescription", "Elektronika Source"
+            VALUE "FileVersion", "2.10"
+            VALUE "InternalName", "elektronika.ax"
+            VALUE "LegalCopyright", "Copyright (c) 2005, Renan Jegouzo"
+            VALUE "OriginalFilename", "elektronika.ax"
+            VALUE "ProductName", "Elektronika Source"
+            VALUE "ProductVersion", "2.10"
+            VALUE "ActiveMovie", "Filter dll"
+            VALUE "OLESelfRegister", "AM20"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "r\0"
+    "e\0"
+    "s\0"
+    "o\0"
+    "u\0"
+    "r\0"
+    "c\0"
+    "e\0"
+    ".\0"
+    "h\0"
+    "\0"
+    "\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\0"
+    "\n"
+    "\0"
+    "\0"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAPAESTESIS      BITMAP                  "aestesis-logo.bmp"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

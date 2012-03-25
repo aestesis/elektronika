@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="flash">
+</Property><Property Name="Solution File" Value="D:\aestesis\code\elektroSDK\src\flash_old\flash.sln">
+</Property><Property Name="Date" Value="jeudi 5 janvier 2006">
+</Property><Property Name="Time" Value="07:30">
+</Property></Properties><Event ErrorLevel="0" Project="flash" Source="flash.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="flash" Source="flash.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Alib" Source="..\Alib\Alib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="Alib" Source="..\Alib\Alib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="eleKtro" Source="..\eleKtro\eleKtro.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="eleKtro" Source="..\eleKtro\eleKtro.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="elektronika" Source="..\elektronika\elektronika.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="elektronika" Source="..\elektronika\elektronika.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="flash.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="flash.sln" Description="Converted">
+</Event></UpgradeLog>

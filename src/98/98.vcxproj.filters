@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{037d2a92-ead2-4322-8489-828ad0783dba}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c06e3b7f-79e7-47bb-ad4d-773a301f5e00}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{312ebdd2-b7eb-4c2a-8950-9d700f28cf2b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="automod.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="clear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="defplayer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="effect.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flammes.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="house.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle013.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="player.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sglurf.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="space.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="xtime.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="zygo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dsglurf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flammes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="house.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="patchly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xtime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zygo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dsglurf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="effect98.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flammes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="house.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patchly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zygo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

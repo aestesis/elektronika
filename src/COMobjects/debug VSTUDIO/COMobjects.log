@@ -1,0 +1,83 @@
+﻿Build started 06/12/2010 06:35:08.
+     1>Project "D:\aestesis\code\elektroSDK\src\COMobjects\COMobjects.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug VSTUDIO\COMobjects.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /W1 /nologo /char signed /env win32 /h "COMobjects_h.h" /tlb "debug VSTUDIO\COMobjects.tlb" COMobjects.idl 
+         Processing .\COMobjects.idl
+         COMobjects.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ocidl.idl
+         ocidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oleidl.idl
+         oleidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\servprov.idl
+         servprov.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\urlmon.idl
+         urlmon.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\msxml.idl
+         msxml.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ocidl.acf
+         ocidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"debug VSTUDIO\COMobjects.pch" /Fo"debug VSTUDIO\\" /Fd"debug VSTUDIO\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug VSTUDIO\\" /Fd"debug VSTUDIO\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt COMobjects.cpp Csum.cpp registry.cpp
+         registry.cpp
+         Csum.cpp
+         COMobjects.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug VSTUDIO\\" /Fd"debug VSTUDIO\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt COMobjects_i.c
+         COMobjects_i.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"debug VSTUDIO\COMobjects.res" COMobjects.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\COMobjects.dll.embed.manifest.res" "debug VSTUDIO\COMobjects_manifest.rc" 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\COMobjects\debug VSTUDIO\COMobjects.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\COMobjects.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/COMobjects.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"definition.def" /MANIFEST /ManifestFile:"debug VSTUDIO\COMobjects.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"debug VSTUDIO\COMobjects.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"debug VSTUDIO\COMobjects.lib" /MACHINE:X86 /DLL "debug VSTUDIO\COMobjects.res"
+         "debug VSTUDIO\COMobjects.dll.embed.manifest.res"
+         "debug VSTUDIO\COMobjects.obj"
+         "debug VSTUDIO\COMobjects_i.obj"
+         "debug VSTUDIO\Csum.obj"
+         "debug VSTUDIO\registry.obj"
+         "debug VSTUDIO\stdafx.obj"
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib
+     1>definition.def(2): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library debug VSTUDIO\COMobjects.lib and object debug VSTUDIO\COMobjects.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"debug VSTUDIO\COMobjects.dll.embed.manifest" /manifest "debug VSTUDIO\COMobjects.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\COMobjects.dll.embed.manifest.res" "debug VSTUDIO\COMobjects_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/COMobjects.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"definition.def" /MANIFEST /ManifestFile:"debug VSTUDIO\COMobjects.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"debug VSTUDIO\COMobjects.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"debug VSTUDIO\COMobjects.lib" /MACHINE:X86 /DLL "debug VSTUDIO\COMobjects.res"
+         "debug VSTUDIO\COMobjects.dll.embed.manifest.res"
+         "debug VSTUDIO\COMobjects.obj"
+         "debug VSTUDIO\COMobjects_i.obj"
+         "debug VSTUDIO\Csum.obj"
+         "debug VSTUDIO\registry.obj"
+         "debug VSTUDIO\stdafx.obj"
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib
+         COMobjects.vcxproj -> D:\aestesis\code\elektroSDK\src\COMobjects\debug VSTUDIO\COMobjects.dll
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\COMobjects.unsuccessfulbuild".
+         Touching "debug VSTUDIO\COMobjects.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\COMobjects\COMobjects.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.11

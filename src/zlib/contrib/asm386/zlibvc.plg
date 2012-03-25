@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlibvc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'D:\data\code\samples\zlib\contrib\asm386\zlib.rc'
+
+Creating command line "rc.exe /l 0x40c /fo".\Debug/zlib.res" /d "_DEBUG" "D:\data\code\samples\zlib\contrib\asm386\zlib.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7130.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_WINDLL" /D "_WIN32" /D "BUILD_ZLIBDLL" /D "ZLIB_DLL" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"D:\data\code\samples\zlib\contrib\asm386\adler32.c"
+"D:\data\code\samples\zlib\contrib\asm386\compress.c"
+"D:\data\code\samples\zlib\contrib\asm386\crc32.c"
+"D:\data\code\samples\zlib\contrib\asm386\deflate.c"
+"D:\data\code\samples\zlib\contrib\asm386\gvmat32c.c"
+"D:\data\code\samples\zlib\contrib\asm386\gzio.c"
+"D:\data\code\samples\zlib\contrib\asm386\infblock.c"
+"D:\data\code\samples\zlib\contrib\asm386\infcodes.c"
+"D:\data\code\samples\zlib\contrib\asm386\inffast.c"
+"D:\data\code\samples\zlib\contrib\asm386\inflate.c"
+"D:\data\code\samples\zlib\contrib\asm386\inftrees.c"
+"D:\data\code\samples\zlib\contrib\asm386\infutil.c"
+"D:\data\code\samples\zlib\contrib\asm386\trees.c"
+"D:\data\code\samples\zlib\contrib\asm386\uncompr.c"
+"D:\data\code\samples\zlib\contrib\asm386\unzip.c"
+"D:\data\code\samples\zlib\contrib\asm386\zip.c"
+"D:\data\code\samples\zlib\contrib\asm386\zutil.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7130.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7131.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:".\Debug/zlib.pdb" /debug /machine:I386 /def:".\zlibvc.def" /out:".\Debug\zlib.dll" /implib:".\Debug/zlib.lib" 
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\deflate.obj
+.\Debug\gvmat32c.obj
+.\Debug\gzio.obj
+.\Debug\infblock.obj
+.\Debug\infcodes.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\infutil.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\unzip.obj
+.\Debug\zip.obj
+.\Debug\zutil.obj
+.\Debug\zlib.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7131.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open D:\data\code\samples\zlib\contrib\asm386\zlib.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+zlib.dll - 1 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

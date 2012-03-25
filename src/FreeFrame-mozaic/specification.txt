@@ -1,0 +1,786 @@
+**************************************************************************************************
+* FreeFrame Open Video Plugin System Specification						 *
+**************************************************************************************************
+* Version 1.0 - First full public release                                                        *
+**************************************************************************************************
+
+Copyright (c) 2002,2003 www.freeframe.org
+All rights reserved.
+
+This document is a functional specification for the FreeFrame application programmers interface
+(API).  It is intended to be subject to the same licence as the code supplied as examples of 
+use of the FreeFrame API.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+   * Neither the name of FreeFrame nor the names of its
+     contributors may be used to endorse or promote products derived
+     from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS 
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY 
+AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER 
+IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+**************************************************************************************************
+
+FreeFrame plugins are distributed and used as compiled shared objects (.so) in linux and 
+Mac OSX, as Dynamically Linked Libraries (.dll) in Windows.
+
+FreeFrame Plugins export a single function: plugMain
+This is passed 3 values: a 32-bit Function Code, a 32-bit Input Value and a 32-bit instance identifier.
+It returns a 32-bit Output Value.
+The input values and output values have different types according to the function code.
+This may be implemented differently on different platforms in different languages, but the
+format of the values must be consistent.
+
+The following types are used:
+  
+  ==============================================================================================
+  Type                          Range of type      Notes
+  ============================  =================  ============================================= 
+  32-bit unsigned integer       0 to 4294967295    
+  32-bit pointer                0 to 4294967295    needs to be a valid memory location
+  32-bit IEEE float             -lots to +lots     1 sign bit, 8 bit exponent, 24 bit mantissa 
+  ==============================================================================================
+  
+  ======================================================================================================
+  Function Code Table
+  ======================================================================================================
+  Code   Function               Input Value                     	Output Value
+  =====  =====================  ==============================  	================================
+  0      GetInfo                Unused                          	Pointer to a PluginInfoStruct
+  1      Initialise             Unused                          	Success/Error code
+  2      DeInitialise           Unused                          	Success/Error code
+  3      ProcessFrame           Pointer to a frame of video     	Success/Error code
+  4      GetNumParameters       Unused                          	NumParameters
+  5      GetParameterName       ParameterNumber                 	Pointer to ParameterName
+  6      GetParameterDefault    ParameterNumber                 	pointer to ParameterDefaultValue
+  7      GetParameterDisplay    ParameterNumber                 	Pointer to ParameterDisplayValue
+  8      SetParameter           Pointer to SetParameterStruct   	Success/Error code
+  9      GetParameter           Parameter number                	Pointer to ParameterValue  
+  10     GetPluginCaps          PluginCapsIndex                 	Supported/Unsupported/Value
+  11     Instantiate		VideoInfoStruct				InstanceIdentifier
+  12	 DeInstantiate		Unused					Success/Error code
+  13	 GetExtendedInfo	Unused					Pointer to PluginExtendedInfoStruct
+  14	 ProcessFrameCopy	Pointer to ProcessFrameCopyStruct	Success/Error code
+  15	 GetParameterType	ParameterNumber				ParameterType
+  16     GetInputStatus		InputChannel				InputStatus
+  =====  =====================  ======================================  ================================
+  
+
+  ==============================================================================================
+  RETURN CODES
+  ==============================================================================================
+  FF_FAIL       (hex) FFFFFFFF
+  FF_SUCCESS    0 
+
+  notes: 1 - In functions that return error codes any other value other than 0 is assumed to be an 
+            error code these are be defined in each function below.
+        
+         2 - In fuctions that return a pointer, FFFFFFFF also represents a faliure condition
+        
+
+  FF_TRUE       1
+  FF_FALSE      0
+  ==============================================================================================
+
+
+
+  
+  ================================================================================
+  STRUCTURES
+  ================================================================================
+
+  
+  ================================================================================
+  PluginInfoStruct
+  ================================================================================
+  APIMajorVersion: 32-bit unsigned integer - represents number before decimal point
+                   in version numbers
+  APIMinorVersion: 32-bit unsigned integer - represents number after decimal point
+                   in version numbers
+                   Example: 0.511 APIMajorVersion=0, APIMinorVersion=511
+  PluginUniqueID: 4 1-byte ascii characters (32 bits) *not null terminated*
+  PluginName: 16 1-byte ascii characters (32 bits)    *not null terminated*
+  PluginType: 32-bit unsigned integer 
+              Current meaningful values: 0=effect 1=source
+  ================================================================================
+  Plugins of PluginType effect are passed frames of video, which they then modify
+  Source Plugins are simply passed a pointer where they paint frames of video
+  One example of a source plugin would by a visual synthesiser which uses the 
+  parameters to synthesize video.
+  ================================================================================
+  FreeFrame Minor Version numbers should always have 3 didgits - so divide the 
+  minor version number by 1000 and add the major version number to get the full
+  version number.
+  ================================================================================
+
+
+  ================================================================================
+  VideoInfoStruct
+  ================================================================================
+  FrameWidth: 32-bit unsigned integer
+  FrameHeight: 32-bit unsigned integer
+  BitDepth: 32-bit unsigned integer (0=16bit 1=24bit 2=32bit)
+  Orientation: 32-bit unsigned integer (see below)
+  ================================================================================
+  BitDepth current meaningful values:
+  16bit is 5-6-5 packed
+  24bit is packed
+  32bit is also suitable for 32-bit unsigned integer aligned 24bit
+  ================================================================================		
+  Plugins using 32bit as byte aligned 24 bit video should be careful not to 
+  overwrite the alpha (4th) byte of each pixel (eg. by using it as a processing 
+  space) as this may be used soon by hosts with 32bit video processing becoming 
+  more accessible.
+  ================================================================================
+  Orientation current meaningful values:
+  1=origin at top left 
+  2=origin at bottom left
+  Note: In mode 1 the first pixel at the pointer to the frame is the top left
+  in mode 2 it is the bottom left. This is particuarly important for text and
+  live input.
+  ================================================================================
+    
+
+  ================================================================================
+  NumParameters: 32-bit unsigned integer
+  ================================================================================
+  The number of parameters that the plugin implements
+  ================================================================================
+  
+  
+  ================================================================================
+  ParameterNumber: 32-bit unsigned integer
+  ================================================================================
+  Parameter Numbers start at 0
+  ================================================================================
+  
+  
+  ================================================================================
+  ParameterName:  16 1-byte ASCII characters *not null terminated*
+  ================================================================================
+  The name of the Parameter as it will be displayed by the host on the UI
+  ================================================================================
+  
+  
+  ================================================================================
+  ParameterDefaultValue: 32-bit pointer to Paramater Value
+  ================================================================================
+  The initial default value for this parameter.
+  Plugins should always specify default values.
+  Sometimes a host may not implement all parameters on a plugin,
+  so the plugin must use default values untill told to do otherwise by the host.
+  Apart from text parameters, FreeFrame parameter values are always 32-bit floats,
+  and the range of values permitted is STRICTLY 0-1.
+  This allows faster processing and a good range of values.
+  ================================================================================
+  
+  
+  ================================================================================
+  ParameterDisplayValue: 16 1-byte ASCII characters
+  ================================================================================
+  The current display value of this parameter. The plugin can display whatever it
+  likes here  eg. just the float, a rounded 0-100 '%' representation for the user
+  words representing states like 'on' / 'off'
+  different effects that the one plugin can do .. etc. etc. 
+  ================================================================================
+  
+  
+  ================================================================================
+  SetParameterStruct
+  ================================================================================
+  ParameterNumber: 32-bit unsigned integer
+  NewParameterValue: 32-bit pointer to Paramater Value
+  ================================================================================
+  
+  
+  ================================================================================
+  Parameter Value: 32-bit float from 0-1 / null terminated string
+  ================================================================================
+  Apart from Text Paramaters, FreeFrame parameter values are always 32bit floats,
+  and the range of values permitted is STRICTLY 0-1 ( 0<= param <= 1 )
+  This allows faster processing and a good range of values over a standard 
+  range, so the host can run up sliders or similar for the plugin.
+  The Use of any values outside this range will result in hideous incompatabilities.
+  The ParameterDisplayValue can be used to display whatever actual values 
+  the plugin likes eg. 0-255 0-767 1-256 or whatever.
+  The plugin should translate the standard 0-1 float range into the values it
+  needs for its processing.
+
+  Text Paramaters are null terminated strings.
+  ================================================================================
+  
+  
+  ================================================================================
+  PluginCapsIndex: 32-bit unsigned integer
+  ================================================================================
+  
+  0 = 16bit 5-6-5
+  1 = 24bit packed
+  2 = 32bit (or 24bit 32-bit aligned)
+  
+  3 - Plugin Supports ProcessFrameCopy function
+    
+  return values (32-bit unsigned integer):
+  FF_TRUE
+  FF_FALSE
+
+
+  Calls to these caps indexes are only meaningful if the plugin has reported
+   that it supports ProcessFrameCopy -
+
+  10 - Minimum Input Frames
+   0 (FF_FALSE) capability not supported  (may be an API version error or something)
+   or
+   minimum number of input frames plugin requires
+
+
+  11 - Maximum Input Frames
+   0 (FF_FALSE) capability not supported  (may be an API version error or something)
+   or
+   maximum number of input frames plugin can process 
+
+
+  15 - Plugin optimised for Copy or InPlace processing
+   return values (32-bit unsigned integer):
+   0=no preference
+   1=InPlace processing is faster
+   2=Copy processing is faster
+   3=Both are optimised
+  
+  ================================================================================
+  The PluginCapsIndex specifies certain capabilities of a plugin that the host may
+  want to enquire about. 
+  Bitdepth format of the video:
+  The host asks the plugin if it is capable of its favourite bit depth, 
+  and use that if it is available. If not the host may decide not to use the 
+  plugin and deinitialise it, or it may enquire again to see if a second choice 
+  format is supported.
+  ================================================================================
+  Supported/Unsupported/Dword : 0=unsupported 1=supported
+  ================================================================================  
+  
+  
+   returns true / false / dword value to indicate capability of feature specified by index
+    
+     parameters:
+     32-bit unsigned integer index - index of parameter 
+     allowed values:
+  
+     0 - 16 bit video
+     1 - 24 bit video
+     2 - 32 bit video
+     3 - Plugin Supports ProcessFrameCopy function
+  
+     return values (32-bit unsigned integer):
+     FF_TRUE
+     FF_FALSE
+  
+  
+     10 - Minimum Input Frames
+         0 (FF_FALSE) capability not supported  (may be an API version error or something)
+         or
+         minimum number of input frames plugin requires
+  
+  
+     11 - Maximum Input Frames
+         0 (FF_FALSE) capability not supported  (may be an API version error or something)
+         or
+         maximum number of input frames plugin can process 
+  
+    
+     15 - Plugin optimised for Copy or InPlace processing
+         return values (32-bit unsigned integer):
+
+         0 = Neither Optimised - no preference
+         1 = InPlace processing is faster
+         2 = Copy processing is faster
+         3 = Both are optimised  
+  
+  
+  =====================================================================================
+  PluginExtendedInfoStruct
+  =====================================================================================
+  PluginMajorVersion: 32-bit unsigned integer - represents number before decimal point
+    					   in version numbers
+  PluginMinorVersion: 32-bit unsigned integer - represents number after decimal point
+					   in version numbers	   
+  
+  Description: 32-bit pointer to a null terminated ASCII text block 
+               - or 0 if not provided by plugin
+     A description of the plugin - intended to be made available to the user
+     in hosts supporting this function via the UI.
+  
+  About: 32-bit pointer to a null terminated ASCII text block
+             - or 0 if not provided by plugin
+     Author and License information
+
+  FreeFrameExtendedDataSize: dword - size in bytes of the FreeFrameExtendedDataBlock
+                      - or 0 if not provided by plugin
+  FreeFrameExtendedDataBlock: 32-bit pointer to a FreeFrame ExtendedDataBlock
+		      - this interface is not yet in use, but provided
+                        to allow the freeframe project to establish an 
+		        extended data block format in the future.
+			Please do not use until a data format has been agreed.
+
+  =====================================================================================               
+  FreeFrame Minor Version numbers should always have 3 digits - so divide the 
+  minor version number by 1000 and add the major version number to get the full
+  version number.  Example: 0.751 APIMajorVersion=0, APIMinorVersion=751
+  =====================================================================================                                  
+
+
+  ================================================================================
+  ProcessFrameCopyStruct
+  ================================================================================
+  DWORD numInputFrames
+  32bit pointer to array of pointers to input frames
+  32bit pointer to output frame   
+  ================================================================================
+
+
+  ================================================================================
+  ParameterType 
+  ================================================================================
+  
+  ParameterType  - to tell the host what kind of data the
+	parameter is. Hosts may decide to present an appropriate visual interface
+	depending on the paramater type. All FreeFrame data for the moment is 
+	passed as 32bit floats from 0-1 except text data.
+   
+  ================================================================================  
+  Value	Type	  Description
+  ================================================================================  
+  
+  0     boolean   0.0f defined as false and anything else defined as true - eg. checkbox
+    
+  1     event     similar to boolean but for a momentary push button style trigger 
+  	          1.0f is set momentarily to denote a simple event - eg. pushbutton / keystroke
+    	
+  2	Red 
+  3     Green
+  4     Blue      the 3 colours eg. for a colourpicker
+   
+  5     Xpos
+  6     Ypos      for x,y video interaction eg. cursor - these should denote
+                  position within the video frames as specified in the 
+                  VideoInfoStruct         
+
+  10    Standard  A standard paramater representing an unspecified value
+
+  100   Text      A null terminated text input type - *note* only this type has a 
+		  different data type for the moment       
+  
+  ================================================================================
+
+
+  ================================================================================
+  InputChannel				
+  ================================================================================
+  Input channel as relates to the use of Multiple Inputs in ProcessFrameCopy
+  The first channel is 0
+  ================================================================================
+
+
+  ================================================================================
+  InputStatus
+  ================================================================================
+  Status of Input Channels as relates to the use of Multiple Inputs in 
+  ProcessFrameCopy
+  0: Not in use
+  1: In Use 
+  ================================================================================
+
+
+
+  ================================================================================
+   functions
+  ================================================================================  
+
+
+  ================================================================================
+   plugMain - The one and only exposed function
+  ================================================================================
+   parameters: 
+    functionCode - tells the plugin which function is being called
+    pParam - 32-bit parameter or 32-bit pointer to parameter structure
+  
+   PLUGIN DEVELOPERS:  you shouldn't need to change this function
+    
+  ================================================================================
+
+   Global vs Instance Specific Functions:
+
+   Some Functions are specific to an instance of a plugin, and thus require a 
+   valid InstanceID in the InstanceID field, others concern global parameters
+   that are the same for all instances, and so do not require a valid InstanceID.
+
+   Global functions:
+
+    GetInfo                
+    Initialise             
+    DeInitialise           
+    ProcessFrame           
+    GetNumParameters       
+    GetParameterName       
+    GetParameterDefault         
+    GetPluginCaps  
+    GetExtendedInfo	
+    GetParameterType
+
+   Instance specific functions:
+
+    GetParameterDisplay    
+    SetParameter           
+    GetParameter  
+    Instantiate		
+    DeInstantiate
+    ProcessFrameCopy
+    GetInputStatus
+
+  ================================================================================ 
+
+
+  ================================================================================
+   getInfo
+  ================================================================================
+   
+   Parameters: 
+   none
+   
+   Return Values:   
+   32-bit pointer to PlugInfoStruct
+   FF_FAIL
+
+   gets information about the plugin - version, unique id, short name and type 
+   This function should be identical in all future versions of the FreeFrame API
+      
+   HOST: call this function first to get version information
+         the version defines the other fucntion codes that are supported
+         supported function codes are listed in the documentation www.freeframe.org
+  
+  
+  ================================================================================
+   initialise
+  ================================================================================
+   
+   Parameters:
+   32-bit pointer to a VideoInfoStruct
+   
+   Return Values: (32-bit unsigned integer)
+   FF_SUCCESS - success
+   FF_FAIL 
+   (meaningful error values to be defined)
+
+   Prepare the Plug-in for processing.  
+   Set default values, allocate memory
+   When the plug-in returns from this function it must be ready to proces a frame
+    
+   HOST:    This function *must* return before a call to processFrame.  Pointer to 
+            videoInfoStruct *must* be valid until function returns
+   PLUGIN:  make a copy of the videoInfoStruct locally as pointer may not be valid after
+            function returns
+  
+  
+  ================================================================================
+   deInitialise
+  ================================================================================
+   
+   Parameters:
+   none
+   
+   Return Values: (32-bit unsigned integer)
+   FF_SUCCESS - success
+   FF_FAIL on error
+   (meaningful error values to be defined)
+  
+   Tidy up   
+   Deallocate memory
+  
+  
+   HOST: This *must* be the last function called on the plugin
+  
+  
+  ================================================================================
+   getNumParameters 
+  ================================================================================
+  
+   Parameters:
+   none
+   
+   Return Values: (32-bit unsigned integer)
+   number of parameters in plugin
+   
+   Plugin developers should normally expect hosts to expose up to 8 parameters
+   Some hosts may only expose 1 or 4 parameters, some may expose larger numbers.
+   All parameters should have sensible defaults incase the user is unable to 
+   control them from the host.
+   
+   Host developers should try to implement at least the first 4 parameters.
+   8 is the recommended number to expose.
+   
+   FF_FAIL on error
+  
+  
+  ================================================================================
+   getParameterName
+  ================================================================================
+  
+   returns pointer to 16 byte char array containing the name of parameter specified by index
+  
+   parameters: (32-bit unsigned integer)
+   index - index of parameter 
+  
+   return values: (32-bit pointer to char):
+   32-bit pointer to array of char
+   FF_FAIL on error
+  
+  
+  
+  ================================================================================
+   getParameterDefault
+  ================================================================================
+  
+   returns default value of parameter specified by index as 32-bit float 0<=value<=1
+  
+   parameters: (32-bit unsigned integer)
+   index - index of parameter 
+  
+   return values (32-bit float):
+   32-bit float value
+   FF_FAIL on error
+  
+  
+  
+  ================================================================================
+   getParameterDisplay
+  ================================================================================
+  
+   returns pointer to array of 16 char containing a string to display as the value of
+   parameter index
+  
+   parameters: (32-bit unsigned integer)
+   index - index of parameter 
+  
+   return values (32-bit pointer to char):
+   32-bit pointer to array of char
+   FF_FAIL on error
+  
+  
+  
+  ================================================================================
+   setParameter
+  ================================================================================
+  
+   Sets the value of parameter specified by index
+   value is a 32-bit IEEE float 0<=value<=1
+  
+   parameters:
+   32-bit unsigned integer index - index of parameter 
+   32-bit float IEEE value
+  
+   return values (32-bit unsigned integer):
+   FF_FAIL on error
+  
+  
+  
+  ================================================================================
+   getParameter
+  ================================================================================
+  
+   returns value of parameter specified by index as 32-bit float 0<=value<=1
+  
+   parameters:
+   32-bit unsigned integer index - index of parameter 
+  
+   return values (32-bit IEEE float):
+   value of indexed parameter 
+   FF_FAIL on error
+  
+  
+  
+  ================================================================================
+   processFrame
+  ================================================================================
+  
+   process a frame of video 'in place' 
+  
+   parameters:
+   32-bit pointer to byte array containing frame of video
+  
+   return values (32-bit unsigned integer):
+   FF_SUCCESS
+   FF_FAIL on error
+  
+   HOST: pFrame needs to be a valid pointer throughout this call as the plugin processes
+   the frame 'in place'.
+  
+   This is also the basic frameport for source plugins.
+  
+  ================================================================================
+   getpluginCaps
+  ================================================================================
+  
+   returns true / false / dword value to indicate capability of feature specified by index
+  
+   parameters:
+   32-bit unsigned integer index - index of parameter 
+   allowed values:
+
+   0 - 16 bit video
+   1 - 24 bit video
+   2 - 32 bit video
+   3 - Plugin Supports ProcessFrameCopy function
+
+   return values (32-bit unsigned integer):
+   FF_TRUE
+   FF_FALSE
+
+
+   10 - Minimum Input Frames
+       0 (FF_FALSE) capability not supported  (may be an API version error or something)
+       or
+       minimum number of input frames plugin requires
+
+
+   11 - Maximum Input Frames
+       0 (FF_FALSE) capability not supported  (may be an API version error or something)
+       or
+       maximum number of input frames plugin can process 
+
+  
+   15 - Plugin optimised for Copy or InPlace processing
+       return values (32-bit unsigned integer):
+       0=no preference
+       1=InPlace processing is faster
+       2=Copy processing is faster
+       3=Both are optimised
+  
+  ================================================================================
+   instantiate
+  ================================================================================
+   
+   Parameters:
+   32-bit pointer to a VideoInfoStruct
+   
+   Return Values: (32-bit unsigned integer)
+   FF_SUCCESS - success
+   FF_FAIL 
+   (meaningful error values to be defined)
+
+   Prepare an instance of the Plug-in for processing.  
+   Set default values, allocate memory
+   When the plug-in returns from this function it must be ready to proces a frame
+    
+   HOST:    This function *must* return before a call to processFrame.  Pointer to 
+            videoInfoStruct *must* be valid until function returns
+   PLUGIN:  make a copy of the videoInfoStruct locally as pointer may not be valid after
+            function returns
+  
+  
+  ================================================================================
+   deInstantiate
+  ================================================================================
+   
+   Parameters:
+   none
+   
+   Return Values: (32-bit unsigned integer)
+   FF_SUCCESS - success
+   FF_FAIL on error
+   (meaningful error values to be defined)
+  
+   Tidy up   
+   Deallocate memory
+  
+  
+   HOST: This function must be called to close an instance of the plugin
+	 All instances should be closed before deInitialising the plugin
+
+   PLUGIN: All memory associated with the instance being deInited must be freed
+           here.
+
+
+  ================================================================================
+   getExtendedInfo
+  ================================================================================
+   
+   Paramaters:
+   none
+
+   Return values: (32-bit unsigned integer)
+   32-bit pointer to PluginExtendedInfoStruct
+   FF_FAIL on error
+
+
+  ================================================================================
+   processFrameCopy
+  ================================================================================
+
+   Parameter:
+   32-bit pointer to a ProcessFrameCopyStruct
+
+   Return Values: (32-bit unsigned integer)
+   FF_SUCCESS - success
+   FF_FAIL on error
+   (meaningful error values to be defined)
+
+   The ProcessFrameCopy function performs a source->dest buffer frame process
+   in effects plugins.
+
+   It is capable of processing multiple input frames - pluginGetCaps should
+   be used to see how many input frames the plugin would like.
+
+   PLUGIN: Effect Plugins must support the ProcessFrame (in-place) method of 
+	   processing. This method is optional. Plugins should specify if they
+	   are capable of this kind of processing - and if they have optimised
+	   a particular method - in the Plugin Caps system.
+	   
+	   Source Plugins should not use this function as they do not require
+	   Input frames. Source Plugins should just use ProcessFrame
+
+
+  ================================================================================
+   getParameterType
+  ================================================================================
+
+   parameters: (32-bit unsigned integer)
+   index - index of parameter 
+  
+   return values (32-bit unsigned integer):
+   ParamaterType
+   FF_FAIL on error
+
+
+  ================================================================================
+   getInputStatus		
+  ================================================================================
+
+   Parameter: 
+   InputChannel	- first channel is 0			
+   
+   Return Values (32-bit unsigned integer):
+   0: Not in use
+   1: In Use
+   
+   This function is provided to allow hosts to optimise the rendering of input 
+   frames. Due to user input a plugin may only plan to render certain input 
+   channels - this function allows hosts to ask the plugin which input channels
+   it plans to render.
+
+
+  ================================================================================
+  ================================================================================

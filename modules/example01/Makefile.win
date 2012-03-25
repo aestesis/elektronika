@@ -1,0 +1,31 @@
+# Project: example01
+# Makefile created by Dev-C++ 4.9.4.1
+
+CC   = g++.exe
+WINDRES = windres.exe
+RES  = example01.res
+OBJ  = source/main.o $(RES)
+LIBS =  -L"C:\Dev-C++\lib" --no-export-all-symbols --add-stdcall-alias
+INCS =  -I"C:\Dev-C++\include"  -I"C:\Dev-C++\include\g++-3"  -I"C:\Dev-C++\include" 
+BIN  = ../eleKtronika/plugins/example01.dll
+CFLAGS = $(INCS) -DBUILDING_DLL=1 -s
+
+.PHONY: clean
+
+all: ../eleKtronika/plugins/example01.dll
+
+clean:
+	rm -f $(OBJ) $(BIN)
+
+DLLWRAP=dllwrap.exe
+DEFFILE=libexample01.def
+STATICLIB=libexample01.a
+
+$(BIN): $(OBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --driver-name c++ --implib $(STATICLIB) $(OBJ) -o $(BIN) $(LIBS)
+
+source/main.o: source/main.cpp
+	$(CC) -c source/main.cpp -o source/main.o $(CFLAGS)
+
+example01.res: 
+	$(WINDRES) -i EXAMPL~1.RC -I rc -o example01.res -O coff 

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "remote_install", "remote_install.vdproj", "{D2D2D981-08C8-4358-89CC-484EB686FA55}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D2D2D981-08C8-4358-89CC-484EB686FA55}.Debug.ActiveCfg = Debug
+		{D2D2D981-08C8-4358-89CC-484EB686FA55}.Debug.Build.0 = Debug
+		{D2D2D981-08C8-4358-89CC-484EB686FA55}.Release.ActiveCfg = Release
+		{D2D2D981-08C8-4358-89CC-484EB686FA55}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

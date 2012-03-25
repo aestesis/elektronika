@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>CSoundMix Class Reference</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>CSoundMix  Class Reference</h1>
+<p>
+<code>#include &lt;<a class="el" href="class_csoundmix-include.html">sndmix.h</a>&gt;</code>
+<p>
+<p>Class diagram for CSoundMix:
+<p><center><img src="class_csoundmix.gif" usemap="#CSoundMix_map" border="0"></center>
+<map name="CSoundMix_map"><p>
+<area href="class_nativesoundmix.html" ALT="NativeSoundMix" shape="rect" coords="0,56,104,80">
+</MAP></P>
+<a href="class_csoundmix-members.html">List of all members.</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td colspan=4><br><h2>Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a0">FreeBuffers</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a1">AllocBuffers</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a2">EnlargeBuffers</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void*&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a3">GetScratch</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top><a name="a4" doxytag="CSoundMix::ReleaseScratch"></a>
+void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a4">ReleaseScratch</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a5">BuildBuffer</a> ( int bufferId )</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a6">OpenDevice</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a7">CloseDevice</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a8">Construct</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a9">Destruct</a> ()</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a10">AddSound</a> (<a class="el" href="class_csoundchannel.html">CSoundChannel</a>*)</td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>void&nbsp;</td><td valign=top><a class="el" href="class_csoundmix.html#a18">MarkBufferComplete</a> (int i)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Class CSoundMix continually mixes the sound output stream. It is the parent class of <a class="el" href="class_nativesoundmix.html">NativeSoundMix</a> which actually talks to the hardware device. <hr><h2>Member Function Documentation</h2>
+
+<h3><a name="a0" doxytag="CSoundMix::FreeBuffers"></a>void CSoundMix::FreeBuffers ()</h3>
+<div class="in">
+
+<p>
+Deletes all the sound buffers.
+<p>
+</div>
+
+<h3><a name="a1" doxytag="CSoundMix::AllocBuffers"></a>void CSoundMix::AllocBuffers ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Allocates 'nBuffers' buffers, each of size bufferBytes. Sets up the waveHdr structure associated with the buffers. </div>
+
+<h3><a name="a2" doxytag="CSoundMix::EnlargeBuffers"></a>void CSoundMix::EnlargeBuffers ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Increases the buffer count by one, allocates the memory for that buffer, and sets up the waveHdr structure. </div>
+
+<h3><a name="a3" doxytag="CSoundMix::GetScratch"></a>void * CSoundMix::GetScratch ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+The scratch is a block of memory used for mixing sound channels. </div>
+
+<h3><a name="a5" doxytag="CSoundMix::BuildBuffer"></a>void CSoundMix::BuildBuffer (int <em>bufferId</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+BuildBuffer mixes and prepares the specified buffer. The next chunk of sound that is waiting to be played is mixed to the buffer specified by bufferId. After this call, the buffer should be sent to be sent to the sound card. </div>
+
+<h3><a name="a6" doxytag="CSoundMix::OpenDevice"></a>void CSoundMix::OpenDevice ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Open device goes through the following sequence of events:<br>
+ 1) Enters a critical section<br>
+ 2) Gets the device capabilities<br>
+ 3) Calls <a class="el" href="class_nativesoundmix.html#a6">NativeSoundMix::OpenNativeDevice</a>()<br>
+ 4) Allocates and buffers calls BuildAndWrite<br>
+ 5) Calls <a class="el" href="class_nativesoundmix.html#a7">NativeSoundMix::BuffersReady</a>()<br>
+ </div>
+
+<h3><a name="a7" doxytag="CSoundMix::CloseDevice"></a>void CSoundMix::CloseDevice ()</h3>
+<div class="in">
+
+<p>
+
+<p>
+Calls through to <a class="el" href="class_nativesoundmix.html#a9">NativeSoundMix::CloseNativeDevice</a>(). </div>
+
+<h3><a name="a8" doxytag="CSoundMix::Construct"></a>void CSoundMix::Construct ()</h3>
+<div class="in">
+
+<p>
+Has the same functionality as a constructor - done so global does not need _atexit.
+<p>
+</div>
+
+<h3><a name="a9" doxytag="CSoundMix::Destruct"></a>void CSoundMix::Destruct ()</h3>
+<div class="in">
+
+<p>
+Same functionality as a destructor.
+<p>
+</div>
+
+<h3><a name="a10" doxytag="CSoundMix::AddSound"></a>void CSoundMix::AddSound (<a class="el" href="class_csoundchannel.html">CSoundChannel</a> *)</h3>
+<div class="in">
+
+<p>
+
+<p>
+AddSound takes a pointer to a <a class="el" href="class_csoundchannel.html">CSoundChannel</a> and prepares the <a class="el" href="class_csoundchannel.html">CSoundChannel</a> for playing. It then enters a critical section, and adds the sound to the list of sounds being played. If the sound device is not open, AddSound will open it. </div>
+
+<h3><a name="a18" doxytag="CSoundMix::MarkBufferComplete"></a>void CSoundMix::MarkBufferComplete (int <em>i</em>)</h3>
+<div class="in">
+
+<p>
+
+<p>
+Given a buffer index, marks that buffer as completed playing. </div>
+<hr>The documentation for this classwas generated from the following file:<ul>
+<li>sndmix.h</ul>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

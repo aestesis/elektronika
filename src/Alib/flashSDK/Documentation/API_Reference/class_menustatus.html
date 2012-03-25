@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta name="robots" content="noindex">
+<title>MenuStatus Struct Reference</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body bgcolor="#ffffff">
+<center>
+<a href="hierarchy.html">Class Hierarchy</a> &nbsp; <a href="annotated.html">Compound List</a> &nbsp; <a href="functions.html">Compound Members</a> &nbsp; <a href="pages.html">Related Pages</a> &nbsp; </center>
+<hr><h1>MenuStatus  Struct Reference</h1>
+<p>
+<code>#include &lt;<a class="el" href="class_menustatus-include.html">splayer.h</a>&gt;</code>
+<p>
+<a href="class_menustatus-members.html">List of all members.</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td colspan=4><br><h2>Public Members</h2></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a0">view100percent</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a1">viewAll</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a2">zoomIn</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a3">zoomOut</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a4">play</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a5">rewind</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a6">forward</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a7">back</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a8">loop</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a9">view100Check</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a10">viewAllCheck</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a11">highQChecked</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a12">loopCheck</a></td></tr>
+<tr><td><img src="null.gif"></td><td><img src="null.gif"></td><td nowrap align=right valign=top>BOOL&nbsp;</td><td valign=top><a class="el" href="class_menustatus.html#a13">playCheck</a></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+MenuStatus is filled and passed to the Native code in order to specify which menus should be displayed. Flash will make this call whenever the menu state changes. The first group (starting with view100percent) are boolean true if the option should be enabled on the menu. The second group (starting with view100Check) are true if the item should be checked. <hr><h2>Member Data Documentation</h2>
+
+<h3><a name="a0" doxytag="MenuStatus::view100percent"></a>BOOL MenuStatus::view100percent</h3>
+<div class="in">
+
+<p>
+true if the movie can be set to 1:1 zoom.
+<p>
+</div>
+
+<h3><a name="a1" doxytag="MenuStatus::viewAll"></a>BOOL MenuStatus::viewAll</h3>
+<div class="in">
+
+<p>
+true if the movie can be stretched to fit.
+<p>
+</div>
+
+<h3><a name="a2" doxytag="MenuStatus::zoomIn"></a>BOOL MenuStatus::zoomIn</h3>
+<div class="in">
+
+<p>
+true if the user can zoom in.
+<p>
+</div>
+
+<h3><a name="a3" doxytag="MenuStatus::zoomOut"></a>BOOL MenuStatus::zoomOut</h3>
+<div class="in">
+
+<p>
+true if the user can zoom out.
+<p>
+</div>
+
+<h3><a name="a4" doxytag="MenuStatus::play"></a>BOOL MenuStatus::play</h3>
+<div class="in">
+
+<p>
+true if the user can play a movie.
+<p>
+</div>
+
+<h3><a name="a5" doxytag="MenuStatus::rewind"></a>BOOL MenuStatus::rewind</h3>
+<div class="in">
+
+<p>
+true if the current movie can be rewound.
+<p>
+</div>
+
+<h3><a name="a6" doxytag="MenuStatus::forward"></a>BOOL MenuStatus::forward</h3>
+<div class="in">
+
+<p>
+true if the user can step forward one frame.
+<p>
+</div>
+
+<h3><a name="a7" doxytag="MenuStatus::back"></a>BOOL MenuStatus::back</h3>
+<div class="in">
+
+<p>
+true if the user can step backward one frame.
+<p>
+</div>
+
+<h3><a name="a8" doxytag="MenuStatus::loop"></a>BOOL MenuStatus::loop</h3>
+<div class="in">
+
+<p>
+true if the current movie can be looped.
+<p>
+</div>
+
+<h3><a name="a9" doxytag="MenuStatus::view100Check"></a>BOOL MenuStatus::view100Check</h3>
+<div class="in">
+
+<p>
+true if the movie is at 1:1 zoom.
+<p>
+</div>
+
+<h3><a name="a10" doxytag="MenuStatus::viewAllCheck"></a>BOOL MenuStatus::viewAllCheck</h3>
+<div class="in">
+
+<p>
+true if the movie is stretched to fit the window.
+<p>
+</div>
+
+<h3><a name="a11" doxytag="MenuStatus::highQChecked"></a>BOOL MenuStatus::highQChecked</h3>
+<div class="in">
+
+<p>
+true if high quality is on.
+<p>
+</div>
+
+<h3><a name="a12" doxytag="MenuStatus::loopCheck"></a>BOOL MenuStatus::loopCheck</h3>
+<div class="in">
+
+<p>
+true if looping is on.
+<p>
+</div>
+
+<h3><a name="a13" doxytag="MenuStatus::playCheck"></a>BOOL MenuStatus::playCheck</h3>
+<div class="in">
+
+<p>
+true if playing.
+<p>
+</div>
+<hr>The documentation for this structwas generated from the following file:<ul>
+<li>splayer.h</ul>
+
+<center>
+<hr WIDTH="100%"><font face="Arial,Helvetica"><font color="#3333FF">Version
+1.0 of the Flash 4 Porting SDK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middlesoft, Inc.</font></font></center>
+
+</body>
+</html>

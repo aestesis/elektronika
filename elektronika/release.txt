@@ -1,0 +1,264 @@
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+////////////////////////////////////////////////////////////////////////////////////
+
+		     ELEKTRONIKA - FREE VJ SOFTWARE - AESTESIS.EU
+
+////////////////////////////////////////////////////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+[elektronika 2.73]------------------------------------------------------------------
+
+- more accurate projection deformation in dimension
+- elektronika previews set at 25fps
+
+
+[elektronika 2.72]------------------------------------------------------------------
+
+- added projection deformation to mask editor in dimension
+- removed registration system as elektronika is now free. please donate >(Oô)<
+
+
+[elektronika 2.71]------------------------------------------------------------------
+
+- added projection mask in dimension 
+  usage: left mouse to move, middle mouse to add a point, left mouse to delete
+  thanks to magiceye to fund the upgrade. http://www.magiceye.eu/
+
+
+[elektronika 2.68]------------------------------------------------------------------
+
+- new aestesis module skin
+
+
+[elektronika 2.67]------------------------------------------------------------------
+
+- new installer
+- added one more layer in dimension module
+- added shift+mouse in zone area x/y placement to slow down the moves
+
+
+[elektronika 2.65]------------------------------------------------------------------
+
+- added chroma key & tint in dimension module
+- added master power control in dimension module
+
+
+[elektronika 2.62]------------------------------------------------------------------
+
+- added play option in QTplayer (restart/pause on movie switch)
+
+
+[elektronika 2.60]------------------------------------------------------------------
+
+- fixed crash of elektronika virtual cam export in windows media encoder 9 software
+
+
+[elektronika 2.58]------------------------------------------------------------------
+
+- added video out pin on dimension module (needs PCIe video card)
+
+.
+.
+.
+
+[elektronika 2.57]------------------------------------------------------------------
+
+- added alpha chanel on dimension module
+- removed all unregistred limitations except closing of unregistred elektronika after one hour use.
+- beta version of gpu video player in dimension (any video size)
+
+.
+.
+.
+
+[elektronika 2.55]------------------------------------------------------------------
+
+- changed the rmbox memory loop manager 
+  now the loops are stored out of elektronika main memory
+  that's permit to load more and bigger loops, 
+  as the elektronika main memory can't exceed 1Gbytes
+- updated elektronika's links to new aestesis web site
+
+.
+.
+.
+
+[elektronika 2.53]------------------------------------------------------------------
+
+- added MJPEG export in Xport module
+- more stable threading system (intel core 2 duo and amd 64 X2)
+ 
+> needs directX october 2006 
+http://www.microsoft.com/downloads/details.aspx?familyid=013C0F78-3C9B-44DC-B8BE-46783BCAC3CB&displaylang=en 
+
+.
+.
+.
+
+[elektronika 2.52]------------------------------------------------------------------
+
+- added JPEG osc snapshot
+- added freeze log at elektronika directory\log.txt 
+  
+.
+.
+.
+
+[elektronika 2.50]------------------------------------------------------------------
+
+- added "pattern loop start" in vp10 module
+- fixed the cut&paste pattern bug in vp10 module
+- added multiple midi input device
+- fixed memory leaks in the vp1 module
+- added directsound buffer size settings
+- added a virtual camera export in Xport module 
+(seen as a "elektronika source" in 3rd party video capture or streaming software)
+- adjusted the pitch and global pitch in Rythmbox module
+- added a movie browser with preview
+- added the QTplayer based on the QuickTime(tm) SDK
+
+.
+.
+.
+
+[elektronika 2.12]------------------------------------------------------------------
+
+- fixed pixshader bug when project not saved in elektronika's folder
+
+.
+.
+.
+
+[elektronika 2.11]------------------------------------------------------------------
+
+- added levels in color module
+- added pixshaders levels effect
+- fixed multiple same device in videoinput module
+- fixed video resolution error in vp10 module
+
+.
+.
+.
+
+[elektronika 2.10]------------------------------------------------------------------
+
+- added a master color control in dimension module
+- added a master pixshader in dimension module
+- added a feedback/zoom in dimension module
+- added lots of pixshader effects
+- added cube effect in dimension module
+- fixed another presets crash
+- fixed rmbox over 1,2Gb ram usage crash
+- added a left-right mouse fine control on knobs
+- fixed vp10 random crash on load movies
+
+
+<< TIPS >>
+
+it's better to use a maximum of 1Gb of ram in elektronika
+cause windows locks all memory and resource allocation
+if an apllication try to use more than 1,2 go.
+
+if you exceed this limit, elektronika can't start the "play" thread for example.
+
+to minimize elektronika memory usage, just activate the internal jpeg compression 
+at 100% quality (lossless) in the properties dialog box.
+It will reduce by 5 the memory usage of the rythmbox and loop107 modules.
+
+.
+.
+.
+
+[elektronika 2.00 rc6]------------------------------------------------------------------
+
+- added 400x300 internal video mode
+- fixed rmbox alpha preview bug
+- added VP1 thumbails cache
+
+.
+.
+.
+
+[elektronika 2.00 rc5]------------------------------------------------------------------
+
+- added Xport module (save uncompressed AVI audio/video)
+- added local font support in dimension/text module
+- fixed presets crash
+
+<< TIPS >>
+use a different drive to export the AVI than the one used
+for video loops.
+
+.
+.
+.
+
+[elektronika 2.00 rc4]------------------------------------------------------------------
+
+- lots of new features on the VP10 player
+- new mapping (midi/keyboard) interface
+- added auto fade A->B and B->A (one shot) in VMiX module
+- added audio playback (MP3/WAV/WMA) in VP1 module
+- added play all bank in VP1 module
+- added a global pitch in the rythmbox
+- fixed registration bug
+- doc updated
+
+
+<< TIPS >>
+
+*removing the winXP/2003 "explorer.exe" CPU usage*
+START - RUN -> "regsvr32 -u shmedia.dll"
+START - RUN -> "regedit"
+search the key
+HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\CLSID\\{87D62D94-71B3-4b9a-9489-5FE6850DC73E}
+and delete the key "InProcServer32"
+*remove also the explorer movies preview*
+
+.
+.
+.
+
+[elektronika 2.00 rc3]------------------------------------------------------------------
+
+- fixed variables initialization bug in the flash player 
+- added "grab a window" in the grabber module
+- added hilight link when over a connected pin 
+- HOTFIX - core engine crash - fixed
+
+
+<< TIPS >>
+
+*VP1*
+
+its better than the video are encoded at the same video size
+than the one you use in elektronika.
+for example with elektronilka configured in 320x240 the good one is:
+320x240, keyframe every 3 frames, and audio interleaved every frame
+it speed up the load and seek time.
+- you can use VirtualDub free video encoder/converter tool
+
+*VP10*
+
+you just have to let the audio in PCM/RAW/UNCOMPRESSED (44.1 khz / 16bits / stereo)
+with the same settings than for the VP1.
+
+.
+.
+.
+
+[elektronika 2.00 rc2]------------------------------------------------------------------
+
+- fixed a bug in the fps computing, elektronika is more fluid now
+- added a text effect in dimension
+- remove the flash preview window, flash player module works offscreen now
+- added audio in the VP1
+- added audio in Dispatch 84
+- added audio in Vmix
+- added audio in MiMiX
+- fixed audio latency bug that occure randomly
+- added ASIO(TM) in the audio output module
+- fixed a bug in sequence save/load usage
+
+

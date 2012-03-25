@@ -1,0 +1,21 @@
+ Volume in drive D is data
+ Volume Serial Number is D484-4F98
+
+ Directory of D:\aestesis\code\elektroSDK\elektronika\plugins\98
+
+24/01/2005  06:00    <DIR>          .
+24/01/2005  06:00    <DIR>          ..
+18/12/2003  11:10           139ÿ264 ae_fractOfire0smooth.dll
+18/12/2003  11:10           149ÿ504 ae_sinus03.dll
+18/12/2003  11:10           147ÿ456 blurzoom.dll
+18/12/2003  11:10           135ÿ168 Cubee.dll
+25/11/2004  19:02    <DIR>          CVS
+18/12/2003  11:10           267ÿ264 fire24b.dll
+18/12/2003  11:10           139ÿ264 fractozoom002b.dll
+18/12/2003  11:10           135ÿ168 LineGrid.dll
+24/01/2005  06:00                 0 list.txt
+18/12/2003  11:10           148ÿ992 sinus.dll
+18/12/2003  11:10           135ÿ168 SpaceCurve001.dll
+18/12/2003  11:10           139ÿ264 teknOscillo.dll
+              11 File(s)      1ÿ536ÿ512 bytes
+               3 Dir(s)  19ÿ789ÿ889ÿ536 bytes free

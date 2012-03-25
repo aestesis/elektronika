@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<openMPP name="plugin name" help="a plugin">
+	<details>this plugin is intended to...</details>
+	<author>
+		<name>author name</name>
+		<company>company name</company>
+		<email>auhtor email</email>
+		<web>http://www.auhor.org/</web>
+		<adress>the adress</adress>
+		<info>anything...</info>
+	</author>
+	<interface>
+		<group name="fade" help="fade" left="16" top="16" width="100" height="40">
+			<color name="color" help="color" left="8" top="8" width="32" height="32" guid="75c123d6bc469430">
+				<red>1</red>
+				<green>2</greenn>
+				<blue>3</blue>
+			</color>
+			<level name="level" help="level" guid="b41ff60e7405cc40"/>
+		</group>
+		<group name="position">
+			<plane name="picture position" guid="d767f489b9004ee6">
+				<x>4</x>
+				<y>5</y>
+			</plane>
+			<level name="zoom" parameter="6" guid="38aee96fdd2aae40"/>
+			<button name="activate zoom" parameter="7" guid="97da837344e6e29e"/>
+		</group>
+	</interface>
+	<skin width="512" height="48">
+		<front>elek_front.jpg</front>
+		<back>elek_back.jpg"</back>
+	</skin>
+</openMPP>

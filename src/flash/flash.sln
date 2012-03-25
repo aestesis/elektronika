@@ -1,0 +1,94 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flash", "flash.vcproj", "{6D7489AD-77ED-45E1-9556-AB892541B4BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC} = {A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75} = {104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6} = {49302FF5-A028-43BD-90E8-8A24B3D110C6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Alib", "..\Alib\Alib.vcproj", "{49302FF5-A028-43BD-90E8-8A24B3D110C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eleKtro", "..\eleKtro\eleKtro.vcproj", "{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6} = {49302FF5-A028-43BD-90E8-8A24B3D110C6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elektronika", "..\elektronika\elektronika.vcproj", "{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75} = {104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6} = {49302FF5-A028-43BD-90E8-8A24B3D110C6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug speed|Win32 = debug speed|Win32
+		debug VSTUDIO|Win32 = debug VSTUDIO|Win32
+		Debug|Win32 = Debug|Win32
+		Release AMD64|Win32 = Release AMD64|Win32
+		Release VSTUDIO|Win32 = Release VSTUDIO|Win32
+		Release|Win32 = Release|Win32
+		remote debug|Win32 = remote debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.debug speed|Win32.ActiveCfg = debug speed|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.debug speed|Win32.Build.0 = debug speed|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.debug VSTUDIO|Win32.ActiveCfg = debug VSTUDIO|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.debug VSTUDIO|Win32.Build.0 = debug VSTUDIO|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Debug|Win32.Build.0 = Debug|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Release AMD64|Win32.ActiveCfg = Release AMD64|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Release AMD64|Win32.Build.0 = Release AMD64|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Release VSTUDIO|Win32.ActiveCfg = Release VSTUDIO|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Release VSTUDIO|Win32.Build.0 = Release VSTUDIO|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Release|Win32.ActiveCfg = Release|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.Release|Win32.Build.0 = Release|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.remote debug|Win32.ActiveCfg = remote debug|Win32
+		{6D7489AD-77ED-45E1-9556-AB892541B4BD}.remote debug|Win32.Build.0 = remote debug|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.debug speed|Win32.ActiveCfg = debug speed|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.debug speed|Win32.Build.0 = debug speed|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.debug VSTUDIO|Win32.ActiveCfg = debug VSTUDIO|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.debug VSTUDIO|Win32.Build.0 = debug VSTUDIO|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Debug|Win32.Build.0 = Debug|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release AMD64|Win32.ActiveCfg = Release AMD64|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release AMD64|Win32.Build.0 = Release AMD64|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release VSTUDIO|Win32.ActiveCfg = Release VSTUDIO|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release VSTUDIO|Win32.Build.0 = Release VSTUDIO|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release|Win32.ActiveCfg = Release|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.Release|Win32.Build.0 = Release|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.remote debug|Win32.ActiveCfg = remote debug|Win32
+		{49302FF5-A028-43BD-90E8-8A24B3D110C6}.remote debug|Win32.Build.0 = remote debug|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.debug speed|Win32.ActiveCfg = debug speed|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.debug speed|Win32.Build.0 = debug speed|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.debug VSTUDIO|Win32.ActiveCfg = debug VSTUDIO|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.debug VSTUDIO|Win32.Build.0 = debug VSTUDIO|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Debug|Win32.Build.0 = Debug|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Release AMD64|Win32.ActiveCfg = Release AMD64|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Release AMD64|Win32.Build.0 = Release AMD64|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Release VSTUDIO|Win32.ActiveCfg = Release VSTUDIO|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Release VSTUDIO|Win32.Build.0 = Release VSTUDIO|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Release|Win32.ActiveCfg = Release|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.Release|Win32.Build.0 = Release|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.remote debug|Win32.ActiveCfg = remote debug|Win32
+		{104C4E6E-9821-45E7-A89A-A6ABCBD6FF75}.remote debug|Win32.Build.0 = remote debug|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.debug speed|Win32.ActiveCfg = debug speed|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.debug speed|Win32.Build.0 = debug speed|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.debug VSTUDIO|Win32.ActiveCfg = debug VSTUDIO|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.debug VSTUDIO|Win32.Build.0 = debug VSTUDIO|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Debug|Win32.Build.0 = Debug|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Release AMD64|Win32.ActiveCfg = Release AMD64|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Release AMD64|Win32.Build.0 = Release AMD64|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Release VSTUDIO|Win32.ActiveCfg = Release VSTUDIO|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Release VSTUDIO|Win32.Build.0 = Release VSTUDIO|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Release|Win32.ActiveCfg = Release|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.Release|Win32.Build.0 = Release|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.remote debug|Win32.ActiveCfg = remote debug|Win32
+		{A2C51D1F-D8BA-4FF9-A067-4324E23FA7CC}.remote debug|Win32.Build.0 = remote debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

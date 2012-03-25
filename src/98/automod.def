@@ -1,0 +1,2 @@
+SECTIONS
+        automod READ WRITE EXECUTE

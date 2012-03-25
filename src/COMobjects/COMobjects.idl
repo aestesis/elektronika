@@ -1,0 +1,9 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[ object, uuid(a3573535-0000-0000-0000-000000000001) ]
+interface ISum : IUnknown
+{
+    HRESULT Sum([in] int x, [in] int y, [out, retval] int* retval);
+};
+

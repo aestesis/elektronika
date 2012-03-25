@@ -1,0 +1,30 @@
+﻿Build started 06/12/2010 06:32:53.
+     1>Project "D:\aestesis\code\elektroSDK\ompp\forms\forms.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug VSTUDIO\forms.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug VSTUDIO\\" /Fd"debug VSTUDIO\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt forms.cpp
+         forms.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\forms.dll.embed.manifest.res" "debug VSTUDIO\forms_manifest.rc" 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\ompp\forms\debug VSTUDIO\forms.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\ompp\forms.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/ompp/forms.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\forms.def" /MANIFEST /ManifestFile:"debug VSTUDIO\forms.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\aestesis\code\elektroSDK\ompp\forms\debug VSTUDIO\forms.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"debug VSTUDIO\forms.lib" /MACHINE:X86 /DLL "debug VSTUDIO\forms.dll.embed.manifest.res"
+         "debug VSTUDIO\forms.obj"
+            Creating library debug VSTUDIO\forms.lib and object debug VSTUDIO\forms.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"debug VSTUDIO\forms.dll.embed.manifest" /manifest "debug VSTUDIO\forms.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\forms.dll.embed.manifest.res" "debug VSTUDIO\forms_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/ompp/forms.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\forms.def" /MANIFEST /ManifestFile:"debug VSTUDIO\forms.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\aestesis\code\elektroSDK\ompp\forms\debug VSTUDIO\forms.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"debug VSTUDIO\forms.lib" /MACHINE:X86 /DLL "debug VSTUDIO\forms.dll.embed.manifest.res"
+         "debug VSTUDIO\forms.obj"
+            Creating library debug VSTUDIO\forms.lib and object debug VSTUDIO\forms.exp
+         forms.vcxproj -> D:\aestesis\code\elektroSDK\ompp\forms\debug VSTUDIO\forms.dll
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\forms.unsuccessfulbuild".
+         Touching "debug VSTUDIO\forms.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\ompp\forms\forms.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.25

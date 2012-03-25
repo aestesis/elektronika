@@ -1,0 +1,55 @@
+﻿Build started 06/12/2010 06:32:54.
+     1>Project "D:\aestesis\code\elektroSDK\src\libpng\libpng.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug VSTUDIO\libpng.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR"debug VSTUDIO\\" /Gd /TC /analyze- /errorReport:prompt example.c png.c pngerror.c pngget.c pngmem.c pngpread.c pngread.c pngrio.c pngrtran.c pngrutil.c pngset.c pngtest.c pngtrans.c pngvcrd.c pngwio.c pngwrite.c pngwtran.c pngwutil.c
+         example.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtest.c
+         pngtrans.c
+         pngvcrd.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib" /NOLOGO .\Debug/example.obj
+         .\Debug/png.obj
+         .\Debug/pngerror.obj
+         .\Debug/pngget.obj
+         .\Debug/pngmem.obj
+         .\Debug/pngpread.obj
+         .\Debug/pngread.obj
+         .\Debug/pngrio.obj
+         .\Debug/pngrtran.obj
+         .\Debug/pngrutil.obj
+         .\Debug/pngset.obj
+         .\Debug/pngtest.obj
+         .\Debug/pngtrans.obj
+         .\Debug/pngvcrd.obj
+         .\Debug/pngwio.obj
+         .\Debug/pngwrite.obj
+         .\Debug/pngwtran.obj
+         .\Debug/pngwutil.obj
+         libpng.vcxproj -> D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"D:\aestesis\code\elektroSDK\sdk\lib\libpng.bsc" "debug VSTUDIO\example.sbr" "debug VSTUDIO\png.sbr" "debug VSTUDIO\pngerror.sbr" "debug VSTUDIO\pngget.sbr" "debug VSTUDIO\pngmem.sbr" "debug VSTUDIO\pngpread.sbr" "debug VSTUDIO\pngread.sbr" "debug VSTUDIO\pngrio.sbr" "debug VSTUDIO\pngrtran.sbr" "debug VSTUDIO\pngrutil.sbr" "debug VSTUDIO\pngset.sbr" "debug VSTUDIO\pngtest.sbr" "debug VSTUDIO\pngtrans.sbr" "debug VSTUDIO\pngvcrd.sbr" "debug VSTUDIO\pngwio.sbr" "debug VSTUDIO\pngwrite.sbr" "debug VSTUDIO\pngwtran.sbr" "debug VSTUDIO\pngwutil.sbr"
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\libpng.unsuccessfulbuild".
+         Touching "debug VSTUDIO\libpng.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\libpng\libpng.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.88

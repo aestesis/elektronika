@@ -1,0 +1,22 @@
+ Volume in drive D is data
+ Volume Serial Number is D484-4F98
+
+ Directory of D:\aestesis\code\elektroSDK\elektronika\shaders
+
+24/01/2005  06:03    <DIR>          .
+24/01/2005  06:03    <DIR>          ..
+24/12/2004  14:06             2ÿ314 audio_black.fx
+24/12/2004  14:06             2ÿ313 audio_white.fx
+24/12/2004  14:06             2ÿ136 blackForce.fx
+24/12/2004  14:06             2ÿ465 circular.fx
+24/12/2004  14:06             2ÿ474 color_decal.fx
+25/11/2004  19:02    <DIR>          CVS
+24/12/2004  14:06             2ÿ233 destroy.fx
+24/12/2004  14:06             2ÿ030 flash.fx
+24/12/2004  14:06             2ÿ359 gely.fx
+24/12/2004  14:06             2ÿ341 goazoom.fx
+24/01/2005  06:03                 0 list.txt
+24/12/2004  14:06             2ÿ287 ripple.fx
+26/09/2004  01:00               123 _errors.txt
+              12 File(s)         23ÿ075 bytes
+               3 Dir(s)  19ÿ789ÿ885ÿ440 bytes free

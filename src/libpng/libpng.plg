@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libpng - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP6E.tmp" with contents
+[
+/nologo /out:"..\..\sdk\lib\libpng.lib" 
+.\Release\example.obj
+.\Release\png.obj
+.\Release\pngerror.obj
+.\Release\pngget.obj
+.\Release\pngmem.obj
+.\Release\pngpread.obj
+.\Release\pngread.obj
+.\Release\pngrio.obj
+.\Release\pngrtran.obj
+.\Release\pngrutil.obj
+.\Release\pngset.obj
+.\Release\pngtest.obj
+.\Release\pngtrans.obj
+.\Release\pngvcrd.obj
+.\Release\pngwio.obj
+.\Release\pngwrite.obj
+.\Release\pngwtran.obj
+.\Release\pngwutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\renan\LOCALS~1\Temp\RSP6E.tmp"
+<h3>Output Window</h3>
+Creating library...
+
+
+
+<h3>Results</h3>
+libpng.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

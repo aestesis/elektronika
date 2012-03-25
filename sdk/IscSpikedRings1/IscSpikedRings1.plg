@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FreeFrame - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\INTRIN~1.KP\LOCALS~1\Temp\RSP4D8.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FREEFRAME_EXPORTS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xdk85_win\IntrinsicFX4\IscSpikedRings1\timer.cpp"
+"C:\xdk85_win\IntrinsicFX4\IscSpikedRings1\FreeFrame.cpp"
+"C:\xdk85_win\IntrinsicFX4\IscSpikedRings1\IscSpikedRings1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\INTRIN~1.KP\LOCALS~1\Temp\RSP4D8.tmp" 
+Creating temporary file "C:\DOCUME~1\INTRIN~1.KP\LOCALS~1\Temp\RSP4D9.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib winmm.lib Advapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/IscSpikedRings1.pdb" /machine:I386 /def:".\IscSpikedRings1.def" /out:"plugins/IscSpikedRings1.dll" /implib:"Release/IscSpikedRings1.lib" 
+.\Release\timer.obj
+.\Release\FreeFrame.obj
+.\Release\IscSpikedRings1.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\INTRIN~1.KP\LOCALS~1\Temp\RSP4D9.tmp"
+<h3>Output Window</h3>
+Compiling...
+timer.cpp
+FreeFrame.cpp
+IscSpikedRings1.cpp
+Generating Code...
+Linking...
+   Creating library Release/IscSpikedRings1.lib and object Release/IscSpikedRings1.exp
+IscSpikedRings1.exp : warning LNK4070: /OUT:FreeFrame.dll directive in .EXP differs from output filename "plugins/IscSpikedRings1.dll"; ignoring directive
+
+
+
+<h3>Results</h3>
+IscSpikedRings1.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

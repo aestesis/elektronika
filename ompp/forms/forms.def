@@ -1,0 +1,6 @@
+; forms.def : Declares the module parameters for the DLL.
+
+LIBRARY      "forms"
+
+EXPORTS
+    ; Explicit exports can go here

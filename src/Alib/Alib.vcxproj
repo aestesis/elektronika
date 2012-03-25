@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug speed|Win32">
+      <Configuration>debug speed</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug VSTUDIO|Win32">
+      <Configuration>debug VSTUDIO</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release AMD64|Win32">
+      <Configuration>Release AMD64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release VSTUDIO|Win32">
+      <Configuration>Release VSTUDIO</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="remote debug|Win32">
+      <Configuration>remote debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49302FF5-A028-43BD-90E8-8A24B3D110C6}</ProjectGuid>
+    <RootNamespace>Alib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\aestesis\code\elektroSDK\elektronika\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\aestesis\code\elektroSDK\elektronika\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">D:\aestesis\code\elektroSDK\elektronika\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">D:\aestesis\code\elektroSDK\elektronika\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">D:\aestesis\code\elektroSDK\elektronika\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">D:\aestesis\code\elektroSDK\elektronika\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">D:\aestesis\code\elektroSDK\elektronika\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">false</GenerateManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">alib100</TargetName>
+    <CustomBuildAfterTargets Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">Build</CustomBuildAfterTargets>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CustomBuildStep>
+      <Command>copy $(Configuration)$(TargetName).lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/Alib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm300  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\libpng;..\zlib;..\..\sdk\inc\alib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_USRDLL;ALIB_EXPORTS;USE_JPEG;FRAMESPERSEC;EDITTEXT;FLASHMP3;WINVER=0x0500;MMX;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Debug/Alib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libpngd.lib;zlibd.lib;strmiids.lib;winmm.lib;ddraw.lib;dxguid.lib;amstrmid.lib;quartz.lib;strmbase.lib;msimg32.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;d3d9.lib;Vfw32.lib;msacm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/alib100.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Debug/alib100.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <CustomBuildStep>
+      <Command>copy $(Configuration)$(TargetName).lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/Alib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm300  %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\libpng;..\zlib;..\..\sdk\inc\alib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;GENERATOR;WIN32;_WINDOWS;_USRDLL;ALIB_EXPORTS;USE_JPEG;FRAMESPERSEC;EDITTEXT;FLASHMP3;MMX;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/Alib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libpng.lib;zlib.lib;winmm.lib;ddraw.lib;dxguid.lib;amstrmid.lib;quartz.lib;strmbase.lib;msimg32.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;d3d9.lib;Vfw32.lib;msacm32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/alib100.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Release/alib100.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">
+    <CustomBuildStep>
+      <Command>copy $(Configuration)$(TargetName).lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/Alib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm300  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\libpng;..\zlib;..\..\sdk\inc\alib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_USRDLL;ALIB_EXPORTS;USE_JPEG;FRAMESPERSEC;EDITTEXT;FLASHMP3;WINVER=0x0500;MMX;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Debug/Alib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libpngd.lib;zlibd.lib;strmiids.lib;winmm.lib;ddraw.lib;dxguid.lib;amstrmid.lib;quartz.lib;strmbase.lib;msimg32.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;d3d9.lib;Vfw32.lib;msacm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/alib100.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Debug/alib100.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">
+    <CustomBuildStep>
+      <Command>copy $(Configuration)$(TargetName).lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/Alib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm300  %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\libpng;..\zlib;..\..\sdk\inc\alib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;GENERATOR;WIN32;_WINDOWS;_USRDLL;ALIB_EXPORTS;USE_JPEG;FRAMESPERSEC;EDITTEXT;FLASHMP3;MMX;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/Alib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libpng.lib;zlib.lib;winmm.lib;ddraw.lib;dxguid.lib;amstrmid.lib;quartz.lib;strmbase.lib;msimg32.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;d3d9.lib;Vfw32.lib;msacm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/alib100.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Release/alib100.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/Alib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm300  %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v7.1\Samples\multimedia\directshow\baseclasses\Release;..\libpng;..\zlib;..\..\sdk\inc\alib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;GENERATOR;WIN32;_WINDOWS;_USRDLL;ALIB_EXPORTS;USE_JPEG;FRAMESPERSEC;EDITTEXT;FLASHMP3;MMX;WINVER=0x0500;_WIN32_WINNT=0x0500;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/Alib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>ddraw.lib;libpng.lib;zlib.lib;winmm.lib;dxguid.lib;amstrmid.lib;quartz.lib;strmbase.lib;msimg32.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;d3d9.lib;Vfw32.lib;msacm32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/alib100.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Release/alib100.lib</ImportLibrary>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy D:\aestesis\code\elektroSDK\src\Alib\Release\alib100.lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>copy .lib in sdk</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">
+    <CustomBuildStep>
+      <Command>copy D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/Alib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm300  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v7.1\Samples\multimedia\directshow\baseclasses\Debug;..\libpng;..\zlib;..\..\sdk\inc\alib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_USRDLL;ALIB_EXPORTS;USE_JPEG;FRAMESPERSEC;EDITTEXT;FLASHMP3;WINVER=0x0500;MMX;_WIN32_WINNT=0x0500;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Debug/Alib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>ddraw.lib;libpng.lib;zlib.lib;strmiids.lib;winmm.lib;dxguid.lib;amstrmid.lib;quartz.lib;strmbasd.lib;msimg32.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;d3d9.lib;Vfw32.lib;msacm32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/alib100.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Debug/alib100.lib</ImportLibrary>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>copy .lib to sdk</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">
+    <CustomBuildStep>
+      <Command>copy $(Configuration)$(TargetName).lib D:\aestesis\code\elektroSDK\sdk\lib</Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/Alib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm300 /MACHINE:AMD64 %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>..\libpng;..\zlib;..\..\sdk\inc\alib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;GENERATOR;WIN32;_WINDOWS;_USRDLL;ALIB_EXPORTS;USE_JPEG;FRAMESPERSEC;EDITTEXT;FLASHMP3;MMX;WINVER=0x0500;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/Alib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:AMD64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libpng.lib;zlib.lib;winmm.lib;ddraw.lib;dxguid.lib;amstrmid.lib;quartz.lib;strmbase.lib;msimg32.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;d3d9.lib;Vfw32.lib;msacm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/alib100.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Release/alib100.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="flashSDK\Source\zlib\adler32.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\infblock.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\infcodes.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\inffast.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\inflate.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\inftrees.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\infutil.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\uncompr.cpp" />
+    <ClCompile Include="flashSDK\Source\zlib\zutil.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\cdjpeg.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\cjpeg.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcapimin.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcapistd.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jccoefct.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jccolor.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcdctmgr.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jchuff.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcinit.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcmainct.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcmarker.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcmaster.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcomapi.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcparam.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcphuff.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcprepct.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jcsample.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdapimin.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdapistd.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdatadst.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdatasrc.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdcoefct.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdcolor.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jddctmgr.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdhuff.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdinput.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdmainct.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdmarker.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdmaster.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdphuff.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdpostct.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jdsample.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jerror.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jfdctflt.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jfdctint.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jidctflt.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jidctint.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jmemmgr.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jmemnobs.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\jutils.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\rdbmp.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\rdcolmap.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\rdgif.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\rdppm.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\rdrle.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\rdswitch.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\rdtarga.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\wrbmp.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\wrgif.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\wrppm.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\wrrle.cpp" />
+    <ClCompile Include="flashSDK\Source\JPEG\wrtarga.cpp" />
+    <ClCompile Include="flashSDK\Source\Win32\_Display.cpp" />
+    <ClCompile Include="flashSDK\Source\Win32\debug.cpp" />
+    <ClCompile Include="flashSDK\Source\Win32\palette.cpp" />
+    <ClCompile Include="flashSDK\Source\Win32\PlayerWnd.cpp" />
+    <ClCompile Include="flashSDK\Source\Win32\sound.cpp" />
+    <ClCompile Include="flashSDK\Source\Win32\util.cpp" />
+    <ClCompile Include="flashSDK\Source\bitbuf.cpp" />
+    <ClCompile Include="flashSDK\Source\curve.cpp" />
+    <ClCompile Include="flashSDK\Source\edittext.cpp" />
+    <ClCompile Include="flashSDK\Source\fixed.cpp" />
+    <ClCompile Include="flashSDK\Source\geom.cpp" />
+    <ClCompile Include="flashSDK\Source\global.cpp" />
+    <ClCompile Include="flashSDK\Source\jpeg.cpp" />
+    <ClCompile Include="flashSDK\Source\memcop.cpp" />
+    <ClCompile Include="flashSDK\Source\morphinter.cpp" />
+    <ClCompile Include="flashSDK\Source\mp3decoder.cpp" />
+    <ClCompile Include="flashSDK\Source\raster.cpp" />
+    <ClCompile Include="flashSDK\Source\sbitmap.cpp" />
+    <ClCompile Include="flashSDK\Source\sdisplay.cpp" />
+    <ClCompile Include="flashSDK\Source\sndcodec.cpp" />
+    <ClCompile Include="flashSDK\Source\sndmix.cpp" />
+    <ClCompile Include="flashSDK\Source\sobject.cpp" />
+    <ClCompile Include="flashSDK\Source\splay.cpp" />
+    <ClCompile Include="flashSDK\Source\splayer.cpp" />
+    <ClCompile Include="flashSDK\Source\sstroker.cpp" />
+    <ClCompile Include="flashSDK\Source\unixfonts.cpp" />
+    <ClCompile Include="avi.cpp" />
+    <ClCompile Include="bitmap.cpp" />
+    <ClCompile Include="buffer.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="clipboard.cpp" />
+    <ClCompile Include="d3d.cpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="edit.cpp" />
+    <ClCompile Include="file.cpp" />
+    <ClCompile Include="filedlg.cpp" />
+    <ClCompile Include="filehd.cpp" />
+    <ClCompile Include="filemem.cpp" />
+    <ClCompile Include="flash.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="ftp.cpp" />
+    <ClCompile Include="interface.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="list.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="mlist.cpp" />
+    <ClCompile Include="movie.cpp" />
+    <ClCompile Include="msgbox.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="oglbitmap.cpp" />
+    <ClCompile Include="pipe.cpp" />
+    <ClCompile Include="plugz.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="progress.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="registry.cpp" />
+    <ClCompile Include="resources.cpp" />
+    <ClCompile Include="scrollbar.cpp" />
+    <ClCompile Include="section.cpp" />
+    <ClCompile Include="segment.cpp" />
+    <ClCompile Include="selButton.cpp" />
+    <ClCompile Include="selsize.cpp" />
+    <ClCompile Include="serial.cpp" />
+    <ClCompile Include="static.cpp" />
+    <ClCompile Include="surface.cpp" />
+    <ClCompile Include="thread.cpp" />
+    <ClCompile Include="titleBar.cpp" />
+    <ClCompile Include="toolbar.cpp" />
+    <ClCompile Include="tooltips.cpp" />
+    <ClCompile Include="treeView.cpp" />
+    <ClCompile Include="udp.cpp" />
+    <ClCompile Include="WFLILIB.CPP" />
+    <ClCompile Include="window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="flashSDK\Source\zlib\deflate.h" />
+    <ClInclude Include="flashSDK\Source\zlib\infblock.h" />
+    <ClInclude Include="flashSDK\Source\zlib\infcodes.h" />
+    <ClInclude Include="flashSDK\Source\zlib\inffast.h" />
+    <ClInclude Include="flashSDK\Source\zlib\infutil.h" />
+    <ClInclude Include="flashSDK\Source\zlib\zconf.h" />
+    <ClInclude Include="flashSDK\Source\zlib\zlib.h" />
+    <ClInclude Include="flashSDK\Source\zlib\zutil.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\cderror.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jchuff.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jconfig.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jdct.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jdhuff.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jmemsys.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jmorecfg.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jpegint.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jpeglib.h" />
+    <ClInclude Include="flashSDK\Source\JPEG\jversion.h" />
+    <ClInclude Include="flashSDK\Source\Win32\_display.h" />
+    <ClInclude Include="flashSDK\Source\Win32\debug.h" />
+    <ClInclude Include="flashSDK\Source\Win32\fixed.h" />
+    <ClInclude Include="flashSDK\Source\Win32\palette.h" />
+    <ClInclude Include="flashSDK\Source\Win32\playerwnd.h" />
+    <ClInclude Include="flashSDK\Source\Win32\resource.h" />
+    <ClInclude Include="flashSDK\Source\Win32\Sound.h" />
+    <ClInclude Include="flashSDK\Source\Win32\util.h" />
+    <ClInclude Include="flashSDK\Source\Bitbuf.h" />
+    <ClInclude Include="flashSDK\Source\bitstream.h" />
+    <ClInclude Include="flashSDK\Source\curve.h" />
+    <ClInclude Include="flashSDK\Source\edittext.h" />
+    <ClInclude Include="flashSDK\Source\fixed.h" />
+    <ClInclude Include="flashSDK\Source\genericfonts.h" />
+    <ClInclude Include="flashSDK\Source\geom.h" />
+    <ClInclude Include="flashSDK\Source\global.h" />
+    <ClInclude Include="flashSDK\Source\jpeg.h" />
+    <ClInclude Include="flashSDK\Source\mcontext.h" />
+    <ClInclude Include="flashSDK\Source\memcop.h" />
+    <ClInclude Include="flashSDK\Source\morphinter.h" />
+    <ClInclude Include="flashSDK\Source\mp3decifc.h" />
+    <ClInclude Include="flashSDK\Source\mp3decoder.h" />
+    <ClInclude Include="flashSDK\Source\mp3sscdef.h" />
+    <ClInclude Include="flashSDK\Source\mp3streaminfo.h" />
+    <ClInclude Include="flashSDK\Source\mpegbitstream.h" />
+    <ClInclude Include="flashSDK\Source\mpegheader.h" />
+    <ClInclude Include="flashSDK\Source\raster.h" />
+    <ClInclude Include="flashSDK\Source\sbitmap.h" />
+    <ClInclude Include="flashSDK\Source\sdisplay.h" />
+    <ClInclude Include="flashSDK\Source\shape.h" />
+    <ClInclude Include="flashSDK\Source\sndcodec.h" />
+    <ClInclude Include="flashSDK\Source\sndmix.h" />
+    <ClInclude Include="flashSDK\Source\sobject.h" />
+    <ClInclude Include="flashSDK\Source\splay.h" />
+    <ClInclude Include="flashSDK\Source\splayer.h" />
+    <ClInclude Include="flashSDK\Source\sstroker.h" />
+    <ClInclude Include="flashSDK\Source\stags.h" />
+    <ClInclude Include="flashSDK\Source\Win32\version.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\avi.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\bitmap.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\buffer.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\button.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\clipboard.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\d3d.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\display.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\edit.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\export.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\file.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\filedlg.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\filehd.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\filemem.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\flash.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\font.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\ftp.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\interface.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\item.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\list.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\menu.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\mlist.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\movie.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\msgbox.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\node.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\object.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\oglbitmap.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\pipe.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\plugz.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\point.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\progress.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\rectangle.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\registry.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\resources.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\scrollbar.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\section.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\segment.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\selButton.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\selsize.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\serial.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\static.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\surface.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\thread.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\titleBar.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\toolbar.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\tooltips.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\treeView.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\types.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\udp.h" />
+    <ClInclude Include="..\..\sdk\inc\ALib\WFLILIB.H" />
+    <ClInclude Include="..\..\sdk\inc\ALib\window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flashSDK\Source\Win32\button.cur" />
+    <None Include="flashSDK\Source\Win32\hand.cur" />
+    <None Include="flashSDK\Source\FlashIcon.pcx" />
+    <None Include="flashSDK\Source\FlashIcon.tga" />
+    <None Include="cursors\10.cur" />
+    <None Include="cursors\12.cur" />
+    <None Include="cursors\14.cur" />
+    <None Include="cursors\24.cur" />
+    <None Include="cursors\25.cur" />
+    <None Include="cursors\36.cur" />
+    <None Include="cursors\70.cur" />
+    <None Include="aestesisTV.png" />
+    <None Include="button  check.png" />
+    <None Include="button close.png" />
+    <None Include="button minimize.png" />
+    <None Include="comic font 16.png" />
+    <None Include="display001.png" />
+    <None Include="display002.png" />
+    <None Include="font arial bold 10.png" />
+    <None Include="font arial bold 12.png" />
+    <None Include="font arial bold 20.png" />
+    <None Include="font arial bold 8.png" />
+    <None Include="font segment 06.png" />
+    <None Include="font segment 10.png" />
+    <None Include="font segment 20.png" />
+    <None Include="font terminal 12.png" />
+    <None Include="font terminal 5.png" />
+    <None Include="font terminal 6.png" />
+    <None Include="font terminal 9.png" />
+    <None Include="font_bm_army_10.png" />
+    <None Include="font_bm_leaves_10.png" />
+    <None Include="font_bm_tubes_10.png" />
+    <None Include="font_confidential_14.png" />
+    <None Include="font_confidential_16.png" />
+    <None Include="font_confidential_20.png" />
+    <None Include="font_confidential_24.png" />
+    <None Include="font_confidential_36.png" />
+    <None Include="flashSDK\Source\Win32\fsplayer.ICO" />
+    <None Include="paddle001.png" />
+    <None Include="paddle002.png" />
+    <None Include="paddle003.png" />
+    <None Include="paddle004.png" />
+    <None Include="paddle005.png" />
+    <None Include="paddle006.png" />
+    <None Include="paddle007.png" />
+    <None Include="paddle008.png" />
+    <None Include="progress001.png" />
+    <None Include="treeView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="flashSDK\Source\Win32\SimpleWin.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">flashSDK\Source\Win32</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release AMD64|Win32'">flashSDK\Source\Win32</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release VSTUDIO|Win32'">flashSDK\Source\Win32</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">flashSDK\Source\Win32</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='debug VSTUDIO|Win32'">flashSDK\Source\Win32</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='debug speed|Win32'">flashSDK\Source\Win32</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='remote debug|Win32'">flashSDK\Source\Win32</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ResourceCompile Include="alib.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="flashSDK\Source\mp3decoder.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libpng\libpng.vcxproj">
+      <Project>{f07e6341-9d8c-414d-b455-20372a1bf5bf}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{f48c7421-b834-4729-a10b-1eb2b2053b2f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

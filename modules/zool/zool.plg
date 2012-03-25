@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Alib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP57D.bat" with contents
+[
+@echo off
+copy release\alib100.lib ..\..\sdk\lib\alib100.lib
+]
+Creating command line "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP57D.bat"
+<h3>Output Window</h3>
+Performing Custom Build Step on \_code\YoY\elektroSDK\elektronika\alib100.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: eleKtro - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP57E.bat" with contents
+[
+@echo off
+copy release\eleKtro.lib ..\..\sdk\lib\eleKtro.lib
+]
+Creating command line "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP57E.bat"
+<h3>Output Window</h3>
+Performing Custom Build Step on \_code\YoY\elektroSDK\elektronika\eleKtro.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: elektronika - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+<h3>
+--------------------Configuration: zool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP57F.tmp" with contents
+[
+/nologo /G6 /MD /W3 /GX /O2 /I "..\sdk\inc\alib" /I "..\sdk\inc\elektro" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ZOOL_EXPORTS" /FR"Release/" /Fp"Release/zool.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\_code\YoY\elektroSDK\zool\source\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\renan\LOCALS~1\Temp\RSP57F.tmp" 
+Creating temporary file "C:\DOCUME~1\renan\LOCALS~1\Temp\RSP580.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib alib100.lib elektro.lib opengl32.lib glu32.lib /nologo /dll /incremental:no /pdb:"Release/zool.pdb" /machine:I386 /out:"../elektronika/plugins/zool.dll" /implib:"Release/zool.lib" /libpath:"..\sdk\lib" 
+.\Release\main.obj
+.\Release\resource.res
+\_code\YoY\elektroSDK\src\Alib\Release\alib100.lib
+\_code\YoY\elektroSDK\sdk\lib\alib100.lib
+\_code\YoY\elektroSDK\src\eleKtro\Release\eleKtro.lib
+\_code\YoY\elektroSDK\sdk\lib\eleKtro.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\renan\LOCALS~1\Temp\RSP580.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+D:\_code\YoY\elektroSDK\zool\source\main.cpp(172) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+Linking...
+   Creating library Release/zool.lib and object Release/zool.exp
+Creating command line "bscmake.exe /nologo /o"Release/zool.bsc"  .\Release\main.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+zool.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

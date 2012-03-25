@@ -1,0 +1,8 @@
+; part of the Irrlicht Engine Shader example.
+; This simple Direct3D9 pixel shader will be loaded by the engine.
+
+ps.1.1
+
+tex t0             ; sample color map
+mul_x2 t0, t0, v0  ; mulitply with color
+add r0, t0, t0     ; make it brighter and store result

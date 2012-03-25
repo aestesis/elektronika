@@ -1,0 +1,65 @@
+﻿Build started 06/12/2010 06:35:27.
+     1>Project "D:\aestesis\code\elektroSDK\src\98\98.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug VSTUDIO\98.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\sdk\inc\ompp /I..\..\sdk\inc\alib /I..\..\sdk\inc\elektro /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D MY98_EXPORTS /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR"debug VSTUDIO\\" /Gd /TP /analyze- /errorReport:prompt dsglurf.cpp flammes.cpp house.cpp main.cpp patchly.cpp player.cpp xtime.cpp zygo.cpp
+         dsglurf.cpp
+         flammes.cpp
+         house.cpp
+         main.cpp
+         patchly.cpp
+         player.cpp
+         xtime.cpp
+         zygo.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x040c" /nologo /fo"debug VSTUDIO\Script1.res" Script1.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\98.dll.embed.manifest.res" "debug VSTUDIO\98_manifest.rc" 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\98\debug VSTUDIO\98.dll) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\plugins\98.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/98.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib elektro.lib odbc32.lib odbccp32.lib alib100.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\automod.def" /MANIFEST /ManifestFile:"debug VSTUDIO\98.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/98.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/98.lib" /MACHINE:X86 /DLL "debug VSTUDIO\Script1.res"
+         "debug VSTUDIO\98.dll.embed.manifest.res"
+         .\Debug/dsglurf.obj
+         .\Debug/flammes.obj
+         .\Debug/house.obj
+         .\Debug/main.obj
+         .\Debug/patchly.obj
+         .\Debug/player.obj
+         .\Debug/xtime.obj
+         .\Debug/zygo.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib /MACHINE:I386 
+            Creating library .\Debug/98.lib and object .\Debug/98.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"debug VSTUDIO\98.dll.embed.manifest" /manifest "debug VSTUDIO\98.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"debug VSTUDIO\98.dll.embed.manifest.res" "debug VSTUDIO\98_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/plugins/98.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\sdk\lib elektro.lib odbc32.lib odbccp32.lib alib100.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\automod.def" /MANIFEST /ManifestFile:"debug VSTUDIO\98.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/98.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/98.lib" /MACHINE:X86 /DLL "debug VSTUDIO\Script1.res"
+         "debug VSTUDIO\98.dll.embed.manifest.res"
+         .\Debug/dsglurf.obj
+         .\Debug/flammes.obj
+         .\Debug/house.obj
+         .\Debug/main.obj
+         .\Debug/patchly.obj
+         .\Debug/player.obj
+         .\Debug/xtime.obj
+         .\Debug/zygo.obj
+         D:\aestesis\code\elektroSDK\src\Alib\Debug\alib100.lib
+         D:\aestesis\code\elektroSDK\src\eleKtro\Debug\eleKtro.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib /MACHINE:I386 
+         98.vcxproj -> D:\aestesis\code\elektroSDK\src\98\debug VSTUDIO\98.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"debug VSTUDIO\98.bsc" "debug VSTUDIO\dsglurf.sbr" "debug VSTUDIO\flammes.sbr" "debug VSTUDIO\house.sbr" "debug VSTUDIO\main.sbr" "debug VSTUDIO\patchly.sbr" "debug VSTUDIO\player.sbr" "debug VSTUDIO\xtime.sbr" "debug VSTUDIO\zygo.sbr"
+       FinalizeBuildStatus:
+         Deleting file "debug VSTUDIO\98.unsuccessfulbuild".
+         Touching "debug VSTUDIO\98.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\98\98.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.22

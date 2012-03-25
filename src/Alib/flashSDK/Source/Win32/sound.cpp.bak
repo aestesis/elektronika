@@ -1,0 +1,76 @@
+#include "../global.h"
+#include "../sndmix.h"
+#include "sound.h"
+#include "../sdl/SDL_error.h"
+
+
+
+void NativeSoundMix::Init( CSoundMix* _soundMix )
+{
+	isOpen	= false;
+	soundMix = _soundMix;
+}
+
+NativeSoundMix::~NativeSoundMix()
+{}
+
+void NativeSoundMix::OpenDevice()
+{
+// 	SDL_AudioSpec wanted;
+
+	*nBuffers = 4;
+	*nSamples = 4096;
+
+	/* Set the audio format */
+	audioData.freq		= 22050;
+	audioData.format	= AUDIO_S16;
+	audioData.channels = 2;			/* 1 = mono, 2 = stereo */
+	audioData.samples	= 1024;			/* Good low-latency value for callback */
+	audioData.callback = SoundCallback;
+	audioData.userdata = this;
+
+	/* Open the audio device, forcing the desired format */
+	if ( SDL_OpenAudio(&wanted, NULL ) < 0 ) 
+	{
+			FLASHOUTPUT( "Couldn't open audio: %s\n", SDL_GetError() );
+			isOpen = false;
+			*format = 0;
+			return;
+	}
+	isOpen = true;
+	*format = sndStereo | snd16Bit | snd22K;
+}
+
+void NativeSoundMix::CloseDevice()
+{
+	SDL_CloseAudio();
+	isOpen = false;
+}
+
+void NativeSoundMix::EnterCritical()
+{
+	SDL_LockAudio();
+}
+
+void NativeSoundMix::LeaveCritical()
+{
+	SDL_UnlockAudio();
+}
+
+
+void SoundCallback(void *udata, U8 *stream, int len)
+{
+// 	if ( isOpen )
+// 	{
+// 		CSoundMix* soundMix = (CSoundMix*) udata;
+// 
+// 	/* Only play if we have data left */
+// 	if ( audio_len == 0 )
+// 			return;
+// 
+// 	/* Mix as much data as possible */
+// 	len = ( len > audio_len ? audio_len : len );
+// 	SDL_MixAudio(stream, audio_pos, len, SDL_MIX_MAXVOLUME)
+// 	audio_pos += len;
+// 	audio_len -= len;
+}

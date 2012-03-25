@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" onLoad="firstimage()" >
+
+                	<SCRIPT LANGUAGE="JavaScript">
+			bName = navigator.appName;
+			var isopen=Math.round(1000000+(Math.random() * 1000000));
+		
+			tmpimage = new Image();
+	
+			var first = 1;
+
+			function doimage()
+			
+			{
+		        	isopen++;
+		                tmpimage.onload=doimage;
+			        document.webcam.src=tmpimage.src;
+		                tmpimage.src="thumbcamjpg160?cacheburst="+isopen;
+			}
+
+			function firstimage()
+			
+			{
+			        if (first == 1) {
+			                first = 0;
+			                isopen++;
+			                tmpimage.onload=doimage;
+			                tmpimage.src="thumbcamjpg160?cacheburst="+isopen;
+			        }
+			}
+			
+			if (bName == "Netscape")
+			{
+		        document.write('<IMG border=0 SRC="serverpush160?cachebust='+isopen+'"  name=webcam WIDTH=160 HEIGHT=120>');
+			}
+			else
+			{
+		        document.write('<IMG border=0 SRC="thumbcamjpg160?cachebust='+isopen+'"  name=webcam WIDTH=160 HEIGHT=120>');
+		        }
+			</SCRIPT>
+
+
+
+
+</body>
+</html>
+
+

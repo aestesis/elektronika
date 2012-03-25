@@ -1,0 +1,94 @@
+﻿Build started 11/09/2011 01:29:14.
+     1>Project "D:\aestesis\code\elektroSDK\src\elektronika\elektronika.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release VSTUDIO\elektronika.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\aestesis\code\elektroSDK\src\elektronika\Release VSTUDIO\elektronika.exe) does not match the Linker's OutputFile property value (D:\aestesis\code\elektroSDK\elektronika\elektronika.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../elektronika/elektronika.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\sdk\lib /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (August 2007)\Lib\x86" strmbase.lib winmm.lib elektro.lib alib100.lib dsound.lib dxguid.lib ddraw.lib ws2_32.lib strmiids.lib opengl32.lib glu32.lib d3d9.lib d3dx9.lib psapi.lib comsuppw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release VSTUDIO\elektronika.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\elektronika___Win32_Release/elektronika.pdb" /SUBSYSTEM:WINDOWS /STACK:"32000000","16000000" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release VSTUDIO\elektronika.lib" /MACHINE:X86 "Release VSTUDIO\elektronika.res"
+         .\elektronika___Win32_Release/aestesis.obj
+         .\elektronika___Win32_Release/automix.obj
+         .\elektronika___Win32_Release/band.obj
+         .\elektronika___Win32_Release/color.obj
+         .\elektronika___Win32_Release/dispatch.obj
+         .\elektronika___Win32_Release/dvcap.obj
+         .\elektronika___Win32_Release/dxfilter.obj
+         .\elektronika___Win32_Release/export.obj
+         .\elektronika___Win32_Release/fframe.obj
+         .\elektronika___Win32_Release/grab.obj
+         .\elektronika___Win32_Release/loop.obj
+         .\elektronika___Win32_Release/mimix.obj
+         .\elektronika___Win32_Release/network.obj
+         .\elektronika___Win32_Release/pub.obj
+         .\elektronika___Win32_Release/rhytmBox.obj
+         .\elektronika___Win32_Release/soundInput.obj
+         .\elektronika___Win32_Release/soundOutput.obj
+         .\elektronika___Win32_Release/sphere.obj
+         .\elektronika___Win32_Release/trail.obj
+         .\elektronika___Win32_Release/v3dout.obj
+         .\elektronika___Win32_Release/videoIn.obj
+         .\elektronika___Win32_Release/viswrp.obj
+         .\elektronika___Win32_Release/vmix.obj
+         .\elektronika___Win32_Release/vout.obj
+         .\elektronika___Win32_Release/vp10.obj
+         .\elektronika___Win32_Release/vpone.obj
+         .\elektronika___Win32_Release/webclient.obj
+         .\elektronika___Win32_Release/websrv.obj
+         .\elektronika___Win32_Release/wmp.obj
+         .\elektronika___Win32_Release/aasio.obj
+         .\elektronika___Win32_Release/asio.obj
+         .\elektronika___Win32_Release/asiodrivers.obj
+         .\elektronika___Win32_Release/asiolist.obj
+         .\elektronika___Win32_Release/omppwrap.obj
+         ".\elektronika___Win32_Release/trans-color.obj"
+         ".\elektronika___Win32_Release/trans-fade.obj"
+         ".\elektronika___Win32_Release/trans-luma.obj"
+         ".\elektronika___Win32_Release/trans-slice.obj"
+         ".\elektronika___Win32_Release/trans-video.obj"
+         .\elektronika___Win32_Release/about.obj
+         .\elektronika___Win32_Release/background.obj
+         .\elektronika___Win32_Release/computerInfo.obj
+         .\elektronika___Win32_Release/config.obj
+         .\elektronika___Win32_Release/explorer.obj
+         .\elektronika___Win32_Release/main.obj
+         .\elektronika___Win32_Release/md5.obj
+         .\elektronika___Win32_Release/presets.obj
+         .\elektronika___Win32_Release/preview.obj
+         .\elektronika___Win32_Release/regfile.obj
+         .\elektronika___Win32_Release/reseller.obj
+         .\elektronika___Win32_Release/status.obj
+         ".\elektronika___Win32_Release/ef3d-cube.obj"
+         ".\elektronika___Win32_Release/ef3d-meta.obj"
+         ".\elektronika___Win32_Release/ef3d-morph.obj"
+         ".\elektronika___Win32_Release/ef3d-morph2.obj"
+         ".\elektronika___Win32_Release/ef3d-pixel.obj"
+         ".\elektronika___Win32_Release/ef3d-stream.obj"
+         ".\elektronika___Win32_Release/ef3d-test.obj"
+         ".\elektronika___Win32_Release/ef3d-text.obj"
+         ".\elektronika___Win32_Release/ef3d-tunel.obj"
+         ".\elektronika___Win32_Release/ef3d-video.obj"
+         ".\elektronika___Win32_Release/ef3d-zoom.obj"
+         ".\elektronika___Win32_Release/ef3d-node.obj"
+         ..\..\sdk\lib\libxml2.lib
+         D:\aestesis\code\elektroSDK\sdk\SoundTouch\source\SoundTouch\Release\SoundTouch.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\libpng.lib
+         D:\aestesis\code\elektroSDK\sdk\lib\zlib.lib
+         D:\aestesis\code\elektroSDK\src\Alib\Release\alib100.lib
+         "D:\aestesis\code\elektroSDK\src\COMobjects\Release VSTUDIO\COMobjects.lib"
+         D:\aestesis\code\elektroSDK\src\eleKtro\Release\eleKtro.lib /MACHINE:I386 
+         elektronika.vcxproj -> D:\aestesis\code\elektroSDK\src\elektronika\Release VSTUDIO\elektronika.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../elektronika/elektronika.exe;#1" /manifest "Release VSTUDIO\elektronika.exe.intermediate.manifest"
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Release VSTUDIO\elektronika.unsuccessfulbuild".
+         Touching "Release VSTUDIO\elektronika.lastbuildstate".
+     1>Done Building Project "D:\aestesis\code\elektroSDK\src\elektronika\elektronika.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06
