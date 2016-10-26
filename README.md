@@ -10,9 +10,10 @@ Live visual software for windows
 
 - https://www.facebook.com/groups/60437271717/
 
-## First launch video tutorial
+## Video tutorials
 
--  https://www.youtube.com/watch?v=-9HVqixQ63s
+-  first launch: https://www.youtube.com/watch?v=-9HVqixQ63s
+-  complete: https://www.youtube.com/playlist?list=PL2pqzZLi_Zz6ifPnkNQwhqvGXPnOWWub0
 
 ## Help
 
