@@ -1,4 +1,4 @@
-# Elektronika and aestesis libraries (Alib/Elektro)
+# Elektronika 
 
 Live visual software for windows
 
