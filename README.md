@@ -3,6 +3,7 @@
 Live visual software for windows
 
 - video sample: http://www.dailymotion.com/video/x3ep4o
+- audio/video sync: https://www.youtube.com/watch?v=DgJGTwH6_yQ
 
 ## Binary download (last build: v 2.76)
 
