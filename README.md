@@ -2,6 +2,8 @@
 
 Live visual software for windows
 
+- video sample: http://www.dailymotion.com/video/x3ep4o
+
 ## Binary download (last build: v 2.76)
 
 -  http://aestesis.org/downloads/elektronika-276.msi
