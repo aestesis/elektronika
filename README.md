@@ -25,7 +25,7 @@ Live visual software for windows
 ## Aestesis web site
 
 - http://aestesis.net/
-- [blusky](https://bsky.app/profile/aestesis)
+- [blusky](https://bsky.app/profile/aestesis.bsky.social))
 
 ## License
 
