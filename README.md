@@ -29,5 +29,5 @@ Live visual software for windows
 
 ## License
 
-© 1998 [Aestesis/Renan JEGOUZO](http://aestesis.org)  ([+renanjegouzo](https://plus.google.com/u/0/+renanjegouzo)) Apache-2.0 License
+© 1998 [Aestesis/Renan JEGOUZO](http://aestesis.org)  [udshu.bsky](https://bsky.app/profile/udshu.bsky.social) Apache-2.0 License
 
