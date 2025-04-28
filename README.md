@@ -7,7 +7,7 @@ Live visual software for windows
 
 ## Binary download (last build: v 2.76)
 
--  [elektrinka 2.76](https://raw.githubusercontent.com/aestesis/elektronika/builds/elektronika-276.msi)
+-  [elektrinka 2.76](https://raw.githubusercontent.com/aestesis//elektronika/master/builds/elektronika-276.msi)
 
 ## Facebook user group
 
